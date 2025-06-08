@@ -1,0 +1,40 @@
+{
+    "Name": "AstroColibri",
+    "Identifier": "2b8caa03-b7c2-47e2-aa54-49190f7a0ea8",
+    "Version": {
+        "Major": "1",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Christoph Nieswand",
+    "Homepage": "",
+    "Repository": "https://github.com/chrisastrophoto/Nina.AstroColibri",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/chrisastrophoto/Nina.AstroColibri/blob/master/CHANGELOG.md",
+    "Tags": [
+        "AstroColibri",
+        " MultiMessenger",
+        " Transients"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Integration of AstroColibri Events",
+        "LongDescription": "# Astro-Colibri Plugin\r\n\r\nThis is a plugin which\r\n- informs the user on new events in Astro-Colibri (if visible from the current location)\r\n- shows altitude charts of all events in the current NINA session on a specific pane on the imaging tab\r\n- provides a button to send the object to the framing assistant\r\n- provides a condition, which you can insert into your sequence and which triggers, when a visible event is received\r\n- provides an instruction, which inserts a Deep Sky Object sequence template into the sequence, when a visible event is received, and adds the target to the sequence template inserted\r\n- provides a switch to activate automatic save of the sequence after insertion of Deep Sky Object sequence template\r\n- provides a test mode to simulate detection of events\r\n\r\nThe plugin is activated by adding the AstroColibri trigger to a sequence.\r\nThe trigger condition is evaluated after each frame and as long as the sequence is running.\r\n\r\nSee more about [Astro-Colibris API here](https://astro-colibri.science/apidoc)\r\n\r\nFor more information please see [the readme](https://github.com/chrisastrophoto/Nina.AstroColibri/blob/master/README.md)\r\n\r\n# Suggestion Welcome\r\n\r\nI'm open to suggestions, please submit one via [GitHub's issue tracker](https://github.com/chrisastrophoto/Nina.AstroColibri/issues).\r\n\r\n# Contact\r\n\r\n# 3rd Party Licences\r\n\r\n- [Astro-Colibri.Science](https://astro-colibri.science/tos)",
+        "FeaturedImageURL": "https://astro-colibri.science/static/Pictures/deco/COLIBRI_Logo400.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/chrisastrophoto/Nina.AstroColibri/releases/download/v1.2.0.1/Astrocolibri.NINAPlugin.dll",
+        "Type": "DLL",
+        "Checksum": "00EF5BB2AABC03CFD01FDC33F351D8C8FBD1F1D524A74F9D85C734B31FA7AF1C",
+        "ChecksumType": "SHA256"
+    }
+}
