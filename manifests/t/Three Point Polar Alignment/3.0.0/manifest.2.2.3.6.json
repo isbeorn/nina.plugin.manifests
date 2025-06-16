@@ -1,0 +1,39 @@
+{
+    "Name": "Three Point Polar Alignment",
+    "Identifier": "1de8d7d3-f11e-494c-a371-95cb48dffa18",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "3",
+        "Build": "6"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.polaralignment",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Changelog.md",
+    "Tags": [
+        "Polar alignment",
+        "Sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Three Point Polar Alignment almost anywhere in the sky",
+        "LongDescription": "Three Point Polar Alignment almost anywhere in the sky  \r\n\r\nA new instruction will be available for the advanced sequencer as well as a new tool pane inside the imaging tab that will assist in polar alignment.  \r\n\r\nWhen the instruction is called from within the sequencer, a new window will be visible, that will guide you through the process.   \r\nInside the imaging tab there will be a button inside the tool pane to show the polar alignment assistant with parameters and a button to start the process.  \r\n\r\n[*Frequently Asked Questions*](https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/FAQ.md)\r\n\r\n*Prerequisites*  \r\n* Latitude and Longitude has to be set in options. You can use [www.latlong.net](https://www.latlong.net/) to easily determine your location.\r\n* Camera has to be connected and ready\r\n* A goto mount that can move along the right ascension axis using one of three methods:\r\n    + Fully Automated - Requires the mount to be connected via its ASCOM driver and the tool will move the mount\r\n    + Manual mode with mount connected via its ASCOM driver - You need to move the mount via the hand controls or via the mount software, but leave the clutches engaged\r\n    + Manual mode without the mount being connected - You need to manually move the mount either by hand controller or by loosening the clutches\r\n    \r\n* Platesolving must be setup (Astrometry.NET is not supported as primary solver for this, as it is too slow)\r\n    + When using manual mode and there is no mount connected, the blind solver will be used\r\n\r\nThis method will use platesolving in combination with mount and camera control to automatically determine the polar alignment error.",
+        "FeaturedImageURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Starlock2.png?raw=true",
+        "AltScreenshotURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Imaging.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.polaralignment/releases/download/2.2.3.6/NINA.Plugins.PolarAlignment.2.2.3.6.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "C9EE28E0CD5E194CBB19992226410B5FEFF0DAA8B0B41A9F93F36BE52D22181C",
+        "ChecksumType": "SHA256"
+    }
+}
