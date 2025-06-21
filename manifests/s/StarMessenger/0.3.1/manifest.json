@@ -30,7 +30,7 @@
   "Descriptions": {
     "ShortDescription": "A notification plugin for N.I.N.A. which provides the user with information about the current imaging session.",
     "LongDescription": "This plugin provides the user with information from the N.I.N.A imaging session via Pushover, Ntfy or Email.\r\n\r\nIt is possible to configure which information the StarMessage contains. Furthermore, the user can use 'Message by Condition' to determine\r\n\r\nthe condition on the basis of which the message is to be sent",
-    "FeaturedImageURL": "https://github.com/LowHouse78/StarMessenger/blob/V0.3.1.0/starmessenger.png"
+    "FeaturedImageURL": "https://raw.githubusercontent.com/LowHouse78/StarMessenger/refs/tags/V0.3.1.0/starmessenger.png"
 
   },
   "Installer": {
