@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "2",
-        "Patch": "3",
+        "Patch": "4",
         "Build": "0"
     },
     "Author": "Christian Palm",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.3.0/ninaAPI.zip",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.4.0/ninaAPI.zip",
         "Type": "ARCHIVE",
-        "Checksum": "0A4FEEEE7AF81C0870A963C4D6E79764B76BC0A700EC235830530787DB679B8D",
+        "Checksum": "66476521DCD1D4819E53A1B47CF6930876A4C9A6CCBE86D502541BAFA17398E1",
         "ChecksumType": "SHA256"
     }
 }
