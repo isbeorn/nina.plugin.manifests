@@ -2,10 +2,10 @@
     "Name": "ASA Tools",
     "Identifier": "68fda8ef-e631-4202-ae32-b660417b75c4",
     "Version": {
-        "Major": "3",
+      "Major": "3",
         "Minor": "2",
-        "Patch": "3",
-        "Build": "2"
+        "Patch": "4",
+        "Build": "0"
     },
     "Author": "Gerald Hitz (photon)",
     "Homepage": "",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png"
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.3.2/NINA.Photon.Plugin.ASA.3.2.3.2.zip",
+        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.4.0/NINA.Photon.Plugin.ASA.3.2.4.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "AC2E48D3B5391A122FCAA0011F7966C4C29C150AEAF0AC073CC195960CEA7489",
+        "Checksum": "167E5F7BC9B0EBC6A944308CFDD3E0CA466611F57E77A9BF75AC08DC0A707361",
         "ChecksumType": "SHA256"
     }
 }
