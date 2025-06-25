@@ -35,6 +35,7 @@
     "Installer": {
      "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.4.1/NINA.Photon.Plugin.ASA.3.2.4.1.zip",
         "Type": "ARCHIVE",
+<<<<<<< HEAD
          "Checksum": "EF5187B2204CAD1B71E33309F2F94F5251566BAE51BC87494D5F8FEE0B8A474F",       
         "ChecksumType": "SHA256"
     }
