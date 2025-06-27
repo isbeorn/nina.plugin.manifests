@@ -4,7 +4,7 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "8",
+        "Patch": "9",
         "Build": "0"
     },
     "Author": "Johannes Maier, Christian Palm, Christian Wöhrle",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.0.8.0/TouchNStars.zip",
+        "URL": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.0.9.0/TouchNStars.zip",
         "Type": "ARCHIVE",
-        "Checksum": "46BA271809F16DED54AF502309F6A0BDE38E2799CB384370B514790641E68562",
+        "Checksum": "D29CE5ED5ADCC528E4CF77FF9275F0A5A42466CFB95363E753CD8A99FD889D66",
         "ChecksumType": "SHA256"
     }
 }
