@@ -3,8 +3,8 @@
     "Identifier": "DCB1D37B-F121-4966-99EC-D11410C562B6",
     "Version": {
         "Major": "2",
-        "Minor": "5",
-        "Patch": "1",
+        "Minor": "6",
+        "Patch": "2",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -16,9 +16,9 @@
 "Tags": [],
 "MinimumApplicationVersion": {
     "Major": "3",
-    "Minor": "0",
+    "Minor": "1",
     "Patch": "0",
-    "Build": "3005"
+    "Build": "9001"
 },
 "Descriptions": {
     "ShortDescription": "Write additional metadata for an imaging session",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": ""
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.5.1.0/NINA.Plugin.SessionMetaData-2.5.1.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.6.2.0/NINA.Plugin.SessionMetaData-2.6.2.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "4D10DB1A59A53CCD4D35CE028A836471F92A4A0DBA80D5EC1C69268E97ABFD26",
+    "Checksum": "A1162ADAD0BBAF1EC04368A4148B1A691029FDCADB960212F656A979CE29B872",
     "ChecksumType": "SHA256"
 }
 }
