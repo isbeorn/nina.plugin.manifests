@@ -34,9 +34,9 @@
 
   },
   "Installer": {
-    "URL": "https://github.com/LowHouse78/StarMessenger/releases/download/V1.0.0.0/StarMessenger_1.0.0.0.zip",
+    "URL": "https://github.com/LowHouse78/StarMessenger/releases/download/V1.0.0.0/StarMessenger_1_0_0_0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "8563fcd9fae30904e28dbf80f809d79020df88ffc228a8c9a976ba5a3cb9e6d9",
+    "Checksum": "29ba174bf393c4a8997a63f1501eccc5971150a2844b8314b011b89d5c0e1158",
     "ChecksumType": "SHA256"
   }
 }
