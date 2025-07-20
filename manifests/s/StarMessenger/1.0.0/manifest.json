@@ -2,16 +2,16 @@
   "Name": "StarMessenger",
   "Identifier": "1348da65-ac4b-4562-bd6f-38d31c20ada3",
   "Version": {
-    "Major": "0",
-    "Minor": "3",
-    "Patch": "1",
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
     "Build": "0"
   },
   "Author": "Sascha Lohaus",
   "Repository": "https://github.com/LowHouse78/StarMessenger/tree/main",
   "License": "MPL-2.0",
   "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-  "ChangelogURL": "https://github.com/LowHouse78/StarMessenger/blob/V0.3.1.0/CHANGELOG.md",
+  "ChangelogURL": "https://github.com/LowHouse78/StarMessenger/blob/V1.0.0.0/CHANGELOG.md",
   "Tags": [
     "messenger",
     "information",
@@ -30,13 +30,13 @@
   "Descriptions": {
     "ShortDescription": "A notification plugin for N.I.N.A. which provides the user with information about the current imaging session.",
     "LongDescription": "This plugin provides the user with information from the N.I.N.A imaging session via Pushover, Ntfy or Email.\r\n\r\nIt is possible to configure which information the StarMessage contains. Furthermore, the user can use 'Message by Condition' to determine\r\n\r\nthe condition on the basis of which the message is to be sent",
-    "FeaturedImageURL": "https://raw.githubusercontent.com/LowHouse78/StarMessenger/refs/tags/V0.3.1.0/starmessenger.png"
+    "FeaturedImageURL": "https://raw.githubusercontent.com/LowHouse78/StarMessenger/refs/tags/V1.0.0.0/starmessenger.png"
 
   },
   "Installer": {
-    "URL": "https://github.com/LowHouse78/StarMessenger/releases/download/V0.3.1.0/StarMessenger_0.3.1.0.zip",
+    "URL": "https://github.com/LowHouse78/StarMessenger/releases/download/V1.0.0.0/StarMessenger_1_0_0_0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "96d5150aad3c7bdcccc96a947ae4dabdce56565691dc8090f75ff72ebd47eeda",
+    "Checksum": "29ba174bf393c4a8997a63f1501eccc5971150a2844b8314b011b89d5c0e1158",
     "ChecksumType": "SHA256"
   }
 }
