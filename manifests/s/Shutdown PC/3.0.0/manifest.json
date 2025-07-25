@@ -1,34 +1,18 @@
 {
-    "Repository": "https://github.com/daleghent/nina-shutdown-pc",
+    "Name": "Shutdown PC",
     "Identifier": "c3cf4216-a7a6-4e97-8fc3-a5358cda991e",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "MinimumApplicationVersion": {
-        "Minor": "0",
-        "Patch": "0",
-        "Build": "1001",
-        "Major": "3"
-    },
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "Checksum": "4EB09E453262F9745F2338F938F63E1779FC01E8966F2DA248A0FB37105279C9",
-        "Type": "ARCHIVE",
-        "URL": "https://daleghent.com/dist/shutdown-pc/ShutdownPC-2.1.0.0.zip"
-    },
-    "Descriptions": {
-        "ShortDescription": "A sequence instruction that gracefully shuts down the PC",
-        "ScreenshotURL": "",
-        "LongDescription": "This plugin provides a single instruction that shuts down the computer or puts it into sleep or hibernation modes.\r\n\r\nThe **Shutdown PC** instruction appears under the **Utility** category of the instruction list.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-shutdown-pc/issues).",
-        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/shutdownpc-logo.png",
-        "AltScreenshotURL": ""
-    },
-    "License": "MPL-2.0",
-    "Author": "Dale Ghent",
     "Version": {
-        "Minor": "1",
+        "Major": "2",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "0",
-        "Major": "2"
+        "Build": "0"
     },
+    "Author": "Dale Ghent",
+    "Homepage": "",
+    "Repository": "https://github.com/daleghent/nina-shutdown-pc",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/daleghent/nina-shutdown-pc/blob/main/CHANGELOG.md",
     "Tags": [
         "shutdown",
         " turn off",
@@ -36,6 +20,23 @@
         " sleep",
         " hibernate"
     ],
-    "ChangelogURL": "https://github.com/daleghent/nina-shutdown-pc/blob/main/CHANGELOG.md",
-    "Name": "Shutdown PC"
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A sequence instruction that gracefully shuts down N.I.N.A. or the PC",
+        "LongDescription": "This plugin provides a instruction that shuts down N.I.N.A. or the computer itself.\r\n\r\nThe **Shutdown N.I.N.A.** and **Shutdown PC** instructions appear under the **Utility** category of the instruction list.\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-shutdown-pc/issues).",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/shutdownpc-logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://daleghent.com/dist/shutdown-pc/ShutdownPC-2.2.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "EBCB42477AF39562048462DEE8627526F3B6BA40914AC4C20F6C3A719EC15FD6",
+        "ChecksumType": "SHA256"
+    }
 }
