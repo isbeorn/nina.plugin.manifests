@@ -1,0 +1,38 @@
+{
+    "Name": "Pentax Camera and Focuser Driver",
+    "Identifier": "1216eb93-3885-4681-baa7-9485d8fd0577",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "RTG",
+    "Homepage": "https://github.com/richromano/NINAPextaxDriver",
+    "Repository": "https://github.com/richromano/NINAPextaxDriver",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/richromano/NINAPextaxDriver/CHANGELOG.md",
+    "Tags": [
+        "Camera"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii",
+        "LongDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release72825/Rtg.NINA.NinaPentaxDriver.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "63E64002F7D49A99BAD12E9DF9FF8E89FBE543DB947AB6781D01635BA43AC7A8",
+        "ChecksumType": "SHA256"
+    }
+}
