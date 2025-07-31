@@ -32,7 +32,7 @@
     "Installer": {
         "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release72825/Rtg.NINA.NinaPentaxDriver.zip",
         "Type": "ARCHIVE",
-        "Checksum": "63E64002F7D49A99BAD12E9DF9FF8E89FBE543DB947AB6781D01635BA43AC7A8",
+        "Checksum": "76683B9F04A46860389850DC9D483C0ABFF64CF0A3FC5B4B75948EF27D375F89",
         "ChecksumType": "SHA256"
     }
 }
