@@ -1,0 +1,41 @@
+{
+    "Name": "Target Scheduler",
+    "Identifier": "B4541BA9-7B07-4D71-B8E1-6C73D4933EA0",
+    "Version": {
+        "Major": "5",
+        "Minor": "8",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Tom Palmer @tcpalmer",
+    "Homepage": "https://tcpalmer.github.io/nina-scheduler/",
+    "Repository": "https://github.com/tcpalmer/nina.plugin.targetscheduler/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Automation",
+        "Scheduling",
+        "Sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "An automated target scheduler for NINA",
+        "LongDescription": "The Target Scheduler Plugin is designed to provide a higher level of automation than is typically achievable with NINA. Specifically, it maintains a database of imaging projects describing DSO targets and associated exposure plans. Based on various criteria and preferences, it can decide at any given time what project/target should be actively imaging. A user will enter the desired projects, targets, and preferences into a UI exposed by the plugin. At runtime, a single new instruction for the NINA Advanced Sequencer will interact with the planning engine to determine the best target for imaging at each point throughout a night. The instruction will manage the slew/center to the target, switching filters, taking exposures, and dithering - all while transparently interacting with the surrounding NINA triggers and conditions.\r\n\r\n## Major Features\r\n* Easy to use interface for entering and managing projects, targets, and exposure plans\r\n* Multiple target import options: NINA catalog, NINA Framing Assistant (including mosaic panels), attached planetarium programs, Telescopius CSV, and more\r\n* Dynamic target selection based on visibility and weighted scoring rules\r\n* Flexible exposure/filter planning including enhanced moon avoidance\r\n* Plan previewing\r\n* Image grading\r\n* Reporting\r\n* Automated flats support\r\n* Synchronization across multiple instances of NINA\r\n* Support for 24x7 sequences for long term unattended operation\r\n\r\nIf you like this plugin and it saves you time, please consider [Buying Me a Beer](https://www.buymeacoffee.com/tcpalmer).\r\n\r\n## Documentation\r\nThe [plugin documentation](https://tcpalmer.github.io/nina-scheduler/) provides a detailed description of the plugin and how to use it.  See the [release notes](https://tcpalmer.github.io/nina-scheduler/release.html) for changes in recent versions.\r\n\r\n## Acknowledgements\r\n* Chris Woodhouse has been involved since the beginning and was instrumental in hashing out the initial design and requirements.\r\n* Matt Nudi also provided design feedback and critical early beta testing.\r\n* Linda Thomas-Fowler and Chris Kagy continue to provide invaluable testing and feedback on features.\r\n* The concept for the plugin was originally inspired by the AIC video [Tim Hutchison: Automating a Backyard Observatory](https://www.youtube.com/watch?v=a4IkAUZkXH0).\r\n* Any automated scheduler is going to owe a debt of gratitude to [ACP](https://acpx.dc3.com/) for pioneering in this area.\r\n* Finally, it's a tribute to the elegant design of NINA and the Advanced Sequencer that a plugin of this type is not only possible, but can also interact correctly with other elements in a sequence.\r\n\r\n# Getting Help #\r\n* Review the [plugin documentation](https://tcpalmer.github.io/nina-scheduler/)\r\n* Ask for help (tag @tcpalmer) in the #target-scheduler channel on the NINA project [Discord server](https://discord.com/invite/rWRbVbw).\r\n* [Plugin source code](https://github.com/tcpalmer/nina.plugin.targetscheduler)\r\n* [Change log](https://github.com/tcpalmer/nina.plugin.targetscheduler/blob/main/CHANGELOG.md)\r\n\r\nThe Target Scheduler plugin is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/tcpalmer/nina.plugin.targetscheduler/blob/main/LICENSE.txt)",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.targetscheduler/main/NINA.Plugin.TargetScheduler/assets/target-scheduler-logo.png?raw=true",
+        "ScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.targetscheduler/main/NINA.Plugin.TargetScheduler/assets/screenshot-1.png?raw=true",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.targetscheduler/main/NINA.Plugin.TargetScheduler/assets/screenshot-2.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/tcpalmer/nina.plugin.targetscheduler/releases/download/v5.8.0.0/NINA.Plugin.TargetScheduler-5.8.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "6EE3940A131BBAE669BE844290CF409695ABF6B69DB8D3C33E5D5D10B2D6DDCC",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
