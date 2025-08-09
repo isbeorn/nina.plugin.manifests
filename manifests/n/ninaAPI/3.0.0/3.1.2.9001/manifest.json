@@ -4,11 +4,11 @@
     "Version": {
         "Major": "2",
         "Minor": "2",
-        "Patch": "3",
+        "Patch": "7",
         "Build": "0"
     },
     "Author": "Christian Palm",
-    "Homepage": "",
+    "Homepage": "https://buymeacoffee.com/christian.palm",
     "Repository": "https://github.com/christian-photo/ninaAPI",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.3.0/ninaAPI.zip",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.7.0/ninaAPI.zip",
         "Type": "ARCHIVE",
-        "Checksum": "0A4FEEEE7AF81C0870A963C4D6E79764B76BC0A700EC235830530787DB679B8D",
+        "Checksum": "69E8C47BD9BF2E52FC21028FC39C5BFC89BFD451526E0EF40684EBB1A5460042",
         "ChecksumType": "SHA256"
     }
 }
