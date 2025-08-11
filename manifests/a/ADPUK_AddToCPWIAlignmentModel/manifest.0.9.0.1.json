@@ -14,7 +14,12 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "",
     "Tags": [
-        "AltAz"
+      "AltAz",
+      "Celestron",
+      "CPWI",
+      "Alignment",
+      "Alt-Az",
+      "Alignment  Model"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
