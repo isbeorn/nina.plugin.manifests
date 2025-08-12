@@ -2,10 +2,10 @@
     "Name": "Add to CPWI Alignment Model",
     "Identifier": "879618d2-0a61-4b09-b14e-ef2b55583b84",
     "Version": {
-        "Major": "9",
-        "Minor": "0",
+        "Major": "0",
+        "Minor": "9",
         "Patch": "0",
-        "Build": "1"
+        "Build": "4"
     },
     "Author": "ADPUK",
     "Homepage": "",
@@ -14,12 +14,10 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "",
     "Tags": [
-      "AltAz",
-      "Celestron",
-      "CPWI",
-      "Alignment",
-      "Alt-Az",
-      "Alignment  Model"
+        "CPWI",
+        "Alignment",
+        "Celestron",
+        "AltAz"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -35,9 +33,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin/releases/download/0.9.0.1/ADPUK.NINA.AddToAlignmentModel.0.9.0.1.zip",
+        "URL": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin/releases/download/0.9.0.4/ADPUK.NINA.AddToAlignmentModel.0.9.0.4.zip",
         "Type": "ARCHIVE",
-        "Checksum": "F11BBB6B2201B3835CBB93C84B21EEE2717401C1D610FAE457DF41943F26B06B",
+        "Checksum": "EE654302B3C17EAFFD1E3B13B1C196130E82517261E084F0EA5F01EAE6B49CE0",
         "ChecksumType": "SHA256"
     }
 }
