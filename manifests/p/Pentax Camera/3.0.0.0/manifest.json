@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release72825/Rtg.NINA.NinaPentaxDriver.zip",
+        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release81225/Rtg.NINA.NinaPentaxDriver.zip",
         "Type": "ARCHIVE",
-        "Checksum": "76683B9F04A46860389850DC9D483C0ABFF64CF0A3FC5B4B75948EF27D375F89",
+        "Checksum": "6926EAD2A19F557AC0143EB2FB427A7875D79480737806BFFB04AE45308D8DB1",
         "ChecksumType": "SHA256"
     }
 }
