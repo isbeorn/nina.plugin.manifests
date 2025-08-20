@@ -1,0 +1,38 @@
+{
+    "Name": "Discord Notification",
+    "Identifier": "e172f5a2-40b5-4180-bd38-395c307ea172",
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3"
+    },
+    "Author": "Daniel Ludwig",
+    "Homepage": "",
+    "Repository": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/CHANGELOG.md",
+    "Tags": [
+        "Discord"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1018"
+    },
+    "Descriptions": {
+        "ShortDescription": "This N.I.N.A plugin sends Discord notifications and can share images (e.g., live stacked images) from a specific folder, all integrated into the sequencer.",
+        "LongDescription": "This plugin for N.I.N.A allows users to send notifications directly to Discord. It can be integrated as a trigger to the sequencer in N.I.N.A, providing seamless communication. Additionally, users can specify an image path, such as a folder where a live stacked image is stored, which will also be sent over Discord. This makes it easy to share updates and images in real-time during imaging sessions.\r\n\r\n## Settings\r\n\r\nTo use the LiveStacked images feature, you need to install the 'LiveStack' plugin and configure the settings as shown in the screenshots below.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/notification_settings.jpg",
+        "AltScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/livestacking_settins.jpg"
+    },
+    "Installer": {
+        "URL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/releases/download/2.0.0.3/DiscordNotification.2.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "9A691F7EE7D4BB1805DAF9EFA73BA9E7ED8957F4A6A69A6386264C5B945DDD62",
+        "ChecksumType": "SHA256"
+    }
+}
