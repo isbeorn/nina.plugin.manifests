@@ -1,11 +1,11 @@
-﻿{
+{
     "Name": "ASA Tools",
     "Identifier": "68fda8ef-e631-4202-ae32-b660417b75c4",
     "Version": {
         "Major": "3",
         "Minor": "2",
-        "Patch": "4",
-        "Build": "3"
+        "Patch": "5",
+        "Build": "10"
     },
     "Author": "Gerald Hitz (photon)",
     "Homepage": "",
@@ -26,16 +26,16 @@
         "Build": "1085"
     },
     "Descriptions": {
-          "ShortDescription": "ASA model building",
+        "ShortDescription": "ASA model building",
         "LongDescription": "This plugin provides different tools for ASA mounts.\r\n\r\n## [Documentation](https://github.com/photon1503/NINA.Photon.Plugin.ASA/wiki)\r\n\r\n## [Changelog](https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/master/CHANGELOG.md)\r\n\r\n# Getting Help #\r\n\r\n* ASA Tools is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/photon1503/NINA.Photon.Plugin.ASA)\r\n",
         "FeaturedImageURL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/master/NINA.Photon.Plugin.ASA/Resources/asa.png?raw=true",
         "ScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png",
         "AltScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png"
     },
     "Installer": {
-     "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.4.3/NINA.Photon.Plugin.ASA.3.2.4.3.zip",
+        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.5.10/NINA.Photon.Plugin.ASA.3.2.5.10.zip",
         "Type": "ARCHIVE",
-         "Checksum": "8CFB59768EB9A89EECB553E2DB3A61C3633406D7E517AA9D8DD1E442C5318675",       
+        "Checksum": "AC56A914F47742776A9A32CEA131CE3E8D6660DEE9AD78AD46748DD07A7F0AF1",
         "ChecksumType": "SHA256"
     }
 }
