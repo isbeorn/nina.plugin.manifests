@@ -32,9 +32,9 @@
     "AltScreenshotURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/downloads/logviewer.zip",
-    "Type": "ARCHIVE",
-    "Checksum": "BC1AF7A7F34A7468521F1309B47DA20D540079E00F9CECDD6F11386AA0E13742",
+    "URL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/downloads/LogViewer.dll",
+    "Type": "DLL",
+    "Checksum": "B2A94B14D10F1BD9D8B4B6E0374F13AA1259EA604B0EE6A7C5CF743F9A2B32CE",
     "ChecksumType": "SHA256"
   }
 }
