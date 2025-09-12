@@ -1,0 +1,40 @@
+{
+  "Name": "Log Viewer",
+  "Identifier": "4984595d-c3b6-456d-9b35-b11345ff9ad1",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1"
+  },
+  "Author": "Alexander Wrede @astro_alex80",
+  "Homepage": "",
+  "Repository": "https://github.com/astroalex80/NINA.Plugin.LogViewer/",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/CHANGELOG.md",
+  "Tags": [
+    "log",
+    " reader",
+    " viewer"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1"
+  },
+  "Descriptions": {
+    "ShortDescription": "A plugin to read and filter N.I.N.A. log files.",
+    "LongDescription": "With the Log Viewer plugin you can open the currently active or past log files and comfortably filter for deeper analysis.",
+    "FeaturedImageURL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/blob/main/Resources/LogViewer_Logo.png",
+    "ScreenshotURL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/blob/main/Resources/screenshot.PNG",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/astroalex80/NINA.Plugin.LogViewer/downloads/LogViewer.dll",
+    "Type": "DLL",
+    "Checksum": "B2A94B14D10F1BD9D8B4B6E0374F13AA1259EA604B0EE6A7C5CF743F9A2B32CE",
+    "ChecksumType": "SHA256"
+  }
+}
