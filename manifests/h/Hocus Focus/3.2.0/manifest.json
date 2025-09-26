@@ -1,0 +1,44 @@
+{
+    "Name": "Hocus Focus",
+    "Identifier": "0f1d10b6-d306-4168-b751-d454cbac9670",
+    "Version": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "22"
+    },
+    "Author": "George Hilios (jokogeo)",
+    "Homepage": "",
+    "Repository": "https://github.com/ghilios/joko.nina.plugins",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/ghilios/joko.nina.plugins/commits/develop",
+    "Tags": [
+        "StarDetection",
+        "AutoFocus",
+        "Tilt",
+        "Aberration",
+        "BackFocus",
+        "Sensor",
+        "Curvature"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Improved Star Detection, Star Annotation, Auto Focus, and Tilt Correction for NINA",
+        "LongDescription": "This plugin improves Star Detection, Star Annotation, and Auto Focus for NINA. It also includes an aberration inspector that measures backfocus and sensor tilt errors.\r\n\r\n*Special thanks to Frank Freestar8n, Ph.D. Optical Sciences, for his guidance and expertise creating the Sensor Model in the Aberration Inspector*\r\n\r\nCheck out his website at [https://www.smallstarspot.com](https://www.smallstarspot.com)\r\n\r\n**Features**\r\n\r\n*AutoFocus*\r\n\r\n* Can be faster than the built-in NINA Auto Focuser by analyzing exposures while next focus points are being exposed\r\n* Supports saving AF runs (images, and annotated star detection) to replay them later with different settings\r\n* The concurrent Auto Focus is particularly useful when using the Hocus Focus star detector, which can be more resource intensive\r\n\r\n*Aberration Inspector*\r\n\r\n* Generates a full sensor tilt and curvature model, enabling measurement of backfocus error even in the presence of tilt\r\n* Estimates backfocus and tilt errors by doing an Auto Focus and computing AF curves for the center and corner regions of the sensor split into a 3x3 grid\r\n* Generates FWHM Contour Maps and Eccentricity Vector Fields for single exposures for quick visualizations\r\n* Supports replaying saved AF runs\r\n* Hocus Focus must be selected for both Auto Focus and Star Detection\r\n* FWHM Contour Map\r\n* 3D visualization of sensor tilt\r\n\r\n*Improved star detection*\r\n\r\n* Fit PSFs to stars using Gaussian and Moffat 4. If enabled, fit failures lead to rejected stars and a better HFR calculation\r\n* Eccentricity and FWHM calculation when PSF modeling is enabled\r\n* Simpler configuration, with an advanced mode for fine tuning\r\n* Higher accuracy (lower HFR Standard Deviation) if parameters are set properly\r\n* Advanced control over star detection parameters\r\n* Can use the new Star Detector or Annotator without requiring both. Keep what you like\r\n\r\n*Customizable Star Annotation*\r\n* Customizable colors and fonts for star annotations\r\n* Dynamic reloading of star annotations without needing to re-run star detection\r\n\r\nTo enable these features, go to Options -> Imaging -> Image Options. After this plugin is installed, there will be Star Annotator and Auto Focus dropdown boxes you can select \"Hocus Focus\" for.\r\n\r\n**Features coming soon**\r\n\r\n*AutoFocus*\r\n\r\n* Fast focus mode when still close to a recent auto focus that can utilize fewer steps, smaller step sizes, and a different fitting as the regular \"blind\" focus\r\n* Incorporation of measurement error into quality measurement of focusing results\r\n* Focusing individual color channels instead of just luminance for OSC, since that is skewed towards green focus\r\n\r\n# Getting Help #\r\n\r\nIf you have questions, come ask in the **#plugin-discussions** channel on the NINA [Discord chat server](https://discord.com/invite/rWRbVbw).\r\n* Hocus Focus is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/ghilios/joko.nina.plugins)\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.22/NINA.Joko.Plugins.HocusFocus.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "32BA3AD0FC623B4B0D7C73D1E7EAFB22D993C73A91EA0019C5822865BDA0EA52",
+        "ChecksumType": "SHA256"
+    }
+}
