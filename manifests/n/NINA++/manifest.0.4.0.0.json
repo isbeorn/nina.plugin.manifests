@@ -1,0 +1,38 @@
+{
+    "Name": "NINA++ - You gotta go fast!",
+    "Identifier": "b2ccb2de-7f7d-40be-915f-96ce68df38fa",
+    "Version": {
+        "Major": "0",
+        "Minor": "4",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Lucas Alias",
+    "Homepage": "https://github.com/Ekrynox/NINAPlusPlus",
+    "Repository": "https://github.com/Ekrynox/NINAPlusPlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Ekrynox/NINAPlusPlus/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Optimization"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A NINA Plugin that move some N.I.N.A & Accord heavy functions inside native code to speed it up.",
+        "LongDescription": "\r\nAlmost all the source code of this plugin originates from N.I.N.A and Accord Framework.\r\nI only copied it from C# to C++, did the few needed adjustements, and make the code to inject the new native functions inside N.I.N.A with Harmony.\r\n\r\nHence almost all files from this project remains under the licenses of their sources. A updated copy of the different licenses is available at the top of concerned files.\r\n\r\nThis plugin allow great performance gains on smaller configurations, with no impact on results.\r\n\r\nExample: Ultrabook with an Intel I5 6200U (2c/4t) + 4Gb DDR4 => arround 2.5 times reduction on snashot pipeline (debayering & stars detections) => from arround 17s to 6s on a Nikon Z6II 24mp raw shot for 5000+ stars.\r\n",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/Ekrynox/NINAPlusPlus/refs/heads/main/assets/images/NINAPP.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Ekrynox/NINAPlusPlus/releases/download/0.4.0.0/LucasAlias.NINA.NinaPP.0.4.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "EBF961653C4644029F3EEADFE6EB7596B7A75A8E06F1B2BFD456CB972476BA84",
+        "ChecksumType": "SHA256"
+    }
+}
