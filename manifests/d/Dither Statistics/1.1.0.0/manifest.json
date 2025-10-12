@@ -39,5 +39,7 @@
   "Installer": {
     "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.1.0.0/DitherStatistics-v1.1.0.0.zip",
     "Type": "ARCHIVE",
+    "Checksum": "204F3F4D1998FA8F356C474BE70BF2DBE9A4916F16E1CA318752B64B6E45355C",
+    "ChecksumType": "SHA256"
   }
 }
