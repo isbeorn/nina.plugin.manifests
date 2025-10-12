@@ -1,15 +1,18 @@
 {
-  "Identifier": "DitherStatistics",
   "Name": "Dither Statistics",
+  "Identifier": "DitherStatistics",
+  "Version": {
+    "Major": "1",
+    "Minor": "1",
+    "Patch": "0",
+    "Build": "0"
+  },
   "Author": "Thierry Tschanz",
-  "Version": "1.1.0.0",
-  "MinimumApplicationVersion": "3.0.0.1001",
-  "Descriptions": {
-  "ShortDescription": "Real-time dithering analysis with quality assessment",
-  "LongDescription": "Comprehensive dithering analysis plugin with real-time statistics, visual charts, and experimental quality assessment. Features include pixel drift tracking, settle time monitoring, and advanced pattern evaluation using Centered L₂ Discrepancy, Voronoi tessellation, and drizzle coverage metrics. Direct PHD2 integration for accurate pixel shift detection.",
-  "FeaturedImageURL": "https://raw.githubusercontent.com/Thierrytsch/NINA-DitherStatistics/main/DitherStatistics-Logo.png",
-  "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.1.0.0/screenshot-main.png"
-},
+  "Homepage": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+  "Repository": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases",
   "Tags": [
     "imaging",
     "guiding",
@@ -21,16 +24,22 @@
     "drizzle",
     "visualization"
   ],
-  "License": "MPL-2.0",
-  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-  "Repository": "https://github.com/Thierrytsch/NINA-DitherStatistics",
-  "Homepage": "https://github.com/Thierrytsch/NINA-DitherStatistics",
-  "ChangelogURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases",
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Real-time dithering analysis with quality assessment",
+    "LongDescription": "Comprehensive dithering analysis plugin with real-time statistics, visual charts, and experimental quality assessment. Features include pixel drift tracking, settle time monitoring, and advanced pattern evaluation using Centered L₂ Discrepancy, Voronoi tessellation, and drizzle coverage metrics. Direct PHD2 integration for accurate pixel shift detection.\n\n# Key Features\n\n* Real-time dither settle time tracking\n* X/Y pixel drift visualization\n* Statistical analysis (avg, median, std dev, min/max)\n* Success rate monitoring\n* Quality Assessment Module\n  - Centered L₂ Discrepancy\n  - Voronoi tessellation analysis\n  - Drizzle coverage metrics (1×/2×/3×)\n  - Combined quality scoring\n  - Pattern recommendations\n* Direct PHD2 integration\n* JSON export functionality\n\n# Requirements\n\n* N.I.N.A. 3.0 or higher\n* .NET 8.0 Runtime\n* PHD2 or N.I.N.A. Direct Guider\n\n# Getting Help\n\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.com/invite/rWRbVbw) or by filing an issue report at this plugin's [GitHub repository](https://github.com/Thierrytsch/NINA-DitherStatistics/issues).",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/Thierrytsch/NINA-DitherStatistics/main/DitherStatistics-Logo.png",
+    "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.1.0.0/screenshot-main.png"
+  },
   "Installer": {
     "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.1.0.0/DitherStatistics-v1.1.0.0.zip",
     "Type": "ARCHIVE",
-    "ChecksumType": "",
-    "Checksum": ""
-  },
-  "Changelog": "v1.1.0.0: Added experimental Quality Assessment with Centered L₂ Discrepancy, Voronoi Cell CV, Drizzle Gap-Fill Metrics (1×/2×/3×), combined quality scoring, pattern recommendations, and detailed quality report export. Improved chart tooltips and UI formatting.\n\nv1.0.1.0: Added direct PHD2 integration for accurate dither detection and pixel shift tracking.\n\nv1.0.0.0: Initial release with real-time dither statistics, settle time tracking, and visual charts."
+    "Checksum": "",
+    "ChecksumType": ""
+  }
 }
