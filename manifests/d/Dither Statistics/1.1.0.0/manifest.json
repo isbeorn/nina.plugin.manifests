@@ -16,6 +16,7 @@
     "drizzle",
     "visualization"
   ],
+  "License": "MPL-2.0",
   "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
   "Repository": "https://github.com/Thierrytsch/NINA-DitherStatistics",
   "Homepage": "https://github.com/Thierrytsch/NINA-DitherStatistics",
