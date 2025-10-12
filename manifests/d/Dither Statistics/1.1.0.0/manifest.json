@@ -27,7 +27,6 @@
     "ChecksumType": "",
     "Checksum": ""
   },
-  "FeaturedImageURL": "https://raw.githubusercontent.com/Thierrytsch/NINA-DitherStatistics/main/DitherStatistics-Logo.png",
   "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.1.0.0/screenshot-main.png",
   "Changelog": "v1.1.0.0: Added experimental Quality Assessment with Centered L₂ Discrepancy, Voronoi Cell CV, Drizzle Gap-Fill Metrics (1×/2×/3×), combined quality scoring, pattern recommendations, and detailed quality report export. Improved chart tooltips and UI formatting.\n\nv1.0.1.0: Added direct PHD2 integration for accurate dither detection and pixel shift tracking.\n\nv1.0.0.0: Initial release with real-time dither statistics, settle time tracking, and visual charts."
 }
