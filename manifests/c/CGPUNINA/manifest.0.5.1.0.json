@@ -1,0 +1,39 @@
+{
+    "Name": "CPU\\GPU Computing for NINA",
+    "Identifier": "b2ccb2de-7f7d-40be-915f-96ce68df38fa",
+    "Version": {
+        "Major": "0",
+        "Minor": "5",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Lucas Alias",
+    "Homepage": "https://github.com/Ekrynox/CPU-GPU-Computing-for-NINA",
+    "Repository": "https://github.com/Ekrynox/CPU-GPU-Computing-for-NINA",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Ekrynox/CPU-GPU-Computing-for-NINA/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Optimization"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "3011"
+    },
+    "Descriptions": {
+        "ShortDescription": "A NINA Plugin that move some N.I.N.A & Accord heavy functions inside native code and GPU to speed it up.",
+        "LongDescription": "\r\nAlmost all the source code of this plugin originates from N.I.N.A and Accord Framework.\r\nI only copied it from C# to C++, did the few needed adjustements, and make the code to inject the new native functions inside N.I.N.A with Harmony.\r\nNow, i also translated the some function to OpenCL to allow GPU computing.\r\n\r\nHence multiple files from this project remains under the licenses of their sources. A updated copy of the different licenses is available at the top of concerned files.\r\n\r\nThis plugin allow great performance gains on smaller configurations, with no impact on results.\r\n\r\nExample: Ultrabook with an Intel I5 6200U (2c/4t) + 4Gb DDR4 => arround 2.5 times reduction on snashot pipeline (debayering & stars detections) => from arround 17s to 6s on a Nikon Z6II 24mp raw shot for 5000+ stars.\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Ekrynox/CPU-GPU-Computing-for-NINA/releases/download/0.5.1.0/LucasAlias.NINA.CGPUNINA.0.5.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "877AAD824CCDCB664E031E606F15C870C9F46007EA79ECC6D3CDEDCC66B9AE58",
+        "ChecksumType": "SHA256"
+    },
+	"Channel": "Beta"
+}
