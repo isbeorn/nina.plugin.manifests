@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1"
+        "Build": "3"
     },
     "Author": "Gerald Hitz (@photon)",
     "Homepage": "https://github.com/photon1503/SkyFlats",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/SkyFlats/releases/download/1.0.0.1/Photon.NINA.Skyflats.1.0.0.1.zip",
+        "URL": "https://github.com/photon1503/SkyFlats/releases/download/1.0.0.3/Photon.NINA.Skyflats.1.0.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B4EEC92BE46EDEC41C079E12CBECBEA51FD4F98846E15C4F6C9D6190B928FF51",
+        "Checksum": "C2B717E26A8D9AFD0CBEA8B575557B1BEEE2DEA34B7B318AFEB395DB5E9FC32D",
         "ChecksumType": "SHA256"
     }
 }
