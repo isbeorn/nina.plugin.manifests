@@ -1,0 +1,40 @@
+{
+    "Name": "Solve Every Light",
+    "Identifier": "9d4f7ba2-10f2-4373-bfcb-b4b3dcbe21db",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "astroalex80",
+    "Homepage": "",
+    "Repository": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "plate solving",
+        " WCS",
+        " astrometry"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin that plate solves automatically every light frame (optionally snapshots) and writes the astrometric solution to the header of FITS or XISF files.",
+        "LongDescription": "When enabled, the plugin automatically plate solves each light frame (optionally for snapshots) at runtime. \r\nIf no telescope/target coordinates or focal length are provided the blind solver is used. When plate solving is successful, the astrometric solution is written to the image header of FITS or XISF files.\r\nThis is particular useful for applications such as variable star or other photometric observations and their processing, each frame to have an astrometric solution already stored. \r\nNOTE: Using the plugin may slightly increases the time to save a frame, as the image is plate solved before being written to disk. Therefore only one solving attempt is made.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight/releases/download/1.0.0.1/NINA.Plugin.SolveEveryLight.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2387B55D3D30A056971B537618EEF1838E639D0F1762F30A647AF4741F9F9EB3",
+        "ChecksumType": "SHA256"
+    }
+}
