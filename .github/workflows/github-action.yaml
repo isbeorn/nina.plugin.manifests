@@ -11,6 +11,9 @@ on:
 jobs:
   validate-latest-manifest:
     if: github.repository == 'isbeorn/nina.plugin.manifests'
+    permissions:
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
