@@ -1,11 +1,11 @@
-﻿{
+{
     "Name": "ASA Tools",
     "Identifier": "68fda8ef-e631-4202-ae32-b660417b75c4",
     "Version": {
         "Major": "3",
         "Minor": "2",
-        "Patch": "3",
-        "Build": "2"
+        "Patch": "6",
+        "Build": "1"
     },
     "Author": "Gerald Hitz (photon)",
     "Homepage": "",
@@ -27,15 +27,15 @@
     },
     "Descriptions": {
         "ShortDescription": "ASA model building",
-        "LongDescription": "This plugin provides building pointing models for ASA mounts.\r\n\r\nThis project is based on @ghilios TenMicron plugin (https://github.com/ghilios/NINA.Joko.Plugin.TenMicron)\r\nMany thanks for the great work!\r\n\r\n# Features #\r\n\r\n* Build full sky models using Golden Spiral in an Imaging tab dock\r\n* MW4 and NINA horizons supported. Load the horizon file in NINA Options -> General\r\n* Dome optimization to reduce dome slews during model build\r\n* Export and import grids (compatible for Sequence)\r\n* Retry model build failures using only the failed points, unless a maximum number of failures is exceeded\r\n\r\n# Usage #\r\n* Configure the settings on the plugin options page\r\n* Always sync your telescope to a know position before starting any model build. Can by easily done by using plate solve directly in N.I.N.A\r\n* Also clear your old (current) configuration in Autoslew\r\n* Start building your model using the plugin.\r\n* Load the created POX file from %programdata%\\ASA\\Sequence\\NINA-ASA-*.pox into AutoSlew and calculate the model\r\n\r\n# Getting Help #\r\n\r\n* ASA Tools is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/photon1503/NINA.Photon.Plugin.ASA)\r\n",
+        "LongDescription": "This plugin provides different tools for ASA mounts.\r\n\r\n## [Documentation](https://github.com/photon1503/NINA.Photon.Plugin.ASA/wiki)\r\n\r\n## [Changelog](https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/master/CHANGELOG.md)\r\n\r\n# Getting Help #\r\n\r\n* ASA Tools is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/photon1503/NINA.Photon.Plugin.ASA)\r\n",
         "FeaturedImageURL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/blob/master/NINA.Photon.Plugin.ASA/Resources/asa.png?raw=true",
         "ScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png",
         "AltScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png"
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.3.2/NINA.Photon.Plugin.ASA.3.2.3.2.zip",
+        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.6.1/NINA.Photon.Plugin.ASA.3.2.6.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "AC2E48D3B5391A122FCAA0011F7966C4C29C150AEAF0AC073CC195960CEA7489",
+        "Checksum": "3C6D0C47B1BA687987AF5965342C7E4FF8EF8CB1C1AE4AC43CAC685FEE8BD768",
         "ChecksumType": "SHA256"
     }
 }

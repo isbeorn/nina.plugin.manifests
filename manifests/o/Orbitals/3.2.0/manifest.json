@@ -1,0 +1,43 @@
+{
+    "Name": "Orbitals",
+    "Identifier": "AFA13A89-8AE3-4975-A953-683C6B6E2BBE",
+    "Version": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "2"
+    },
+    "Author": "George Hilios (jokogeo)",
+    "Homepage": "",
+    "Repository": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/commits/develop",
+    "Tags": [
+        "Asteroid",
+        "Comet",
+        "Orbital",
+        "Planet",
+        "Moon",
+        "Sun"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1029"
+    },
+    "Descriptions": {
+        "ShortDescription": "Downloads publically available orbital data to target and track Comets, Asteroids, Planets, the Moon, the Sun, and other objects",
+        "LongDescription": "This plugin enables slewing and tracking for planets, the sun, the moon, comets, asteroids, and other bodies that are close enough to the solar system that they don't move at the sidereal tracking rate in the sky.\r\n\r\nTo get started, go to the Orbitals pane in the Imaging tab and click \"Update\" for each type of orbital object you're interested in working with. I don't recommend downloading more than you need, because they will all be loaded when NINA starts up. An internet connection is required when you download the data, but not again until you want to do another update for the latest data.\r\n\r\nSolar system bodies - such as the planets, the Sun, and the Moon - don't require updating as they use the JPL Ephemeris that is already included with NINA.\r\n\r\n# Features #\r\n\r\n* Solar System Object Sequencer container for setting a solar system body as an Advanced Sequencer target\r\n* Orbital Object Sequencer container for setting any orbital object found in the downloaded elements data as an Advanced Sequencer target\r\n* Setting and regularly updating the track shift rate in PHD2 to match the custom tracking rate for the parent target. PHD2 does this by moving the expected position for the lock star at the specified rate, thereby relying on guiding to follow the non-sidereal object.\r\n* Setting and regularly updating the tracking rate of your telescope to match the custom tracking rate for the parent target. This works only if your mount supports it. If it does, you can use it together with PHD2 track shifting\r\n\r\n# Object Types #\r\n\r\n* Planets, the Sun, and the Moon. No internet data are required for this.\r\n* Comets. Data are provided by JPL Horizon\r\n* Numbered Asteroids. Data are provided by JPL Horizon\r\n* Un-numbered Asteroids. Data are provided by JPL Horizon\r\n* James-Webb Space Telescope. Data are provided by JPL Horizon\r\n\r\n# Object Types Coming Soon #\r\n\r\n* Curated list of satellites that move slowly in the sky, such as JWST\r\n\r\n# Getting Help #\r\n\r\nIf you have questions, come ask in the **#plugin-discussions** channel on the NINA [Discord chat server](https://discord.com/invite/rWRbVbw).\r\n* Orbitals is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/blob/develop/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/ghilios/NINA.Joko.Plugin.Orbitals)\r\n",
+        "FeaturedImageURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/resources/orbit_path.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.1.0.2/NINA.Joko.Plugin.Orbitals.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "CA1C272B141B17AA5D3609C1EF09E4FE0764C16C808691019E44E78858F7A13C",
+        "ChecksumType": "SHA256"
+    }
+}
