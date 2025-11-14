@@ -1,0 +1,38 @@
+{
+    "Name": "SkyFlats",
+    "Identifier": "a78409de-879f-4005-aa49-4fcd061c40a8",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "4"
+    },
+    "Author": "Gerald Hitz (@photon)",
+    "Homepage": "https://github.com/photon1503/SkyFlats",
+    "Repository": "https://github.com/photon1503/SkyFlats",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/photon1503/SkyFlats/blob/main/CHANGELOG.md",
+    "Tags": [
+        "skyflats"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "SQM based sky flat automation",
+        "LongDescription": "This plugin extends the core NINA sky flat sequence functionality with enhanced automation capabilities for precision flat-field calibration. The module introduces SQM-based filter sequencing that automatically triggers flat-field acquisition for each filter at predefined sky brightness levels as measured by a Sky Quality Meter, ensuring optimal exposure conditions for each optical filter throughout the changing twilight sky.\r\n\r\nAdditionally, the implementation incorporates dynamic null point tracking, which periodically re-slews the telescope to the astronomical null point during capture sequences. This maintains optimal positioning for sky gradient minimization throughout the flat acquisition process, following the methodology established in astronomical literature for obtaining uniform sky background illumination. The combination of these features provides a robust automated solution for obtaining consistent, high-quality flat fields through precision calibration without manual intervention.",
+        "FeaturedImageURL": "https://github.com/photon1503/SkyFlats/blob/845aed3a7f4280b510266c250e82ba986e7d99e1/skyflats.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/photon1503/SkyFlats/releases/download/1.0.0.4/Photon.NINA.Skyflats.1.0.0.4.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2530907EDDBABD83D12860740034A3158C6175CA3C4AA50F96AECE7922007DD5",
+        "ChecksumType": "SHA256"
+    }
+}
