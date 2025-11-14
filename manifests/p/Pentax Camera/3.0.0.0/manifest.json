@@ -2,9 +2,9 @@
     "Name": "Pentax Camera and Focuser Driver",
     "Identifier": "1216eb93-3885-4681-baa7-9485d8fd0577",
     "Version": {
-        "Major": "1",
-        "Minor": "0",
-        "Patch": "0",
+        "Major": "11",
+        "Minor": "14",
+        "Patch": "25",
         "Build": "1"
     },
     "Author": "RTG",
