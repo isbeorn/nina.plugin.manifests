@@ -1,0 +1,42 @@
+{
+    "Name": "Astromechanics Aperture Control",
+    "Identifier": "CD21B234-F4A2-47B0-89B9-D2E77B97FE4A",
+    "Version": {
+        "Major": "2",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Dale Ghent",
+    "Homepage": "https://daleghent.com/astromechanics-aperture-control",
+    "Repository": "https://github.com/daleghent/nina-astromechanics-aperture-control",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/daleghent/nina-astromechanics-aperture-control/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ASCOM",
+        " action",
+        " commandblind",
+        " commandbool",
+        " commandstring"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Controls the focal ratio of a Canon lens when using an Astromechanics Canon Lens Controller and a custom ASCOM driver",
+        "LongDescription": "# Astromechanics Aperture Control\r\n\r\n**NOTE:** This plugin is useless without the **Enhanced ASCOM Lens Driver**. Please refer to [this plugin's website](https://daleghent.com/astromechanics-aperture-control) for full details on installation and use.\r\n\r\n## Getting help\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-astromechanics-aperture-control/issues)",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/aac-logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/daleghent/nina-astromechanics-aperture-control/releases/download/2.1.0.0/DaleGhent.NINA.AstromechApertureControl.2.1.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "AD2ED2F2223A0C0BC16F77D58A367402C521DFE7EB6AADD10B5E432F8D9B7623",
+        "ChecksumType": "SHA256"
+    }
+}
