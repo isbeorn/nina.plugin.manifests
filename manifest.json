@@ -4,7 +4,7 @@
     "Version": {
         "Major": "11",
         "Minor": "14",
-        "Patch": "2025",
+        "Patch": "25",
         "Build": "1"
     },
     "Author": "RTG",
@@ -23,8 +23,8 @@
         "Build": "2017"
     },
     "Descriptions": {
-        "ShortDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii, KF K-70",
-        "LongDescription": "",
+        "ShortDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii, KF and K-70",
+        "LongDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii, KF and K-70",
         "FeaturedImageURL": "",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
