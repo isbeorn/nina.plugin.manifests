@@ -14,7 +14,7 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "https://github.com/richromano/NINAPextaxDriver/CHANGELOG.md",
     "Tags": [
-        ""
+        "Camera"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
