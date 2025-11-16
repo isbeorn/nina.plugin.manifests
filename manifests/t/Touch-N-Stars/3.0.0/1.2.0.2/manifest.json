@@ -1,0 +1,40 @@
+{
+    "Name": "Touch 'N' Stars",
+    "Identifier": "5af0afae-cab5-4fde-9fcd-3302c0d59686",
+    "Channel": "Beta",
+    "Version": {
+        "Major": "1",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "2"
+    },
+    "Author": "Johannes Maier, Christian Palm, Christian Wöhrle",
+    "Homepage": "",
+    "Repository": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars",
+    "License": "GPL-3.0",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.en.html#license-text",
+    "ChangelogURL": "https://raw.githubusercontent.com/Touch-N-Stars/Touch-N-Stars/refs/heads/master/CHANGELOG.md",
+    "Tags": [
+        "Web",
+        "App"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A WebApp to control NINA",
+        "LongDescription": "# Touch'N'Stars: WebApp for Mobile Control of NINA\r\n\r\n## **Purpose of the Plugin**  \r\nThe application aims to make controlling and adjusting already configured profiles easier - directly through a tablet or smartphone. \r\nThis makes handling more mobile and convenient, especially when setting up equipment and starting imaging sessions.\r\n\r\n---\r\n\r\n## **Installation:**\r\n**Please see the instructions in our Wiki** [GitHub Wiki](https://github.com/Touch-N-Stars/Touch-N-Stars/wiki/)\r\n\r\n---\r\n\r\n## **Access Touch'N'Stars from any device:**\r\nOpen a browser on your device and enter:\r\n```\r\nhttp://<your-NINA-PC-IP-address>:<port>\r\n```\r\n\r\n---\r\n\r\n## **Android App:**\r\nAvailable at [Play Store](https://play.google.com/store/apps/details?id=com.TouchNStars.dev)\r\n\r\n## **iOS App:**\r\nAvailable at [App Store](https://apps.apple.com/us/app/touch-n-stars/id6744902856)\r\n\r\n---\r\n\r\n## 💙 **Acknowledgements**  \r\nMy thanks go to the entire **NINA** development team, whose great work makes this web app possible.\r\nA special thank you to **Christian**, the developer of the **Advanced API**, for his efforts and support. \r\nHis work has significantly enabled the development of this web app.\r\n\r\n",
+        "FeaturedImageURL": "https://github.com/Touch-N-Stars/Touch-N-Stars/blob/master/Logo/Logo_TouchNStars.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/JohannesWorks/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.2.0.2/TouchNStars.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "31A7E679009662BFC9C900088B7B3873EB89A9F6B8F9F79A52752B144389F490",
+        "ChecksumType": "SHA256"
+    }
+}

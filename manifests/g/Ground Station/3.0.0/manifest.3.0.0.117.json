@@ -5,14 +5,14 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "113"
+        "Build": "117"
     },
     "Author": "Dale Ghent",
     "Homepage": "https://daleghent.com/ground-station",
     "Repository": "https://github.com/daleghent/nina-ground-station",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://github.com/daleghent/nina-ground-station/blob/gs3/CHANGELOG.md",
+    "ChangelogURL": "https://github.com/daleghent/nina-ground-station/blob/main/CHANGELOG.md",
     "Tags": [
         "notifications",
         "alerts",
@@ -25,7 +25,7 @@
         "Major": "3",
         "Minor": "2",
         "Patch": "0",
-        "Build": "1002"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "Send failure events and free-form messages to a variety of messaging or automation services",
@@ -35,10 +35,9 @@
         "AltScreenshotURL": "https://daleghent.github.io/nina-plugins/assets/images/gs-example2.png"
     },
     "Installer": {
-        "URL": "https://github.com/daleghent/nina-ground-station/releases/download/3.0.0.113/DaleGhent.NINA.GroundStation.3.0.0.113.zip",
+        "URL": "https://github.com/daleghent/nina-ground-station/releases/download/3.0.0.117/DaleGhent.NINA.GroundStation.3.0.0.117.zip",
         "Type": "ARCHIVE",
-        "Checksum": "778E8604D2A01F79DC520AE89AAD67DD267E759F96374EC1244553435419DC38",
+        "Checksum": "7E581ACC6091662379F33C50DCEA9E82625B0329D64963605F9C293A06E0A90B",
         "ChecksumType": "SHA256"
-    },
-    "Channel": "Beta"
+    }
 }

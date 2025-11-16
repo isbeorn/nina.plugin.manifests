@@ -1,0 +1,38 @@
+{
+    "Name": "Discord Notification",
+    "Identifier": "e172f5a2-40b5-4180-bd38-395c307ea172",
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "5"
+    },
+    "Author": "Daniel Ludwig",
+    "Homepage": "",
+    "Repository": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/CHANGELOG.md",
+    "Tags": [
+        "Discord"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1018"
+    },
+    "Descriptions": {
+        "ShortDescription": "This N.I.N.A plugin sends Discord notifications and can share images (e.g., live stacked images) from a specific folder, all integrated into the sequencer.",
+        "LongDescription": "This plugin for N.I.N.A allows users to send notifications directly to Discord.\r\nIt can be integrated as a trigger into the sequencer in N.I.N.A, providing seamless communication during imaging sessions.\r\nAdditionally, users can specify an image path - such as a folder where a live stacked image is stored - which will also be sent to Discord.\r\nThis makes it easy to share updates and images in real time.\r\nThe plugin also includes a trigger that can automatically create a new Discord thread and post a message after exposures, helping to keep session-related messages organized.\r\n\r\n## Options\r\n- **LiveStack:**\r\nThe LiveStack image feature needs the 'LiveStack' plugin to be installed and configured as shown in the screenshots below.\r\n\r\n## Thread Options\r\n- **Discord Bot Token:**\r\nThe authentication token of your Discord bot. Required to create threads and send messages.\r\n\r\n- **Discord Channel ID:**\r\nThe ID of the channel where the thread will be created. Must be a text channel your bot has access to.\r\n\r\n- **Thread Archive Duration:**\r\nDefines how long the created thread stays active before being auto-archived by Discord.",
+        "FeaturedImageURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/notification_1.png?raw=true",
+        "ScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/notification_settings.png?raw=true",
+        "AltScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/livestacking_settins.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/releases/download/2.0.0.5/DiscordNotification.2.0.0.5.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "D2BAE225B4DBF577542AB1A36C5506EE1273E70DF0E0EEDD9ECBFEA5BD5FD6D7",
+        "ChecksumType": "SHA256"
+    }
+}
