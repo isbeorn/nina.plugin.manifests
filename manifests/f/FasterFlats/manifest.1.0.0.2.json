@@ -1,0 +1,40 @@
+{
+    "Name": "FasterFlats",
+    "Identifier": "1fa64c65-22f9-491b-bb26-b2057d68cc8f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2"
+    },
+    "Author": "naixx",
+    "Homepage": "https://github.com/naixx/FasterFlats",
+    "Repository": "https://github.com/naixx/FasterFlats",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/naixx/FasterFlats/blob/master/CHANGELOG.md",
+    "Tags": [
+        "flats",
+        "sequences",
+        "autostretch"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Disable autostretch for flats sequences",
+        "LongDescription": "# **FasterFlats**\r\n\r\nA lightweight plugin for N.I.N.A. that adds sequence commands to temporarily disable and re-enable auto-stretch during flat frame acquisition.\r\n\r\n## **Motivation**\r\n\r\nI run N.I.N.A. on a low-end mini PC equipped with an Intel Celeron J4125 — a processor that struggles under heavy workloads. When capturing flat frames every second, the continuous processing (especially with auto-stretch and annotation enabled) places significant strain on the CPU. This often led to performance issues and, in some cases, complete application crashes.\r\n\r\nTo address this, I created **FasterFlats** — a simple yet effective plugin that allows you to disable auto-stretch and annotation temporarily during flat capture sequences, reducing CPU load and improving stability.\r\n\r\n## **How It Works**\r\n\r\nThe plugin introduces two custom sequence options:\r\n- **Disable Auto-Stretch & Annotation**\r\n- **Enable Auto-Stretch & Annotation**\r\n\r\nInsert instructions before and after your flat capture routine to minimize processing overhead during high-frequency captures.\r\n\r\n> ⚠️ **Note**: This functionality is designed for **non-light frames only** (i.e., flats, biases, darks). Disabling auto-stretch has no effect on light frames in normal imaging sequences.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://github.com/naixx/FasterFlats/blob/master/FasterFlats.jpg?raw=true",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/naixx/FasterFlats/releases/download/1.0.0.2/Naixx.NINA.Fasterflats.1.0.0.2.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "97EDC2ED881F39005E674F9E552127F133A85228369093444D75C3FD3E12DA67",
+        "ChecksumType": "SHA256"
+    }
+}
