@@ -1,0 +1,39 @@
+{
+    "Name": "Advanced API",
+    "Identifier": "48b5bc05-f0d3-465e-a233-e2fe77d6e1a6",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "12",
+        "Build": "0"
+    },
+    "Author": "Christian Palm",
+    "Homepage": "https://buymeacoffee.com/christian.palm",
+    "Repository": "https://github.com/christian-photo/ninaAPI",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/christian-photo/ninaAPI/blob/main/Changelog.md",
+    "Tags": [
+        "API",
+        "Web"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "An experimental API for N.I.N.A.",
+        "LongDescription": "This plugin features an HTTP server, including an api and websockets!\r\n\r\n## Features:\r\n- Listen to events like connections, meridian flips and much more\r\n- TPPA integration (Requires TPPA to be installed)\r\n- Livestack integration (Requires Livestack to be installed)\r\n- Supports basic control over the equipment and application in general\r\n- And much more!\r\n\r\n---\r\n\r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/christian-photo/ninaAPI/issues), take a look at the\r\n[documentation](https://bump.sh/christian-photo/doc/advanced-api/) and here for the [websockets](https://bump.sh/christian-photo/doc/advanced-api-websockets) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)\r\n**Thanks to szymon and notzeeg (discord) for their help!**",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.12.0/ninaAPI.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "CDE84C1614C28F42AFFFF83F65B7AD64D9928CA60CF7968F83E173FF74706E23",
+        "ChecksumType": "SHA256"
+    }
+}
