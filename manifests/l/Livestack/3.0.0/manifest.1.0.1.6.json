@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "1",
-        "Build": "3"
+        "Build": "6"
     },
     "Author": "Stefan Berg @isbeorn",
     "Homepage": "https://www.patreon.com/stefanberg/",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": "https://github.com/isbeorn/nina.plugin.livestack/blob/main/featured2.jpg?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/isbeorn/nina.plugin.livestack/releases/download/1.0.1.3/nina.plugin.livestack.1.0.1.3.zip",
+        "URL": "https://github.com/isbeorn/nina.plugin.livestack/releases/download/1.0.1.6/nina.plugin.livestack.1.0.1.6.zip",
         "Type": "ARCHIVE",
-        "Checksum": "9F79E38789269DD6C9CEF4F4F1BF90727DFAD00E967F950E14872E0D9566E9A2",
+        "Checksum": "BA81A689CA7420C0322E4AA4488DD06DD687996E8A6E98EADE88FF42493C4D61",
         "ChecksumType": "SHA256"
     }
 }
