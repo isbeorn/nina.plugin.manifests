@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "2",
         "Patch": "6",
-        "Build": "1"
+        "Build": "4"
     },
     "Author": "Gerald Hitz (photon)",
     "Homepage": "",
@@ -21,9 +21,9 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "1085"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "ASA model building",
@@ -33,9 +33,10 @@
         "AltScreenshotURL": "https://user-images.githubusercontent.com/14548927/277363713-5b8b6940-2fb1-4c91-9dcc-ca5618206fa0.png"
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.6.1/NINA.Photon.Plugin.ASA.3.2.6.1.zip",
+        "URL": "https://github.com/photon1503/NINA.Photon.Plugin.ASA/releases/download/3.2.6.4/NINA.Photon.Plugin.ASA.3.2.6.4.zip",
         "Type": "ARCHIVE",
-        "Checksum": "3C6D0C47B1BA687987AF5965342C7E4FF8EF8CB1C1AE4AC43CAC685FEE8BD768",
+        "Checksum": "286D11BDA9A6B0B135D39B3D10078CB9349008902C115D523AF2ABDED0141C19",
         "ChecksumType": "SHA256"
     }
 }
+
