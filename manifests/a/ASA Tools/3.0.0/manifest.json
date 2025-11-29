@@ -21,9 +21,9 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "1085"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "ASA model building",
@@ -39,3 +39,4 @@
         "ChecksumType": "SHA256"
     }
 }
+
