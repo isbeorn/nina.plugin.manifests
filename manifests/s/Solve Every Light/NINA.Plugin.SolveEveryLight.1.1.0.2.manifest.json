@@ -1,0 +1,40 @@
+{
+    "Name": "Solve Every Light",
+    "Identifier": "9d4f7ba2-10f2-4373-bfcb-b4b3dcbe21db",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "2"
+    },
+    "Author": "Alexander Wrede @astro_alex80",
+    "Homepage": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight",
+    "Repository": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "plate solving",
+        " WCS",
+        " astrometry"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin that plate solves automatically every light frame (optionally snapshots) and writes the astrometric solution to the header of FITS or XISF files.",
+        "LongDescription": "When enabled, the plugin automatically plate solves each light frame (optionally for snapshots) at runtime. Currently only ASTAP and All Sky Plate Solver are supported as solver. \r\nIf no telescope/target coordinates or focal length are provided blind solver settings are used. When plate solving is successful, the astrometric solution is written to the image header of FITS or XISF files.\r\nThis is particular useful for applications such as variable star or other photometric observations and their processing, each frame to have an astrometric solution already stored. \r\nNOTE: Using the plugin may slightly increases the time to save a frame, as the image is plate solved before being written to disk. Therefore only one solving attempt is made.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight/releases/download/1.1.0.2/NINA.Plugin.SolveEveryLight.1.1.0.2.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "24045C73E6DF915C632EE42B36E0B04BB0F93CD34FFCB5FE9336F23B0AE03B47",
+        "ChecksumType": "SHA256"
+    }
+}
