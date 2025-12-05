@@ -37,9 +37,9 @@
     "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.2.0.4/screenshot-main.png"
   },
   "Installer": {
-    "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.2.0.4/DitherStatistics-v1.2.0.4.zip",
+    "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.2.0.4/DitherStatistics-1.2.0.4.zip",
     "Type": "ARCHIVE",
-    "Checksum": "B4C5CCF3CA6928A86C794CAEBD523F2C59785F8C5E7B5BD3ACF94219356FC167",
+    "Checksum": "C1A6C89BFB5467E12AA64AD5B5EBB818D3C7FEBE06547BE8C122FCC423F38B1D",
     "ChecksumType": "SHA256"
   }
 }
