@@ -26,8 +26,8 @@
     "Descriptions": {
         "ShortDescription": "A new dockable window for centering on a selected point in the image",
         "LongDescription": "Select a target by right-clicking on the current image in the Click to Center dockable and hit slew and center.\r\nThe plugin plate-solves the current image, converts the selected pixel position to RA/Dec coordinates, and runs a centering routine to slew/center the mount on the .",
-        "FeaturedImageURL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/NINA.Plugin.ClickToCenter/screenshot.PNG",
-        "ScreenshotURL": "",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/NINA.Plugin.ClickToCenter/screenshot.PNG?raw=true",
         "AltScreenshotURL": ""
     },
     "Installer": {
