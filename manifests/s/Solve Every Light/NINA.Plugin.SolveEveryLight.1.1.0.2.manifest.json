@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "1",
         "Patch": "0",
-        "Build": "1"
+        "Build": "2"
     },
     "Author": "Alexander Wrede @astro_alex80",
     "Homepage": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight/releases/download/1.1.0.1/NINA.Plugin.SolveEveryLight.1.1.0.1.zip",
+        "URL": "https://github.com/astroalex80/NINA.Plugin.SolveEveryLight/releases/download/1.1.0.2/NINA.Plugin.SolveEveryLight.1.1.0.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "DEE575A3C9D458B8DD797B94BF5CF3AB59984A5FF036E451496890D4DBB96C43",
+        "Checksum": "24045C73E6DF915C632EE42B36E0B04BB0F93CD34FFCB5FE9336F23B0AE03B47",
         "ChecksumType": "SHA256"
     }
 }
