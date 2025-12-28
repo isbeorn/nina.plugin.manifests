@@ -1,0 +1,38 @@
+{
+    "Name": "Discord Notification",
+    "Identifier": "e172f5a2-40b5-4180-bd38-395c307ea172",
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "10"
+    },
+    "Author": "Daniel Ludwig",
+    "Homepage": "",
+    "Repository": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/CHANGELOG.md",
+    "Tags": [
+        "Discord"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1018"
+    },
+    "Descriptions": {
+        "ShortDescription": "This N.I.N.A plugin sends Discord notifications and can share images (e.g., live stacked images) from a specific folder, all integrated into the sequencer.",
+        "LongDescription": "This plugin for N.I.N.A allows users to send notifications directly to Discord.\r\nIt can be integrated as a trigger into the sequencer in N.I.N.A, providing seamless communication during imaging sessions.\r\nAdditionally, users can specify an image path - such as a folder where a live stacked image is stored - which will also be sent to Discord.\r\nThis makes it easy to share updates and images in real time.\r\nThe plugin also includes a trigger that can automatically create a new Discord thread and post a message after exposures, helping to keep session-related messages organized.\r\n\r\n### Beta vs Release Channel\r\n- Discord Notification's current versions require N.I.N.A 3.2, which is currently in the Beta release channel. Basic functionality from verison 1.0.0.1 is available in the N.I.N.A. 3.1 Release channel.\r\n\r\n### Information\r\n- If the thread name is left empty, the current date will automatically be used as a fallback value.\r\n\r\n## LiveStack\r\n- The LiveStack image feature needs the 'LiveStack' plugin to be installed and configured as shown in the screenshots below.\r\n### Important!\r\n- The plugin must have live stacking started before images can be sent.\r\n- You should also configure a minimum delay of 60 seconds after the exposures are finished, before stopping the live stacking process.\r\n- The “LiveStacked Image Path” must be set to the folder where the stacked files created by the LiveStack plugin are stored.\r\n- To ensure reliable sending of live stacked images, it is recommended to use at least 4 iterations of the loop condition.\r\n\r\n## General Options\r\n- **Discord Webhook URL:**\r\nThe webhook URL of your Discord webhook integration.\r\n\r\n- **Image Scale Factor:**\r\nThe factor used to scale the image down.\r\n\r\n- **LiveStacked Image Directory:**\r\nThe directory where the live stacked images are stored.\r\n\r\n- **Send Embeds:**\r\nEnables or disables embedded fields in the Discord message.\r\n\r\n- **Custom Filters for the Dropdown List:**\r\nFilters to extend the dropdown list (comma-separated).\r\n\r\n## Thread Options\r\n- **Discord Bot Token:**\r\nThe authentication token of your Discord bot. Required to create threads and send messages.\r\n\r\n- **Discord Channel ID:**\r\nThe ID of the channel where the thread will be created. Must be a text channel your bot has access to.\r\n\r\n- **Thread name template:**\r\nThe thread name is defined using a pattern that can include the following placeholders: $$TARGET$$, $$DATE$$, $$DATEMINUS12$$, $$DATETIME$$, $$TIME$$, $$FILTER$$.\r\n\r\n- **Thread Archive Duration:**\r\nDefines how long the created thread stays active before being auto-archived by Discord.\r\n\r\n## Options for the Trigger\r\n- **Message:**\r\nThe input field for the message that should be sent. Can be left empty.\r\nThis field supports dynamic patterns that will be automatically replaced with live data when the message is sent:\r\n    - **$$DATE$$**, **$$DATEMINUS12$$**, **$$DATETIME$$**, **$$TIME$$**, **$$TARGET$$**, **$$FILTER$$**, **$$RMSRA$$**, **$$RMSDEC$$**, **$$RMSTOTAL$$**\r\n\r\n- **After Exposures:**\r\nSpecifies after how many exposures the message should be sent.\r\n\r\n- **Send Image:**\r\nWhen checked, the last auto-stretched image is sent with image data.\r\n\r\n- **Use LiveStack Image:**\r\nWhen checked, the last live-stacked images are sent based on the filters selected in **Select Filters to Send Images For**.\r\n\r\n- **Select Filters to Send Images For:**\r\nSelect multiple filters to send the live-stacked images.\r\n    - **RGB**: Sends the live-stacked image with the **RGB** filter When using a monochrome cameras, you need to configure a color combination in the LiveStack plugin.\r\n    - **$$FILTER$$**: Sends the live-stacked image based on the current filter.\r\n",
+        "FeaturedImageURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/notification_1.png?raw=true",
+        "ScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/notification_settings.png?raw=true",
+        "AltScreenshotURL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/blob/develop/assets/livestacking_settins.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/CodeByLudwig/N.I.N.A-Discord-Notification/releases/download/2.0.0.10/DiscordNotification.2.0.0.10.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "0FE7D67F1AF042D214C674F03F4EEE6F444614AE583A7F6EC59642234CA43A4F",
+        "ChecksumType": "SHA256"
+    }
+}
