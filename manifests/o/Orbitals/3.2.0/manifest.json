@@ -35,7 +35,7 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.1.0.4/NINA.Joko.Plugin.Orbitals.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2F3.1.0.4/NINA.Joko.Plugin.Orbitals.zip",
         "Type": "ARCHIVE",
         "Checksum": "5EF13AE7B244B1CEAAD81146A582AE4787D49F19D11C356315825F8235FC04CC",
         "ChecksumType": "SHA256"
