@@ -1,0 +1,39 @@
+{
+    "Name": "Click To Center",
+    "Identifier": "63b06a01-bc90-4ca2-a0a4-db280b2f3b72",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Alexander Wrede @astro_alex80",
+    "Homepage": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/README.md",
+    "Repository": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Centering",
+        " Plate-solving"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "A new dockable window for slewing and centering the mount on a selected point in the image. Additionally the target coordinates can be send to the Framing Assistant tab.",
+        "LongDescription": "Select a target by right-clicking on the current image in the Click to Center dockable and hit slew and center.\r\nThe plugin plate-solves the current image, converts the selected pixel position to RA/Dec coordinates, and runs a centering routine to slew/center the telescope to these coordinates. \r\nAdditionally you can send the coordinates of the image center or the crosshair position to the framing wizard.",
+        "FeaturedImageURL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/NINA.Plugin.ClickToCenter/screenshot.PNG",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/releases/download/1.1.0.1/NINA.Plugin.ClickToCenter.1.1.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "27C2EAC652701F2FDA61DE3A4E0CE8553FD98A7685FDE47A77215521479B8FFB",
+        "ChecksumType": "SHA256"
+    }
+}

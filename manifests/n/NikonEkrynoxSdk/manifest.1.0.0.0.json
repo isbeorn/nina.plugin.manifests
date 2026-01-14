@@ -1,0 +1,38 @@
+{
+    "Name": "Nikon Ekrynox SDK",
+    "Identifier": "43a52070-20f3-43a1-b3bb-5a456f6ad988",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Lucas Alias",
+    "Homepage": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA",
+    "Repository": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Nikon"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A new Nikon SDK based on direct PTP/MTP call with Windows Portable API.",
+        "LongDescription": "\r\nThis project is a [NINA](https://github.com/isbeorn/nina) plugin that brings a new alternative to the official Nikon SDK.  \r\nBased on [Nikon Ekrynox SDK (NEK)](https://github.com/Ekrynox/Nikon-Ekrynox-SDK), the plugin doesn't require you to install any custom drivers as it uses Windows Portable Device API for direct PTP/MTP communications.\r\n\r\n## Supported Cameras\r\nDirectly connecting to the camera through MTP/PTP and Windows Portable Device API, it should allow support for some unsupported cameras (as long as their MTP/PTP API remains similar to that of other cameras).  \r\n**Repported working models:**\r\n- Nikon D80\r\n- Nikon D3500\r\n- Nikon D7100\r\n- Nikon D7200\r\n- Nikon Z6 II\r\n- Nikon Z50 II\r\n\r\n## Features\r\n- Capture (Bulb: USB only)\r\n- Live View\r\n- Focus Control for AF Lenses (Inbuilt NEK Focuser) (Camera must support Liveview)\r\n- Auto update of Focal Length/Ratio for CPU Lenses\r\n\r\n## Known Issues\r\nThe focuser have some difficulties with older models like the D7100/D7200. It has difficulties to accurately detect the focus limit (0 and infinity), and overestimate the step range.\r\n\r\n## Special Notes\r\nThanks to all the contributors of NINA for the great work done on the main application.  \r\nThanks to **LEX** for all the work on testing his cameras and providing feedback.",
+        "FeaturedImageURL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/blob/main/assets/images/NEF%20for%20NINA.png?raw=true",
+        "ScreenshotURL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/blob/main/assets/images/Screenshot1.png?raw=true",
+        "AltScreenshotURL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/blob/main/assets/images/Screenshot2.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/releases/download/1.0.0.0/LucasAlias.NINA.NikonEkrynoxSdk.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "62E0AAD4BCF9B456999DA1EBF6DCF0F2E797EDD63214119DFE1B74661B8B1D82",
+        "ChecksumType": "SHA256"
+    }
+}
