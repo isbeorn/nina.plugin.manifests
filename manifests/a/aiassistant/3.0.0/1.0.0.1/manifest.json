@@ -37,7 +37,7 @@
     "Installer": {
         "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.1/NINA.Plugin.AIAssistant.dll",
         "Type": "DLL",
-        "Checksum": "67D907E5F25C5236AF84E2A4138BE90EF4C05C70FC2C78B4B4CDABE769F1781D",
+        "Checksum": "e0cfcc2d1446b99f2c340350d32e7581378740910b52344ae642a516a746d1d3",
         "ChecksumType": "SHA256"
     }
 }
