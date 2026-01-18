@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "1"
+        "Build": "2"
     },
     "Channel": "Beta",
     "Author": "Michele Bergo",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.1/NINA.Plugin.AIAssistant.1.0.0.1.zip",
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.2/NINA.Plugin.AIAssistant.1.0.0.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "BA72EA03BB9179C87CF91ABBED708060E5770623C1675671F5B6B4F7C887CC82",
+        "Checksum": "5292F4D2A2A04119ABF6B987A29E1E25BAD5476038E1C8234910E074817F42F0",
         "ChecksumType": "SHA256"
     }
 }
