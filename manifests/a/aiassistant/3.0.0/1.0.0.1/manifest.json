@@ -37,7 +37,8 @@
     "Installer": {
         "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.1/NINA.Plugin.AIAssistant.1.0.0.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "ba72ea03bb9179c87cf91abbed708060e5770623c1675671f5b6b4f7c887cc82",
+        "Checksum": "BA72EA03BB9179C87CF91ABBED708060E5770623C1675671F5B6B4F7C887CC82",
         "ChecksumType": "SHA256"
     }
 }
+
