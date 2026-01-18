@@ -1,0 +1,43 @@
+﻿{
+    "Name": "ai assistant",
+    "Identifier": "8F3A5B7C-9D2E-4F6A-B1C3-7E8D9A0B1C2D",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Channel": "Beta",
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
+    "Repository": "https://github.com/michelebergo/nina-ai-assistant",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/LICENSE",
+    "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ai",
+        "assistant",
+        "chat",
+        "mcp",
+        "automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "AI-powered assistant for N.I.N.A. imaging suite",
+        "LongDescription": "Powerful multi-provider AI assistant for NINA with MCP equipment control. Supports GitHub Models (free), OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and OpenRouter. Features Anthropic's tool-use API for natural language equipment control via NINA Advanced API - control your camera, mount, focuser, filter wheel, and more through conversation.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/NINA.Plugin.AIAssistant/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.1/NINA.Plugin.AIAssistant.dll",
+        "Type": "DLL",
+        "Checksum": "67D907E5F25C5236AF84E2A4138BE90EF4C05C70FC2C78B4B4CDABE769F1781D",
+        "ChecksumType": "SHA256"
+    }
+}
