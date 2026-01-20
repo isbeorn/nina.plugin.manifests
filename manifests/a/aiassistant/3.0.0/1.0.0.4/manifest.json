@@ -1,8 +1,8 @@
-{
+﻿{
   "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
   "Name": "AI Assistant",
   "Version": "1.0.0.4",
-  "TargetNINAVersion": "3.0.0.0",
+  "MinimumApplicationVersion": "3.0.0.0",
   "Author": "Michele Bergo",
   "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
   "Repository": "https://github.com/michelebergo/nina-ai-assistant",
