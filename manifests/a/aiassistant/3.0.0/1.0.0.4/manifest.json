@@ -1,0 +1,35 @@
+{
+  "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+  "Name": "AI Assistant",
+  "Version": "1.0.0.4",
+  "TargetNINAVersion": "3.0.0.0",
+  "Author": "Michele Bergo",
+  "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
+  "Repository": "https://github.com/michelebergo/nina-ai-assistant",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/releases/tag/v1.0.0.4",
+  "Description": {
+    "Short": "AI-powered assistant for astrophotography with multi-provider support",
+    "Long": [
+      "Powerful multi-provider AI assistant for NINA with MCP equipment control.",
+      "Supports GitHub Models (free), OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and OpenRouter.",
+      "Version 1.0.0.4 features updated AI models (GPT-4o, Claude Sonnet 4, Gemini 2.0), enhanced MCP logging, and bug fixes.",
+      "Provides 40+ MCP tools for camera, mount, focuser, filter wheel, guider, and dome control."
+    ]
+  },
+  "Tags": [
+    "ai",
+    "assistant",
+    "chat",
+    "mcp",
+    "automation",
+    "image-analysis"
+  ],
+  "Installer": {
+    "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.4/AIAssistant-1.0.0.4.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "5F1A7E2D6C1E2C4FF0AE04DF5731589B93A773B3D739ABE4B8A92F009AE68E92",
+    "ChecksumType": "SHA256"
+  }
+}
