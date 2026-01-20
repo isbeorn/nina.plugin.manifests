@@ -1,13 +1,12 @@
 {
-    "Name": "ai assistant",
-    "Identifier": "8F3A5B7C-9D2E-4F6A-B1C3-7E8D9A0B1C2D",
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
     "Version": {
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2"
+        "Build": "3"
     },
-    "Channel": "Beta",
     "Author": "Michele Bergo",
     "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
     "Repository": "https://github.com/michelebergo/nina-ai-assistant",
@@ -19,7 +18,10 @@
         "assistant",
         "chat",
         "mcp",
-        "automation"
+        "automation",
+        "github-models",
+        "openai",
+        "anthropic"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -28,17 +30,16 @@
         "Build": "0"
     },
     "Descriptions": {
-        "ShortDescription": "AI-powered assistant for N.I.N.A. imaging suite",
-        "LongDescription": "Powerful multi-provider AI assistant for NINA with MCP equipment control. Supports GitHub Models (free), OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and OpenRouter. Features Anthropic's tool-use API for natural language equipment control via NINA Advanced API - control your camera, mount, focuser, filter wheel, and more through conversation.",
+        "ShortDescription": "Multi-provider AI assistant for NINA with MCP equipment control",
+        "LongDescription": "Integrates AI capabilities into NINA supporting GitHub Models, OpenAI, Anthropic, Google, Ollama, and OpenRouter. Features Model Context Protocol (MCP) integration for direct equipment control, making astrophotography automation intelligent and conversational. Access via dockable chat panel in the Tools area.",
         "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/NINA.Plugin.AIAssistant/icon.png",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.2/NINA.Plugin.AIAssistant.1.0.0.2.zip",
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.3/AIAssistant-1.0.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "5292F4D2A2A04119ABF6B987A29E1E25BAD5476038E1C8234910E074817F42F0",
+        "Checksum": "88D638CD08C8214EEF9E056FBC847A741B877FE74DC1A8046CF47769F9F35875",
         "ChecksumType": "SHA256"
     }
 }
-
