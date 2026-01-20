@@ -9,14 +9,12 @@
   "License": "MPL-2.0",
   "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
   "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/releases/tag/v1.0.0.4",
-  "Description": {
-    "Short": "AI-powered assistant for astrophotography with multi-provider support",
-    "Long": [
-      "Powerful multi-provider AI assistant for NINA with MCP equipment control.",
-      "Supports GitHub Models (free), OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and OpenRouter.",
-      "Version 1.0.0.4 features updated AI models (GPT-4o, Claude Sonnet 4, Gemini 2.0), enhanced MCP logging, and bug fixes.",
-      "Provides 40+ MCP tools for camera, mount, focuser, filter wheel, guider, and dome control."
-    ]
+  "Descriptions": {
+    "ShortDescription": "AI-powered assistant for astrophotography with multi-provider support",
+    "LongDescription": "Powerful multi-provider AI assistant for NINA with MCP equipment control. Supports GitHub Models (free), OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and OpenRouter. Version 1.0.0.4 features updated AI models (GPT-4o, Claude Sonnet 4, Gemini 2.0), enhanced MCP logging, and bug fixes. Provides 40+ MCP tools for camera, mount, focuser, filter wheel, guider, and dome control.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
   },
   "Tags": [
     "ai",
