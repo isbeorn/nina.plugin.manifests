@@ -14,7 +14,9 @@
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.0.3/CHANGELOG.md",
     "Tags": [
-        "platesolve,astrometry,secondary-camera,offset,solver"
+        "platesolve",
+        "Offset",
+        "SecondCamera"
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
@@ -36,4 +38,5 @@
         "ChecksumType": "SHA256"
     }
 }
+
 
