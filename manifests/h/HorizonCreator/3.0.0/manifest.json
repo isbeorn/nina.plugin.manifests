@@ -1,35 +1,35 @@
 {
-    "Version": {
-        "Major": "1",
-        "Patch": "2",
-        "Build": "1",
-        "Minor": "1"
-    },
-    "Installer": {
-        "Type": "DLL",
-        "Checksum": "2B33F1F730E6B2CFCCE5D36C74AAE37116F1F34662062387DA1133B6E8F2B63A",
-        "ChecksumType": "SHA256",
-        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.1/Horizon.Creator.dll"
-    },
-    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe",
-    "Descriptions": {
-        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press 'Add Point'. Repeat for all points you want to create a horizon from.\r\n3. Click 'Save' and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!",
-        "ShortDescription": "Create a horizon from within NINA only using your scope and mount!"
-    },
+    "Repository": "https://github.com/christian-photo/HorizonCreator",
     "Author": "Christian Palm",
-    "License": "MPL-2.0",
     "Tags": [
         "Horizon",
         "Dock"
     ],
+    "Version": {
+        "Minor": "1",
+        "Patch": "2",
+        "Major": "1",
+        "Build": "1"
+    },
     "Name": "Horizon Creator",
-    "Repository": "https://github.com/rennmaus-coder/HorizonCreator",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Descriptions": {
+        "ShortDescription": "Create a horizon from within NINA only using your scope and mount!",
+        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press 'Add Point'. Repeat for all points you want to create a horizon from.\r\n3. Click 'Save' and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!"
+    },
     "Homepage": "https://buymeacoffee.com/christian.palm",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "License": "MPL-2.0",
     "MinimumApplicationVersion": {
-        "Major": "3",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "9001",
-        "Minor": "2"
-    }
+        "Major": "3",
+        "Build": "9001"
+    },
+    "Installer": {
+        "Type": "DLL",
+        "Checksum": "301E9BD0D694C99E66C49DDA32A21BBE3350CCC51952908A27C61DA5F6B08B52",
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.1/Horizon.Creator.dll"
+    },
+    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe"
 }
