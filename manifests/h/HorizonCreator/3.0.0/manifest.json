@@ -1,35 +1,35 @@
 {
-    "Name": "Horizon Creator",
-    "Author": "Christian Palm",
     "Installer": {
-        "Type": "DLL",
         "Checksum": "6813EF4443C6F9761B1C0B349D9F3099A69CE5114A0059F759C4EF4A47CB7699",
+        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.1/Horizon.Creator.dll",
         "ChecksumType": "SHA256",
-        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.1/Horizon.Creator.dll"
+        "Type": "DLL"
     },
-    "License": "MPL-2.0",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "Version": {
-        "Major": "1",
-        "Minor": "1",
-        "Patch": "2",
-        "Build": "1"
-    },
-    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe",
-    "Homepage": "https://buymeacoffee.com/christian.palm",
-    "Tags": [
-        "Horizon",
-        "Dock"
-    ],
-    "Repository": "https://github.com/rennmaus-coder/HorizonCreator",
     "MinimumApplicationVersion": {
-        "Major": "3",
-        "Minor": "0",
         "Patch": "0",
-        "Build": "1032"
+        "Build": "1032",
+        "Minor": "0",
+        "Major": "3"
     },
+    "Homepage": "https://buymeacoffee.com/christian.palm",
     "Descriptions": {
         "ShortDescription": "Create a horizon from within NINA only using your scope and mount!",
         "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press 'Add Point'. Repeat for all points you want to create a horizon from.\r\n3. Click 'Save' and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!\r\n\r\n##Meridian Limits Creator:\r\nNOTE: \r\n- Meridian limits beyond the limit imposed by your mount or mount driver will result in failed meridian flips.\r\n- The actual outcome depends on the enforcement performed by the mount / mount driver. \r\n- Please ensure the meridian limit applied via this tool is not beyond the limit imposed by your mount / mount driver."
-    }
+    },
+    "Version": {
+        "Patch": "2",
+        "Build": "1",
+        "Minor": "1",
+        "Major": "1"
+    },
+    "Name": "Horizon Creator",
+    "Repository": "https://github.com/rennmaus-coder/HorizonCreator",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Author": "Christian Palm",
+    "License": "MPL-2.0",
+    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe",
+    "Tags": [
+        "Horizon",
+        "Dock"
+    ]
 }
