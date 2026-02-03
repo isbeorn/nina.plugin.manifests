@@ -30,7 +30,7 @@
     "Installer":  {
                       "URL":  "https://github.com/michelebergo/nina.plugin.aiweather/releases/download/v1.1.0.0/NINA.Plugin.AIWeather.1.1.0.0.zip",
                       "Type":  "ARCHIVE",
-                      "Checksum":  "B765D8BD5962652945A0407E1B4B7EF077992F764E025157A3A18BAD1E34412C",
+                      "Checksum":  "79D4EE91559050E6274F1ED6512E6FC34586F7DB6DFDBB094FFE944E2B870D9A",
                       "ChecksumType":  "SHA256"
                   }
 }
