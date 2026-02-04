@@ -2,34 +2,39 @@
     "Name": "Manual Focuser",
     "Identifier": "56e3434f-95de-49fe-bb59-2034ea457afb",
     "Version": {
-    "Major": 1,
-    "Minor": 0,
-    "Patch": 0,
-	"Build": 1},
+    	"Major": "1",
+    	"Minor": "0",
+    	"Patch": "0",
+		"Build": "1"
+	},
     "Author": "cwseo",
     "Homepage": "https://github.com/squallseo",
     "Repository": "https://github.com/squallseo/Nina.Manualfocuser",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
     "ChangelogURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/CHANGELOG.md",
-    "Tags": ["focuser", "manual", "step", "direct input"],
+    "Tags": [
+		"Focuser", 
+		"Manual", 
+		"Step", 
+		"Direct input"],
     "MinimumApplicationVersion": {
-    "Major": 3,
-    "Minor": 0,
-    "Patch": 0,
-    "Build": 2017
+    	"Major": "3",
+    	"Minor": "0",
+    	"Patch": "0",
+    	"Build": "2017"
   },
     "Descriptions": {
-        "ShortDescription": "direct step input manual focuser",
-        "LongDescription": "In N.I.N.A., the default focuser controls in the Imaging tab use the relative step size defined in the Autofocus settings. This means that when you want to change the focuser movement amount, you have to leave the Imaging tab and go into the Autofocus configuration. When fine-tuning focus manually — especially when making small, incremental adjustments while checking star shapes — this workflow is inconvenient and slows down the process. This plugin was created to solve that problem. Manual Focuser Input allows you to: Enter relative movement values directly in the Imaging tab Move the focuser immediately using those values Fine-adjust focus while visually inspecting stars, without switching tabs or changing Autofocus settings The goal is to make manual focus adjustment faster, simpler, and more intuitive during imaging sessions.",
+        "ShortDescription": "Direct step input manual focuser",
+        "LongDescription": "In N.I.N.A., the default focuser controls in the Imaging tab use the relative step size defined in the Autofocus settings.\r\nThis means that when you want to change the focuser movement amount,\r\nyou have to leave the Imaging tab and go into the Autofocus configuration.\r\nWhen fine-tuning focus manually — especially when making small, incremental adjustments while checking star shapes \r\n— this workflow is inconvenient and slows down the process. \r\n\r\nThis plugin was created to solve that problem.\r\n\r\nManual Focuser Input allows you to:\r\n- Enter relative movement values directly in the Imaging tab\r\n- Move the focuser immediately using those values\r\n- Fine-adjust focus while visually inspecting stars, without switching tabs or changing Autofocus settings\r\nThe goal is to make manual focus adjustment faster, simpler, and more intuitive during imaging sessions.",
         "FeaturedImageURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/logo.png?raw=true",
         "ScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/idle.png?raw=true",
         "AltScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/moving.png?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/squallseo/Nina.Manualfocuser/releases/download/v1.0.0/Cwseco.NINA.Focuser.zip",
+        "URL": "https://github.com/squallseo/Nina.Manualfocuser/releases/download/v1.0.0.1/Manual.Focuser.zip",
         "Type": "ARCHIVE",
-        "Checksum": "C6D0B968015A3EBFBDA140E3F59AE588EC4C855C230D8CE83AF8A3E858385881",
+        "Checksum": "2b9e01ff663590460eb2ba99470d3c8c14ee5bc63c9511c2aab3d460968849c8",
         "ChecksumType": "SHA256"
     }
 }
