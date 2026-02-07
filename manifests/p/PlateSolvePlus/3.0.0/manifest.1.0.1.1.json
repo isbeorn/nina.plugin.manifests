@@ -1,0 +1,41 @@
+{
+    "Name": "PlateSolvePlus",
+    "Identifier": "1dc847ab-63f6-440c-a8fa-a107085d125f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "1"
+    },
+    "Author": "Flashy-GER",
+    "Homepage": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "Repository": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.1.1/CHANGELOG.md",
+    "Tags": [
+        "Platesolve",
+        "secondCamera",
+        "Offset"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Enables plate solving via alternative camera and focal length",
+        "LongDescription": "Beta Release 1.0.1.1: new: add Sequencer Trigger, instructions. add Autofocus for OAG (use main focuser with OAG camera for ex.",
+        "FeaturedImageURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.1.1/Docu/Pics/Icon_Platsolveplus.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Flashy-GER/PlateSolvePlus/releases/download/1.0.1.1/PlateSolvePlus.1.0.1.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "83E22EC5D94C8641225B39D565563FE0E3AE8220A2F30C8374D6339298ADB0C7",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
