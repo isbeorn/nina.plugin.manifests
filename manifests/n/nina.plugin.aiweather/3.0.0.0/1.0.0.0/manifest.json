@@ -1,0 +1,37 @@
+﻿{
+    "Name":  "AI Weather",
+    "Identifier":  "A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D",
+    "Author":  "michelebergo",
+    "Repository":  "https://github.com/michelebergo/nina.plugin.aiweather",
+    "License":  "MIT",
+    "LicenseURL":  "https://opensource.org/licenses/MIT",
+    "Version":  {
+                    "Minor":  "0",
+                    "Build":  "0",
+                    "Patch":  "0",
+                    "Major":  "1"
+                },
+    "MinimumApplicationVersion":  {
+                                      "Minor":  "0",
+                                      "Build":  "0",
+                                      "Patch":  "0",
+                                      "Major":  "3"
+                                  },
+    "Tags":  [
+                 "Weather",
+                 "Safety Monitor",
+                 "All Sky Camera",
+                 "AI",
+                 "RTSP"
+             ],
+    "Descriptions":  {
+                         "ShortDescription":  "AI-powered all-sky camera weather monitoring"
+                     },
+    "Installer":  {
+                      "URL":  "https://github.com/michelebergo/nina.plugin.aiweather/releases/download/v1.0.0.0/NINA.Plugin.AIWeather.1.0.0.0.zip",
+                      "Type":  "ARCHIVE",
+                      "Checksum":  "BD36FED504032708F1BDC1B1A346032A596364BB0059788BA1766C84C0EFC65A",
+                      "ChecksumType":  "SHA256"
+                  },
+    "Channel":  "Beta"
+}
