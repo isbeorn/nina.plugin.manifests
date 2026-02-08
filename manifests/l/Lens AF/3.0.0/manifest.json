@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "1",
-        "Patch": "1",
+        "Patch": "2",
         "Build": "1"
     },
     "Author": "Christian Palm",
@@ -24,7 +24,7 @@
         "Major": "3",
         "Minor": "2",
         "Patch": "0",
-        "Build": "2001"
+        "Build": "9001"
     },
     "Descriptions": {
         "ShortDescription": "Run AF with your Camera Lens or change the aperture! (Canon and Nikon)",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/3.1.1.1/LensAF.dll",
+        "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/3.1.2.1/LensAF.dll",
         "Type": "DLL",
-        "Checksum": "4C80BA6970A09CB1A25715B51C542BB2B65DBEF0BEFD95A75BD46ED86EDD9F08",
+        "Checksum": "C24C010C3FD3770B4B474323DE4E660E822B5933D7FDCFD909C5C1F75F7D9D82",
         "ChecksumType": "SHA256"
     }
 }
