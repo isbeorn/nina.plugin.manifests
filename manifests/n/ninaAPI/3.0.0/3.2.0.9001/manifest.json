@@ -5,7 +5,7 @@
         "Major": "2",
         "Minor": "2",
         "Patch": "14",
-        "Build": "3"
+        "Build": "4"
     },
     "Author": "Christian Palm",
     "Homepage": "https://buymeacoffee.com/christian.palm",
@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.14.3/ninaAPI.zip",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.14.4/ninaAPI.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A76BA68F78F4DC3679BD7BE3DB991F62960D66F6AE2B6A30533249C3B06F30BF",
+        "Checksum": "5017B45E08CB6D06A2B9AD0123ACEDFC225B2B165476FDB550C51A1E67311E48",
         "ChecksumType": "SHA256"
     }
 }
