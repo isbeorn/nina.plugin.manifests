@@ -1,0 +1,46 @@
+{
+    "Name": "Sequencer Powerups",
+    "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
+    "Version": {
+        "Major": "4",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "50"
+    },
+    "Author": "Marc Blank",
+    "Homepage": "",
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Sequencer",
+        "Utility",
+        "Powerups",
+        "Conditionals",
+        "Safety",
+        "Interrupt",
+        "If",
+        "When"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1000"
+    },
+    "Descriptions": {
+        "ShortDescription": "Get the most out of the Advanced Sequencer!",
+        "LongDescription": "## This plugin contains a variety of instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @Marc on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
+        "FeaturedImageURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/Powerups.png",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/LoopWhile.png",
+        "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
+    },
+    "Installer": {
+        "URL": "https://github.com/marcblank/nina.plugin.lite/releases/download/4.0.0.50/WhenPlugin.4.0.0.50.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "0470B18CD4A82294E4BED2E7D082D8D86F740D6F1EB3EFC130ABD4014907FB6D",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
