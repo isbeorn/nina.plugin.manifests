@@ -7,7 +7,7 @@
     	"Patch": "0",
 		"Build": "0"
 	},
-    "Author": "cwseo",
+    "Author": "ChungwonSEO[충탱]",
     "Homepage": "https://cafe.naver.com/skyguide",
     "Repository": "https://github.com/squallseo/Nina.Manualfocuser",
     "License": "MPL-2.0",
@@ -30,7 +30,7 @@
         "LongDescription": "In N.I.N.A., the default focuser controls in the Imaging tab use the relative step size defined in the Autofocus settings.\r\nThis means that when you want to change the focuser movement amount,\r\nyou have to leave the Imaging tab and go into the Autofocus configuration.\r\nWhen fine-tuning focus manually — especially when making small, incremental adjustments while checking star shapes \r\n— this workflow is inconvenient and slows down the process. \r\n\r\nThis plugin was created to solve that problem.\r\n\r\nManual Focuser Input allows you to:\r\n- Enter step increment values directly in the Imaging tab\r\n- Move the focuser immediately using those values\r\n- Automatically captures images after each focus move, computes the average HFR, and plots it on a graph\r\n- Fine-adjust focus while visually inspecting stars, without switching tabs or changing Autofocus settings \r\n\r\nThe goal is to make manual focus adjustment faster, simpler, and more intuitive during imaging sessions.",
         "FeaturedImageURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/logo.png?raw=true",
         "ScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/screenshot.png?raw=true",
-        "AltScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/sccreenshot_alt.png?raw=true"
+        "AltScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/screenshot_alt.png?raw=true"
     },
     "Installer": {
         "URL": "https://github.com/squallseo/Nina.Manualfocuser/releases/download/v1.1.0.0/Cwseo.NINA.ManualFocuser.zip",
