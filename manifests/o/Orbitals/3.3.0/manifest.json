@@ -12,7 +12,7 @@
     "Repository": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/commits/develop",
+    "ChangelogURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/commits/develop", 
     "Tags": [
         "Asteroid",
         "Comet",
