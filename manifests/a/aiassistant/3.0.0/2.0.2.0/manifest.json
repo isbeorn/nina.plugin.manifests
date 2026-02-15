@@ -1,0 +1,42 @@
+{
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+    "Version": {
+        "Major": 2,
+        "Minor": 0,
+        "Patch": 2,
+        "Build": 0
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
+    "Repository": "https://github.com/michelebergo/nina-ai-assistant",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/LICENSE",
+    "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ai",
+        "assistant",
+        "chat",
+        "mcp",
+        "automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": 3,
+        "Minor": 0,
+        "Patch": 0,
+        "Build": 0
+    },
+    "Descriptions": {
+        "ShortDescription": "Multi-provider AI assistant with MCP equipment control, dynamic model discovery, image analysis, and extensible tool framework for intelligent astrophotography automation",
+        "LongDescription": "Your intelligent astrophotography companion - transform NINA into a conversational, context-aware imaging system that understands your goals and helps you achieve better results.\n\n🔭 FOR ASTROPHOTOGRAPHERS:\n• Quick Session Setup: 'Set up for M31 tonight' - AI configures equipment, cooling, filters, and exposure settings\n• Real-Time Troubleshooting: Analyze failed frames, high HFR, guiding issues, poor focus - get instant suggestions\n• Image Quality Feedback: AI reviews your captures, identifies problems (tracking, focus, star bloat), suggests corrections\n• Learning Assistant: Ask 'Why is my HFR high?' or 'Best Ha exposure for M42' - get expert guidance while imaging\n• Sequence Optimization: 'Plan 4-hour session on Horsehead' - AI suggests optimal filter rotation, dither patterns, exposure times\n• Weather-Aware Planning: Integrate weather data to adjust sequences, recommend targets, predict session success\n\n🤖 AI PROVIDERS:\n• GitHub Models (FREE): GPT-4o, Llama 3.3, Phi-4, Mistral - no credit card required, just GitHub token\n• OpenAI (PAID): GPT-4o, GPT-4 Turbo, o1 models - premium models with best capabilities  \n• Anthropic Claude (PAID): Sonnet 4, Claude 3.7 - best reasoning with native MCP support\n• Google Gemini (FREE TIER): Gemini 2.0 Flash, Gemini 2.5 Pro - multimodal vision with generous free quota\n• Ollama (LOCAL): Run Llama, Mistral, Qwen locally - completely offline, no API costs\n• OpenRouter: Access multiple providers through one API - has free models available\n\n🎯 VERSION 2.0.2.0 NEW FEATURES:\n• Custom Model ID Support: Manually enter any model ID for all providers - never blocked by deprecated models\n• Updated Google Gemini: Migrated from experimental gemini-2.0-flash-exp to stable gemini-2.0-flash-001\n• Added Gemini 2.5 Pro: Most capable Google model now available\n• OpenAI API Compatibility: Fixed max_tokens parameter for GPT-4o and newer models\n• New Plugin Icon: Updated visual identity\n\n🛠️ MCP EQUIPMENT CONTROL:\n• Camera: Take exposures, adjust cooling, bin settings, gain control\n• Mount: GOTO coordinates, slew, park, find home, emergency stop\n• Focuser: Move absolute/relative, run autofocus, temperature compensation\n• Filter Wheel: Change filters, get positions, optimize Ha/OIII/SII rotation\n• Guiding: Start/stop PHD2, dither, analyze drift, adjust aggressiveness  \n• Platesolving: Solve images, sync mount, analyze pointing accuracy\n• Natural Language: 'Cool camera to -15°C and take 300s Ha exposure at M42'\n\n📊 IMAGE ANALYSIS:\n• FITS Header Reading: Extract exposure details, filter, camera settings, coordinates\n• Star Detection: Analyze HFR, FWHM, eccentricity, star counts - identify focus/tracking issues\n• Statistics Analysis: Mean, StdDev, median ADU - assess exposure levels and noise\n• Quality Assessment: Intelligent feedback on captures with actionable recommendations  \n• Vision API Integration: Google Gemini vision for advanced image understanding\n\n🔌 EXTENSIBLE ARCHITECTURE:\n• Built-in MCP Server: Direct NINA equipment control via Advanced API plugin\n• External MCP Servers: Connect community tools (filesystem, database, web search, etc.)\n• Auto-Discovery: Automatically detects and loads external MCP servers\n• Tool Framework: Extensible system for adding custom capabilities\n\n⚙️ DYNAMIC MODEL DISCOVERY:\n• Real-time model fetching from provider APIs (GitHub, OpenAI, Anthropic, Ollama)\n• Automatic model list updates when new models are released\n• Custom model ID input for unreleased/beta models\n• Model-specific optimizations (vision, reasoning, speed)\n\n💡 INTELLIGENT CONVERSATIONS:\n• Context-Aware: Remembers session history, equipment state, previous commands\n• Multimodal: Send images for analysis, get visual feedback\n• Streaming Responses: Real-time AI responses as they generate\n• Stop Control: Cancel long-running AI responses\n• Auto-Scroll: Smart chat scrolling with manual override\n\n🎓 PERFECT FOR:\n• Beginners: Learn astrophotography through conversational guidance\n• Intermediate: Optimize sequences, troubleshoot issues quickly\n• Advanced: Automate complex workflows, integrate custom tools via MCP\n• Educators: Demonstrate concepts, explain technical decisions\n• Remote Imaging: Control equipment through natural language from anywhere",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v2.0.2.0/NINA.Plugin.AIAssistant.2.0.2.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "4FCD27F9748F25C94FEE94626EF2DC06F03CEF286B7D590662EB73053289B6D0",
+        "ChecksumType": "SHA256"
+    }
+}

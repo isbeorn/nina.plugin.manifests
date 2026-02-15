@@ -1,0 +1,45 @@
+{
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3"
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
+    "Repository": "https://github.com/michelebergo/nina-ai-assistant",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/LICENSE",
+    "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/CHANGELOG.md",
+    "Tags": [
+        "ai",
+        "assistant",
+        "chat",
+        "mcp",
+        "automation",
+        "github-models",
+        "openai",
+        "anthropic"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Multi-provider AI assistant for NINA with MCP equipment control",
+        "LongDescription": "Integrates AI capabilities into NINA supporting GitHub Models, OpenAI, Anthropic, Google, Ollama, and OpenRouter. Features Model Context Protocol (MCP) integration for direct equipment control, making astrophotography automation intelligent and conversational. Access via dockable chat panel in the Tools area.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/NINA.Plugin.AIAssistant/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.3/AIAssistant-1.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "88D638CD08C8214EEF9E056FBC847A741B877FE74DC1A8046CF47769F9F35875",
+        "ChecksumType": "SHA256"
+    }
+}

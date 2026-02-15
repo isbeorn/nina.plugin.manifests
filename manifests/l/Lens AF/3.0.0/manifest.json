@@ -1,36 +1,42 @@
 {
-  "Name": "Lens AF",
-  "Identifier": "df0bb056-bd8b-4939-95f6-a175ca252fa5",
-  "Version": {
-    "Major": "2",
-    "Minor": "1",
-    "Patch": "0",
-    "Build": "3"
-  },
-  "Author": "Christian Palm",
-  "Homepage": "https://buymeacoffee.com/christian.palm",
-  "Repository": "https://github.com/rennmaus-coder/Camera-Lens-AF",
-  "License": "MPL-2.0",
-  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-  "ChangelogURL": "",
-  "Tags": ["AF", "Sequencer", "Canon"],
-  "MinimumApplicationVersion": {
-    "Major": "3",
-    "Minor": "0",
-    "Patch": "0",
-    "Build": "2017"
-  },
-  "Descriptions": {
-    "ShortDescription": "Run AF with your Camera Lens!",
-    "LongDescription": "This plugin provides a focuser driver for lenses attachted to Canon cameras\r\n\r\nTo be able to use the driver, a Canon camera has to be connected\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn't work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions or create an issue [here](https://github.com/rennmaus-coder/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon Camera,  \r\n- A Camera Lens that supports AF\r\n\r\nThe plugin was tested using the following camera and lenses (Note that there are often issues with third-party lenses, so be aware of that):\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n\r\n## Manual Focus Control controls (The Manual Focus Control does not affect the focuser position!)\r\n- Mousewheel/Trackpad: Zoom in/out\r\n- Left mousebutton: Pan around\r\n- Right mousebutton: reset\r\n\r\n\r\nKnown issues:\r\n- Some lenses may try to refocus, when taking images if the lens is set to AF",
-    "FeaturedImageURL": "",
-    "ScreenshotURL": "",
-    "AltScreenshotURL": ""
-  },
-  "Installer": {
-    "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/2.1.0.3/LensAF.dll",
-    "Type": "DLL",
-    "Checksum": "A1BB592A53623AAC10471A45A71DEC1372A07FDAE01B84F5F7A7DA287F9B81E9",
-    "ChecksumType": "SHA256"
-  }
+    "Name": "Lens AF",
+    "Identifier": "df0bb056-bd8b-4939-95f6-a175ca252fa5",
+    "Version": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "1"
+    },
+    "Author": "Christian Palm",
+    "Homepage": "https://buymeacoffee.com/christian.palm",
+    "Repository": "https://github.com/christian-photo/Camera-Lens-AF",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "AF",
+        "Sequencer",
+        "Canon",
+        "Nikon",
+        "Focuser"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Run AF with your Camera Lens or change the aperture! (Canon and Nikon)",
+        "LongDescription": "This plugin provides a focuser driver for lenses attachted to Canon and Nikon cameras\r\n\r\nTo be able to use the driver, a Canon or Nikon camera has to be connected.\r\n\r\n## Important Note!\r\n**Test the plugin before you use it in your imaging runs, because this plugin may not work for everyone! This plugin doesn't work with ASCOM.DSLR unfortuantely!**  \r\nIf you have questions/feedback/issues, you can ask on the [NINA discord](https://discord.com/invite/nighttime-imaging) in #plugin-discussions or create an issue [here](https://github.com/christian-photo/Camera-Lens-AF/issues)\r\n\r\n\r\n**Requirements**: \r\n- A Canon or Nikon Camera,  \r\n- A Camera Lens that supports AF\r\n\r\nThe plugin was tested using the following camera and lenses (Note that there are often issues with third-party lenses, so be aware of that):\r\n- Canon EOS 600d\r\n- Canon EF 100-400 f/4.5-5.6 L IS USM\r\n- Canon EF 24-105 f/4 L IS USM\r\n- Tamron PZD Di II 16-300mm (on Canon)\r\n- Tamron Di II VC 18-400mm (on Canon)\r\n- Canon EF 50mm\r\n- Canon EFS 18-55mm\r\n- Canon EFS 18-135mm\r\n- Nikon Z6 with Nikon Nikkor Z 70-200 f/2.8\r\n\r\nThe plugin didn't work with the following cameras/lenses:\r\n- Tamron XR Di II 18-200mm (on Canon)\r\n\r\nIf you would like to contribute to this list, please open an issue [here](https://github.com/christian-photo/Camera-Lens-AF/issues)\r\n\r\n## Manual Focus Control controls (The Manual Focus Control does not affect the focuser position!)\r\n- Mousewheel/Trackpad: Zoom in/out\r\n- Left mousebutton: Pan around\r\n- Right mousebutton: reset\r\n\r\n\r\nKnown issues:\r\n- Some lenses may try to refocus, when taking images if the lens is set to AF",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/3.1.2.1/LensAF.dll",
+        "Type": "DLL",
+        "Checksum": "C24C010C3FD3770B4B474323DE4E660E822B5933D7FDCFD909C5C1F75F7D9D82",
+        "ChecksumType": "SHA256"
+    }
 }
