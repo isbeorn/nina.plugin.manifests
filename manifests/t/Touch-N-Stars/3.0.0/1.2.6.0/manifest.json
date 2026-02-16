@@ -31,9 +31,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.2.5.0/TouchNStars.zip",
+        "URL": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.2.6.0/TouchNStars.zip",
         "Type": "ARCHIVE",
-        "Checksum": "8FA2A075511AF9D903798129A656FB74E44D8114A8F6C689DD479AC5C03AB5F7",
+        "Checksum": "8247DC4D52395116E6BF0B3765DE690677C59182739314B14F4ADA7CD075D960",
         "ChecksumType": "SHA256"
     }
 }
