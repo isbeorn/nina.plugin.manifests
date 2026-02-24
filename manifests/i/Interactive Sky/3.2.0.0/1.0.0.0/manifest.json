@@ -1,0 +1,20 @@
+{
+  "Name": "Interactive Sky",
+  "Identifier": "7f0f3f0a-1f26-4a66-8df2-1f7f7f6e6c5c",
+  "Author": "InteractiveSky",
+  "Version": { "Major": 1, "Minor": 0, "Patch": 0, "Build": 0 },
+  "MinimumApplicationVersion": { "Major": 3, "Minor": 2, "Patch": 0, "Build": 0 },
+  "Repository": "https://github.com/InteractiveSky/nina-interactive-sky",
+  "License": "MIT",
+  "LicenseURL": "https://github.com/InteractiveSky/nina-interactive-sky/blob/main/LICENSE",
+  "Descriptions": {
+    "ShortDescription": "Interactive sky atlas dockable for N.I.N.A. with telescope position and controls."
+  },
+  "Channel": "Beta",
+  "Installer": {
+    "Type": "ARCHIVE",
+    "URL": "https://github.com/InteractiveSky/nina-interactive-sky/releases/download/1.0.0.0/NINA.InteractiveSky.1.0.0.0.zip",
+    "ChecksumType": "SHA256",
+    "Checksum": "fb693a20cf4eaddf3f56eb509beda0b9cbc17e20a3151ea04a57924af5dabb33"
+  }
+}
