@@ -1,0 +1,46 @@
+{
+    "Name": "Sequencer Powerups",
+    "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
+    "Version": {
+        "Major": "4",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "97"
+    },
+    "Author": "Marc Blank",
+    "Homepage": "",
+    "Repository": "https://bitbucket.org/zorkmid/nina.plugin.when",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Sequencer",
+        "Utility",
+        "Powerups",
+        "Conditionals",
+        "Safety",
+        "Interrupt",
+        "If",
+        "When"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1000"
+    },
+    "Descriptions": {
+        "ShortDescription": "*** BETA RELEASE ***",
+        "LongDescription": "## This plugin contains a variety of instructions that enhance the power of the Advanced Sequencer.\r\n\r\n## Interim documentation for Sequencer Powerups 4 is at [Powerups Docs](https://marcblank.github.io/powerups4.github.io/)\r\n\r\n# Powerups 4 (For NINA 3.3) Notes/Warnings\r\n\r\nHere are things you need to consider before using Powerups 4:\r\n\r\n- All + instructions (except Smart Subframe Exposure +) will automatically be converted to NINA instructions\r\n- Smart Subframe Exposure + has been removed; please use NINA's Take Subframe Exposure instruction\r\n- Constants and Variables are now referred to generically as Symbols\r\n- Constant/Variable containers are now plain Sequential Instruction Sets; Symbols defined in them become global in scope\r\n- Local Variables are now called Scoped Variables\r\n- Local Constants no longer exist; they are automatically converted to Scoped (Local) Variables\r\n- Constants defined in the Powerups plugin page are no longer available.\r\n- The Call and Return instructions aren't initially available\r\n- The SAFE Variable is no longer supported; Wait Until Safe + becomes core Wait Until Safe\r\n- The use of the NINAESRC environment variable is no longer supported in External Script\r\n- TS_ (Target Scheduler) Variables aren't available until implemented in Target Scheduler\r\n- Names of some Variables have been changed, but the upgrade process should rename them; you'll still want to check your sequences/templates for newly undefined Variables in case something was missed\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @Marc on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
+        "FeaturedImageURL": "https://github.com/marcblank/powerups4.github.io/blob/main/Powerups.png",
+        "ScreenshotURL": "https://github.com/marcblank/powerups4.github.io/blob/main/WBU.png",
+        "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
+    },
+    "Installer": {
+        "URL": "https://github.com/marcblank/nina.plugin.lite/releases/download/4.0.0.97/WhenPlugin.4.0.0.97.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "6FDA4B9DB58F3C8973228F90BF5F434A6E6FD9B87A2C3F02221F230B1A8F7725",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
