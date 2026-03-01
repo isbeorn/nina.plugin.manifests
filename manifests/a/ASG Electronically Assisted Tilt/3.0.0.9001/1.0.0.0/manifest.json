@@ -16,8 +16,7 @@
   "Tags": [
     "Tilt",
     "Alignment",
-    "Hardware",
-    "Arduino"
+    "Hardware"
   ],
   "MinimumApplicationVersion": {
     "Major": "3",
@@ -27,10 +26,10 @@
   },
   "Descriptions": {
     "ShortDescription": "Controls the ASG Astronomy electronically assisted tilt device for precise sensor tilt correction.",
-    "LongDescription": "The ASG Electronically Assisted Tilt (EAT) plugin provides a dockable control panel inside NINA's imaging section. It allows you to control motor movements, sensor tilt adjustments, and backfocus from within NINA. Supports serial connection to the ASG EAT Arduino-based controller with configurable baud rate, orientation mapping, auto-connect on startup, and an activity log.",
-    "FeaturedImageURL": "http://asgastronomy.com/downloads/eat/ASG-Logo-dark.png",
-    "ScreenshotURL": "",
-    "AltScreenshotURL": ""
+    "LongDescription": "The ASG Electronically Assisted Tilt (EAT) plugin provides a dockable control panel inside NINA's imaging tab for real-time motorized sensor tilt correction and backfocus adjustment.\n\nThe ASG EAT Photon Cage is a hardware controller by ASG Astronomy that lets you electronically adjust sensor tilt relative to your optical train without touching your equipment. The slim, lightweight design mounts on astrographs, corrector plates, newtonians, refractors, reflectors, CDKs, RCs, or just about any telescope. It connects via USB serial and runs on common 12v astronomy power sources.\n\nFeatures:\n- Corner motor control with independent Top-Left, Top-Right, Bottom-Left, and Bottom-Right adjustments\n- Directional control moving Top, Bottom, Left, and Right edges using coordinated 4-motor movements\n- Backfocus adjustment moving all four motors together with ~1.8 micron per step resolution and ~2mm total range\n- Camera orientation mapping for 0°, 90°, 180°, and 270° sensor rotations so controls always match your view\n- Real-time motor position tracking for all four corners\n- Configurable step sizes, motor speed, max speed, and acceleration saved to the device\n- Save to EEPROM so motor positions survive power cycles\n- Auto-connect on startup to your saved COM port and baud rate\n- Activity log with timestamped serial traffic monitoring\n- Raw command interface for sending direct serial commands\n- Sensor color customization with 16 color presets\n- Connection status LED indicator (gray = disconnected, green = idle, red = moving)\n\nInstallation:\n- Open NINA and go to Options > Plugins\n- Search for ASG Electronically Assisted Tilt\n- Click Install and restart NINA\n- Or manually download ASG.EAT.Plugin.dll from GitHub Releases and copy to %LOCALAPPDATA%\\NINA\\Plugins\\3.0.0\\ASG.EAT.Plugin\\\n\nHow to Use:\n- Connect the EAT device via USB and apply 12v power\n- Open the ASG Electronic Tilt panel from the imaging tab dock\n- Select your COM port, set the baud rate, and click Connect\n- Use corner buttons (TL, TR, BL, BR) to adjust individual motors\n- Use directional buttons (Top, Bottom, Left, Right) to move two motors simultaneously\n- Set step size per movement for coarse or fine adjustments\n- Set your camera orientation in settings so controls match your sensor view\n\nConfiguration:\n- Default step size (1–50 steps per button press)\n- Motor step size in microns (default 1.8)\n- Motor speed, max speed, and acceleration tuning\n- Camera orientation to match your sensor rotation\n- Sensor visualization color with 16 presets\n- Toggle activity log and raw command interface\n- Auto-connect on NINA startup\n\nRequires NINA 3.0+, the ASG EAT hardware device, Windows 10/11 x64, and a USB connection with 12v power.",
+    "FeaturedImageURL": "https://asgastronomy.com/downloads/eat/ASG-Logo-dark.png",
+    "ScreenshotURL": "https://asgastronomy.com/downloads/eat/nina/nina%20dock%20window.png",
+    "AltScreenshotURL": "https://asgastronomy.com/downloads/eat/nina/nina%20plugin%20settings.png"
   },
   "Installer": {
     "URL": "https://github.com/Josh-Jones-76/ASG.EAT.Plugin/releases/download/v1.0.0/ASG.EAT.Plugin.dll",
