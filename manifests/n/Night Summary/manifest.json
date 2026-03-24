@@ -1,0 +1,43 @@
+{
+    "Name":  "Night Summary",
+    "Identifier":  "682531D1-5A23-4627-B961-0794282ECB4E",
+    "Version":  {
+                    "Major":  2,
+                    "Minor":  8,
+                    "Patch":  1,
+                    "Build":  0
+                },
+    "Author":  "Evan Pegors",
+    "Homepage":  "https://github.com/vorticose/nina.plugin.nightsummary",
+    "Repository":  "https://github.com/vorticose/nina.plugin.nightsummary",
+    "License":  "MPL-2.0",
+    "LicenseURL":  "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL":  "https://raw.githubusercontent.com/vorticose/nina.plugin.nightsummary/main/CHANGELOG.md",
+    "Tags":  [
+                 "report",
+                 "summary",
+                 "email",
+                 "logging",
+                 "discord",
+                 "pushover"
+             ],
+    "MinimumApplicationVersion":  {
+                                      "Major":  3,
+                                      "Minor":  0,
+                                      "Patch":  0,
+                                      "Build":  2017
+                                  },
+    "Descriptions":  {
+                         "ShortDescription":  "Logs imaging session data and sends summary reports via email, Discord, and Pushover.",
+                         "LongDescription":  "Night Summary captures imaging session data during sequence execution and delivers detailed reports when your session ends. Reports include per-target and per-filter breakdowns, HFR/FWHM quality metrics, star counts, guiding RMS, and an HFR-over-time chart. Supports email (Gmail), Discord webhooks, and Pushover push notifications.",
+                         "FeaturedImageURL":  "",
+                         "ScreenshotURL":  "",
+                         "AltScreenshotURL":  ""
+                     },
+    "Installer":  {
+                      "URL":  "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v2.8.1/NINA.Plugin.NightSummary.zip",
+                      "Type":  "ARCHIVE",
+                      "Checksum":  "18D761E823D4E9AC45B46287ED17F84C6156EA48E6FD30D15513975D0657CEF2",
+                      "ChecksumType":  "SHA256"
+                  }
+}
