@@ -1,0 +1,40 @@
+{
+    "Name": "PHD2 API",
+    "Identifier": "919bb526-1443-4be9-91dd-cafab9ce7955",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "1"
+    },
+    "Author": "Andreas Behrend",
+    "Homepage": "https://andreasbehrend.space",
+    "Repository": "https://github.com/tuc0w/nina-phd2-api",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/tuc0w/nina-phd2-api/blob/main/LICENSE.txt",
+    "ChangelogURL": "https://github.com/tuc0w/nina-phd2-api/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Web",
+        "PHD2",
+        "Api"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "An API to control PHD2",
+        "LongDescription": "Exposes PHD2 as a local REST API and real-time WebSocket server, accessible from any HTTP client on the network - no additional software required.\r\n\r\nREST API: http://localhost:{ApiPort}/api/v1/phd2/\r\nWebSocket: ws://localhost:{ApiPort}/api/v1/events/\r\nSwagger UI: http://localhost:{ApiPort}/api/v1/swagger\r\n\r\nFeatures:\r\n- Query PHD2 state: app state, version, calibration status, lock position, pixel scale, exposure, guide output and more\r\n- Control guiding: start/stop guiding, dither, pause, loop exposures, find star, manual guide pulse\r\n- Manage equipment: connect/disconnect, switch profiles, flip or clear calibration data\r\n- Live guide star image as JSON/base64 or directly as PNG\r\n- Real-time WebSocket events for every PHD2 state change (GuideStep, StarLost, SettleDone, AppState, Calibrating, Alert and more)\r\n- Swagger UI with interactive API documentation bundled offline — no internet connection needed\r\n- Plugin settings can be applied at runtime via the 'Apply & Restart' button without restarting N.I.N.A.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/tuc0w/nina-phd2-api/releases/download/1.0.1.1/AndreasBehrend.NINA.Phd2Api.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "042B58A6D6FDD68120567004F7A860BD1BD889DC6617E91AC325BAD794E778A6",
+        "ChecksumType": "SHA256"
+    }
+}
