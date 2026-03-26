@@ -1,0 +1,43 @@
+{
+    "Name": "Night Summary",
+    "Identifier": "682531D1-5A23-4627-B961-0794282ECB4E",
+    "Version": {
+        "Major": "2",
+        "Minor": "8",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Evan Pegors @sleepypuppy15",
+    "Homepage": "https://github.com/vorticose/nina.plugin.nightsummary",
+    "Repository": "https://github.com/vorticose/nina.plugin.nightsummary",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://raw.githubusercontent.com/vorticose/nina.plugin.nightsummary/main/CHANGELOG.md",
+    "Tags": [
+        "report",
+        "summary",
+        "email",
+        "logging",
+        "discord",
+        "pushover"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Records your imaging session and delivers a detailed HTML report via email, Discord, or Pushover when your sequence ends.",
+        "LongDescription": "Night Summary automatically records your astrophotography session as it runs and delivers a rich HTML report the moment your sequence completes \u2014 so you wake up to a full breakdown of the night.\r\n\r\n**How to use**\r\n\r\nAdd the \"Night Summary Start\" instruction near the beginning of your sequence and \"Night Summary End\" at the end. That's it \u2014 Night Summary handles the rest automatically.\r\n\r\n**What's in the report**\r\n- Session overview with at-a-glance stats: total images, total exposure time, target count, average HFR, average FWHM, average guiding RMS, and imaging yield\r\n- Session event timeline showing AutoFocus runs, meridian flips, and safety monitor events\r\n- Per-target imaging summary with filter breakdown, exposure counts, and total integration time \u2014 including a DSS sky survey thumbnail with FOV overlay and an altitude chart\r\n- Per-target image quality stats: HFR, FWHM, Eccentricity, and guiding RMS with per-filter breakdowns\r\n- Star count consistency \u2014 CV (Coefficient of Variation) measures how stable your star counts were across exposures. A low CV means consistent transparency and focus; a high CV suggests passing clouds, dew, or focus drift. Reported separately for broadband and narrowband filters.\r\n- Target Scheduler integration \u2014 shows desired, acquired, and accepted frame counts per filter with a visual progress bar\r\n- Session history table summarizing all past sessions for each target, including cumulative integration time\r\n- Configurable Metric Chart showing any two metrics over time \u2014 choose from HFR, FWHM, Eccentricity, Guiding RMS, Focuser Temperature, or Ambient Temperature\r\n- Tonight's Preview \u2014 a visual timeline of what Target Scheduler plans to image tonight, with per-target filter breakdowns\r\n\r\n**Report detail levels**\r\nThree levels let you control how much is included: Snapshot (header and filter table only), Standard (adds timeline, charts, and image quality), and Full (adds metric chart and session history). Each section can also be toggled individually.\r\n\r\n**Optional plugin integrations**\r\n- **Target Scheduler** \u2014 when installed, Night Summary reads your imaging targets and frame counts directly from the Target Scheduler database, adding per-filter progress bars and cumulative integration tracking to the report. With the Target Scheduler API enabled, the report also includes a Tonight's Preview showing the planned schedule for tonight. Without Target Scheduler, targets and coordinates are still captured from NINA's sequence data.\r\n- **Hocus Focus** \u2014 when installed, Night Summary reads FWHM and Eccentricity measurements from each saved image. Without it, only HFR (provided natively by NINA) is included in image quality stats.\r\n\r\n**Delivery options**\r\n- Email via SMTP \u2014 Gmail is the default and easiest to set up, but any SMTP provider is supported (Outlook, Yahoo, iCloud, and others)\r\n- Discord webhook (embed summary + HTML file attachment)\r\n- Pushover push notification (short text summary)\r\n- Save report locally to Documents\\N.I.N.A.\\Night Summary\\Saved Reports\r\n\r\nAll channels can be enabled independently and tested directly from the plugin options page. Previous session reports can also be resent at any time without re-running a sequence. NINA shows toast notifications when reports are generated and delivered, including warnings if any section couldn't be included.\r\n\r\n**Troubleshooting**\r\n\r\n- *No report received:* Make sure both the Night Summary Start and Night Summary End instructions are present in your sequence and that at least one delivery channel is enabled in the plugin options. Also check your email spam folder.\r\n- *Email not sending:* Most providers require an App Password rather than your regular account password. For Gmail, generate one at myaccount.google.com under Security > App Passwords. For other providers, check your account's security settings for app-specific password or SMTP access options.\r\n- *FOV overlay or survey image looks wrong:* The camera field of view box is calculated from your sensor dimensions and focal length as configured in your NINA equipment profile. If the box or image appears too large, too small, or misaligned, verify that your sensor pixel size, width, and height are correctly set in your NINA camera profile.\r\n- *FWHM and Eccentricity not appearing:* These metrics require the Hocus Focus plugin to be installed and active during the imaging session.\r\n- *Target Scheduler data not appearing:* Night Summary reads the Target Scheduler database automatically \u2014 no additional setup is needed beyond having that plugin installed.",
+        "FeaturedImageURL": "https://i.imgur.com/uvcC1dC.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v2.8.1/NINA.Plugin.NightSummary.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2CFE2CD08BE98659210E2908D774683E114017EA8F1C683BD0E73A688C48622A",
+        "ChecksumType": "SHA256"
+    }
+}
