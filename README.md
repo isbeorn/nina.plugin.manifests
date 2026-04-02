@@ -23,7 +23,7 @@ Having a plugin as open source doesn't necessarily mean that it cannot be used f
 
 # Develop a plugin
 For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  
-The repository can be found [here](https://github.com/isbeorn/nina.plugin.templatee)
+The repository can be found [here](https://github.com/isbeorn/nina.plugin.template)
 
 # Fork the repository
 To be able to submit a pull request, the repository needs to be forked first.  

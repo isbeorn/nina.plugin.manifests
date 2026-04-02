@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "9"
+        "Build": "10"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/resources/TenMicronToolsAltScreenshot.JPG"
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv3.0.0.9/NINA.Joko.Plugin.TenMicron.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.TenMicron/releases/download/release%2Fv3.0.0.10/NINA.Joko.Plugin.TenMicron.zip",
         "Type": "ARCHIVE",
-        "Checksum": "AE7502DFB925AB5043D92F525FAFECFA6DE3E6381E7AA53875D2E0C9D819036F",
+        "Checksum": "5099B4C6F8827BF8C5E6C8F770ADA6343732AE8D2DBB74F133DDC4A6B69C932A",
         "ChecksumType": "SHA256"
     }
 }

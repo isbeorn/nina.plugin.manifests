@@ -75,15 +75,20 @@ function validateIds(manifests) {
     const ids = {};
     let idcollision = false;
     for(let manifest of manifests) {
-        if(ids[manifest.Identifier]) {
-            if(manifest.Name !== ids[manifest.Identifier]) {
-                console.log('\x1b[31m',`Id collision for manifest! ${manifest.Name} and ${ids[manifest.Identifier]}`);
+        var manifestName = normalizeName(manifest.Name);
+        if(ids[manifest.Identifier]) {            
+            if(manifestName !== ids[manifest.Identifier]) {
+                console.log('\x1b[31m',`Id collision for manifest! ${manifestName} and ${ids[manifest.Identifier]}`);
                 idcollision = true;
             }
         }
-        ids[manifest.Identifier] = manifest.Name;
+        ids[manifest.Identifier] = manifestName;
     }
     return idcollision;
+}
+
+function normalizeName(name) {
+    return name.replace(/\s+/g, '').toLowerCase();
 }
 
 (async ()=>{

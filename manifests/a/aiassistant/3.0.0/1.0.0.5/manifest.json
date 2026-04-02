@@ -1,0 +1,41 @@
+{
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+    "Version": {
+        "Major": 1,
+        "Minor": 0,
+        "Patch": 0,
+        "Build": 5
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina-ai-assistant",
+    "Repository": "https://github.com/michelebergo/nina-ai-assistant",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/michelebergo/nina-ai-assistant/blob/main/LICENSE.txt",
+    "ChangelogURL": "https://github.com/michelebergo/nina-ai-assistant/releases",
+    "Tags": [
+        "AI",
+        "Assistant",
+        "Automation",
+        "Control"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": 3,
+        "Minor": 0,
+        "Patch": 0,
+        "Build": 0
+    },
+    "Descriptions": {
+        "ShortDescription": "AI-powered assistant for NINA with support for multiple AI providers (OpenAI, Anthropic, Google Gemini, GitHub Models) and Model Context Protocol (MCP) for advanced telescope control",
+        "LongDescription": "Comprehensive AI assistant that integrates with N.I.N.A. to provide intelligent automation and control. Features include multi-provider support (OpenAI GPT-4o, Anthropic Claude Sonnet 4, Google Gemini 2.0, GitHub Models), Model Context Protocol (MCP) for advanced equipment control, natural language processing, and automated imaging workflows. This release fixes Gemini model selection issues and improves API key validation with better error messages.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/assets/featured.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/assets/screenshot1.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/michelebergo/nina-ai-assistant/main/assets/screenshot2.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina-ai-assistant/releases/download/v1.0.0.5/AIAssistant-1.0.0.5.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "A81997066AD5CC06AD4F8C0F40DCD3F421BB91EB032B8D41B46B95EF3C5625D8",
+        "ChecksumType": "SHA256"
+    }
+}

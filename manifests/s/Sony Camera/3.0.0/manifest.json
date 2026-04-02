@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "3"
+        "Build": "4"
     },
     "Author": "Doug Henderson",
     "Homepage": "https://retro.kiwi",
@@ -19,21 +19,21 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "2001"
+        "Build": "3001"
     },
     "Descriptions": {
         "ShortDescription": "Support for Sony Cameras (and optionally, Camera controlled lenses)",
-        "LongDescription": "## Camera\r\n* Support for many different Sony Cameras. [See the list](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Cameras)\r\n* Provides LiveView function if the camera supports it\r\n* Images are downloaded in Sony's native ARW format (this is a N.I.N.A feature) so full meta-data is available\r\n* ISO is controllable via Gain property\r\n* If the exposure time is 30 seconds or below the driver will select the nearest built-in exposure time, otherwise BULB mode will be used\r\n\r\n## Focuser\r\n* Support for over 15 different camera-mounted lenses. [See the list](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Lenses)\r\n\r\n*Note*: This addon uses the core (non-ASCOM) files present in the Sony ASCOM driver v1.0.1.17 and later, which must be installed for this addon to start up correctly. You can find the Sony ASCOM driver at [https://github.com/dougforpres/ASCOMSonyCameraDriver/releases](https://github.com/dougforpres/ASCOMSonyCameraDriver/releases).\r\n\r\n## Support\r\nThe best way to get support is via email. You can find my email address by following the *Homepage* link above, or by looking at the bottom of the [ASCOM driver Troubleshooting page](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting).\r\n\r\nFor many bugs/problems I'm going to ask you for a driver log file, [here's a link to how you would do that](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting#the-driver-dll-log).\r\n\r\n* [My camera is not supported](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Installation#if-you-dont-have-a-supported-camera-model)\r\n* [List of supported cameras](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Cameras)\r\n* [Other known issues](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting)\r\n",
+        "LongDescription": "## Camera\r\n* Support for many different Sony Cameras. [See the list](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Cameras)\r\n* Provides LiveView function if the camera supports it\r\n* Images are downloaded in Sony's native ARW format (this is a N.I.N.A feature) so full meta-data is available\r\n* ISO is controllable via Gain property\r\n* If the exposure time is 30 seconds or below the driver will select the nearest built-in exposure time, otherwise BULB mode will be used\r\n\r\n## Focuser\r\n* Support for over 15 different camera-mounted lenses. [See the list](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Lenses)\r\n\r\n*Note*: This addon uses the core (non-ASCOM) files present in the Sony ASCOM driver v1.0.1.17 and later, which must be installed for this addon to start up correctly. You can find the Sony ASCOM driver at [https://github.com/dougforpres/ASCOMSonyCameraDriver/releases](https://github.com/dougforpres/ASCOMSonyCameraDriver/releases).\r\n\r\n## Support\r\nThe best way to get support is via email. You can find my email address by following the *Homepage* link above, or by looking at the bottom of the [ASCOM driver Troubleshooting page](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting).\r\n\r\nFor many bugs/problems I'm going to ask you for a driver log file, [here's a link to how you would do that](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting#the-driver-dll-log).\r\n\r\n* [My camera is not supported](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Installation#if-you-dont-have-a-supported-camera-model)\r\n* [List of supported cameras](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Supported-Cameras)\r\n* [Other known issues](https://github.com/dougforpres/ASCOMSonyCameraDriver/wiki/Troubleshooting)\r\n\r\n## Contributors\r\n* Lucas Lepski [@ShurkanTwo](https://github.com/shurkanTwo)\r\n",
         "FeaturedImageURL": "https://retro.kiwi/images/NINAPluginLogoV2.jpg",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/dougforpres/NINASonyCameraPlugin/releases/download/1.0.0.3/NINA.RetroKiwi.Plugin.SonyCamera.dll",
+        "URL": "https://github.com/dougforpres/NINASonyCameraPlugin/releases/download/1.0.0.4/NINA.RetroKiwi.Plugin.SonyCamera.dll",
         "Type": "DLL",
-        "Checksum": "5AB228D4E7A1728CCA1211B6D39B64DE4AB202456D5706D1E237ACB4A273A723",
+        "Checksum": "E53FA2B51587ABBC0854B8D83D23A412D8981DA72334C59AB3BC9144D3989F7A",
         "ChecksumType": "SHA256"
     }
 }

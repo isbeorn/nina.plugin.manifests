@@ -1,0 +1,39 @@
+{
+    "Name": "WandererBoxUltimate Plugin",
+    "Identifier": "6de10f1d-eb31-4eda-8566-5cd639717103",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "10"
+    },
+    "Author": "Naixx",
+    "Homepage": "https://github.com/naixx/WandererBoxUltimate",
+    "Repository": "https://github.com/naixx/WandererBoxUltimate",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/naixx/WandererBoxUltimate/CHANGELOG.md",
+    "Tags": [
+        "powerbox",
+        " driver"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Native NINA driver for WandererBoxUltimate v2",
+        "LongDescription": "\r\nThis is an *unofficial* driver for WandererBox Ultimate v2.\r\n\r\n## Motivation\r\nOriginal ASCOM driver took about 15% CPU time on my MiniPC which was way too much.\r\n\r\nI disassembled and reverse engineered it to fix the issues: suboptimal serial read/write, suboptimal ascom profile configuration read/write, outdated charts that are impossible to close, better history data.\r\n\r\nSo I've migrated driver as a native NINA driver, optimized serial read threshold, now profile is stored alpaca-style json in %programdata%/ascom. \r\nNew charts library. You can now close charts to tray.\r\n\r\nTested with Ultimate v2, should work with Plus v2 but not tested. \r\n\r\nall rights reserved by their respective owners\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://raw.githubusercontent.com/naixx/WandererBoxUltimate/refs/heads/master/screen.jpg",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/naixx/WandererBoxUltimate/releases/download/1.0.0.10/Naixx.NINA.Wanderer.1.0.0.10.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "DB045AEFC268B5600A02C6811B3B10B0AA3E02F6538EF42D3A5952C0C68AFA50",
+        "ChecksumType": "SHA256"
+    }
+}
