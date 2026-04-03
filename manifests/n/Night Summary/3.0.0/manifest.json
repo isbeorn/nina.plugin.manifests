@@ -3,7 +3,7 @@
     "Identifier": "682531D1-5A23-4627-B961-0794282ECB4E",
     "Version": {
         "Major": "2",
-        "Minor": "7",
+        "Minor": "9",
         "Patch": "0",
         "Build": "0"
     },
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v2.7.0/NINA.Plugin.NightSummary.zip",
+        "URL": "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v2.9.0/NINA.Plugin.NightSummary.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B9520CDA14C8987AD191A22FFBB108344574F5E70BFE2AD40FC0432DC6E21D71",
+        "Checksum": "6DC0BCCF11F879AD0D600E3CD2033CC96139993EE9986F0F816090EC5F71CA66",
         "ChecksumType": "SHA256"
     }
 }
