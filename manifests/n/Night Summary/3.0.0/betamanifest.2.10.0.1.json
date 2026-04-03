@@ -12,7 +12,7 @@
     "Repository": "https://github.com/vorticose/nina.plugin.nightsummary",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://raw.githubusercontent.com/vorticose/nina.plugin.nightsummary/main/CHANGELOG.md",
+    "ChangelogURL": "https://raw.githubusercontent.com/vorticose/nina.plugin.nightsummary/dev/CHANGELOG.md",
     "Tags": [
         "report",
         "summary",
