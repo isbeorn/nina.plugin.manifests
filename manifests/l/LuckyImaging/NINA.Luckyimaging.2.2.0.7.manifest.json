@@ -1,0 +1,38 @@
+{
+    "Name": "NINA.Luckyimaging",
+    "Identifier": "12a7ca33-1aa5-41e4-8207-b62f4a9968bd",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "7"
+    },
+    "Author": "Nick Hardy",
+    "Homepage": "https://nighttime-imaging.eu/",
+    "Repository": "https://github.com/NickHardy/LuckyImaging",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/NickHardy/LuckyImaging/commits/main/",
+    "Tags": [
+        "Lucky Imaging"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Plugin for lucky imaging",
+        "LongDescription": "Plugin for getting images fast through video mode.\r\n\r\nYou will need to add the 'Lucky Target Container' and within that add the 'Take Video Roi Exposures' for taking images.  \r\nPlease add these imagepath variables to your filename: $$LUCKYRUN$$ $$FRAMENR$$  \r\nThis way your filenames will be unique.  \r\nThe LUCKYRUN variable will increase everytime you run the 'Take Video Roi Exposures' instruction and you can view/set it in the container.  \r\nAlso note that one run of the 'Take Video Roi Exposures' instruction will be seen as taking one image.\r\nSo if you want 500 images of 1 second, it will be seen as a 500 second image. There will also be some overhead, so it's not completely accurate.\r\nBut if you want to dither or autofocus or things like that, don't create a very large instruction.  \r\n\r\n*Take Video Roi Exposures*\r\nI have added a 'process images' button. If your imaging pc is up to it, you can turn this on, it will run star detection and statistics and they will show up in the imaging history.\r\nYou can also choose to discard images based on the Hfr being to high or starcount being to low.\r\nTo increase the speed as much as possible, turn the process images off and the lucky images won't show up in the history and will not trigger any autofocus or center after drift triggers, because they are not processed like normal images.\r\nIt will then only show every nth image in the image viewer, you can set it in the options. Depending on your imaging-pc you can set this higher or lower.\r\nPlease take a 'normal' image every once in a while to be able to use those triggers.  \r\nAnother button I added is Save to Memory. This will save all the requested images to memory first and save them all to disk at the end. Please use with care, because it could cause Nina to crash if you don't have enough memory for it. I have tried to add a safeguard, but it doesn't work very well yet.\r\n\r\nThe 'Calculate Roi Position' can be used to center the ROI on your target. It will platesolve the full image and after a successful platesolve it will center the ROI on to the target by updating the x,y coordinates in the 'Lucky Target Container'.\r\nThe full image will also be saved and processed as a 'normal' image, so if the platesolve fails, you'll have an image to find out why.\r\n\r\nHope it's clear, let me know if it isn't.\r\n\r\nCheers Nick\r\n\r\n\r\nIf you have any ideas or want to report an issue, please contact me in the [Nina discord server](https://discord.gg/rWRbVbw) and tag me: @NickHolland#5257 \r\n\r\nIf you would like to buy me a whisky: [click here](https://www.paypal.com/paypalme/NickHardyHolland)\r\n\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://github.com/NickHardy/LuckyImaging/blob/main/LuckyImaging/Resources/LuckyImagingExample.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/NickHardy/LuckyImaging/releases/download/2.2.0.7/NINA.Luckyimaging.2.2.0.7.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "B00A30BFBE1F069622A26D6A1D38CF2EFF12F2B8543FF5DC0B24E069537AC5D6",
+        "ChecksumType": "SHA256"
+    }
+}

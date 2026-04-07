@@ -1,0 +1,47 @@
+{
+    "Name": "Sequencer Powerups",
+    "Identifier": "9075c999-dacb-4c24-9e14-b696a1ac9e89",
+    "Version": {
+        "Major": "3",
+        "Minor": "28",
+        "Patch": "5",
+        "Build": "0"
+    },
+    "Author": "Marc Blank",
+    "Homepage": "",
+    "Repository": "https://github.com/marcblank/nina.plugin.when",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Sequencer",
+        "Utility",
+        "Powerups",
+        "Constants",
+        "Variables",
+        "Expressions",
+        "Safety",
+        "Interrupt",
+        "If",
+        "When"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Get the most out of the Advanced Sequencer!",
+        "LongDescription": "## This plugin contains a variety of useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Powerups are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Complete documentation for Sequencer Powerups is at [Powerups Docs](https://marcblank.github.io)\r\n\r\n## Comments, suggestions, bug reports, etc. are welcomed!  Contact me by DM @chatter on the NINA Discord server, or post in the #sequencer-powerups channel.\r\n",
+        "FeaturedImageURL": "https://github.com/marcblank/nina.plugin.when/blob/newdevelop/images/Powerups.png?raw=true",
+        "ScreenshotURL": "https://bitbucket.org/zorkmid/nina.plugin.when/downloads/LoopWhile.png",
+        "AltScreenshotURL": "https://1drv.ms/u/s!AjBSqKNCEWOTgfIGHf3eIXv2hZfYAw?e=LLHMJF"
+    },
+    "Installer": {
+        "URL": "https://github.com/marcblank/nina.plugin.when/releases/download/3.28.5.0/WhenPlugin.3.28.5.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "34616E52B1ACD88351B8A0DE2102BCD193A2DBCE58A548E219F40426E41D6E1B",
+        "ChecksumType": "SHA256"
+    }
+}
