@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "0",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "9"
     },
     "Author": "joergsflow",
@@ -30,16 +30,16 @@
         "Build": "9001"
     },
     "Descriptions": {
-        "ShortDescription": "Automated SkyWave collimation helper — 80 star presets, zoomable preview, circular defocused capture & FITS integration",
+        "ShortDescription": "Automated SkyWave collimation helper — 106 star presets (both hemispheres), zoomable preview, circular defocused capture & FITS integration",
         "LongDescription": "Collimation Helper for SkyWave automates the complete telescope collimation data-capture workflow inside N.I.N.A., producing wavefront-ready FITS images for InnovationForesight's SkyWave AI analysis:\r\n\r\n1. Select an isolated star of appropriate magnitude (auto-selected based on your optics)\r\n2. Plate-solve and center on the star (in focus)\r\n3. Switch to the target filter and optionally run autofocus\r\n4. Defocus the telescope by a configurable number of focuser steps\r\n5. Capture exposures at N positions around a circular ring pattern covering the full sensor plane\r\n6. MAX-stack sub-frames into a single FITS (each pixel keeps its maximum value)\r\n7. Save the SkyWave-ready FITS to your configured watch folder\r\n8. Return the focuser to its original position\r\n\r\nBy spreading the defocused star across the entire sensor, SkyWave can detect not just on-axis collimation errors but also field-dependent aberrations like tilt, spacing issues, and off-axis coma — something a single centered star image cannot reveal.\r\n\r\nProvides both individual sequence instructions (SkwDefocus, SkwCircularCapture, SkwIntegrateFrames) for advanced users and a single SkwCollimationRun container for one-click operation.\r\n\r\nIf you find this useful, consider buying me a coffee: https://buymeacoffee.com/joergsflow",
         "FeaturedImageURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginsettings.png",
         "ScreenshotURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginrun.png",
         "AltScreenshotURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginsettings.png"
     },
     "Installer": {
-        "URL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/releases/download/v2.0.0/NINA.CollimationHelper.SkyWave.2.0.0.9.zip",
+        "URL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/releases/download/v2.0.1/NINA.CollimationHelper.SkyWave.2.0.1.9.zip",
         "Type": "ARCHIVE",
-        "Checksum": "728501222516efd30d5e7da73ecb85a5e599f5b00b39f9210b632992391f116f",
+        "Checksum": "ede0dcb9bb7857d88fa36965dc8057668ca8bf5e1abd075d2304f900fcad6e2b",
         "ChecksumType": "SHA256"
     }
 }
