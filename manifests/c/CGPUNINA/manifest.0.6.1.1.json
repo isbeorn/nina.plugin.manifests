@@ -18,9 +18,9 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "2",
+        "Minor": "3",
         "Patch": "0",
-        "Build": "9001"
+        "Build": "1005"
     },
     "Descriptions": {
         "ShortDescription": "A NINA Plugin that move some N.I.N.A & Accord heavy functions inside native code and GPU to speed it up.",
@@ -32,7 +32,7 @@
     "Installer": {
         "URL": "https://github.com/Ekrynox/CPU-GPU-Computing-for-NINA/releases/download/0.6.1.1/LucasAlias.NINA.CGPUNINA.0.6.1.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "0472B5BEA8C00F094637B57296AFB6F93174950EA3F270D2FF782227499EE78D",
+        "Checksum": "34AC325FF0D2BA283B8CA0AB4D1A266116EB355F74F5A519812A07DA63A7304A",
         "ChecksumType": "SHA256"
     }
 }
