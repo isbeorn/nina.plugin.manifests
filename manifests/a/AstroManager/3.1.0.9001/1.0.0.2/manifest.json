@@ -33,9 +33,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/Sleeman-IT-Solutions-OG/AstroManager.NinaPlugin/releases/download/v1.0.0.2/AstroManager.NinaPlugin.1.0.0.2.zip",
+        "URL": "https://github.com/Sleeman-IT-Solutions-OG/AstroManager.NinaPlugin/releases/download/v1.0.2/AstroManager.NinaPlugin.1.0.0.2.zip",
         "Type": "ARCHIVE",
-        "Checksum": "0FE2DD86DA4C6DE8C430FBFD9203EE5C731D288300AE9AB26CC11C2B0AD35C43",
+        "Checksum": "F5659F18FCB6B345D16B88C8CEBF2BB7AF0D0FA663D9115AB62E0CBDB4CD38BC",
         "ChecksumType": "SHA256"
     }
 }
