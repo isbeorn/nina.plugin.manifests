@@ -1,0 +1,42 @@
+{
+    "Name": "Tuya Weather Station",
+    "Identifier": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Indigo2233",
+    "Homepage": "https://github.com/Indigo2233/tuya-weather-station",
+    "Repository": "https://github.com/Indigo2233/tuya-weather-station",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "",
+    "Tags": [
+        "Weather",
+        "Tuya",
+        "Alpaca",
+        "ObservingConditions",
+        "Remote Observatory"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Connect to a remote Tuya Weather Station via ASCOM Alpaca HTTP API.",
+        "LongDescription": "This plugin connects directly to a remote Tuya Weather Station exposed via an ASCOM Alpaca HTTP server. Configure the server IP and port in the plugin options, and weather data (temperature, humidity, dew point, pressure, wind speed, rain rate) will be available in N.I.N.A. Ideal for remote observatories with a centralized weather server.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Indigo2233/tuya-weather-station/releases/download/v1.0.0.0/TuyaWeatherPlugin.dll",
+        "Type": "DLL",
+        "Checksum": "9DFAA73A88ACC10F7280F00B3EACE7289891912F0AE38A71D646CE82013D8559",
+        "ChecksumType": "SHA256"
+    }
+}
