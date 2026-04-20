@@ -35,9 +35,9 @@
     "FeaturedImageURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/subframes-astro/nina-plugin/releases/download/v0.2.9/SubframesPlugin-v0.2.9.zip",
+    "URL": "https://github.com/subframes-astro/nina-plugin/releases/download/v0.2.12/SubframesPlugin-v0.2.12.zip",
     "Type": "ARCHIVE",
-    "Checksum": "07b411b63aa87e7a4160b9e566b10f26de7a130d10842526094d5f7b4ae3bd84",
+    "Checksum": "319ab53d370f61d3f098c9c3a74e844d26174e73489d37dea2fc0e4f71347a84",
     "ChecksumType": "SHA256"
   }
 }
