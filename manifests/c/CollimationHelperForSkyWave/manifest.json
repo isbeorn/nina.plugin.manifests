@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "1",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "9"
     },
     "Author": "joergsflow",
@@ -37,9 +37,9 @@
         "AltScreenshotURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginsettings.png"
     },
     "Installer": {
-        "URL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/releases/download/v2.1.0/NINA.CollimationHelper.SkyWave.2.1.0.9.zip",
+        "URL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/releases/download/v2.1.1/NINA.CollimationHelper.SkyWave.2.1.1.9.zip",
         "Type": "ARCHIVE",
-        "Checksum": "7AC1CFD55507EE3A34998F051678710FCA6492B7635D8449D4E5F0964D39E97C",
+        "Checksum": "042D43B1AB9BFA4890A64B8E754BFA5917AF59FED9329DCEDAE6120229F616C9",
         "ChecksumType": "SHA256"
     }
 }
