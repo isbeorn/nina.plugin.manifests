@@ -4,7 +4,7 @@
   "Version": {
     "Major": "0",
     "Minor": "3",
-    "Patch": "1",
+    "Patch": "2",
     "Build": "0"
   },
   "Author": "Subframes.io",
@@ -35,9 +35,9 @@
     "FeaturedImageURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/subframes-astro/nina-plugin/releases/download/v0.3.1/SubframesPlugin-v0.3.1.zip",
+    "URL": "https://github.com/subframes-astro/nina-plugin/releases/download/v0.3.2/SubframesPlugin-v0.3.2.zip",
     "Type": "ARCHIVE",
-    "Checksum": "af6b035f4a717ce429f5153760a4c07044c600e2da740cdf4fe7167d3668792a",
+    "Checksum": "ea21424baad7aafe219d72a435593b85ea37db43192dab3d47925869da890a55",
     "ChecksumType": "SHA256"
   }
 }
