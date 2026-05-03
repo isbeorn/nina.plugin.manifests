@@ -1,4 +1,5 @@
-const fs = require('fs').promises;
+const fsSync = require('fs');
+const fs = fsSync.promises;
 const path = require('path');
 const readFile = fs.readFile;
 
@@ -14,6 +15,8 @@ const schema = require('./manifest.schema.json');
 const validate = ajv.compile(schema);
 const manifestsRoot = path.join(__dirname, 'manifests');
 const deleteInvalid = process.argv.includes('--delete') || process.argv.includes('--delete-invalid');
+const downloadDirectory = getArgumentValue(['--download-dir', '--store-downloads']);
+const downloadRoot = downloadDirectory ? path.resolve(process.cwd(), downloadDirectory) : null;
 
 async function validateAll() {
 
@@ -22,6 +25,11 @@ async function validateAll() {
     let deletedFiles = 0;
     const invalidFiles = [];
     const files = await getAllJsonFiles(manifestsRoot);
+
+    if(downloadRoot) {
+        await fs.mkdir(downloadRoot, { recursive: true });
+        console.log('\x1b[0m', 'Storing downloaded installers in ' + downloadRoot);
+    }
 
     for(const file of files) {
         const fullPath = file;
@@ -34,7 +42,16 @@ async function validateAll() {
             if(!valid) {
                 throw new Error(fullPath + ' -- '  + JSON.stringify(validate.errors))
             } else {
-                const remoteHash = await getHashFromRemote(json.Installer.URL, json.Installer.ChecksumType);
+                const downloadTarget = getDownloadTarget(fullPath, json);
+                if(downloadTarget) {
+                    await fs.mkdir(path.dirname(downloadTarget), { recursive: true });
+                }
+
+                const remoteHash = await getHashFromRemote(json.Installer.URL, json.Installer.ChecksumType, downloadTarget);
+                if(downloadTarget) {
+                    await fs.copyFile(fullPath, path.join(path.dirname(downloadTarget), path.basename(fullPath)));
+                }
+
                 if(remoteHash.toLowerCase() !== json.Installer.Checksum.toLowerCase()) {
                     throw new Error(getHashMismatchMessage(json, remoteHash));
                 }                
@@ -83,16 +100,33 @@ async function deleteManifest(file) {
     await fs.unlink(file);
 }
 
-function getHashFromRemote(url, hashalgorithm) {
+function getHashFromRemote(url, hashalgorithm, downloadTarget) {
     return new Promise((resolve, reject) => {
         const hasher = crypto.createHash(hashalgorithm.toLowerCase());
         hasher.setEncoding('hex');
+        let writer = null;
         let settled = false;
+        let hashFinished = false;
+        let fileFinished = !downloadTarget;
+        let remoteHash = null;
 
         const fail = error => {
             if(!settled) {
                 settled = true;
+                if(writer) {
+                    writer.destroy();
+                }
                 reject(error);
+            }
+        };
+
+        const tryResolve = () => {
+            if(!settled && hashFinished && fileFinished) {
+                settled = true;
+                if(downloadTarget) {
+                    console.log('\x1b[0m', 'Stored installer at ' + downloadTarget);
+                }
+                resolve(remoteHash);
             }
         };
 
@@ -104,14 +138,25 @@ function getHashFromRemote(url, hashalgorithm) {
                     return;
                 }
 
+                if(downloadTarget) {
+                    writer = fsSync.createWriteStream(downloadTarget);
+                    writer
+                        .on('finish', () => {
+                            fileFinished = true;
+                            tryResolve();
+                        })
+                        .on('error', x => fail(new Error(`Failed to store ${url} at ${downloadTarget}: ${x.message}`)));
+
+                    response.pipe(writer);
+                }
+
                 response
                     .on('error', x => fail(new Error(`Failed to read ${url}: ${x.message}`)))
                     .pipe(hasher)
                     .on('finish', () => {
-                        if(!settled) {
-                            settled = true;
-                            resolve(hasher.read());
-                        }
+                        remoteHash = hasher.read();
+                        hashFinished = true;
+                        tryResolve();
                     })
                     .on('error', x => fail(new Error(`Failed to hash ${url}: ${x.message}`)));
             })
@@ -136,6 +181,83 @@ function getHashMismatchMessage(manifest, remoteHash) {
     const url = manifest.Installer.URL;
 
     return `Expected hash to be ${expectedHash}, but actually was ${remoteHash} from ${url}`;
+}
+
+function getArgumentValue(names) {
+    for(const name of names) {
+        const value = getSingleArgumentValue(name);
+        if(value) {
+            return value;
+        }
+    }
+
+    return null;
+}
+
+function getSingleArgumentValue(name) {
+    const valuePrefix = name + '=';
+    const inlineValue = process.argv.find(arg => arg.startsWith(valuePrefix));
+    if(inlineValue !== undefined) {
+        const value = inlineValue.substring(valuePrefix.length);
+        if(!value) {
+            console.log('\x1b[31m', `${name} requires a folder path.`);
+            process.exit(1);
+        }
+
+        return value;
+    }
+
+    const index = process.argv.indexOf(name);
+    if(index > -1) {
+        const value = process.argv[index + 1];
+        if(!value || value.startsWith('--')) {
+            console.log('\x1b[31m', `${name} requires a folder path.`);
+            process.exit(1);
+        }
+
+        return value;
+    }
+
+    return null;
+}
+
+function getDownloadTarget(manifestPath, manifest) {
+    if(!downloadRoot) {
+        return null;
+    }
+
+    const relativeManifestPath = path.relative(manifestsRoot, manifestPath);
+    const relativeManifestDir = path.dirname(relativeManifestPath);
+    const manifestName = sanitizePathSegment(path.basename(relativeManifestPath, path.extname(relativeManifestPath))) || 'manifest';
+    const installerName = getInstallerFileName(manifest.Installer.URL);
+    const targetParts = relativeManifestDir === '.'
+        ? [manifestName, installerName]
+        : [
+            ...relativeManifestDir.split(path.sep).map(sanitizePathSegment).filter(x => x.length > 0),
+            manifestName,
+            installerName
+        ];
+
+    return path.join(downloadRoot, ...targetParts);
+}
+
+function getInstallerFileName(url) {
+    try {
+        const parsedUrl = new URL(url);
+        const fileName = path.basename(decodeURIComponent(parsedUrl.pathname));
+        return sanitizePathSegment(fileName) || 'installer';
+    } catch(e) {
+        return 'installer';
+    }
+}
+
+function sanitizePathSegment(value) {
+    const sanitized = value.replace(/[<>:"/\\|?*\x00-\x1F]/g, '_').trim();
+    if(sanitized === '.' || sanitized === '..') {
+        return '_';
+    }
+
+    return sanitized;
 }
 
 async function getAllJsonFiles(dir) {
