@@ -4,8 +4,8 @@
     "Version": {
         "Major": "1",
         "Minor": "0",
-        "Patch": "0",
-        "Build": "2"
+        "Patch": "3",
+        "Build": "0"
     },
     "Author": "Michael Sleeman",
     "Homepage": "",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/Sleeman-IT-Solutions-OG/AstroManager.NinaPlugin/releases/download/v1.0.2/AstroManager.NinaPlugin.1.0.0.2.zip",
+        "URL": "https://github.com/Sleeman-IT-Solutions-OG/AstroManager.NinaPlugin/releases/download/v1.0.3.0/AstroManager.NinaPlugin.1.0.3.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "F5659F18FCB6B345D16B88C8CEBF2BB7AF0D0FA663D9115AB62E0CBDB4CD38BC",
+        "Checksum": "CAC5D412D61463AFF6D0C347713C01B3E59A3500A7C21D579786F45249C3D44A",
         "ChecksumType": "SHA256"
     }
 }
