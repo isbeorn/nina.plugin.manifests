@@ -1,0 +1,45 @@
+{
+    "Name": "Collimation Helper for SkyWave",
+    "Identifier": "b7e3f1a2-9c4d-4e8b-a6f5-1d2c3b4a5e6f",
+    "Version": {
+        "Major": "2",
+        "Minor": "1",
+        "Patch": "1",
+        "Build": "9"
+    },
+    "Author": "joergsflow",
+    "Homepage": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA",
+    "Repository": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA",
+    "License": "GPL-3.0",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "ChangelogURL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Collimation",
+        "SkyWave",
+        "Wavefront",
+        "Defocus",
+        "Optics",
+        "Tilt",
+        "Coma",
+        "Astigmatism"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Automated SkyWave collimation helper — circular defocused star capture & native FITS integration",
+        "LongDescription": "Collimation Helper for SkyWave automates the complete telescope collimation data-capture workflow inside N.I.N.A., producing wavefront-ready FITS images for InnovationForesight's SkyWave AI analysis:\r\n\r\n1. Select an isolated star of appropriate magnitude (auto-selected based on your optics)\r\n2. Plate-solve and center on the star (in focus)\r\n3. Switch to the target filter and optionally run autofocus\r\n4. Defocus the telescope by a configurable number of focuser steps\r\n5. Capture exposures at N positions around a circular ring pattern covering the full sensor plane\r\n6. MAX-stack sub-frames into a single FITS (each pixel keeps its maximum value)\r\n7. Save the SkyWave-ready FITS to your configured watch folder\r\n8. Return the focuser to its original position\r\n\r\nBy spreading the defocused star across the entire sensor, SkyWave can detect not just on-axis collimation errors but also field-dependent aberrations like tilt, spacing issues, and off-axis coma — something a single centered star image cannot reveal.\r\n\r\nProvides both individual sequence instructions (SkwDefocus, SkwCircularCapture, SkwIntegrateFrames) for advanced users and a single SkwCollimationRun container for one-click operation.\r\n\r\nIf you find this useful, consider buying me a coffee: https://buymeacoffee.com/joergsflow",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginsettings.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginrun.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/joergs-git/Skywave-Collimation-helper-for-NINA/main/pluginsettings.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/joergs-git/Skywave-Collimation-helper-for-NINA/releases/download/v2.1.1/NINA.CollimationHelper.SkyWave.2.1.1.9.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "042D43B1AB9BFA4890A64B8E754BFA5917AF59FED9329DCEDAE6120229F616C9",
+        "ChecksumType": "SHA256"
+    }
+}
