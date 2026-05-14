@@ -1,0 +1,43 @@
+{
+  "Name": "Subframes.io",
+  "Identifier": "3ae05d9d-f170-5182-a0c1-75c76a1154f4",
+  "Version": {
+    "Major": "0",
+    "Minor": "4",
+    "Patch": "3",
+    "Build": "0"
+  },
+  "Author": "Subframes.io",
+  "Homepage": "https://app.subframes.io",
+  "Repository": "https://github.com/subframes-astro/nina-plugin",
+  "License": "GPL-3.0",
+  "LicenseURL": "https://github.com/subframes-astro/nina-plugin/blob/main/LICENSE",
+  "ChangelogURL": "https://github.com/subframes-astro/nina-plugin/releases",
+  "Tags": [
+    "subframes",
+    "telemetry",
+    "session",
+    "data",
+    "exposure",
+    "logging",
+    "imaging",
+    "api"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "1",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Descriptions": {
+    "ShortDescription": "Captures per-exposure telemetry from your NINA imaging sessions and posts it to the Subframes.io API for analysis and tracking.",
+    "LongDescription": "# Subframes.io NINA Plugin\r\n\r\nA NINA plugin that automatically captures imaging telemetry and sends it to your [Subframes](https://subframes.io/) account after every saved frame.\r\n\r\n## What it does\r\n\r\n- **Session Start**: Creates a new imaging session via the Subframes API when your sequence begins\r\n- **Per-Frame Data**: After every saved image, posts frame metadata including filter, exposure time, gain, offset, HFR, star count, guiding RMS, and camera temperature\r\n- **Session End**: Closes the session when your sequence ends\r\n- **Station Heartbeat**: Periodically reports your equipment configuration (mount, camera, focuser, filters, location) to Subframes\r\n- **Non-Blocking**: If the API is unreachable, the plugin logs a warning and continues your sequence normally — your imaging is never interrupted\r\n\r\n## Requirements\r\n\r\n- NINA 3.1 or later\r\n- A [Subframes account](https://app.subframes.io/) with a valid API key\r\n\r\n## Setup\r\n\r\n1. Open the Subframes panel in NINA (View > Panels > Subframes)\r\n2. Enter your Subframes API Base URL\r\n3. Enter your API Key (starts with `astk_live_`)\r\n4. Enable **Send data to Subframes API** and click **Save Settings**\r\n5. In the Advanced Sequencer, add **Start Subframes Session** to your sequence start container\r\n\r\n## Source\r\n\r\nFull source code available at [github.com/subframes-astro/nina-plugin](https://github.com/subframes-astro/nina-plugin)",
+    "FeaturedImageURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/subframes-astro/nina-plugin/releases/download/v0.4.3/SubframesPlugin-v0.4.3.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "849526d2abfdb519a17e1f3ca12df09e3538e329f291d0e9ee513c3b81db98f6",
+    "ChecksumType": "SHA256"
+  }
+}
