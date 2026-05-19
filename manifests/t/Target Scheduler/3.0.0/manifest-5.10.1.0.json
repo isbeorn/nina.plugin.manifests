@@ -4,7 +4,7 @@
     "Version": {
         "Major": "5",
         "Minor": "10",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -22,7 +22,7 @@
         "Major": "3",
         "Minor": "3",
         "Patch": "0",
-        "Build": "1035"
+        "Build": "1037"
     },
     "Descriptions": {
         "ShortDescription": "An automated target scheduler for NINA",
@@ -32,9 +32,9 @@
         "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.targetscheduler/main/NINA.Plugin.TargetScheduler/assets/screenshot-2.png?raw=true"
     },
     "Installer": {
-        "URL": "https://github.com/tcpalmer/nina.plugin.targetscheduler/releases/download/v5.10.0.0/NINA.Plugin.TargetScheduler-5.10.0.0.zip",
+        "URL": "https://github.com/tcpalmer/nina.plugin.targetscheduler/releases/download/v5.10.1.0/NINA.Plugin.TargetScheduler-5.10.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "832DF06338BC31955B2805A9763E58955795AE186BF16175C0491AECAED056CB",
+        "Checksum": "0EFF6F1EBCF7EFECD9C2C2C8B106DC389F28895B2A3A29B62436EB9B373825F7",
         "ChecksumType": "SHA256"
     }
 }
