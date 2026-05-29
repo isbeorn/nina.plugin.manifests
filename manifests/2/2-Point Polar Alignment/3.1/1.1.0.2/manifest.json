@@ -27,7 +27,7 @@
   "Installer": {
     "URL": "https://github.com/nirzons/TwoPointPolarAlignment/releases/download/v1.1.0.2/TwoPointPolarAlignment-v1.1.0.2.zip",
     "Type": "ARCHIVE",
-    "Checksum": "614E4C1E7AF35B238D42D8CB635670244049D7E8D650AE6B8B94D62C014A58E2",
+    "Checksum": "BFEC43C58A1CC35ED76430F13C149CCA98FCF1F3C8F21DA3B56CAF97E9E57A42",
     "ChecksumType": "SHA256"
   },
   "Descriptions": {
