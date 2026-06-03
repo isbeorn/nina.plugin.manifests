@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "1",
         "Patch": "0",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "RegulusRemains",
     "Homepage": "https://github.com/RegulusRemains/nina-auto-start-sequence",
@@ -30,9 +30,9 @@
         "LongDescription": "Auto Start Sequence automatically starts the currently loaded advanced sequence shortly after NINA launches, once your critical equipment has connected. It is built for fully unattended observatories.\r\n\r\nOn startup the plugin waits a short delay for connections to settle, then polls the camera, mount, and safety monitor. Once all three are connected it briefly stabilizes and starts the loaded advanced sequence. If they have not all connected within a maximum wait, it starts the sequence anyway and lets the sequence's own Connect Equipment step recover, so a single slow device never blocks the night. If a sequence is already running, it does nothing.\r\n\r\nA typical unattended flow: the PC wakes on schedule, NINA launches, the plugin starts the sequence, and a Wait for Sun Altitude gate at the top of the sequence holds until dusk.\r\n\r\nThe enable switch and timing (initial delay, maximum wait, poll interval) are configurable on the plugin's Options page and saved per profile.\r\n\r\nProvided under the Mozilla Public License 2.0."
     },
     "Installer": {
-        "URL": "https://github.com/RegulusRemains/nina-auto-start-sequence/releases/download/v1.1.0.0/NINA.Plugin.AutoStartSequence.dll",
+        "URL": "https://github.com/RegulusRemains/nina-auto-start-sequence/releases/download/v1.1.0.1/NINA.Plugin.AutoStartSequence.dll",
         "Type": "DLL",
-        "Checksum": "f085fa1c7c8ded848679446a0786bb9247da13905afd0c90684a64bffaee1fba",
+        "Checksum": "28deee415306e11e2aaac652870ea123a587f9ffa06daff94eace7df7261ff67",
         "ChecksumType": "SHA256"
     }
 }
