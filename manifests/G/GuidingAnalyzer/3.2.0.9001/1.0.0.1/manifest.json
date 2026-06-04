@@ -1,0 +1,10 @@
+{
+  "name": "GuidingAnalyzer",
+  "version": "1.0.0.1",
+  "description": "Advanced PHD2 guiding log analyzer: FFT, anomaly detection, polar alignment, statistics and recommendations.",
+  "author": "JPH",
+  "license": "GPL-3.0",
+  "downloadUrl": "https://github.com/jphf007/GuidingAnalyzer/releases/download/v1.0.0.1/GuidingAnalyzer-v1.0.0.1.zip",
+  "minimumApplicationVersion": "3.2.0.9001",
+  "tags": ["guiding", "PHD2", "analysis", "FFT", "polar alignment"]
+}
