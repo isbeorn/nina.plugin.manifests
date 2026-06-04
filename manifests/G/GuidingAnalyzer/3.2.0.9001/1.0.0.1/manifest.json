@@ -1,10 +1,43 @@
 {
-  "name": "GuidingAnalyzer",
-  "version": "1.0.0.1",
-  "description": "Advanced PHD2 guiding log analyzer: FFT, anomaly detection, polar alignment, statistics and recommendations.",
-  "author": "JPH",
-  "license": "GPL-3.0",
-  "downloadUrl": "https://github.com/jphf007/GuidingAnalyzer/releases/download/v1.0.0.1/GuidingAnalyzer-v1.0.0.1.zip",
-  "minimumApplicationVersion": "3.2.0.9001",
-  "tags": ["guiding", "PHD2", "analysis", "FFT", "polar alignment"]
+    "Name": "GuidingAnalyzer",
+    "Identifier": "154331e5-2af0-4bfe-ba0a-49f6c84040d1",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "JPH",
+    "Homepage": "",
+    "Repository": "https://github.com/jphf007/GuidingAnalyzer",
+    "License": "GPL-3.0",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.html",
+    "ChangelogURL": "",
+    "Tags": [
+        "guiding",
+        "PHD2",
+        "analysis",
+        "FFT",
+        "polar alignment",
+        "periodic error"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Advanced PHD2 guiding log analyzer: FFT, anomaly detection, polar alignment, statistics and recommendations.",
+        "LongDescription": "Advanced PHD2 guiding log analyzer plugin for N.I.N.A. with FFT spectrum analysis, anomaly detection, worm gear period estimation, polar alignment error calculation, and actionable recommendations to improve guiding performance.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/jphf007/GuidingAnalyzer/releases/download/v1.0.0.1/GuidingAnalyzer-v1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "4F9171333D5E5B23202C8F43C10422E39012EFC6FB53F9E050F2B691858A07DA",
+        "ChecksumType": "SHA256"
+    }
 }
