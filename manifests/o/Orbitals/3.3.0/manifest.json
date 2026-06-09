@@ -5,14 +5,14 @@
         "Major": "3",
         "Minor": "3",
         "Patch": "0",
-        "Build": "1"
+        "Build": "3"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
     "Repository": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals",
     "License": "MPL-2.0",
     "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
-    "ChangelogURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/commits/develop", 
+    "ChangelogURL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/commits/develop",
     "Tags": [
         "Asteroid",
         "Comet",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.3.0.1/NINA.Joko.Plugin.Orbitals.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release/v3.3.0.3/NINA.Joko.Plugin.Orbitals.3.3.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B2196C6DAA5412F943DDFBCA162010D933441DC245A237D29B8BFEBD6750C118",
+        "Checksum": "8636D33027886FBAAF9A9038E919F88F99ECECDD74EE0A11E8CD73823472D66D",
         "ChecksumType": "SHA256"
     }
 }

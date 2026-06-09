@@ -1,0 +1,39 @@
+{
+    "Name": "Python Scripting",
+    "Identifier": "9545363a-86d1-4ef5-80d4-c77b8fadcf74",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.python",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.python/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Scripting",
+        " Python"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1037"
+    },
+    "Descriptions": {
+        "ShortDescription": "Python Scripting within N.I.N.A.",
+        "LongDescription": "Run Python scripts directly from the N.I.N.A. Advanced Sequencer.\r\n\r\n## Sequencer Items\r\n\r\n- **Python Script** runs inline or file-based automation code.\r\n- **Python Condition** evaluates a script and reads the assigned `result` value.\r\n- **Python Trigger** evaluates before or after sequence item boundaries and runs configured triggered instructions when `result` is truthy.\r\n\r\n## Runtime Setup\r\n\r\nThe plugin uses pythonnet and requires a compatible 64-bit Python 3 installation. It can use an explicitly configured Python DLL via `PYTHONNET_PYDLL` or a virtual environment via `PYTHONNET_VENV`.\r\n\r\n## Script Context\r\n\r\nScripts receive common N.I.N.A. services for profile, equipment, imaging, application, sequencer, plate solving, astronomy, and image data workflows. They also receive helpers such as cancellation tokens, progress reporting, capture sequence helpers, condition or trigger context, `__file__` for file-based scripts, and selected .NET helper types.\r\n\r\nThe plugin does not ship CPython itself.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.python/releases/download/1.0.0.0/NINA.Plugin.Python.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "7CBAE05273D13A899B7224AC2175B002051AFA31E70B4CE6586EBA48712ED64E",
+        "ChecksumType": "SHA256"
+    }
+}
