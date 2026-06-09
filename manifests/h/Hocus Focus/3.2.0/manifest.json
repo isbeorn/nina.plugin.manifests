@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "25"
+        "Build": "26"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release%2Fv3.0.0.25/NINA.Joko.Plugins.HocusFocus.zip",
+        "URL": "https://github.com/ghilios/joko.nina.plugins/releases/download/release/v3.0.0.26/NINA.Joko.Plugins.HocusFocus.3.0.0.26.zip",
         "Type": "ARCHIVE",
-        "Checksum": "BAE80B5FC17805E28DA29FB543EE4FC886B44276B4EBB64FB9616EC37CCB82AC",
+        "Checksum": "9EF5B7C22C716537E915E889C4E9BF0197DBC323B8FC1970782AFDB49F8D7A21",
         "ChecksumType": "SHA256"
     }
 }

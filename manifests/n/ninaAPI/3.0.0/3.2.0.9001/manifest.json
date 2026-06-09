@@ -5,7 +5,7 @@
         "Major": "2",
         "Minor": "2",
         "Patch": "15",
-        "Build": "0"
+        "Build": "1"
     },
     "Author": "Christian Palm",
     "Homepage": "https://buymeacoffee.com/christian.palm",
@@ -25,15 +25,15 @@
     },
     "Descriptions": {
         "ShortDescription": "An experimental API for N.I.N.A.",
-        "LongDescription": "This plugin features an HTTP server, including an api and websockets!\r\n\r\n## Features:\r\n- Listen to events like connections, meridian flips and much more\r\n- TPPA integration (Requires TPPA to be installed)\r\n- Livestack integration (Requires Livestack to be installed)\r\n- Supports basic control over the equipment and application in general\r\n- And much more!\r\n\r\n---\r\n\r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/christian-photo/ninaAPI/issues), take a look at the\r\n[documentation](https://bump.sh/christian-photo/doc/advanced-api/) and here for the [websockets](https://bump.sh/christian-photo/doc/advanced-api-websockets) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)\r\n**Thanks to szymon and notzeeg (discord) for their help!**",
+        "LongDescription": "This plugin features an HTTP server, including an api and websockets!\r\n\r\n## Features:\r\n- Listen to events like connections, meridian flips and much more\r\n- TPPA integration (Requires TPPA to be installed)\r\n- Livestack integration (Requires Livestack to be installed)\r\n- Supports basic control over the equipment and application in general\r\n- And much more!\r\n\r\n---\r\n\r\nIf you have question/issues/feedback, you can create an issue [here](https://github.com/christian-photo/ninaAPI/issues), take a look at the\r\n[documentation](https://christian-photo.github.io/github-page/projects/ninaAPI/v2/doc/api) and here for the [websockets](https://github.com/christian-photo/ninaAPI/wiki/Websocket-V2) or just ask on the N.I.N.A. discord in [#plugin-discussions](https://discord.com/channels/436650817295089664/854531935660146718)\r\n**Thanks to szymon and notzeeg (discord) for their help!**",
         "FeaturedImageURL": "",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.15.0/ninaAPI.zip",
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/2.2.15.1/ninaAPI.zip",
         "Type": "ARCHIVE",
-        "Checksum": "672DD35D9F0948211C22658D543F2D45071890D7ECB0F99D869A03BD42883588",
+        "Checksum": "39AE5A23667001981C04C1D0EE7CAC441B39FA06105B13FF263B37A4000554E3",
         "ChecksumType": "SHA256"
     }
 }
