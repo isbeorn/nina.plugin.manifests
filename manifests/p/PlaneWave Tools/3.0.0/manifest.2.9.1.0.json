@@ -1,0 +1,43 @@
+{
+    "Name": "PlaneWave Tools",
+    "Identifier": "1A8145BD-4D7A-44F0-B12B-A6CE34BB68B0",
+    "Version": {
+        "Major": "2",
+        "Minor": "9",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Dale Ghent",
+    "Homepage": "https://daleghent.com/planewave-tools",
+    "Repository": "https://github.com/daleghent/nina-planewave-tools",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/daleghent/nina-planewave-tools/blob/main/CHANGELOG.md",
+    "Tags": [
+        "planewave",
+        "pwi4",
+        "delta-t",
+        "sequencer",
+        "fans",
+        "pointxp"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A collection of useful tools for managing PlaneWave telescope systems",
+        "LongDescription": "PlaneWave Tools provides several instructions for controlling various aspects of PlaneWave OTA and mount systems.\r\n\r\n# Requirements #\r\n\r\n* PWI >= 4.1.3\r\n* Support for PWI 3.x is deprecated as of PlaneWave Tools 2.6.0 and the instructions that use PWI3 will be removed in a future version. System fan and heater control is available as of PWI 4.1.\r\n* Support for the standalone PlaneWave Shutter Control app is deprecated as of PlaneWave Tools 2.8.0 and the **Shutter Control** that use it will be removed in a future version. Shutter control was added in PWI 4.1.13.\r\n\r\n# Sequence Instructions #\r\n\r\n* Start PWI4, Stop PWI4 - Starts and stops the PWI4.exe application\r\n* Axis Control - Enable or disable mount axes\r\n* Fan Control (PWI4) - Turns the fans on or off\r\n* Heater Control (PWI4) - Sets the power level of individual heaters\r\n* M3 Control - Sets the postions of the M3 Nasmyth port mirror\r\n* Shutter Control (PWI4) - Controls CDK and PW1000 mirror shutters via PWI4\r\n* TLE Follow, Set Tracking - Programs the mount to follow a two-line element ephemeris definition and start tracking along it\r\n\r\n## Undergoing Deprecation ##\r\n\r\nThe following instructions are considered deprecated and may be removed in a future version of this plugin.\r\n\r\n* Start PWI3, Stop PWI3 - Starts and stops the PWI3.exe application\r\n* DeltaT Control (PWI3) - Sets the per-heater operating modes of the Delta T heater controller\r\n* Fan Control (PWI3) - Turns the OTA fans on or off\r\n* Shutter Control - Controls CDK700 and PW1000 shutters via the PlaneWave Shutter Control app\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-planewave-tools/issues).",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/planewavetools.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/daleghent/nina-planewave-tools/releases/download/2.9.1.0/DaleGhent.NINA.PlaneWaveTools.2.9.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "595E8895EB4A4D11282D6781272BD6FBCA74E015B352A7BF12A8C529BAECCA82",
+        "ChecksumType": "SHA256"
+    }
+}

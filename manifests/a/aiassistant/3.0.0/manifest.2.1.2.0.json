@@ -1,0 +1,42 @@
+{
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+    "Version": {
+        "Major": "2",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "0"
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina.plugin.aiassistant",
+    "Repository": "https://github.com/michelebergo/nina.plugin.aiassistant",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/michelebergo/nina.plugin.aiassistant/blob/main/CHANGELOG.md",
+    "Tags": [
+        "AI",
+        "Assistant",
+        "Chat",
+        "MCP",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Multi-provider AI assistant with MCP equipment control for intelligent astrophotography automation",
+        "LongDescription": "Your intelligent astrophotography companion - transform NINA into a conversational, context-aware imaging system that understands your goals and helps you achieve better results.\r\n\r\n🔭 FOR ASTROPHOTOGRAPHERS:\r\n• Quick Session Setup: 'Set up for M31 tonight' - AI configures equipment, cooling, filters, and exposure settings\r\n• Real-Time Troubleshooting: Analyze failed frames, high HFR, guiding issues, poor focus - get instant suggestions\r\n• Image Quality Feedback: AI reviews your captures, identifies problems (tracking, focus, star bloat), suggests corrections\r\n• Learning Assistant: Ask 'Why is my HFR high?' or 'Best Ha exposure for M42' - get expert guidance while imaging\r\n• Sequence Optimization: 'Plan 4-hour session on Horsehead' - AI suggests optimal filter rotation, dither patterns, exposure times\r\n\r\n🤖 5 AI PROVIDERS (Free to Advanced):\r\n• GitHub Models (FREE) - No credit card, great for learning\r\n• OpenAI GPT-4o/o1 - Most capable reasoning for complex planning\r\n• Anthropic Claude Sonnet 4.5 - Best for equipment control via MCP\r\n• Google Gemini 2.0 - Fast responses, MCP equipment control support\r\n• Ollama (Local) - Privacy-focused, works offline, no API costs\r\nDynamic model discovery ensures you always have latest AI capabilities.\r\n\r\n🎛️ NATURAL LANGUAGE EQUIPMENT CONTROL (via MCP):\r\nControl your entire observatory through conversation:\r\n• Camera: Take exposures, adjust cooling, bin settings, gain control\r\n• Mount: GOTO coordinates, slew, park/unpark, tracking control\r\n• Focuser: Move absolute/relative, run autofocus, temperature compensation\r\n• Filter Wheel: Change filters, get positions, optimize filter rotation\r\n• Guiding: Start/stop PHD2, dither, analyze drift\r\n• Platesolving: Solve images, sync mount, analyze pointing accuracy\r\n100+ built-in MCP tools for complete observatory control.\r\n\r\n📊 IMAGE ANALYSIS:\r\n• FITS Header Reading, Star Detection, HFR/FWHM monitoring\r\n• Statistics Analysis, Quality Assessment with actionable recommendations\r\n• Vision API Integration for advanced image understanding\r\n\r\n🔌 EXTENSIBLE ARCHITECTURE:\r\n• Built-in MCP Server via NINA Advanced API plugin\r\n• External MCP Servers for community tools\r\n• Dynamic model discovery and custom model IDs\r\n\r\nTransform complex equipment control and imaging workflows into simple conversations.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina.plugin.aiassistant/main/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina.plugin.aiassistant/releases/download/2.1.2.0/NINA.Plugin.AIAssistant.2.1.2.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "F93F92D8D2A561842D5B02DE4E96929C72CA9F4019144F2751639F478F35CEB2",
+        "ChecksumType": "SHA256"
+    }
+}
