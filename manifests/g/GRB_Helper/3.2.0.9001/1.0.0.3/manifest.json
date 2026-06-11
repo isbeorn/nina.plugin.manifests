@@ -1,0 +1,36 @@
+{
+    "Name": "GRB_Helper",
+    "Identifier": "0e071b8b-a73a-4e49-808a-54a9f59a9f22",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Ezzeddin, Halla, Insiyah, Qusai",
+    "Homepage": "https://github.com/AUS-Senior-Design/NINA_GRB_Plugin_OpenSource",
+    "Repository": "https://github.com/AUS-Senior-Design/NINA_GRB_Plugin_OpenSource",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/AUS-Senior-Design/NINA_GRB_Plugin_OpenSource/releases",
+    "Tags": ["GRB", "Astronomy", "Alert", "Automation", "Transient"],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Automatically detects GRB alerts and schedules telescope capture based on observability.",
+        "LongDescription": "This plugin enables automated follow-up observations of Gamma-Ray Bursts (GRBs) directly within N.I.N.A. by integrating real-time alert monitoring with observatory-aware scheduling.\r\n\r\nThe system continuously listens for GRB alerts from external sources (such as GCN/Firestore feeds), parses the incoming data, and evaluates each event based on user-defined scientific and observational constraints. These constraints include sky position (RA/Dec), uncertainty radius, brightness indicators (magnitude and flux), GRB age, and source telescope filters.\r\n\r\nA key feature of the plugin is its observability engine, which determines whether a GRB is suitable for imaging from the user's location. This evaluation takes into account the active N.I.N.A. profile's geographic coordinates, altitude limits, twilight conditions, and moon constraints (phase, altitude, and angular separation).\r\n\r\nWhen a GRB satisfies all configured criteria, the plugin can automatically prepare the observation workflow, enabling rapid-response astrophotography without manual intervention.\r\n\r\nAdditional capabilities include:\r\n- Automatic injection of GRB-specific metadata into FITS headers (e.g., GRB name, coordinates, trigger time, flux, and magnitude), ensuring scientific traceability of captured images.\r\n- Custom image file naming patterns for organizing GRB observations.\r\n- Integration with N.I.N.A.'s profile system for seamless configuration management.\r\n- Background monitoring service for continuous, real-time alert handling.\r\n\r\nThis plugin is designed for astrophotographers and researchers interested in time-critical transient events, providing a bridge between professional alert systems and amateur observatory automation.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/AUS-Senior-Design/NINA_GRB_Plugin_OpenSource/releases/download/v1.0.0.3/GRB_Helper.1.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "8F79C2D3D4003BD5B30560D2F5FE32F3BFB868CD46E83CD8B85239ECE1335F6D",
+        "ChecksumType": "SHA256"
+    }
+}
