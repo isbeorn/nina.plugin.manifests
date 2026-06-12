@@ -32,7 +32,7 @@
     "Installer": {
         "URL": "https://github.com/Ekrynox/Nikon-Ekrynox-SDK-for-NINA/releases/download/1.1.0.0/LucasAlias.NINA.NikonEkrynoxSdk.1.1.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "56EA9C69D476AD0E721AB9EAB2913F132AE7EDBCF550EAD279FA13AC68517EEA",
+        "Checksum": "10963DB32788673A766755B4C8F2846E50B1095E46811E9196A361F400EAD2DB",
         "ChecksumType": "SHA256"
     }
 }
