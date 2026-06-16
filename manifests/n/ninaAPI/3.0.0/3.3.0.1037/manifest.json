@@ -1,0 +1,40 @@
+{
+    "Name": "Advanced API",
+    "Identifier": "48b5bc05-f0d3-465e-a233-e2fe77d6e1a6",
+    "Version": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Christian Palm",
+    "Homepage": "https://buymeacoffee.com/christian.palm",
+    "Repository": "https://github.com/christian-photo/ninaAPI",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/christian-photo/ninaAPI/blob/main/Changelog.md",
+    "Tags": [
+        "API",
+        "Web"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1037"
+    },
+    "Descriptions": {
+        "ShortDescription": "Web API for N.I.N.A.",
+        "LongDescription": "# Advanced API for N.I.N.A.\r\n\r\nA powerful HTTP and WebSocket server plugin that enables remote control and monitoring of N.I.N.A. with over 150 unique endpoints.\r\n\r\n## Key Features\r\n\r\n### Equipment Control\r\n* Complete equipment connection management\r\n* Device specific controls like camera cooling or mount slewing (these are only a very small fraction of the available controls)\r\n\r\n### Real-time Monitoring\r\n* Equipment status and state changes\r\n* Sequence progress and events\r\n* Meridian flip notifications\r\n* Connection status updates\r\n\r\n### Integration Support\r\n* TPPA (Third Party Program Automation) integration\r\n* LiveStack integration for real-time stacking\r\n\r\n### Security & Access Control\r\n* Optional Basic Authentication\r\n* Optional support for SSL encryption with your own certificates\r\n\r\n### Developer Features\r\n* RESTful API with OpenAPI/Swagger documentation\r\n* WebSocket support for real-time events\r\n* Comprehensive error handling\r\n\r\n## Documentation & Support\r\n* [Full API Documentation](https://christian-photo.github.io/github-page/projects/ninaAPI/v3/doc/api)\r\n* [WebSocket Documentation](https://github.com/christian-photo/ninaAPI/wiki/Websocket-V3)\r\n* [Issue Tracker](https://github.com/christian-photo/ninaAPI/issues)\r\n\r\nIf you need help, want to report a bug or request a new feature, please join the N.I.N.A. discord or write an issue on the github repository!",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/christian-photo/ninaAPI/releases/download/3.0.0.0-b.1/ninaAPI.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2D1C9EF064FDB8DBB5CA87E3CC164D733BF55E8EF5739F06A23FE82971802AAB",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
