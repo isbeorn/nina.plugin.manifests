@@ -1,0 +1,43 @@
+{
+    "Name": "Add To CPWI Alignment Model",
+    "Identifier": "879618d2-0a61-4b09-b14e-ef2b55583b84",
+    "Version": {
+        "Major": "0",
+        "Minor": "9",
+        "Patch": "0",
+        "Build": "6"
+    },
+    "Author": "ADPUK",
+    "Homepage": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin",
+    "Repository": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "CPWI",
+        "Alignment",
+        "Celestron",
+        "AltAz",
+        "Alt-Az",
+        "Alignment Model"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Creates or adds to a CPWI alignment model",
+        "LongDescription": "This plugin appears in the imaging tab and can be used to create, or add to, \r\nan alignment model for users of CPWI controlled Alt-Az mounts.\r\n\r\nAdding points to the alignment model greatly improves the accuracy of the mount when slewing to targets. After plate solving during the alignment process the \r\nplugin displays the target and actual RA/Dec values. For the initial couple of points these may be quite different, but as more points are added,\r\nthe accuracy of the mount improves significantly.\r\n\r\nThe user can select the number of points in both Azimuth and Altitude. Once triggered the mount is moved to the selected\r\ncordinates and an image obtained and plate solved with the actual RA/Dec then fed back to CPWI as an alignment location.\r\n\r\nFrom my understanding of a Cloudy Nights [forum post](https://www.cloudynights.com/topic/918763-nextar-evolution-alignment-with-nina-platesolve/), CPWI's [change log](https://www.celestron.com/pages/software-update-history)\r\nand personal observations of mount behaviour, the mount \"Sync\" command in CPWI does not update the alignment model. This plugin is an attempt\r\nto overcome this challenge.\r\n\r\nAlso included are sequencer actions to plate solve an image and update the alignment model. Potentially the sequence items could be called from a trigger but I have not yet had time to do that yet.\r\n\r\nThe plugin has been developed and tested using CPWI with a Celestron Astro-Fi 6 mount and scope. It is beleived it will \r\nwork with other CPWI controlled Alt Azimuth mounts but it cannot be guranteed.\r\n\r\nFor the brave at heart there is an option to try turn off the check that a Alt-Az mount is in use. As I don't have access to a CPWI\r\nconnected equatorial it is untested!\r\n\r\n##Instructions##\r\n\r\nThese instructions assume that your camera and scope are approximately in focus before you start.\r\n\r\n1. Connect your scope to your computer using CPWI.\r\n2. In CPWI, when asked about loading models, select *Manual Alignment*\r\n    1. Follow the intructions to point the scope at the appropriate (north in nothern lattitudes, south in southern lattitudes) horizon.\r\n    2. Contine to follow the CPWI instructions until it asks for the first alignment star. At this point you can exit the alignment process.\r\nin CPWI, but, ***keep CPWI running***. \r\n3. If you have not already done so Start NINA.\r\n4. Connect NINA to at least the mount and camera.\r\n5. Goto the imaging tab select the *Add To CPWI Alignment Model* plugin.\r\n6. Set the number of points you want to add in both Azimuth and Altitude.\r\n    1. I recommend at least 4 points in Azimuth.\r\n    1. The plugin will attempt to add the points in a grid pattern, so if you select 3 points in Azimuth and 3 points in Altitude it will add 9 points.\r\n    2. If you select 1 point in Azimuth and 1 point in Altitude it will add a single point.\r\n    3. The plugin will automatically attempt to divide the azimuth points over the full 360 degree horizon.\r\n7. Set the lowest and highest altidude angle that the Altitude points should be spread over.\r\n    1. The plugin will attempt to spread the points evenly over the range you select. If you have a custom horizon for your profile then during the alignment process the software will skip any points that are calculated to be below the horizon. \r\n8. There are some additional options that can be set before starting the alignment process.\r\n    1. Solve attempts are the number of times an image and plate solve operation will be carried out at a point before it is skipped.\r\n    2. After each solve attempt the solver user interace will be shown to allow you to see the image. The interface will close after *Delay before closing plate solve window* seconds.\r\n8. Press start to begin the alignment process. Please note that the start button is disabled if the mount is not connected via CPWI, the mount is not an Alt-Az mount, or the camera not connected.\r\n    1. The plugin will move the mount to the selected coordinates and take an image.\r\n    2. The image will be plate solved and the actual RA/Dec will be calculated.\r\n    3. The actual RA/Dec will be sent to CPWI as a new alignment point.\r\n    4. The plugin will then move to the next point and repeat the process until all points have been added or, those below the horizon, skipped.\r\n9. On the plugin description screen is the ability to enable use of this plug in with equatorial mounts. This should be used with care and the mount monitored carefully to ensure no colisions occur as it has not been tested with such mounts.\r\n\r\n## Acknowledgements##\r\nAcknowledgements to the N.I.N.A. team for their work on the N.I.N.A. software and the plugin framework that this plugin is built on.\r\nAcknowledgements to all the various plugin developers who have provided examples and inspiration for this plugin.\r\n\r\n##Disclaimers##\r\nThis plugin was developed by Dale Page, ADPUK (aka DaleWVUK), and is not affiliated with Celestron or PlaneWave Instruments. Celestron PWI [(CPWI)](https://www.celestron.com/pages/celestron-pwi-telescope-control-software)\r\nwas co-developed by PlaneWave Instruments and Celestron. Please check the CPWI support page for any changes or updates to the CPWI software.\r\n\r\nThis plugin is provided as-is and the author makes no guarantees about its functionality or compatibility with any specific hardware or software configurations. Use at your own risk.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin/releases/download/0.9.0.6/ADPUK.NINA.AddToAlignmentModel.0.9.0.6.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "A24C1B8264C8CD0ED95E012DB5527B64D4830B521840B82AB243DE09B3D8CA2F",
+        "ChecksumType": "SHA256"
+    }
+}

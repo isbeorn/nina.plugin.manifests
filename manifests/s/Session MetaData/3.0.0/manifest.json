@@ -4,7 +4,7 @@
     "Version": {
         "Major": "2",
         "Minor": "6",
-        "Patch": "2",
+        "Patch": "3",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": ""
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.6.2.0/NINA.Plugin.SessionMetaData-2.6.2.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.sessionmetadata/releases/download/v2.6.3.0/NINA.Plugin.SessionMetaData-2.6.3.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "A1162ADAD0BBAF1EC04368A4148B1A691029FDCADB960212F656A979CE29B872",
+    "Checksum": "E23311064854DD652A078CC81F60EA35F4A6DCEF8E4E69A73E8C8BBD04D868E8",
     "ChecksumType": "SHA256"
 }
 }

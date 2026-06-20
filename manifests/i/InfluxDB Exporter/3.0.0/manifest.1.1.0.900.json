@@ -1,0 +1,39 @@
+{
+    "Name": "InfluxDB Exporter",
+    "Identifier": "3f820a89-a858-47f2-a56d-4e2b296f2364",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "900"
+    },
+    "Author": "Dale Ghent",
+    "Homepage": "https://daleghent.com/influxdb-exporter",
+    "Repository": "https://github.com/daleghent/nina-influxdb-exporter",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/daleghent/nina-influxdb-exporter/blob/main/CHANGELOG.md",
+    "Tags": [
+        "influx",
+        " influxdb"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1000"
+    },
+    "Descriptions": {
+        "ShortDescription": "Exports metrics to an InfluxDB 2.x or InfluxDB Cloud 2 instance",
+        "LongDescription": "\r\nInfluxDB Exporter is a NINA plugin that transmits periodic hardware, guiding, and image metrics to an InfluxDB time-series database. From there, the metrics may be graphed using tools such as Grafana or InfluxDB’s own built-in graphing features.\r\n\r\n# Examples #\r\n* [Example Grafana dashboard](https://raw.githubusercontent.com/daleghent/nina-influxdb-exporter/refs/heads/main/Examples/Example%20NINA%20Dashboard.json)\r\n\r\n# Getting help #\r\n\r\nHelp for this plugin may be found in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.gg/nighttime-imaging) or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-influxdb-exporter/issues).",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/influxdb-logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/daleghent/nina-influxdb-exporter/releases/download/1.1.0.900/DaleGhent.NINA.InfluxDbExporter.1.1.0.900.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "E1CF591F45CB3394DF992EF4D268BAA81B3C80B4E20825FC9A62CE8A90DB9D26",
+        "ChecksumType": "SHA256"
+    }
+}

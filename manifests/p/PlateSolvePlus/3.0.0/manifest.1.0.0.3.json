@@ -1,0 +1,42 @@
+{
+    "Name": "PlateSolvePlus",
+    "Identifier": "1dc847ab-63f6-440c-a8fa-a107085d125f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3"
+    },
+    "Author": "Flashy-GER",
+    "Homepage": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "Repository": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.0.3/CHANGELOG.md",
+    "Tags": [
+        "platesolve",
+        "Offset",
+        "SecondCamera"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Enables plate solving via alternative camera and focal length",
+        "LongDescription": "The plugin allows you to define separate settings for focal length or camera settings, independent of the defined telescope configuration. It also allows you to define an additional camera to be used for plate solving.",
+        "FeaturedImageURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.0.3/Docu/Pics/Icon_Platsolveplus.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Flashy-GER/PlateSolvePlus/releases/download/1.0.0.3/PlateSolvePlus.1.0.0.3.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "296FA2FC6A7EC0344E92FB0C0E778A51746F30FD0AC1AA10BCD7497E56F0B59A",
+        "ChecksumType": "SHA256"
+    }
+}
+
+

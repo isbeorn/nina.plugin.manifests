@@ -1,0 +1,41 @@
+{
+    "Name": "Astro-Physics Tools",
+    "Identifier": "99688A5D-BD28-4D8D-80D5-3D4192BB987D",
+    "Version": {
+        "Major": "2",
+        "Minor": "3",
+        "Patch": "2",
+        "Build": "1"
+    },
+    "Author": "Dale Ghent",
+    "Homepage": "https://daleghent.com/astro-physics-tools",
+    "Repository": "https://github.com/daleghent/nina-astro-physics-tools",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/daleghent/nina-astro-physics-tools/blob/main/CHANGELOG.md",
+    "Tags": [
+        "appm",
+        "astro-physics",
+        "apcc",
+        "sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A collection of useful Advanced Sequencer utilities for users of Astro-Physics mounts and APCC Pro",
+        "LongDescription": "Astro-Physics Tools is a collection of Advanced Sequencer instructions that are designed for use with [Astro-Physics](https://www.astro-physics.com/) mounts and [APCC Pro](https://www.astro-physics.com/apcc).\r\n\r\n# Requirements #\r\n\r\n* NINA 3.0\r\n* APCC Pro 1.9.7 or later\r\n* APCC Pro licence that enables the **NINA Camera Support**, **Dec Arc Tracking**, and **ASTAP Plate-solving** features\r\n* The **Enable Server** setting is **On** in NINA's options (refer to Options > General)\r\n\r\nRefer to the **Help > View/Update License Subscription** menu in APCC Pro for details on your installation's licensed features.\r\n\r\n# Provided functions #\r\n\r\n* Start APCC\r\n    * Starts APCC and connects NINA to the Astro-Physics ASCOM driver. For APCC versions earlier than 1.9.7.0, APCC's **Auto-Connect** setting must be selected in both the **Mount** and **AP V2 Driver** option areas in the Setup tab.\r\n* Create All-Sky Model\r\n    * Automatically runs an all-sky model session based on the configured parameters\r\n* Create Dec Arc Model\r\n    * Automatically generates a dec arc model based on several parameters for the target that the instruction is subordinate to\r\n* Astro-Physics Park\r\n    * Permits parking the mount in any one of the five pre-defined Astro-Physics park positions regardless of which one is selected as the default park position\r\n\r\n# Getting help #\r\n\r\nPlease refer to this [plugin's website](https://daleghent.com/astro-physics-tools) for detailed documentation. I also maintain a [website with tips](https://daleghent.com/nina-and-astro-physics-mounts) on using NINA with Astro-Physics mounts.\r\n\r\nIf you have questions about this plugin, come ask them in the **#plugin-discussions** channel on the NINA project [Discord chat server](https://discord.com/invite/rWRbVbw) or on Astro-Physics' [AP-GTO forum](https://ap-gto.groups.io/g/main), or by filing an issue report at this plugin's [Github repository](https://github.com/daleghent/nina-plugins/issues).\r\n\r\n* Astro-Physics Tools is provided 'as is' under the terms of the [Mozilla Public License 2.0](https://github.com/daleghent/nina-astro-physics-tools/blob/main/LICENSE.txt)\r\n* Source code for this plugin is available at this plugin's [source code repository](https://github.com/daleghent/nina-astro-physics-tools)\r\n\r\nThe Astro-Physics logo is copyright © Astro-Physics, Inc. Used with permission.\r\n\r\nThis plugin was coded while listening to the very fine ambient music artists of [Ultimae Records](https://soundcloud.com/ultimae).",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/ap-logo.jpg",
+        "ScreenshotURL": "https://daleghent.github.io/nina-plugins/assets/images/U4APMscreen1.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/daleghent/nina-astro-physics-tools/releases/download/2.3.2.1/DaleGhent.NINA.AstroPhysicsTools.2.3.2.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "66E3F34BDE3EE334DF86E4FE8D8EA7E716510C271D3AE65101A8079A0323D2E9",
+        "ChecksumType": "SHA256"
+    }
+}

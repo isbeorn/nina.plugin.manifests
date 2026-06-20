@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "0",
         "Patch": "0",
-        "Build": "18"
+        "Build": "19"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "",
@@ -35,9 +35,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.18/NINA.Joko.Plugin.Orbitals.zip",
+        "URL": "https://github.com/ghilios/NINA.Joko.Plugin.Orbitals/releases/download/release%2Fv3.0.0.19/NINA.Joko.Plugin.Orbitals.zip",
         "Type": "ARCHIVE",
-        "Checksum": "D734283251538B4A6150DF8F8083A3EA3DA857466DCFB9311CC504F36B9F7E4E",
+        "Checksum": "F0A4BE2FA4B5F6010693BFAE0593650C79E909AEF5B7C6FA72CD9C0AA744667E",
         "ChecksumType": "SHA256"
     }
 }

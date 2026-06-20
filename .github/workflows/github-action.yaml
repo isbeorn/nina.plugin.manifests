@@ -53,20 +53,46 @@ jobs:
 
       - name: Push main manifest
         run: |
-          curl -T ./Plugins/manifests.json \
+          curl --ssl-reqd \
+            --insecure \
+            --pinnedpubkey "$FTP_PINNED_PUBKEY" \
+            --ftp-pasv \
+            --ftp-skip-pasv-ip \
+            --connect-timeout 30 \
+            --max-time 180 \
+            --retry 2 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            --show-error \
+            --silent \
+            -T ./Plugins/manifests.json \
             --user "$FTP_USER:$FTP_PW" \
-            ftp://$FTP_HOST/manifests.json
+            "ftp://$FTP_HOST/manifests.json"
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PW: ${{ secrets.FTP_PW }}
           FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_PINNED_PUBKEY: ${{ secrets.FTP_PINNED_PUBKEY }}
       
       - name: Push beta manifest
         run: |
-          curl -T ./Plugins/Beta/manifests.json \
+          curl --ssl-reqd \
+            --insecure \
+            --pinnedpubkey "$FTP_PINNED_PUBKEY" \
+            --ftp-pasv \
+            --ftp-skip-pasv-ip \
+            --connect-timeout 30 \
+            --max-time 180 \
+            --retry 2 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            --show-error \
+            --silent \
+            -T ./Plugins/Beta/manifests.json \
             --user "$FTP_USER:$FTP_PW" \
-            ftp://$FTP_HOST/Beta/manifests.json
+            "ftp://$FTP_HOST/Beta/manifests.json"
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PW: ${{ secrets.FTP_PW }}
           FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_PINNED_PUBKEY: ${{ secrets.FTP_PINNED_PUBKEY }}
