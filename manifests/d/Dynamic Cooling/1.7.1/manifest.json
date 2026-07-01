@@ -1,0 +1,42 @@
+{
+  "Name": "Dynamic Cooling",
+  "Identifier": "25ac9c96-885e-4733-a437-a5d4863a1c7e",
+  "Version": {
+    "Major": "1",
+    "Minor": "7",
+    "Patch": "1",
+    "Build": "0"
+  },
+  "Author": "RegulusRemains",
+  "Homepage": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+  "Repository": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/CHANGELOG.md",
+  "Tags": [
+    "Camera",
+    "Cooling",
+    "Temperature",
+    "Dew",
+    "Automation"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "3001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Sets the camera's cooling target from the ambient temperature each night and snaps it to a temperature you keep dark frames for. Adds a Dynamic Cool Camera instruction and a Dew Heater Control trigger that manages the anti-dew heater by dew point.",
+    "LongDescription": "Dynamic Cooling sets the camera's cooling target from the ambient temperature each night instead of using a fixed setpoint. It is meant for observatories where the temperature changes enough from night to night that one fixed setpoint either wastes cooling headroom or stalls the sequence when the cooler cannot reach it.\r\n\r\n# Set up once #\r\nOn the Plugins > Dynamic Cooling options page you set the temperature source (the weather device, or the focuser probe), the camera's cooling power (how far below ambient it can hold), the cooling timeout, and the dark library temperatures you keep darks for.\r\n\r\n# One instruction #\r\nAdd a single Dynamic Cool Camera instruction. It has no per-step settings. It cools to the coldest ticked temperature the camera can reach for the current ambient, so every light frame matches a dark you already have. Put it at the start of the night for the first cool-down, and in After Each Target to step colder as the night cools. It will not warm the camera back up during a session, and it backs off if the cooler is already maxed out.\r\n\r\n# Dew heater control #\r\nAdd the Dew Heater Control trigger and it turns the camera's anti-dew heater on when the air gets close to the dew point, then off again once the air dries out, with a small hysteresis band so it does not flap. It needs a connected weather device for humidity and dew point. NINA can only reach the heater when the camera is connected with its native driver rather than ASCOM, so use the native driver and turn off any anti-dew option in the camera's ASCOM settings.\r\n\r\nProvided under the Mozilla Public License 2.0.",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/options.jpg",
+    "ScreenshotURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/options.jpg",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/RegulusRemains/nina-dynamic-cooling/releases/download/v1.7.1.0/NINA.Plugin.DynamicCooling.dll",
+    "Type": "DLL",
+    "Checksum": "D62E2AE8D140B523059A62FF254DA638434FD18258D289D2628F92B76A8717F8",
+    "ChecksumType": "SHA256"
+  }
+}
