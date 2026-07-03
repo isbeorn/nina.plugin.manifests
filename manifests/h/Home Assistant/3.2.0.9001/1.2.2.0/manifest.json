@@ -1,0 +1,42 @@
+{
+    "Name": "Home Assistant",
+    "Identifier": "f2134d4c-5b3c-4382-b5da-7523023855d9",
+    "Version": {
+        "Major": "1",
+        "Minor": "2",
+        "Patch": "2",
+        "Build": "0"
+    },
+    "Author": "CaeloWorks",
+    "Homepage": "https://github.com/caelo-works/nina.plugin.homeassistant",
+    "Repository": "https://github.com/caelo-works/nina.plugin.homeassistant",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/caelo-works/nina.plugin.homeassistant/releases",
+    "Tags": [
+        "Home Assistant",
+        "Switch",
+        "Automation",
+        "Equipment",
+        "Sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Expose Home Assistant entities as NINA switch channels and drive/read them from advanced sequencer instructions.",
+        "LongDescription": "Connect a Home Assistant instance and integrate it into NINA two ways.\r\n\r\nSwitch equipment: map any HA entity to a channel of a NINA Switch device. Each channel can be read-only or writable and represents a binary (on/off), stepped (discrete, e.g. select) or analog (numeric) value, with the unit of measurement shown in the channel name. Once configured, the hub behaves like any native switch and is usable by all built-in functions and other plugins. Live updates use the Home Assistant WebSocket API with REST polling as a fallback.\r\n\r\nAdvanced sequencer (category 'Home Assistant'):\r\n- Call HA Service: invoke any domain.service with an optional entity and JSON data. The data supports NINA patterns ($$TARGETNAME$$, $$FILTER$$, $$CAMERA$$, $$GAIN$$, $$OFFSET$$, $$TEMPERATURE$$, $$SQM$$, $$DATE$$, $$TIME$$, $$DATETIME$$).\r\n- Wait for HA State: pause until an entity reaches a state or threshold (with timeout), showing the live value.\r\n- HA State condition: loop while an entity satisfies a comparison; the live value is displayed and the surrounding block is interrupted when it no longer holds.\r\n- Publish to HA: every N exposures, call a HA service to push NINA status (target, filter, frame count, sensor temperature...) for a Home Assistant dashboard.\r\n\r\nEntity and service pickers throughout the UI offer searchable autocompletion.",
+        "FeaturedImageURL": "https://github.com/caelo-works/nina.plugin.homeassistant/releases/latest/download/logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/caelo-works/nina.plugin.homeassistant/releases/download/v1.2.2/NinaHA.Plugin.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "7DC0D280F6B892B2944C4EDDCD182AFFF7EEF95FDF1C1B1A93F36722EA9A0125",
+        "ChecksumType": "SHA256"
+    }
+}
