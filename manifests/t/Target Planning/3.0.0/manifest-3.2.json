@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "2",
-        "Patch": "1",
+        "Patch": "2",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -16,9 +16,9 @@
 "Tags": [],
 "MinimumApplicationVersion": {
     "Major": "3",
-    "Minor": "0",
+    "Minor": "2",
     "Patch": "0",
-    "Build": "1022"
+    "Build": "9001"
 },
 "Descriptions": {
     "ShortDescription": "Help for planning future imaging sessions",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.targetplanning/main/NINA.Plugin.TargetPlanning/assets/screenshot2.png?raw=true"
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.targetplanning/releases/download/v3.2.1.0/NINA.Plugin.TargetPlanning-3.2.1.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.targetplanning/releases/download/v3.2.2.0/NINA.Plugin.TargetPlanning-3.2.2.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "602993C0DBC62957ED40AC3D273A879DB0BF429FE7D5ECF58CCD0B7B27D4A2F7",
+    "Checksum": "226A4F962A96F3192CD020012330F73126BE7BA333C6FA4C47532DDD34DC6FB2",
     "ChecksumType": "SHA256"
 }
 }
