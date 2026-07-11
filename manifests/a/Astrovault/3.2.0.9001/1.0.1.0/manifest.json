@@ -1,0 +1,43 @@
+{
+    "Name": "Astrovault",
+    "Identifier": "177b9193-0cec-429c-b9b1-19c776f26fe0",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "AstrosphereHub",
+    "Homepage": "https://vault.astrospherehub.com/",
+    "Repository": "https://github.com/ashanuoc/astrovault-nina-plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "cloud",
+        " upload",
+        " backup",
+        " sync",
+        " storage",
+        " astrovault"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Automatically uploads captured astrophotography images to Astrovault cloud storage",
+        "LongDescription": "Astrovault automatically uploads your captured astrophotography images to secure cloud storage.\r\n\r\nFeatures:\r\n- Automatic upload when images are saved\r\n- Persistent queue that survives restarts\r\n- Retry logic with exponential backoff\r\n- Non-blocking uploads (doesn't slow down imaging)\r\n\r\nConfigure your API endpoint and key in the plugin options.",
+        "FeaturedImageURL": "https://github.com/ashanuoc/astrovault-nina-plugin/releases/download/1.0.0.0/logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/ashanuoc/astrovault-nina-plugin/releases/download/1.0.1.0/Astrovault.1.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "0F93E6647E8F75AFDC5D698BEC32559F16A4253228A82E80300B4FF8F2D9B6B2",
+        "ChecksumType": "SHA256"
+    }
+}
