@@ -1,0 +1,41 @@
+{
+    "Name": "Dynamic Cooling",
+    "Identifier": "25ac9c96-885e-4733-a437-a5d4863a1c7e",
+    "Version": {
+        "Major": "1",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "Repository": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Camera",
+        "Cooling",
+        "Temperature",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Dynamic ambient-based camera cooling from one context-aware instruction: full cool-down at night start, only-colder re-cooling between targets, with automatic sustainable-target fallback.",
+        "LongDescription": "Dynamic Cooling picks the camera cooling target from a live ambient sensor (weather device, focuser probe, or a manual value) instead of a fixed setpoint. It is a drop-in alternative to the built-in Cool Camera instruction for observatories where ambient temperature varies night to night.\r\n\r\nA single context-aware Dynamic Cool Camera instruction handles cooling wherever you place it.\r\n\r\n# Start of a night #\r\nWith the cooler off or the sensor still warm it performs a full ramped cool-down: it targets ambient minus a configurable delta, rounded to the nearest 5C step and clamped to a minimum target. If the TEC cannot reach the target on a warm night, it automatically steps back to a sustainable setpoint (the nearest 5C step above what the cooler actually achieved) so the sequence never stalls on cooling. Manual mode pins a fixed fallback target.\r\n\r\n# After Each Target #\r\nWith the cooler already running it re-checks ambient and steps the camera colder as the night cools, snapping to 5C library steps. It skips when the TEC is already straining (over 90 percent power), and with only-step-colder enabled (default) never warms the camera back up mid-session.\r\n\r\nThe temperature source is chosen from a dropdown that lists each connected device and its current reading. Snapping targets to 5C steps keeps light frames at temperatures that match a standard dark library (0, -5, -10, -15, -20 C).\r\n\r\nProvided under the [Mozilla Public License 2.0](https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/LICENSE).",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/dropdown.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/dropdown.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-dynamic-cooling/releases/download/v1.3.0.0/NINA.Plugin.DynamicCooling.dll",
+        "Type": "DLL",
+        "Checksum": "5926CA31B13FCAEF4F137F02FF3F397A21F77DF92FF364E1295905A07F626F5A",
+        "ChecksumType": "SHA256"
+    }
+}

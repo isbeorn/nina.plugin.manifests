@@ -1,0 +1,41 @@
+{
+    "Name": "Dynamic Cooling",
+    "Identifier": "25ac9c96-885e-4733-a437-a5d4863a1c7e",
+    "Version": {
+        "Major": "1",
+        "Minor": "6",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "Repository": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Camera",
+        "Cooling",
+        "Temperature",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Ambient-based camera cooling, set up once on the plugin options page. One context-aware Dynamic Cool Camera instruction cools to the coldest dark-library temperature your camera can reach each night.",
+        "LongDescription": "Dynamic Cooling picks the camera cooling target from the ambient temperature each night instead of a fixed setpoint, and snaps it onto a temperature you actually keep dark frames for. It is a drop-in alternative to the built-in Cool Camera instruction for observatories where temperature varies night to night.\r\n\r\n# Set up once #\r\nOn the Plugins > Dynamic Cooling options page you set the temperature source (weather device, or the focuser probe), your camera's cooling power (max degrees below ambient), the cooling timeout, and the dark-library temperatures you maintain (a 5C grid). These apply to every Dynamic Cool Camera instruction.\r\n\r\n# One context-aware instruction #\r\nDynamic Cool Camera takes no per-step settings. At the start of a night it performs a full ramped cool-down to the coldest enabled temperature the camera can reach (ambient minus your cooling power, snapped to the grid); if the cooler cannot hold it on a warm night it steps back to a sustainable enabled temperature so the sequence never stalls. Placed in After Each Target it steps the camera colder as the night cools, never warming back up, and backing off when the cooler is already straining.\r\n\r\nOnly ever cooling to temperatures you have darks for keeps every light frame calibratable.\r\n\r\nProvided under the [Mozilla Public License 2.0](https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/LICENSE).",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/options.jpg",
+        "ScreenshotURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/options.jpg",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-dynamic-cooling/releases/download/v1.6.1.0/NINA.Plugin.DynamicCooling.dll",
+        "Type": "DLL",
+        "Checksum": "BC28999CF89756F39E9CA940865FA7CD921778E754EC36364899AE780C7A1DF5",
+        "ChecksumType": "SHA256"
+    }
+}
