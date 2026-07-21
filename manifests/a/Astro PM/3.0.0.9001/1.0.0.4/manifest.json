@@ -1,0 +1,42 @@
+{
+    "Name": "Astro PM",
+    "Identifier": "C8F1A2B3-D4E5-6F78-9A0B-1C2D3E4F5A6B",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "4"
+    },
+    "Author": "Astro PM",
+    "Homepage": "https://astro-pm.com",
+    "Repository": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases",
+    "Tags": [
+        "Sync",
+        "Targets",
+        "Framing",
+        "StarLog",
+        "Cloud"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Syncs imaging targets from Astro PM (Astro Project Manager) to NINA's Framing Assistant. Requires an Astro PM license.",
+        "LongDescription": "Astro PM is a cloud-based astrophotography project manager. This plugin connects NINA to your Astro PM account so you can pull imaging targets directly into NINA's Framing Assistant — no manual entry, no copy-paste mistakes.\r\n\r\nWhen you load a target, the plugin sets:\r\n- RA/Dec coordinates\r\n- Camera parameters (FL, sensor, pixel size)\r\n- Rotation angle\r\n- Mosaic panel layout (rows, columns)\r\n- Panel overlap\r\n\r\nThe plugin adds a target selector ComboBox directly into the Framing Assistant UI, plus an Options page with a filterable target list (filter by Status, Location, Scope, Camera) and a one-click Load to Framing button.\r\n\r\nRequirements:\r\n- N.I.N.A. 3.0.0.9001 or newer\r\n- Valid Astro PM license (https://astro-pm.com)",
+        "FeaturedImageURL": "https://asgastronomy.com/downloads/AstroPM-Logo-Icon-500x500.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.0.0.4/AstroPM.NINA.Plugin-1.0.0.4.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "08C7C492888CEA1CB11AAAA5F135E863A33F84364C265D07B9F1C4924A516CBD",
+        "ChecksumType": "SHA256"
+    }
+}
