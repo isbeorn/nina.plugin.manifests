@@ -1,0 +1,46 @@
+{
+  "Name": "AutoFocusGraphs",
+  "Identifier": "b8d4f02a-5c3e-499b-0f2d-7e6b9c1d4e38",
+  "Version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "0",
+    "Build": "4"
+  },
+  "Author": "Chris Flory",
+  "License": "MIT",
+  "LicenseURL": "https://opensource.org/licenses/MIT",
+  "Repository": "https://github.com/chrisflory/AutoFocusGraphs",
+  "Homepage": "https://github.com/chrisflory/AutoFocusGraphs",
+  "ChangelogURL": "https://github.com/chrisflory/AutoFocusGraphs/blob/main/CHANGELOG.md",
+  "Tags": [
+    "autofocus",
+    "graph",
+    "discord",
+    "telegram",
+    "slack",
+    "email",
+    "webhook",
+    "notification"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1047"
+  },
+  "Installer": {
+    "URL": "https://github.com/chrisflory/AutoFocusGraphs/releases/download/v0.1.0.4/AutoFocusGraphs.0.1.0.4.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "48EC56F1CBE48F10BB79849B073E8C725E28F27BA69B58463FCD115A6C79F37D",
+    "ChecksumType": "SHA256"
+  },
+  "Descriptions": {
+    "ShortDescription": "Watches N.I.N.A. AutoFocus reports and posts V-curve graphs to Discord, Telegram, Slack, and email.",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/chrisflory/AutoFocusGraphs/main/assets/webhook-icon-af-graphs.png",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": "",
+    "LongDescription": "AutoFocusGraphs delivers autofocus V-curve graphs and digests to multiple destinations from one N.I.N.A. plugin.\n\nWhen N.I.N.A. writes a new autofocus report under %localappdata%\\NINA\\AutoFocus, the plugin renders a dark-mode ScottPlot graph and posts per-run reports, sequence digests, and session digests to every enabled channel.\n\n## v0.1.0.4 highlights\n- MailKit/MimeKit security update\n- Left-aligned Graph-tab **How it works** help text\n\n## v0.1.0.3 highlights\n- Options Graph tab: **Quality** (thresholds only) and **Posting** (failure hooks, per-run send, quiet hours, delay, template)\n\n## v0.1.0.2 highlights\n- **Per-run send** (every run / every Nth / problems only) and **quiet hours** to cut overnight noise\n- **Focus drift radar** chart with digest trend, preview, and overlay toggles\n- **Compare to last (same filter)** V-curve overlay\n- **Export AF night pack** zip for forums/support\n- Exported V-curve / trend / drift PNGs at **2×** for sharper posts\n\n## Setup\n1. Options → Plugins → AutoFocusGraphs → Graph tab → enable monitoring\n2. Try Preview sample + Graph analysis hints to see curve observations\n3. Enable one or more destinations (Discord / Telegram / Slack / Email) and run each Test button\n\n## Compatibility\nBuilt for N.I.N.A. 3.3 nightlies (.NET 10). Requires MinimumApplicationVersion 3.3.0.1047 or newer."
+  },
+  "Channel": "Beta"
+}
