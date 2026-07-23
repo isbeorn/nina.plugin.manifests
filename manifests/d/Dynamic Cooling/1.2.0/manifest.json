@@ -1,0 +1,41 @@
+{
+    "Name": "Dynamic Cooling",
+    "Identifier": "25ac9c96-885e-4733-a437-a5d4863a1c7e",
+    "Version": {
+        "Major": "1",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "Repository": "https://github.com/RegulusRemains/nina-dynamic-cooling",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Camera",
+        "Cooling",
+        "Temperature",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Dynamic ambient-based camera cooling with automatic sustainable-target fallback and between-target re-cooling.",
+        "LongDescription": "Dynamic Cooling picks the camera cooling target from a live ambient sensor (weather device, focuser probe, or a manual value) instead of a fixed setpoint. It is a drop-in alternative to the built-in Cool Camera instruction for observatories where ambient temperature varies night to night.\r\n\r\n# Dynamic Cool Camera #\r\nPlace at the start of a night. Reads ambient from the selected source and targets ambient minus a configurable delta, rounded to the nearest 5C step and clamped to a minimum target. If the TEC cannot reach the target on a warm night, it automatically steps back to a sustainable setpoint (the nearest 5C step above what the cooler actually achieved) so the sequence never stalls on cooling. Manual mode pins a fixed fallback target.\r\n\r\n# Dynamic Cool Readjust #\r\nPlace in After Each Target. Re-checks ambient between targets and steps the camera colder as the night cools, snapping to 5C library steps. Skips when the TEC is already straining (over 90 percent power), and optionally only ever steps colder.\r\n\r\nThe temperature source is chosen from a dropdown that lists each connected device and its current reading. Configurable temperature source, max delta, minimum target, fallback target, and cooling timeout.\r\n\r\nSnapping targets to 5C steps keeps light frames at temperatures that match a standard dark library (0, -5, -10, -15, -20 C).\r\n\r\nProvided under the [Mozilla Public License 2.0](https://github.com/RegulusRemains/nina-dynamic-cooling/blob/main/LICENSE).",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/dropdown.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/sequence.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/RegulusRemains/nina-dynamic-cooling/main/assets/palette.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-dynamic-cooling/releases/download/v1.2.0.0/NINA.Plugin.DynamicCooling.dll",
+        "Type": "DLL",
+        "Checksum": "512401FD9D75048500AEC181A8EAC99A37C5252BF39DB187F3C6044D49829F51",
+        "ChecksumType": "SHA256"
+    }
+}
