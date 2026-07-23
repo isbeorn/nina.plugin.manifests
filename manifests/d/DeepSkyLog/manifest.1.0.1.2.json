@@ -1,0 +1,46 @@
+{
+    "Name": "DeepSkyLog",
+    "Identifier": "728cc59b-a4a0-45cf-89ed-ecd2aa437dd9",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "2"
+    },
+    "Author": "Karol Bryd",
+    "Homepage": "https://deepskylog.space",
+    "Repository": "https://github.com/karolbe/DeepSkyLog.Plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/karolbe/DeepSkyLog.Plugin/blob/master/DeepSkyLog/CHANGELOG.md",
+    "Tags": [
+        "astrophotography",
+        "project",
+        "management",
+        "log",
+        "logging",
+        "tracking",
+        "deepskylog",
+        "imaging",
+        "session"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Automatically sync your astrophotography session data with DeepSkyLog",
+        "LongDescription": "DeepSkyLog turns your N.I.N.A. captures into an organized, living record of every project - so you always know what you've shot, how good it is, and what to image next.\r\n\r\nAs each LIGHT frame is saved, the plugin quietly syncs its metadata to the DeepSkyLog web app giving you an up-to-date view of all your imaging in one place.\r\n\r\nAs an owner of a remote observatory, astrophotography traveller I know how hard it is to keep track of all the data you collect night after night.\r\nI created DeepSkyLog to make it easy to manage my all projects, track progress, and plan my future sessions. I hope it will help you too.\r\n\r\nHere is how DeepSkyLog can help you:\r\n\r\n• All your targets are organized as Projects, each Project has equipment, location and keeps details about all FITS files captured for it\r\n• See total integration time accumulate night after night, assign goals, and track your progress toward them\r\n• Monitor image quality over time - HFR, FWHM, guiding RMS, eccentricity\r\n• Spot your best and worst frames, especially if you do not own expensive rig :-)\r\n\r\nYou can also plan future sessions with DeepSkyLog:\r\n\r\n• Know exactly which filters still need more data to finish a target\r\n• Plan upcoming nights around what each project still needs\r\n• Use interactive sky map to find interesting targets to image and see what you have already photographed\r\n• Preview mosaic panels (as well as all your targets) on an interactive sky map\r\n\r\nExplore a live demo account - no signup: https://deepskylog.space/demo-login\r\n\r\nFree version available, or upgrade to Pro for more features:\r\n\r\nLearn more at https://deepskylog.space",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://deepskylog.space/images/illustrations/dashboard.jpg",
+        "AltScreenshotURL": "https://deepskylog.space/images/illustrations/dashboard.jpg"
+    },
+    "Installer": {
+        "URL": "https://github.com/karolbe/DeepSkyLog.Plugin/releases/download/1.0.1.2/DeepSkyLog.NINAPlugin.1.0.1.2.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "87F90FB95F683615915791EFA1B19D44B03A2D334FF81937DCEAA86BB6B894C8",
+        "ChecksumType": "SHA256"
+    }
+}

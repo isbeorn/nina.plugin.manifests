@@ -1,0 +1,39 @@
+﻿{
+    "Name":  "AI Weather",
+    "Identifier":  "A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D",
+    "Version":  {
+                    "Major":  "1",
+                    "Minor":  "3",
+                    "Patch":  "0",
+                    "Build":  "0"
+                },
+    "Author":  "Michele Bergo",
+    "Homepage":  "https://github.com/michelebergo/nina.plugin.aiweather",
+    "Repository":  "https://github.com/michelebergo/nina.plugin.aiweather",
+    "License":  "MIT",
+    "LicenseURL":  "https://opensource.org/licenses/MIT",
+    "ChangelogURL":  "https://github.com/michelebergo/nina.plugin.aiweather/releases",
+    "Tags":  [
+                 "Weather",
+                 "Safety Monitor",
+                 "All Sky Camera",
+                 "AI",
+                 "RTSP"
+             ],
+    "MinimumApplicationVersion":  {
+                                      "Major":  "3",
+                                      "Minor":  "0",
+                                      "Patch":  "0",
+                                      "Build":  "0"
+                                  },
+    "Descriptions":  {
+                         "ShortDescription":  "AI-powered all-sky camera weather monitoring with automatic safety protection for unattended imaging sessions",
+                         "FeaturedImageURL":  "https://raw.githubusercontent.com/michelebergo/nina.plugin.aiweather/main/ai_weather_logo.png"
+                     },
+    "Installer":  {
+                      "URL":  "https://github.com/michelebergo/nina.plugin.aiweather/releases/download/1.3.0.0/NINA.Plugin.AIWeather.1.3.0.0.zip",
+                      "Type":  "ARCHIVE",
+                      "Checksum":  "70FF1931C3FE7D949645B9E1143DFFFA89428752435E384DC2A479299C81D223",
+                      "ChecksumType":  "SHA256"
+                  }
+}
