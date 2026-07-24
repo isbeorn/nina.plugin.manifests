@@ -37,7 +37,7 @@
     "Installer": {
         "URL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.4.6.0/AstroPM.NINA.Plugin-1.4.6.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "B913C971EE42665F373F7A78B792D39C6072C5ED9AD9748D6E54DEFBA5D0F242",
+        "Checksum": "97DDCC32B8FEE580E95DD89FD8B5A07762AFF7735DAD7FDFFFBF4761A5740217",
         "ChecksumType": "SHA256"
     }
 }
