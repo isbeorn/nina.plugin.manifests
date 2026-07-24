@@ -32,7 +32,7 @@
     "Installer": {
         "URL": "https://github.com/totoantibes/NinaLumixPlugin/releases/download/1.2.0.0/LumixPlugin.1.2.0.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A6504286079CDBEF759F2BB293BBDEBCB8A5F48FE6DB0CE098951D476CDCE445",
+        "Checksum": "CEC2E64ACE9C888977E9DCE767837481E490AE106E50AD2D82A1AF29B6C048E7",
         "ChecksumType": "SHA256"
     }
 }
