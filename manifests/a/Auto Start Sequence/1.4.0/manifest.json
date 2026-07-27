@@ -1,0 +1,42 @@
+{
+    "Name": "Auto Start Sequence",
+    "Identifier": "e5c5edcb-2c3c-492f-99ef-119c0daebd22",
+    "Version": {
+        "Major": "1",
+        "Minor": "4",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-auto-start-sequence",
+    "Repository": "https://github.com/RegulusRemains/nina-auto-start-sequence",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-auto-start-sequence/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Automation",
+        "Sequence",
+        "AutoStart",
+        "Unattended",
+        "Safety"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Opt-in, fail-closed startup gate for a loaded N.I.N.A. advanced sequence.",
+        "LongDescription": "Auto Start Sequence can start the loaded advanced sequence after N.I.N.A. launches, but version 1.4.0.0 is deliberately opt-in and fail closed for new profiles.\r\n\r\nNew profiles default disabled. N.I.N.A. checklist bypass is off. Disconnected camera, mount, or safety monitor at the deadline blocks start. When SafeOnStart is enabled, the cover must close and the mount must reach home or already report home/parked. Incomplete safing blocks start. Each historical fail-open behavior is available only through a separately labeled explicit override.\r\n\r\nExisting stored profile values are not silently rewritten during update. A connected safety monitor is not proof of a safe reading, successful driver calls are not independent mechanical proof, and the loaded sequence remains responsible for current weather, sun, connection, and safety gates.\r\n\r\nThis release passes policy and source-invariant tests on Linux and Windows and is built from locked N.I.N.A. 3.2 dependencies by exact tag CI. Installing it does not authorize enablement, profile changes, sequence execution, cover or mount motion, or unattended operation. Review SAFETY.md and verify site-specific controls before deployment.\r\n\r\nProvided under the Mozilla Public License 2.0.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-auto-start-sequence/releases/download/v1.4.0.0/NINA.Plugin.AutoStartSequence.dll",
+        "Type": "DLL",
+        "Checksum": "6D422498D3B1931453B2D449F79F9564A82FDFC2E3196B19A49CBE4996CCC7F5",
+        "ChecksumType": "SHA256"
+    }
+}
