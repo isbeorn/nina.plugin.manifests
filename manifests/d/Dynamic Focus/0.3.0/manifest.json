@@ -1,0 +1,42 @@
+{
+    "Name": "Dynamic Focus",
+    "Identifier": "f0c05d1a-2026-4d0c-9e11-2c0d1f0c05d1",
+    "Version": {
+        "Major": "0",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-dynamic-focus",
+    "Repository": "https://github.com/RegulusRemains/nina-dynamic-focus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-dynamic-focus/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Focus",
+        "Autofocus",
+        "Temperature",
+        "Automation",
+        "Seeing"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Observe-first focus supervision that distinguishes thermal drift and real defocus from seeing, cloud, altitude, and autofocus thrash.",
+        "LongDescription": "Dynamic Focus evaluates each upcoming light exposure using HFR, a stable per-filter baseline, star count, guide RMS, focuser temperature, mount altitude, and recent autofocus state. It holds when focus is stable, vetoes misleading degradation, predicts bounded thermal nudges, and requests autofocus only for unexplained defocus in good conditions.\r\n\r\nNew triggers default to observe-only. In that mode every decision is logged but no focuser move or autofocus is started. Keep NINA's built-in HFR trigger authoritative until a separately approved, supervised commissioning process is complete. Installing this release does not authorize disabling observe-only or unattended use.\r\n\r\nVersion 0.3.0.0 passes the Holistic focus-decision v1 vectors and cross-platform observe-only regression tests, and is built from locked NINA 3.2 dependencies.\r\n\r\nProvided under the Mozilla Public License 2.0.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-dynamic-focus/releases/download/v0.3.0.0/NINA.Plugin.DynamicFocus.dll",
+        "Type": "DLL",
+        "Checksum": "E880FD2586D4D81B760E24918A579333027FA14FE4986475A4DC2E20ED0B55FA",
+        "ChecksumType": "SHA256"
+    }
+}
