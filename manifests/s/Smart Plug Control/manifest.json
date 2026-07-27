@@ -15,7 +15,6 @@
     "ChangelogURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/CHANGELOG.md",
     "Tags": [
         "Kasa",
-        "Tapo",
         "Smart Plug",
         "Smart Power Strip",
         "TP-Link",
@@ -30,8 +29,8 @@
         "Build": "2017"
     },
     "Descriptions": {
-        "ShortDescription": "Control smart Wi-Fi power strips (Kasa/Tapo) individually from NINA sequences",
-        "LongDescription": "Control TP-Link Kasa smart plugs and power strips from your NINA imaging sequences - turn equipment on/off, toggle indicator LEDs, and react to plug state from the Advanced Sequencer.\n\nBuilt for multi-tenant commercial remote observatories: all control goes exclusively through the TP-Link cloud API, never a direct local-network connection to your devices, so one client's NINA instance can never reach another client's equipment on a shared network.\n\nIncludes a dockable equipment page in the Imaging tab, 8 sequencer instructions (turn plugs/LEDs on/off, individually or all at once, with an optional delay), 4 loop conditions (plug on/off, total consumption above/below a threshold), and a plug-state-changed trigger.\n\nTapo devices are discovered alongside Kasa, but control isn't implemented yet.",
+        "ShortDescription": "Control smart Wi-Fi power strips (Kasa) individually from NINA sequences",
+        "LongDescription": "Control TP-Link Kasa smart plugs and power strips from your NINA imaging sequences - turn equipment on/off, toggle indicator LEDs, and react to plug state from the Advanced Sequencer.\n\nBuilt for multi-tenant commercial remote observatories: all control goes exclusively through the TP-Link cloud API, never a direct local-network connection to your devices, so one client's NINA instance can never reach another client's equipment on a shared network.\n\nIncludes a dockable equipment page in the Imaging tab, 8 sequencer instructions (turn plugs/LEDs on/off, individually or all at once, with an optional delay), 4 loop conditions (plug on/off, total consumption above/below a threshold), and a plug-state-changed trigger.\n\nTapo devices, and newer-generation Kasa devices that use the same protocol (e.g. the KP125M), are discovered for visibility but will not be controllable - their protocol has no cloud-relay path, only direct local-network access, which conflicts with this plugin's cloud-only design.",
         "FeaturedImageURL": "",
         "ScreenshotURL": "https://raw.githubusercontent.com/crepusculum-space/nina.plugin.smartplugcontrol/main/docs/screenshots/equipment-page.png",
         "AltScreenshotURL": ""
@@ -39,7 +38,7 @@
     "Installer": {
         "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.1/Crepusculum.NINA.SmartPlugControl-v0.0.0.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "AA0A10F7B21662CAE713F1584DD931E804B2566D1A126594434B9AA4675AB460",
+        "Checksum": "5A87EA405C95300EC77CE36BF09BB6A05839E7DB97F938852AE0749F7BED9E3D",
         "ChecksumType": "SHA256"
     }
 }
