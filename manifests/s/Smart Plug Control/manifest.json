@@ -10,8 +10,8 @@
     "Author": "Crepusculum",
     "Homepage": "https://crepusculum.space",
     "Repository": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol",
-    "License": "MPL-2.0",
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/LICENSE",
     "ChangelogURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/CHANGELOG.md",
     "Tags": [
         "Kasa",
@@ -39,7 +39,7 @@
     "Installer": {
         "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.1/Crepusculum.NINA.SmartPlugControl-v0.0.0.1.zip",
         "Type": "ARCHIVE",
-        "Checksum": "78452B3029A81244E605219E4682BADD99B21550AC6974842C85B3E81D01CD45",
+        "Checksum": "AA0A10F7B21662CAE713F1584DD931E804B2566D1A126594434B9AA4675AB460",
         "ChecksumType": "SHA256"
     }
 }
