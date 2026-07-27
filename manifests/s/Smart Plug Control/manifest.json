@@ -1,0 +1,45 @@
+{
+    "Name": "Smart Plug Control",
+    "Identifier": "22f9cea5-3456-4594-856e-73840c20c30a",
+    "Version": {
+        "Major": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Crepusculum",
+    "Homepage": "https://crepusculum.space",
+    "Repository": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Kasa",
+        "Tapo",
+        "Smart Plug",
+        "Smart Power Strip",
+        "TP-Link",
+        "Remote Observatory",
+        "Power Management",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Control smart Wi-Fi power strips (Kasa/Tapo) individually from NINA sequences",
+        "LongDescription": "Control TP-Link Kasa smart plugs and power strips from your NINA imaging sequences - turn equipment on/off, toggle indicator LEDs, and react to plug state from the Advanced Sequencer.\n\nBuilt for multi-tenant commercial remote observatories: all control goes exclusively through the TP-Link cloud API, never a direct local-network connection to your devices, so one client's NINA instance can never reach another client's equipment on a shared network.\n\nIncludes a dockable equipment page in the Imaging tab, 8 sequencer instructions (turn plugs/LEDs on/off, individually or all at once, with an optional delay), 4 loop conditions (plug on/off, total consumption above/below a threshold), and a plug-state-changed trigger.\n\nTapo devices are discovered alongside Kasa, but control isn't implemented yet.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://raw.githubusercontent.com/crepusculum-space/nina.plugin.smartplugcontrol/main/docs/screenshots/equipment-page.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.1/Crepusculum.NINA.SmartPlugControl-v0.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "78452B3029A81244E605219E4682BADD99B21550AC6974842C85B3E81D01CD45",
+        "ChecksumType": "SHA256"
+    }
+}
