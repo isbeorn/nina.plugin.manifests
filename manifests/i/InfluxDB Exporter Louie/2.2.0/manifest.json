@@ -1,0 +1,41 @@
+{
+    "Name": "InfluxDB Exporter Louie",
+    "Identifier": "a1b2c3d4-5678-9abc-def0-112233445566",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "RegulusRemains",
+    "Homepage": "https://github.com/RegulusRemains/nina-influxdb-exporter",
+    "Repository": "https://github.com/RegulusRemains/nina-influxdb-exporter",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/RegulusRemains/nina-influxdb-exporter/blob/main/CHANGELOG.md",
+    "Tags": [
+        "influx",
+        "influxdb",
+        "telemetry",
+        "grafana"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1000"
+    },
+    "Descriptions": {
+        "ShortDescription": "Exports N.I.N.A. equipment and image telemetry to InfluxDB 2.x",
+        "LongDescription": "InfluxDB Exporter Louie is the RegulusRemains-maintained MPL-2.0 derivative of Dale Ghent's InfluxDB Exporter. It exports camera, dome, filter wheel, flat device, focuser, guider, image, mount, rotator, safety monitor, switch, weather, and astronomical telemetry. This derivative uses a bounded write-behind queue so slow endpoints do not block N.I.N.A. event handlers, exports writable switch feedback, omits weather fields that a driver does not report, and tags the active profile by default. Endpoint, organization, bucket, and token are profile-scoped operator configuration; tokens are protected for the current Windows user. The queue is intentionally lossy during sustained outage or overload and reports dropped telemetry in the N.I.N.A. log. Installing the plugin does not authorize configuration, network egress, secret migration, deployment, or live equipment access.",
+        "FeaturedImageURL": "https://daleghent.github.io/nina-plugins/assets/images/influxdb-logo.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/RegulusRemains/nina-influxdb-exporter/releases/download/v2.2.0.0/Louie.NINA.InfluxDbExporter.v2.2.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "b7a0ac3137ca217a7b6c98b8d6b94eecd2c471b478161c6c9deab3eb7545a0fd",
+        "ChecksumType": "SHA256"
+    }
+}
