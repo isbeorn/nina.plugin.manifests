@@ -1,0 +1,42 @@
+{
+    "Name": "NINA AAPA Controller",
+    "Identifier": "a3c8f4e2-7b1d-4a9e-b5f0-1c2d3e4f5a6b",
+    "Version": {
+        "Major": "5",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Blayzer",
+    "Homepage": "https://github.com/Blayzer-Astro/AAPA-Controller-Plugin",
+    "Repository": "https://github.com/Blayzer-Astro/AAPA-Controller-Plugin",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "",
+    "Tags": [
+        "Polar Alignment",
+        "AAPA",
+        "TPPA",
+        "Stepper Motor",
+        "Automated"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Integrates AAPA hardware with TPPA for automated polar alignment via stepper motor control.",
+        "LongDescription": "Please read the Readme on my Github.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Blayzer-Astro/AAPA-Controller-Plugin/releases/latest/download/NINA.Plugin.AAPA.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "899C74FCB2DBD7995AA921CD17585200522381A61D07209BD733A0725A9F0A84",
+        "ChecksumType": "SHA256"
+    }
+}
