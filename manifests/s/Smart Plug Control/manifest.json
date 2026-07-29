@@ -5,13 +5,13 @@
         "Major": "0",
         "Minor": "0",
         "Patch": "0",
-        "Build": "2"
+        "Build": "3"
     },
     "Author": "Crepusculum",
     "Homepage": "https://crepusculum.space",
     "Repository": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol",
-    "License": "MIT",
-    "LicenseURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/LICENSE",
+    "License": "GPL-3.0",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.en.html",
     "ChangelogURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/CHANGELOG.md",
     "Tags": [
         "Kasa",
@@ -37,9 +37,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.2/Crepusculum.NINA.SmartPlugControl-v0.0.0.2.zip",
+        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.3/Crepusculum.NINA.SmartPlugControl-v0.0.0.3.zip",
         "Type": "ARCHIVE",
-        "Checksum": "1061EE9F68FA30DABCFE6BBE2F04C130546C0AFCEA4E0FA291E0A08DD9F811F1",
+        "Checksum": "471B143DCF85BAB23AF9973759174D534C9D1B79ADFD5AAC7A26EE8BCE523E89",
         "ChecksumType": "SHA256"
     }
 }
