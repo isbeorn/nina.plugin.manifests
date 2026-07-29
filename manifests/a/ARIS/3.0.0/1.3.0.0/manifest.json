@@ -1,0 +1,44 @@
+{
+    "Name": "ARIS",
+    "Identifier": "6379aad7-2884-405e-830a-1b735630a217",
+    "Version": {
+        "Major": "1",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "ARIS Astro",
+    "Homepage": "https://arisastro.com",
+    "Repository": "https://github.com/arisastro/aris-nina-plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/arisastro/aris-nina-plugin/releases",
+    "Tags": [
+        "Remote",
+        "Dashboard",
+        "Automation",
+        "Array",
+        "Mobile",
+        "Web"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Connects your rig to the ARIS app — live imaging dashboard, sequencing, and multi-rig control from iPad, iPhone, Android, or any browser.",
+        "LongDescription": "ARIS — Array Rig Integration System\r\n\r\nARIS turns your NINA rig into a remotely controlled observatory you can run from an iPad, iPhone, Android device, or any web browser on your network.\r\n\r\nThis plugin is the bridge: it runs a lightweight HTTP server inside NINA so the ARIS app can discover the rig (mDNS) and control it over your local network.\r\n\r\n**What you get in the ARIS app**\r\n\r\n- Live imaging dashboard — camera, cooling, guiding, and capture status at a glance\r\n- Sequence building with per-target altitude planning, pushed to NINA's Advanced Sequencer\r\n- Filter wheel and equipment control\r\n- Sky atlas planning with framing\r\n- Multi-rig support — run NINA and INDI rigs side by side from one screen\r\n\r\n**Requirements**\r\n\r\n- NINA 3.0 or newer\r\n- The ARIS app on a device on the same local network — https://arisastro.com\r\n- ARIS is currently in private beta; join the waitlist at https://arisastro.com\r\n\r\n**Source and community**\r\n\r\n- Plugin source (MPL-2.0): https://github.com/arisastro/aris-nina-plugin\r\n- Community forum: https://community.arisastro.com",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/arisastro/aris-nina-plugin-assets/main/aris-logo-256.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/arisastro/aris-nina-plugin-assets/main/imaging-main.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/arisastro/aris-nina-plugin-assets/main/sequencing-main.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/arisastro/aris-nina-plugin/releases/download/1.3.0.0/ARIS.NINA.Plugin.dll",
+        "Type": "DLL",
+        "Checksum": "A0B6E2B24B93C631DA4D95E8F01AD0860B0AA1DECD99C5543D91B203D06F28AF",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
