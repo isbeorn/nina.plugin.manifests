@@ -1,0 +1,26 @@
+{
+    "Name": "Quick Actions",
+    "Identifier": "b667fd51-1f79-443e-a897-64c472aa5226",
+    "Author": "Tomas Dvoracek",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "Homepage": "https://github.com/Th0MmyS/QuickActions",
+    "Repository": "https://github.com/Th0MmyS/QuickActions",
+    "ChangelogURL": "https://github.com/Th0MmyS/QuickActions/releases",
+    "Tags": ["Imaging", "Macros", "QuickActions", "Beta"],
+    "Channel": "Beta",
+    "Version": { "Major": 0, "Minor": 9, "Patch": 0, "Build": 0 },
+    "MinimumApplicationVersion": { "Major": 3, "Minor": 2, "Patch": 0, "Build": 9001 },
+    "Installer": {
+        "URL": "https://github.com/Th0MmyS/QuickActions/releases/download/v0.9.0-beta/NINA.Plugin.QuickActions.dll",
+        "Type": "DLL",
+        "Checksum": "6061F2A1EDD2CE040C6621142690BC775BEB166C6990C91EF3D873B5BA3E3EB0",
+        "ChecksumType": "SHA256"
+    },
+    "Descriptions": {
+        "ShortDescription": "[Beta] One-click macro tiles in the Imaging tab for mount slews, focuser/rotator moves, camera cooling, exposures, filter changes, guiding, and plate solving.",
+        "LongDescription": "Beta release (0.9.0).\n\nA dockable panel in the Imaging tab that lets you build and run one-click hardware macros.\n\n**Mount**: slew offsets, slew to RA/Dec, slew to NCP / Zenith / Alt-Az, park / unpark, stop, find home, sync to current, plate solve & sync.\n\n**Focuser**: absolute position, relative steps.\n\n**Camera**: cool to temperature, warm up, take exposure (decimal seconds supported).\n\n**Filter wheel**: select filter from active profile.\n\n**Rotator**: move to angle, move by offset.\n\n**Guider**: start, stop, dither.\n\nTiles are color-coded by hardware category, disable themselves when the relevant device is offline, and a header strip shows live mount RA / Dec / Alt / Az. A red Cancel button appears whenever a macro is running so you can abort long operations like a stuck plate solve. Macros are saved per NINA profile.\n\nProgrammed by Claude Code (Anthropic) on behalf of Tomas Dvoracek.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/Th0MmyS/QuickActions/main/icon.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/Th0MmyS/QuickActions/main/image.png"
+    }
+}
