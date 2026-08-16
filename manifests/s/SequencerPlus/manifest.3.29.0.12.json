@@ -1,0 +1,46 @@
+{
+    "Name": "Sequencer+",
+    "Identifier": "9bb66de3-b145-433c-b07b-1c432454817a",
+    "Version": {
+        "Major": "3",
+        "Minor": "29",
+        "Patch": "0",
+        "Build": "12"
+    },
+    "Author": " Carl Björk (Elveteek Sàrl)",
+    "Homepage": "https://elveteek.ch/nina-plugins/sequencer-plus",
+    "Repository": "https://github.com/palmito9/Nina.SequencerPlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/palmito9/Nina.SequencerPlus/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Sequencer",
+        "Utility",
+        "Constants",
+        "Variables",
+        "Expressions",
+        "Safety",
+        "Interrupt",
+        "If",
+        "When"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Advanced Sequencer on steroids.\nAdds variables, expressions, conditional logic, reusable functions, safety triggers, DIY Meridian Flip, and enhanced(+) versions of standard NINA instructions to the Advanced Sequencer.",
+        "LongDescription": "## This plugin contains a variety of useful instructions that enhance the power of the Advanced Sequencer.  The set of these instructions is expected to increase over time; consider them 'utility' instructions.  Many of these instructions allow you to take arbitrary sets of actions when specific circumstances arise; you specify these actions by dragging instructions into place, just as you would to create any instruction set or template.\r\n\r\n## Among the more powerful Sequencer+ instructions are those related to Constants, Variables, and Expressions, and the Template by Reference instruction.\r\n\r\n\r\n# Documentation draft for Sequencer+ is now available, check homepage.  This documentation is a work in progress, still many screenshots and details to be added, but it should give you a good idea of how to use the plugin and its various instructions.\r\n\r\n## Comments, suggestions, bug reports, and feature requests are welcomed! You can reach me on the NINA Discord server or use the contact form at https://elveteek.ch. Please note that while I'll do my best to handle bugs, new features, and maintenance, I realistically won't have time for how-to questions — the NINA Discord community will be your best bet there.\r\n",
+        "FeaturedImageURL": "https://github.com/palmito9/Nina.SequencerPlus/blob/main/images/SequencerPlus_icon.png?raw=true",
+        "ScreenshotURL": "https://github.com/palmito9/Nina.SequencerPlus/blob/main/images/SequencerPlus_DIYMeridianFlip.png?raw=true",
+        "AltScreenshotURL": "https://github.com/palmito9/Nina.SequencerPlus/blob/main/images/SequencerPlus_WhenUnsafe.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/palmito9/Nina.SequencerPlus/releases/download/3.29.0.12/NINA.Plugin.SequencerPlus.3.29.0.12.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "311F68DC7A5303CFC624321CAAB1C14030A2AEBFC87F0E96E8509566CCBC58F3",
+        "ChecksumType": "SHA256"
+    }
+}
