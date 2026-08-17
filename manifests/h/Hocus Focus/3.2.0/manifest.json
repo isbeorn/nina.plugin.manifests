@@ -5,7 +5,7 @@
         "Major": "4",
         "Minor": "0",
         "Patch": "0",
-        "Build": "13"
+        "Build": "14"
     },
     "Author": "George Hilios (jokogeo)",
     "Homepage": "https://ghilios.github.io/hocus-focus/",
@@ -36,9 +36,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/ghilios/hocus-focus/releases/download/release/v4.0.0.13/NINA.Joko.Plugins.HocusFocus.4.0.0.13.zip",
+        "URL": "https://github.com/ghilios/hocus-focus/releases/download/release/v4.0.0.14/NINA.Joko.Plugins.HocusFocus.4.0.0.14.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A84E3FFD888FC36BF98405A129D1D80A0A6AC6397826046544796C558940D9DC",
+        "Checksum": "3F0E1C9F83AE6F869B5C604D2054B6C9CDA90F95C04E78494E5D2030D7AB1D8F",
         "ChecksumType": "SHA256"
     }
 }
