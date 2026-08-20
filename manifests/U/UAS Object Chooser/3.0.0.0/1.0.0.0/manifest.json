@@ -19,7 +19,7 @@
     "Build": 0
   },
   "Installer": {
-    "URL": "https://underafricanskies.eu/nina/UAS.ObjectChooser-1.0.0.0.zip",
+    "URL": "https://github.com/wpdrost69/nina-uas-object-chooser/releases/download/v1.0.0.0/UAS.ObjectChooser-1.0.0.0.zip",
     "Type": "ARCHIVE",
     "Checksum": "140F479A3A2570DB5C36229C0FC6816BEC89098538CE4814A0336B216ED113CA",
     "ChecksumType": "SHA256"
@@ -34,6 +34,6 @@
   ],
   "Descriptions": {
     "ShortDescription": "Browse the Under African Skies deep-sky catalogue inside NINA — 675+ objects plus the Sun, Moon and planets, with real sky images, live visibility from your profile location, and the ideal telescope focal length for each target.",
-    "LongDescription": "UAS Object Chooser adds a dockable panel that lists the Under African Skies catalogue of 675+ deep-sky objects together with the Sun, Moon and the seven planets, computed for the current date and your NINA profile location so it works anywhere in the world. Each object shows a real DSS sky image, its type and hemisphere, tonight's maximum altitude and whether it is well placed during the dark hours, plus a recommended telescope focal length that frames it to fill 60–80% of your camera's sensor (auto-detected from the connected camera). The full catalogue is embedded in the plugin, so the list appears instantly with no internet connection, and object images can be pre-downloaded for fully offline use at the telescope. Select any target to read a short description, then push it straight to the Framing Assistant or slew and centre the mount — without leaving NINA."
+    "LongDescription": "UAS Object Chooser adds a dockable panel — found in NINA's Imaging tab (add it from the panel menu if it isn't already shown) — that lists the Under African Skies catalogue of 675+ deep-sky objects together with the Sun, Moon and the seven planets, computed for the current date and your NINA profile location so it works anywhere in the world. Each object shows a real DSS sky image, its type and hemisphere, tonight's maximum altitude and whether it is well placed during the dark hours, plus a recommended telescope focal length that frames it to fill 60–80% of your camera's sensor (auto-detected from the connected camera). The full catalogue is embedded in the plugin, so the list appears instantly with no internet connection, and object images can be pre-downloaded for fully offline use at the telescope. Select any target to read a short description, then push it straight to the Framing Assistant or slew and centre the mount — without leaving NINA."
   }
 }
