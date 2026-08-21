@@ -1,0 +1,42 @@
+{
+    "Name": "Chatstronomy",
+    "Identifier": "5e7c25c4-f654-4e22-9e21-3127048221c0",
+    "Version": {
+        "Major": "0",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "20"
+    },
+    "Author": "Yann Ramin",
+    "Homepage": "https://chatstronomy.com/",
+    "Repository": "https://github.com/theatrus/chatstronomy-nina-plugin",
+    "License": "Apache-2.0",
+    "LicenseURL": "https://github.com/theatrus/chatstronomy-nina-plugin/blob/main/LICENSE",
+    "ChangelogURL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/tag/v0.1.0.20",
+    "Tags": [
+        "Discord",
+        "Matrix",
+        "Chat",
+        "Monitoring",
+        "Remote Control"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Bridge NINA with Discord and Matrix, supporting bot slash commands for control",
+        "LongDescription": "Routes native N.I.N.A. status, events, images, popup notifications, selected logs, and approved commands through Discord and Matrix. Pair with Chatstronomy Hub for the simplest setup, or run a supervised local Discord and Matrix bot directly on the N.I.N.A. computer.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/theatrus/chatstronomy-nina-plugin/main/assets/branding/chatstronomy-featured.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/download/v0.1.0.20/Chatstronomy.NINA.0.1.0.20.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "351F64152B65CA186CE76A098336312791C32D3D10438B9EAFD928BBE0E5728C",
+        "ChecksumType": "SHA256"
+    }
+}
