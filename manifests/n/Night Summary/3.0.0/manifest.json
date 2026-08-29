@@ -4,7 +4,7 @@
     "Version": {
         "Major": "3",
         "Minor": "3",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Evan Pegors @sleepypuppy15",
@@ -37,9 +37,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v3.3.0/NINA.Plugin.NightSummary.zip",
+        "URL": "https://github.com/vorticose/nina.plugin.nightsummary/releases/download/v3.3.1/NINA.Plugin.NightSummary.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A565D918424007C05C972F85618290548A2140D150CD4F1FD4861B1B8E7766B2",
+        "Checksum": "6BB32F13BB4B35410AB4864031F6B0543AC918A2372EEFC233F0A71C16FD553C",
         "ChecksumType": "SHA256"
     }
 }
