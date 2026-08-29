@@ -1,0 +1,45 @@
+{
+    "Name": "Smart Plug Control",
+    "Identifier": "22f9cea5-3456-4594-856e-73840c20c30a",
+    "Version": {
+        "Major": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "4"
+    },
+    "Author": "Crepusculum",
+    "Homepage": "https://crepusculum.space",
+    "Repository": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol",
+    "License": "GPL-3.0-only",
+    "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+    "ChangelogURL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Kasa",
+        "Tapo",
+        "Smart Plug",
+        "Smart Power Strip",
+        "TP-Link",
+        "Remote Observatory",
+        "Power Management",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Control TP-Link Kasa and Tapo smart plugs/power strips individually from NINA sequences",
+        "LongDescription": "Control TP-Link Kasa and Tapo smart plugs and power strips from your NINA imaging sequences - turn equipment on/off, toggle indicator LEDs, and react to plug state from the Advanced Sequencer.\n\nBuilt for multi-tenant commercial remote observatories: your TP-Link account is the authoritative device list, and each device is only ever shown/controlled if it's physically reachable on the same local network as this NINA instance - so one client's NINA instance can never reach another client's equipment, and a device paired to your account at a different site never shows up here. Legacy-protocol Kasa devices (e.g. HS103, KP303) are controlled through the TP-Link cloud relay, since that protocol has no local authentication; Tapo and newer-generation Kasa devices (e.g. the KP125M) are controlled directly over the local network, since their protocol's handshake is itself gated on your TP-Link account credentials.\n\nIncludes a dockable equipment page in the Imaging tab, 8 sequencer instructions (turn plugs/LEDs on/off, individually or all at once, with an optional delay), 4 loop conditions (plug on/off, a specific plug's consumption above/below its own configured threshold), and 2 triggers (plug state changed, a specific plug's consumption threshold crossed).",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://raw.githubusercontent.com/crepusculum-space/nina.plugin.smartplugcontrol/main/docs/screenshots/equipment-page.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.4/Crepusculum.NINA.SmartPlugControl-v0.0.0.4.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "7DA0BE9F640BF5F76D4AB77448461D7EBB387B7CFD3B20B87D430FE3FDFB6192",
+        "ChecksumType": "SHA256"
+    }
+}
