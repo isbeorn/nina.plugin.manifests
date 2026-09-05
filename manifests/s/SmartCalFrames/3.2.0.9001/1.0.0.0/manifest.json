@@ -1,0 +1,33 @@
+{
+  "Name": "Smart Calibration Frames",
+  "Identifier": "8970f75b-3138-40f1-80d4-4d1898da383e",
+  "Author": "Gerald R. Miller",
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 0,
+    "Build": 0
+  },
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 2,
+    "Patch": 0,
+    "Build": 9001
+  },
+  "License": "MIT",
+  "LicenseURL": "https://github.com/gmilleok0612/SmartCalFrames/blob/master/LICENSE",
+  "Repository": "https://github.com/gmilleok0612/SmartCalFrames",
+  "Homepage": "https://github.com/gmilleok0612/SmartCalFrames",
+  "ChangelogURL": "https://github.com/gmilleok0612/SmartCalFrames/releases",
+  "Tags": ["flats", "flat darks", "bias frames", "dark frames", "calibration", "automation", "flat panel", "sequencer"],
+  "ShortDescription": "Per-filter flat, flat dark, bias, and dark frame automation: each filter remembers one (brightness, exposure) pair, exposure is searched to hit your target ADU, and a one-click batch or Advanced Sequencer instruction runs all four frame types unattended.",
+  "LongDescription": "Smart Calibration Frames drives a flat panel (via ASCOM CoverCalibrator) -- motorized or manual -- to capture a full set of calibration frames for each filter, from four dockable tabs or as an Advanced Sequencer instruction.\n\n- Four dockable tabs: Run Flats, Flat Darks, Bias Frames, and Dark Frames.\n- Run All: a one-click batch strip that runs every enabled frame type in turn, with per-item resilience so one failed step doesn't abort the rest.\n- Per-filter defaults: each filter holds one remembered (brightness, exposure) pair for flats, edited on the Options page or updated automatically by a converged run.\n- Exposure search: brightness stays fixed per filter while exposure is searched to hit your target mean ADU within a configurable tolerance.\n- Advanced Sequencer instruction: four capture-type checkboxes (flats, flat darks, bias, darks) for unattended multi-filter batches, with an optional \"match dark exposures to light frames\" mode that pulls exposure times from the current imaging history, and support for a motorized flat-panel cover guard.\n- Stacking sufficiency: keeps shooting until the running stack settles below a stability threshold (or a configured max is reached), rejecting outlier frames along the way.\n- Explicit failure reporting: a filter that can't reach target ADU within the configured exposure bounds fails loudly and leaves its saved defaults untouched, rather than silently accepting an out-of-range result.\n\nAI-assisted development: portions of this plugin's code were developed with AI-assisted tools. The author has reviewed, tested, and can explain, debug, and maintain all included code, and remains the sole accountable maintainer of this plugin.",
+  "FeaturedImageURL": "",
+  "ScreenshotURL": "",
+  "Installer": {
+    "URL": "https://github.com/gmilleok0612/SmartCalFrames/releases/download/v1.0.0.0/SmartCalFrames-1.0.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "7daa6188d1dcc7211318751c70c1efcc7a5b482329e93f172d99b089e58a9a1b",
+    "ChecksumType": "SHA256"
+  }
+}
