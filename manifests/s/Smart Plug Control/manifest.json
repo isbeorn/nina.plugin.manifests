@@ -5,7 +5,7 @@
         "Major": "0",
         "Minor": "0",
         "Patch": "0",
-        "Build": "7"
+        "Build": "16"
     },
     "Author": "Crepusculum",
     "Homepage": "https://crepusculum.space",
@@ -37,9 +37,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.7/Crepusculum.NINA.SmartPlugControl-v0.0.0.7.zip",
+        "URL": "https://github.com/crepusculum-space/nina.plugin.smartplugcontrol/releases/download/v0.0.0.16/Crepusculum.NINA.SmartPlugControl-v0.0.0.16.zip",
         "Type": "ARCHIVE",
-        "Checksum": "887D89E569BFA3DE3A78616D2AD3706E4FBD7E157C0F112277EA8B014C582F8B",
+        "Checksum": "78CB517EDCED2D7824FCEFF28E5C792F251D9BBA8FDB59264C6FC7585B3F3B6D",
         "ChecksumType": "SHA256"
     }
 }
