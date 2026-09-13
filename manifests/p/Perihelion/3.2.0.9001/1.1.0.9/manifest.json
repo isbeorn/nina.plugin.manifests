@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "1",
         "Patch": "0",
-        "Build": "8"
+        "Build": "9"
     },
     "Author": "OryxAstro",
     "Homepage": "https://www.buymeacoffee.com/OryxAstro",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/OryxAstro/perihelion/releases/download/v1.1.0.8/Perihelion-1.1.0.8.zip",
+        "URL": "https://github.com/OryxAstro/perihelion/releases/download/v1.1.0.9/Perihelion-1.1.0.9.zip",
         "Type": "ARCHIVE",
-        "Checksum": "A183B6CF94F4781BB58E6D2B8D2DCF7B73066A1DB55B84A8F274A1D64214DAA0",
+        "Checksum": "2EE5BC1125E924379C2F04A6BB989B1A1866A7E9639F2C2BC5991780047E1D18",
         "ChecksumType": "SHA256"
     }
 }
