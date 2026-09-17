@@ -6,7 +6,7 @@
     "Major": 1,
     "Minor": 0,
     "Patch": 0,
-    "Build": 1
+    "Build": 2
   },
   "MinimumApplicationVersion": {
     "Major": 3,
@@ -29,7 +29,7 @@
   "Installer": {
     "URL": "https://github.com/gmilleok0612/SmartCalFrames/releases/download/1.0.0.1/SmartCalFrames.zip",
     "Type": "ARCHIVE",
-    "Checksum": "85e9bf7aa3d922eab490d30d042808c87dea84192ccb33d724e5f4862d539ed8",
+    "Checksum": "fb71e4c3dadab4797d0205706447ccb75706b9e1662705948f868208145aa5e6",
     "ChecksumType": "SHA256"
   }
 }
