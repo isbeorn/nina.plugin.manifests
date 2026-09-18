@@ -1,0 +1,42 @@
+{
+    "Name": "Perihelion",
+    "Identifier": "263c5e4b-47d6-4ce1-83b8-b7b0b14ac6c9",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "13"
+    },
+    "Author": "OryxAstro",
+    "Homepage": "https://www.buymeacoffee.com/OryxAstro",
+    "Repository": "https://github.com/OryxAstro/perihelion",
+    "License": "GPL-3.0-or-later",
+    "LicenseURL": "https://github.com/OryxAstro/perihelion/blob/main/LICENSE",
+    "ChangelogURL": "https://github.com/OryxAstro/perihelion/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Comet",
+        "Asteroid",
+        "Tracking",
+        "Orbital",
+        "Framing"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Comet and asteroid non-sidereal tracking, natively in NINA's Imaging tab -- live orbital tracking, Quick Track, and a Framing Composer.",
+        "LongDescription": "Perihelion sets a mount's custom RA/Dec tracking rate for a comet or asteroid — or Quick\nTracks it right now for immediate use — so it stays centered in frame instead of drifting\nagainst the sidereal rate.\n\nTo get started, open the Perihelion panel in NINA's own Imaging tab. Comets and asteroids\nload automatically (from a local cache if one's warm, otherwise a live fetch). An internet\nconnection is needed for the live fetch, and whenever you use Update Sources to force a\nfresh sync, but not continuously — once loaded, Perihelion computes position and rate\nentirely on-device from the cached elements, with no external service or internet\ndependency in the field beyond that.\n\nSearch or scroll the list, sorted brightest first, click Load on the object you want, then\nFrame, Set Tracking Rate, Add to Sequence, or Quick Track it.\n\nFeatures\n\n* Every position and rate that actually drives hardware (Frame, Set Tracking Rate, Quick\n  Track) is corrected for light-time, stellar aberration, and the observing site — a true\n  topocentric position, not Earth's center — rather than a naive instantaneous geocentric\n  snapshot.\n* A native dockable panel in NINA's own Imaging tab to browse live comet and asteroid\n  brightness, preview tonight's altitude, a 10-night path, rate and orbital elements,\n  then Frame, Set Tracking Rate, Add to Sequence, or start an ad-hoc Quick Track — all\n  in one place.\n* A popup Framing Composer — a sky map (live photographic sources, plus NINA's own\n  Offline Sky Map and Cache), pan/zoom, rotation, and offset capture for framing\n  off-center targets like a comet's tail.\n* Quick Track's own optional auto re-apply, recomputing and resending the rate on an\n  interval as a fast-moving object's true rate drifts over a session.\n* Falls back to guiding-only shift tracking (PHD2's own native mechanism) when the mount's\n  own driver can't take a custom base tracking rate at all.\n* An \"Add to Sequence\" step that appends a target to whatever Advanced Sequence is\n  already loaded, rather than replacing it, so a full unattended run can be built up\n  one target at a time.\n* Import/Export of cached comet and asteroid orbital elements as plain files -- lets\n  an install on a network that blocks the Minor Planet Center (an issue some\n  observatory networks have hit) get elements distributed from elsewhere instead of\n  needing its own live fetch to succeed.\n* Observed comet brightness from COBS (the Comet OBServation database) shown alongside\n  the predicted magnitude — the predicted value can be badly wrong during an outburst,\n  which is only obvious when the observed number sits right next to it.\n\nObject Types\n\n* Comets — live elements from the Minor Planet Center's public comet-elements feed, with\n  observed brightness from COBS.\n* Asteroids — live elements from JPL's Small-Body Database, filtered to a configurable\n  brightness threshold (not the full minor-planet catalog).",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/OryxAstro/perihelion/main/docs/icon.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/OryxAstro/perihelion/main/docs/screenshot.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/OryxAstro/perihelion/releases/download/v1.1.0.13/Perihelion-Windows-1.1.0.13.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "32621984EEAF56FEDE8A245ACAF6199C686A16EB0C3D7EC942A909BECE218AA1",
+        "ChecksumType": "SHA256"
+    }
+}
