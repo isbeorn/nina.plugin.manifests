@@ -1,0 +1,44 @@
+{
+    "Name": "QualitySessionMeter",
+    "Identifier": "bf861692-b3de-4fdc-8a74-d2b97434f49d",
+    "Version": {
+        "Major": "1",
+        "Minor": "4",
+        "Patch": "2",
+        "Build": "2"
+    },
+    "Author": "astropuzzo",
+    "Homepage": "https://github.com/astropuzzo/QualitySessionMeter",
+    "Repository": "https://github.com/astropuzzo/QualitySessionMeter",
+    "License": "Apache-2.0",
+    "LicenseURL": "https://www.apache.org/licenses/LICENSE-2.0",
+    "ChangelogURL": "https://github.com/astropuzzo/QualitySessionMeter/releases",
+    "Tags": [
+        "Quality",
+        "Subframe",
+        "Guiding",
+        "Clouds",
+        "Session",
+        "Imaging",
+        "Monitoring"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1057"
+    },
+    "Descriptions": {
+        "ShortDescription": "Real-time subframe quality control, session diagnostics and accepted-frame acquisition for N.I.N.A.",
+        "LongDescription": "QualitySessionMeter evaluates completed LIGHT frames using exposure-specific guiding and rolling same-context star-count/background baselines. Optional stellar analysis checks every LIGHT and verifies guide flags across multiple field regions, including distant secondary images. Matched stars provide a signal comparison with prior clean frames; measured attenuation can reject independently, and degraded kept frames cannot redefine the clean reference. Verified guide false positives can be recovered before file handling; measured damage and independent signal limits remain active. It provides last-frame Quality, diagnostic evidence strength, session reports, Valid Frame Target, and a read-only local Web Dashboard. Smart Recovery waits are retired. Rejected images are never deleted by the normal QSM workflow. The Web Dashboard is disabled by default, exposes no remote control endpoints, and does not configure Internet or router access.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/featured.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/nina-panel.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/web-dashboard.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/astropuzzo/QualitySessionMeter/releases/download/1.4.2.2/QualitySessionMeter.1.4.2.2.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "6668958F3195FA2417A615E0C5A98E9E892F94C1215690D7B6E4E7E0E2F4AC9D",
+        "ChecksumType": "SHA256"
+    }
+}
