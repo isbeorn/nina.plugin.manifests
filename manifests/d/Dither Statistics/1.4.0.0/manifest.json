@@ -1,0 +1,45 @@
+{
+  "Name": "Dither Statistics",
+  "Identifier": "8622888a-ac8c-48f0-9be8-40d5d123fb7d",
+  "Version": {
+    "Major": "1",
+    "Minor": "4",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Author": "Thierry Tschanz",
+  "Homepage": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+  "Repository": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/blob/main/CHANGELOG.md",
+  "Tags": [
+    "imaging",
+    "guiding",
+    "dithering",
+    "statistics",
+    "phd2",
+    "quality",
+    "analysis",
+    "optimizer",
+    "settle"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "2017"
+  },
+  "Descriptions": {
+    "ShortDescription": "Real-time dithering analysis with quality assessment and dither settings optimizer",
+    "LongDescription": "Comprehensive dithering analysis plugin for N.I.N.A. with real-time statistics, visual charts, and experimental quality assessment.\n\n# Core Features\n* Real-time dither settle time tracking and visualization\n* X/Y pixel drift scatter plot with cumulative movements\n* Statistical analysis (avg, median, std dev, min/max, success rate)\n* Live updates during imaging sessions\n\n# Experimental Quality Assessment\n⚠️ EXPERIMENTAL: Advanced mathematical analysis of dither patterns using:\n* Centered L₂ Discrepancy - Global uniformity measurement from quasi-Monte Carlo theory\n* Voronoi Cell CV - Local spatial distribution and clustering analysis\n* Drizzle Gap-Fill Metrics - Sub-pixel coverage predictions for 1×, 2×, 3× drizzle\n* Combined Quality Score - Overall pattern quality rating with recommendations\n\nMinimum 4 dithers required for quality metrics. Assessments improve with 15+ positions.\n\n# Experimental Dither Settings Optimizer\n⚠️ EXPERIMENTAL: Analyzes post-dither guiding data to recommend optimal settle parameters:\n* Three profiles: Quality (1.5σ), Balanced (2.0σ), Performance (3.0σ)\n* Settle Pixel Tolerance: Calculated from running RMS and standard deviation\n* Minimum Settle Time: Derived from time-to-first-stable guiding per dither event\n* Auto-updates after each dither event, requires minimum 3 events\n\n# Multi-Session Statistics Persistence (NEW in 1.4)\nOptionally carry all statistics over across NINA sessions:\n* Toggle in the Statistics panel (default: off), state survives restarts\n* All charts, statistics, quality metrics and optimizer data are restored exactly as they were when NINA was closed\n* Subsequent dithers accumulate on top of the restored state\n* Clear Data resets everything including the optimizer analysis\n\n# Requirements\n* N.I.N.A. 3.0 or higher\n* .NET 8.0 Runtime\n* PHD2\n\n# Getting Help\nVisit the #plugin-discussions channel on [NINA Discord](https://discord.com/invite/rWRbVbw) or file issues at the [GitHub repository](https://github.com/Thierrytsch/NINA-DitherStatistics/issues).",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/Thierrytsch/NINA-DitherStatistics/main/DitherStatistics-Logo.png",
+    "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.4.0.0/screenshot-main.png"
+  },
+  "Installer": {
+    "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.4.0.0/DitherStatistics-v1.4.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "A3587E706A1F71F0E841EB95AF7E60DF372A581D4FC195BCF8620BB112CA316F",
+    "ChecksumType": "SHA256"
+  }
+}

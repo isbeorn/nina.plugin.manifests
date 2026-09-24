@@ -1,0 +1,41 @@
+﻿{
+    "Name": "Manual Focuser",
+    "Identifier": "56e3434f-95de-49fe-bb59-2034ea457afb",
+    "Version": {
+    	"Major": "1",
+    	"Minor": "0",
+    	"Patch": "0",
+		"Build": "1"
+	},
+    "Author": "cwseo",
+    "Homepage": "https://github.com/squallseo",
+    "Repository": "https://github.com/squallseo/Nina.Manualfocuser",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/CHANGELOG.md",
+    "Tags": [
+		"Focuser", 
+		"Manual", 
+		"Step", 
+		"Direct input"
+	],
+    "MinimumApplicationVersion": {
+    	"Major": "3",
+    	"Minor": "0",
+    	"Patch": "0",
+    	"Build": "2017"
+  	},
+    "Descriptions": {
+        "ShortDescription": "Direct step input manual focuser",
+        "LongDescription": "In N.I.N.A., the default focuser controls in the Imaging tab use the relative step size defined in the Autofocus settings.\r\nThis means that when you want to change the focuser movement amount,\r\nyou have to leave the Imaging tab and go into the Autofocus configuration.\r\nWhen fine-tuning focus manually — especially when making small, incremental adjustments while checking star shapes \r\n— this workflow is inconvenient and slows down the process. \r\n\r\nThis plugin was created to solve that problem.\r\n\r\nManual Focuser Input allows you to:\r\n- Enter step increment values directly in the Imaging tab\r\n- Move the focuser immediately using those values\r\n- Fine-adjust focus while visually inspecting stars, without switching tabs or changing Autofocus settings \r\nThe goal is to make manual focus adjustment faster, simpler, and more intuitive during imaging sessions.",
+        "FeaturedImageURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/idle.png?raw=true",
+        "AltScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/moving.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/squallseo/Nina.Manualfocuser/releases/download/v1.0.0.1/Cwseo.NINA.Focuser.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "d3d25d0bb40be1e6f53f9e1d25b4e24240b85d77d0a9d9c5f16897679be5fbda",
+        "ChecksumType": "SHA256"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Name": "OnStepX Tools",
+    "Identifier": "3a8f2c10-4b7e-4d6a-9e3f-0c1d5e8f2a4b",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "6"
+    },
+    "Author": "Michel Moriniaux",
+    "Homepage": "",
+    "Repository": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools/commits/main",
+    "Tags": [
+        "OnStepX",
+        "Alignment",
+        "PointingModel",
+        "Telescope",
+        "Mount"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Mount configuration and automated pointing model generation for OnStepX controllers",
+        "LongDescription": "This plugin provides configuration panels for OnStepX mounts, as well as pointing model generation.\r\n\r\n* NOTE: Use at your own risk this is unproven software, the model is not fully tested at this time *\r\n\r\n# Features #\r\n\r\n* Build full sky models using Golden Spiral in an Imaging tab dock\r\n* Sidereal Path model point generation that creates points along the sidereal path of a DSO\r\n* Grid model point generation that creates points along the AltAz grid\r\n* Random point generation that creates random points in the sky\r\n* Points sequence is optimized to reduce movements and meridian flips\r\n* Advanced Sequencer items to build, load, and save models as part of a sequence\r\n* NINA horizons supported. Load the horizon file in NINA Options -> General\r\n* View and save loaded alignment models\r\n* Load and Delete existing alignment models\r\n* Adjust mount Options as in the SWS\r\n* Adjust motor and PID parameters\r\n\r\n# Support #\r\n\r\nUsually active in the JTW discord as 'Crockett AndTubbs'\r\n",
+        "FeaturedImageURL": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools/releases/download/resources/OnStepX.jpg",
+        "ScreenshotURL": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools/releases/download/resources/OnStepXToolsScreenshot.JPG",
+        "AltScreenshotURL": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools/releases/download/resources/OnStepXToolsAltScreenshot.JPG"
+    },
+    "Installer": {
+        "URL": "https://github.com/MichelMoriniaux/NINA.Plugin.OnStepXTools/releases/download/1.0.1.6/NINA.Plugin.OnStepXTools.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "15953CAFCE4128061793710E60110A7EC0DF8532654958771C1F8992E65DC0BA",
+        "ChecksumType": "SHA256"
+    }
+}

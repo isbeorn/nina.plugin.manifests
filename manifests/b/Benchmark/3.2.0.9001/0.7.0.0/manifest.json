@@ -1,0 +1,41 @@
+{
+    "Name": "Benchmark",
+    "Identifier": "5ebd0d69-a343-472f-b4b6-487a63249448",
+    "Version": {
+        "Major": "0",
+        "Minor": "7",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "CaeloWorks",
+    "Homepage": "https://nina-benchmark-plugin.com",
+    "Repository": "https://github.com/caelo-works/nina.plugin.benchmark",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/caelo-works/nina.plugin.benchmark/releases",
+    "Tags": [
+        "benchmark",
+        "performance",
+        "diagnostics",
+        "imaging"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Benchmarks your machine by timing N.I.N.A.'s real image-analysis primitives (debayer, stretch remap, resize, blur, Canny, SIS threshold, dilation, blob counter, star detection) over a set of test frames it downloads once.",
+        "LongDescription": "This plugin measures how fast your machine runs the genuine N.I.N.A. / Accord image-analysis routines that make up the post-capture pipeline. Each function is invoked exactly the way N.I.N.A. invokes it (same input pixel formats, same constructor arguments, same chain order) over a small set of test frames. The frames are not bundled with the plugin: they are downloaded once from the sharing site (~190 MB), cached locally, and re-verified (sha256) before every run.\n\nMeasured per frame:\n- BayerFilter16bpp: debayering (OSC frames),\n- ColorRemappingGeneral: the auto-stretch pixel remap,\n- FastGaussianBlur: noise reduction,\n- ResizeBicubic: downscale to detection size,\n- CannyEdgeDetector and NoBlurCannyEdgeDetector: edge detection,\n- SISThreshold: thresholding,\n- BinaryDilation3x3: dilation,\n- Convolution: a Laplacian-of-Gaussian kernel pass,\n- BlobCounter: structure/blob detection,\n- StarDetection: the full detector (HFR + star count), shown but excluded from the score as a superset of the primitives.\n\nEach function is timed (one warm-up pass, then the mean of N runs) and aggregated into a per-function breakdown plus an overall score, so you can compare mini-PCs, NUCs and laptops on the real acquisition workload. A system-information panel (CPU, frequency, power plan, GPU, RAM) and the history of the latest runs (with best score and a clear-all action) are available both on the plugin page and as dockables on the Imaging view.",
+        "FeaturedImageURL": "https://nina-benchmark-plugin.com/cpu.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/caelo-works/nina.plugin.benchmark/releases/download/v0.7.0.0/CaeloWorks.NINA.Benchmark.dll",
+        "Type": "DLL",
+        "Checksum": "FC3116C795883C573EAF6995EB4C6771EEEF5C1EF761A3DA05EA49BC735DF821",
+        "ChecksumType": "SHA256"
+    }
+}

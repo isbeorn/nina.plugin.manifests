@@ -1,0 +1,40 @@
+{
+    "Name": "Synchronization",
+    "Identifier": "c60db3b2-9a08-4b24-8938-bfb01e770eb9",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "3",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.synchronization",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.synchronization/blob/master/Synchronization/Changelog.md",
+    "Tags": [
+        "Dither",
+        "Synchronization",
+        "Multiple Cameras"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1056"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin that introduces synchronization instructions for multi camera imaging rigs",
+        "LongDescription": "This plugin is intended for people that want to dither on a setup with multiple cameras on one single mount. \r\nFor that it has to be ensured that all imaging instances will sync up on each other before commencing a dither operation.  \r\n  \r\n*Note:* The plugin needs robust testing in live conditions. Feedback for failure scenarios are appreciated in the #plugin-discusissions N.I.N.A. discord channel. Thanks!\r\n\r\n*Prerequisites*:\r\n* At least one instance of N.I.N.A. needs to be connected to the guider\r\n* Only one instance should handle and be connected to the mount\r\n\r\n*Usage*:\r\n* The first instance of N.I.N.A. that starts will register a server that orchestrates the dither workflow. This instance must remain active for the complete duration of your imaging acquisition.  \r\n* To make use of the synchronized dithering a new instruction trigger is available for advanced sequences  \r\n* Simply replace your normal dither trigger with the 'Synchronized Dither' trigger  \r\n* Each trigger will register itself against the server when the instruction set where the trigger is placed in is active and unregister itself automatically when the instruction set is left  \r\n* Make sure that your **exposure time * dither after exposures** roughly matches for each instance, as every time the trigger is fired the trigger will wait for all instances to be synced up  \r\n* When the triggers are synced up, one instance will be picked as the leader, among those that are connected to a guider, that will run the dither command. The others will wait for the dither to finish and then continue with the sequence  \r\n\r\n",
+        "FeaturedImageURL": "https://github.com/isbeorn/nina.plugin.synchronization/blob/master/Synchronization/SynchronizationLogo.jpg?raw=true",
+        "ScreenshotURL": "https://github.com/isbeorn/nina.plugin.synchronization/blob/master/Synchronization/SynchronizationSample.jpg?raw=true",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.synchronization/releases/download/1.0.3.0/Synchronization.1.0.3.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "70EF043B6DD94F101CD9E91ED7A4C1D3F8E371332C82378D2AF62815391ECBBE",
+        "ChecksumType": "SHA256"
+    }
+}

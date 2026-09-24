@@ -4,8 +4,8 @@
     "Version": {
         "Major": "3",
         "Minor": "0",
-        "Patch": "6",
-        "Build": "1"
+        "Patch": "7",
+        "Build": "4"
     },
     "Author": "Rafael Barberá",
     "Homepage": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper",
@@ -33,9 +33,9 @@
         "AltScreenshotURL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/static/screenshot2.png"
     },
     "Installer": {
-        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.6.1/NINA.RBarbera.Plugin.NeocpHelper.dll",
-        "Type": "DLL",
-        "Checksum": "14DC36D8548BB153BC02F076970CA1033985432614CFF915AB511ACC853ECC62",
+        "URL": "https://github.com/rbarbera/NINA.RBarbera.Plugin.NEOCPHelper/releases/download/3.0.7.4/NINA.RBarbera.Plugin.NEOCPHelper.3.0.7.4.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "A13361DF31E200A81581EAF7F431E08068D3717CD02D17703D6923EE7DC0EB0C",
         "ChecksumType": "SHA256"
     }
 }
