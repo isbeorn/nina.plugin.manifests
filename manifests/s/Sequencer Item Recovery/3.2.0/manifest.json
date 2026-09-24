@@ -1,0 +1,39 @@
+{
+  "Name": "Sequencer Item Recovery",
+  "Identifier": "3c52a960-96a7-41a6-a06a-4aa54f4c0df9",
+  "Version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 11,
+    "Build": 0
+  },
+  "Author": "Jost Jahn",
+  "Homepage": "https://jostjahn.de/",
+  "Repository": "https://github.com/JostJahn/nina-sequencer-item-recovery",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/MPL/2.0/",
+  "ChangelogURL": "https://github.com/JostJahn/nina-sequencer-item-recovery/releases/tag/v0.1.11.0",
+  "Tags": [
+    "sequencer",
+    "item",
+    "recovery",
+    "restore",
+    "safety"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 2,
+    "Patch": 0,
+    "Build": 9001
+  },
+  "Descriptions": {
+    "ShortDescription": "Lists recently removed Advanced Sequencer items and restores one item.",
+    "LongDescription": "Sequencer Item Recovery is a short-term recovery tool for accidental Advanced Sequencer deletions. Open the Imaging workspace and enable the Sequencer Item Recovery tool to see recently removed instructions or blocks from the loaded or unsaved sequence still being edited. Each row has a visible 'Restore' button that reinserts the complete item at its position. Sequencer Item Recovery is not a full undo history or automatic backup."
+  },
+  "Installer": {
+    "URL": "https://github.com/JostJahn/nina-sequencer-item-recovery/releases/download/v0.1.11.0/SequencerItemRecovery.zip",
+    "Checksum": "923F9AFDE3D2CC5F19CD981088EA3A0B6FF395AFE093901FDE5E541923F75A64",
+    "ChecksumType": "SHA256",
+    "Type": "ARCHIVE"
+  }
+}
