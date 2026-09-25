@@ -1,0 +1,39 @@
+{
+    "Name": "Astral Warden Beacon",
+    "Identifier": "c56fe1c1-af2f-42a7-b4bb-e87504c38797",
+    "Version": {
+        "Major": "1",
+        "Minor": "3",
+        "Patch": "3",
+        "Build": "0"
+    },
+    "Author": "Astral Warden, LLC",
+    "Homepage": "https://astralwarden.com",
+    "Repository": "https://github.com/goodwink/astralwarden-nina-plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/goodwink/astralwarden-nina-plugin/blob/main/CHANGELOG.md",
+    "Tags": [
+        "telemetry",
+        "monitoring"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Streams NINA telemetry to the local Astral Warden agent over a read-only localhost socket.",
+        "LongDescription": "Companion plugin for the Astral Warden monitoring agent.\r\n\r\nPublishes a one-way stream of imaging telemetry (device state, image quality, autofocus runs,\r\nsequence progress) over a localhost TCP socket for the Astral Warden agent running on the same\r\nmachine. Read-only by construction: the Beacon observes NINA through its public mediator\r\ninterfaces, never commands equipment, and accepts no input on the socket.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/goodwink/astralwarden-nina-plugin/releases/download/1.3.3.0/AstralWarden.Nina.Beacon.1.3.3.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "9100C790F0F73ECE371A308CACA939863E8397CFCB8D42C6066DB25A2386C1D9",
+        "ChecksumType": "SHA256"
+    }
+}
