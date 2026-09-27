@@ -55,7 +55,6 @@ jobs:
         run: |
           curl --ssl-reqd \
             --insecure \
-            --pinnedpubkey "$FTP_PINNED_PUBKEY" \
             --ftp-pasv \
             --ftp-skip-pasv-ip \
             --connect-timeout 30 \
@@ -78,7 +77,6 @@ jobs:
         run: |
           curl --ssl-reqd \
             --insecure \
-            --pinnedpubkey "$FTP_PINNED_PUBKEY" \
             --ftp-pasv \
             --ftp-skip-pasv-ip \
             --connect-timeout 30 \
