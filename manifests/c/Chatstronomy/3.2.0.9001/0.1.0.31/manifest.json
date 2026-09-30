@@ -5,14 +5,14 @@
         "Major": "0",
         "Minor": "1",
         "Patch": "0",
-        "Build": "30"
+        "Build": "31"
     },
     "Author": "Yann Ramin",
     "Homepage": "https://chatstronomy.com/",
     "Repository": "https://github.com/theatrus/chatstronomy-nina-plugin",
     "License": "Apache-2.0",
     "LicenseURL": "https://github.com/theatrus/chatstronomy-nina-plugin/blob/main/LICENSE",
-    "ChangelogURL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/tag/v0.1.0.30",
+    "ChangelogURL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/tag/v0.1.0.31",
     "Tags": [
         "Discord",
         "Matrix",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/download/v0.1.0.30/Chatstronomy.NINA.0.1.0.30.zip",
+        "URL": "https://github.com/theatrus/chatstronomy-nina-plugin/releases/download/v0.1.0.31/Chatstronomy.NINA.0.1.0.31.zip",
         "Type": "ARCHIVE",
-        "Checksum": "31BEE2144788AAC34429C14FA3B89163A48D2B3D8E27296175E70A6BD1EEA07D",
+        "Checksum": "8BFD5C8AC4065CCE02F6E7217B56CC0AE25AE0299FCD926F7400A681B2590BE2",
         "ChecksumType": "SHA256"
     }
 }
