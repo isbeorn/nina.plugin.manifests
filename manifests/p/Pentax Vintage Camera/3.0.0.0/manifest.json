@@ -1,0 +1,38 @@
+{
+    "Name": "Pentax Vintage Camera Driver",
+    "Identifier": "6fcca368-abdd-4ff8-ae6a-e312fdddd727",
+    "Version": {
+        "Major": "26",
+        "Minor": "8",
+        "Patch": "1",
+        "Build": "1"
+    },
+    "Author": "RTG",
+    "Homepage": "https://github.com/richromano/NINAPentaxKRDriver",
+    "Repository": "https://github.com/richromano/NINAPentaxKRDriver",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/richromano/NINAPentaxKRDriver/CHANGELOG.md",
+    "Tags": [
+        "Camera"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Camera Driver for PentaxKR PKTriggerCord: K-r, K-x, K-30, K100D, K10D, K200D, K-3, K5ii",
+        "LongDescription": "",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/richromano/NINAPentaxKRDriver/releases/download/Release73026/Rtg.NINA.NinaPentaxKRDriver.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "E619E1B0BBDB2ABB158B42F4000C348D29BCFC0B2EBA1CE7792EEEF110A7C523",
+        "ChecksumType": "SHA256"
+    }
+}
