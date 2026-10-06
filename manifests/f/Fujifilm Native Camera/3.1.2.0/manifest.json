@@ -1,0 +1,43 @@
+{
+  "Name": "Fujifilm Native Camera",
+  "Identifier": "6e2b5a81-7c8e-4c09-9f2a-4f6a0bc6bb1e",
+  "Version": {
+    "Major": "3",
+    "Minor": "1",
+    "Patch": "2",
+    "Build": "0"
+  },
+  "Author": "Scdouglas",
+  "Homepage": "https://github.com/Scdouglas1999/NINA-Fujifilm-Native-Plugin",
+  "Repository": "https://github.com/Scdouglas1999/NINA-Fujifilm-Native-Plugin",
+  "License": "Apache-2.0",
+  "LicenseURL": "https://www.apache.org/licenses/LICENSE-2.0",
+  "ChangelogURL": "https://github.com/Scdouglas1999/NINA-Fujifilm-Native-Plugin/blob/main/RELEASE_NOTES.md",
+  "Tags": [
+    "Fujifilm",
+    "Camera",
+    "Focuser",
+    "X-Trans",
+    "GFX",
+    "USB"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "2",
+    "Patch": "0",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Native USB camera and electronic-lens focuser for Fujifilm X/GFX. Not an ASCOM driver.",
+    "LongDescription": "## Fujifilm Native Camera\n\nDirect USB integration for Fujifilm X-Series and GFX bodies in N.I.N.A. 3.2 or later (Windows x64). Uses the Fujifilm X SDK. Original RAF files are preserved.\n\nThis is **not** the Fujicom ASCOM driver. Use this plugin inside N.I.N.A. when you want a native camera and, with a compatible electronic lens, a focuser. Use [Fujicom](https://github.com/Scdouglas1999/Fujicom) for Sequence Generator Pro or other ASCOM clients. Do not connect both to the same body.\n\n### Camera\n\n* Timed and bulb exposures up to 60 minutes (T-mode where the body advertises it). A request the camera cannot satisfy fails instead of being silently shortened.\n* Abort an exposure in progress.\n* ISO from the camera's own list; Auto-ISO modes are filtered out.\n* RAW bit depth and lossless compression where the body supports them.\n* Long Exposure NR is switched off (and reported if left on).\n* Optional sensor crop. Card recording is disabled while connected.\n* X-Trans: synthetic Bayer for N.I.N.A. color preview only. Saved images remain RAF; FITS headers include BAYERPAT / ROWORDER.\n\n### Focuser\n\n* Electronic Fujifilm lenses as a N.I.N.A. focuser, including mechanical travel past infinity (SDK over-search range).\n* Positions stay in `0 .. MaxStep`. The body is held in manual focus while the focuser is connected.\n* Camera and focuser share one reference-counted SDK session.\n\n### Install\n\nRequires the Visual C++ x64 redistributable and the .NET 8 runtime. If you are on plugin 3.0.2.0 or 3.0.3.0, update: those releases capped maximum exposure at 60 seconds.\n\n### Support\n\nApache 2.0. No paid-only features. Issues: [GitHub](https://github.com/Scdouglas1999/NINA-Fujifilm-Native-Plugin/issues). Optional [Patreon](https://www.patreon.com/cw/SeanDouglas).\n",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/Scdouglas1999/NINA-Fujifilm-Native-Plugin/releases/download/v3.1.2.0/NINA.Fujifilm.Plugin-3.1.2.0-manual-install.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "2769400FA8B1D3A0203442D2612B8BEF468B7D72341C95B18C0D5DCB28835DBB",
+    "ChecksumType": "SHA256"
+  }
+}
