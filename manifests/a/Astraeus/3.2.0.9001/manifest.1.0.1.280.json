@@ -1,0 +1,47 @@
+{
+    "Name": "Astraeus",
+    "Identifier": "fd1225f8-142d-4cab-9262-8f423822d905",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "280"
+    },
+    "Author": "Cosmic Vaults",
+    "Homepage": "https://cosmicvaults.com",
+    "Repository": "https://github.com/CosmicVaults/AstraeusPlugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/CosmicVaults/AstraeusPlugin/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Observatory",
+        "Automation",
+        "Autopilot",
+        "Remote control",
+        "Dome",
+        "Roof",
+        "Calibration",
+        "Cloud",
+        "Beta"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Astraeus Plugin by Cosmic Vaults: Remote Control, Automated Multi-Night Imaging, Image Cloud Storage, Image Calibration and much more.",
+        "LongDescription": "Monitor and control your observatory from any device, anywhere. Astraeus puts your whole N.I.N.A. rig in the browser on your phone, tablet or computer, live, with nothing else to install. Check in from the couch or from the other side of the world, then hand the night to the Autopilot and wake up to the night's frames waiting in your cloud storage.\n\n- Your whole observatory, live: camera, mount, dome or roof, focuser, filter wheel, rotator, flat panel, guider, safety monitor, weather station and switch hub, all updating in real time, and most of them yours to drive with a tap or a click. N.I.N.A.'s log streams alongside, so you always know what's happening.\n- Control Hub: search for any object, preview its field on the sky, send it to the mount and start shooting, with a preview of every frame as it lands.\n- Autopilot: set up your projects and let Astraeus run the night for you, night after night. The server picks what to image next, and the plugin waits for dusk, opens the roof, slews, centres, focuses, guides and captures, then secures everything at dawn. Bad weather, a closing roof or a mount limit, and it stops or makes the observatory safe on its own.\n- Sharp all night: autofocus on a schedule, on temperature or filter changes, or let Smart Autofocus decide when it's needed.\n- Calibrated and backed up: frames are calibrated on your PC with masters you generate in N.I.N.A., and uploaded to your cloud storage in the background.\n- Stay in the loop: an email when something needs you (a critical error, the roof opening or closing, cloud storage filling up), a note when an Autopilot session starts and ends or a project completes, and an optional Nightly Image Summary of everything captured while you slept.\n- See it for yourself: an optional all-sky or observatory webcam, live on the dashboard.\n\nA Cosmic Vaults account is required. You sign in from the plugin's options page through your own browser.\n\nThis is a beta. Please report problems, with your N.I.N.A. log, at https://github.com/CosmicVaults/AstraeusPlugin/issues",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/CosmicVaults/AstraeusPlugin/main/installer/cosmic-vaults-mark-512.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/CosmicVaults/AstraeusPlugin/main/assets/screenshot.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/CosmicVaults/AstraeusPlugin/main/assets/screenshot-alt.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/CosmicVaults/AstraeusPlugin/releases/download/1.0.1.280/CosmicVaults.NINA.Astraeus.1.0.1.280.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "E543A2E84DEB48B5EF0CD6E4ECD863DA6A4B959779685421D8086D278FBE454C",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
