@@ -1,0 +1,39 @@
+{
+  "Name": "Horizon Studio",
+  "Identifier": "ef99cb7e-3c22-491c-b26a-54315222bf9b",
+  "Author": "Nir Zonshine",
+  "License": "MIT",
+  "LicenseURL": "https://opensource.org/licenses/MIT",
+  "Homepage": "https://github.com/nirzons/HorizonStudio",
+  "Repository": "https://github.com/nirzons/HorizonStudio",
+  "ChangelogURL": "https://github.com/nirzons/HorizonStudio/blob/master/README.md",
+  "Tags": [
+    "Horizon",
+    "Mount",
+    "Webcam",
+    "Safety",
+    "Telescope"
+  ],
+  "Version": {
+    "Major": 1,
+    "Minor": 2,
+    "Patch": 1,
+    "Build": 0
+  },
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 0,
+    "Patch": 0,
+    "Build": 0
+  },
+  "Installer": {
+    "URL": "https://github.com/nirzons/HorizonStudio/releases/download/v1.2.1.0/HorizonStudio-1.2.1.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "773651EEEC34E4187EE3EC2817D8D44559B433DCBABFBB387190BFF09D519DBE",
+    "ChecksumType": "SHA256"
+  },
+  "Descriptions": {
+    "ShortDescription": "Trace local horizon profiles in daylight using live camera guides to prevent telescope slews into obstructions.",
+    "LongDescription": "A professional-grade visual horizon mapping tool for N.I.N.A. featuring live webcam overlay, equatorial counter-rotation, interactive zoom, Alt-Az jogging simulation, and 3D tilt calibration/profile warping using reference points or polar alignment logs."
+  }
+}

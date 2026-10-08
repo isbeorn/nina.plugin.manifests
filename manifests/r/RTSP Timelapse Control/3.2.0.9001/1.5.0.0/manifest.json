@@ -1,0 +1,24 @@
+{
+    "Name": "RTSP Timelapse Control",
+    "Identifier": "b3f2c1a4-7d6e-4f9a-9c2b-1e5d8a0f3c47",
+    "Version": { "Major": 1, "Minor": 5, "Patch": 0, "Build": 0 },
+    "Author": "HiranD",
+    "Homepage": "https://github.com/HiranD/RTSP-Timelapse-Capture",
+    "Repository": "https://github.com/HiranD/nina-rtsp-timelapse",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "https://github.com/HiranD/nina-rtsp-timelapse/blob/main/CHANGELOG.md",
+    "Tags": ["Timelapse", "RTSP", "Camera", "Automation", "AllSky"],
+    "MinimumApplicationVersion": { "Major": 3, "Minor": 2, "Patch": 0, "Build": 9001 },
+    "Installer": {
+        "URL": "https://github.com/HiranD/nina-rtsp-timelapse/releases/download/v1.5.0/NINA.RtspTimelapse.Plugin.dll",
+        "Type": "DLL",
+        "Checksum": "E5E081C456D30D17408A9C1735094BADB69305A1DD4BFD6384E2382DCE2539CB",
+        "ChecksumType": "SHA256"
+    },
+    "Descriptions": {
+        "ShortDescription": "Start/stop RTSP timelapse capture and render videos from your N.I.N.A. sequence - with session events (autofocus, flips, filters, target) burned onto the timelapse as captions, and automatic delivery of each finished video.",
+        "LongDescription": "**RTSP Timelapse Capture** is a free, open-source (MIT) Windows app that turns any RTSP / IP camera (security cams, all-sky cameras, webcams) into a hands-off timelapse studio. This plugin lets N.I.N.A. drive it as part of your imaging sequence.\n\n### What the app does\n- Capture stills from any RTSP stream on a set interval, with rock-solid reconnection (about 5s timestamp accuracy, 100% capture success rate).\n- Smart overnight scheduling with twilight calculations (civil / nautical / astronomical darkness) or manual times, planned across a calendar.\n- One-click MP4 export with presets: frame rate, speed-up, CRF quality and resolution.\n- Auto-create the video after each night's session and deliver it automatically - to a Discord webhook or an MQTT broker.\n- Minimize-to-tray and start-with-Windows for unattended, headless rigs.\n\n### What this plugin adds\nSequencer instructions to **Start Capture**, **Stop Capture** and **Create Timelapse Video**, a **Scheduled Timelapse** block that starts capture and has the app auto-stop and render at a chosen time (e.g. Nautical Dawn), plus an imaging-tab dock panel showing live capture status. Let N.I.N.A. run your scenery or all-sky timelapse for exactly the duration of your imaging session, then render and deliver it automatically.\n\n**New in 1.5.0 - Report Timelapse Events.** Add this trigger to a sequence and the plugin tells the app what happens during the night - autofocus runs, filter changes (by name), meridian flips, target changes, guiding lost/resumed - so the app can burn them onto the finished timelapse as captions at the moment they occurred, with the imaging target as a standing corner label. Which event types are sent is chosen on the plugin's options page, one toggle per type, saved per profile and applied immediately. Event reporting needs RTSP Timelapse Capture 3.6.0 or newer; with an older app the plugin notes it once in the log and everything else works as before.\n\n### Get the app\nDownload / docs: **https://github.com/HiranD/RTSP-Timelapse-Capture**\n\nRequires the RTSP Timelapse app running on the **same PC** with the remote control API enabled (Integrations tab). The connection is loopback-only (127.0.0.1), so NINA and the app must share one machine.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/HiranD/RTSP-Timelapse-Capture/main/assets/icon.png"
+    }
+}
