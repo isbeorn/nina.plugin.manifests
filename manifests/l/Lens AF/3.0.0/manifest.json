@@ -5,7 +5,7 @@
         "Major": "3",
         "Minor": "1",
         "Patch": "2",
-        "Build": "1"
+        "Build": "3"
     },
     "Author": "Christian Palm",
     "Homepage": "https://buymeacoffee.com/christian.palm",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/3.1.2.1/LensAF.dll",
+        "URL": "https://github.com/christian-photo/Camera-Lens-AF/releases/download/3.1.2.3/LensAF.dll",
         "Type": "DLL",
-        "Checksum": "C24C010C3FD3770B4B474323DE4E660E822B5933D7FDCFD909C5C1F75F7D9D82",
+        "Checksum": "B7247D51AB1E0E57A3821FB75F30022904A008D84803F37C91B7E512ED76FD7C",
         "ChecksumType": "SHA256"
     }
 }

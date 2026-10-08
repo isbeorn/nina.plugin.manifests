@@ -1,0 +1,37 @@
+{
+  "Name": "2-Point Polar Alignment",
+  "Identifier": "0e9e3e58-42fc-4553-8e6e-aba061af4f54",
+  "Author": "Nir Zonshine",
+  "License": "MIT",
+  "LicenseURL": "https://opensource.org/licenses/MIT",
+  "Homepage": "https://github.com/nirzons/TwoPointPolarAlignment",
+  "Repository": "https://github.com/nirzons/TwoPointPolarAlignment",
+  "ChangelogURL": "https://github.com/nirzons/TwoPointPolarAlignment/blob/main/CHANGELOG.md",
+  "Tags": [
+    "Polar Alignment",
+    "Mount",
+    "Alignment"
+  ],
+  "Version": {
+    "Major": 1,
+    "Minor": 3,
+    "Patch": 0,
+    "Build": 0
+  },
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 1,
+    "Patch": 0,
+    "Build": 0
+  },
+  "Installer": {
+    "URL": "https://github.com/nirzons/TwoPointPolarAlignment/releases/download/v1.3.0.0/TwoPointPolarAlignment-v1.3.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "BDE1929AF583CD6D89E58EA0EB92201B09AAB58DDF684A94ABD9C35F702D6C6C",
+    "ChecksumType": "SHA256"
+  },
+  "Descriptions": {
+    "ShortDescription": "Fast polar alignment using home position and a 90° RA rotation",
+    "LongDescription": "A premium, lightweight, and highly accurate polar alignment plugin for N.I.N.A. (Nighttime Imaging 'N' Astronomy). Achieve precision polar alignment within minutes using a rock-solid 3D rotation matrix solver requiring only two plate-solved images and a short 90-degree RA rotation. Features a glassmorphic WPF dashboard, real-time visual alignment prompt cards, ALT/AZ mechanical rotation direction instructions adapted to your hemisphere, rough-finder blind solve fallback recovery, safety slewing guards, and stale measurement dimming. Fully integrated with N.I.N.A.'s profile and sequence models."
+  }
+}
