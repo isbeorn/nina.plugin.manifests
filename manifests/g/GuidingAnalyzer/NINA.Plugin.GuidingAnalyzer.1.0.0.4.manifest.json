@@ -5,14 +5,14 @@
     "Major": "1",
     "Minor": "0",
     "Patch": "0",
-    "Build": "1"
+    "Build": "4"
   },
   "Author": "JPH",
-  "Homepage": "",
+  "Homepage": "https://github.com/jphf007/GuidingAnalyzer",
   "Repository": "https://github.com/jphf007/GuidingAnalyzer",
   "License": "GPL-3.0",
   "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.html",
-  "ChangelogURL": "",
+  "ChangelogURL": "https://github.com/jphf007/GuidingAnalyzer/releases/tag/v1.0.0.4",
   "Tags": [
     "guiding",
     "PHD2",
@@ -35,9 +35,9 @@
     "AltScreenshotURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/jphf007/GuidingAnalyzer/releases/download/v1.0.0.1/GuidingAnalyzer-v1.0.0.1.zip",
+    "URL": "https://github.com/jphf007/GuidingAnalyzer/releases/download/v1.0.0.4/GuidingAnalyzer-v1.0.0.4-preview.zip",
     "Type": "ARCHIVE",
-    "Checksum": "CCFB40D196397E41A988005B02609B161C93BED9E455D1A1793B2FBD2C7FBF4F",
+    "Checksum": "52F967A72C0C0E7DF68A2A3C8A088801A759FB85145078575F51E66F45E5F86F",
     "ChecksumType": "SHA256"
   }
 }
