@@ -1,0 +1,44 @@
+{
+    "Name": "Live Focus",
+    "Identifier": "ae6b70d2-e99d-4931-8d7c-3e89b6aa27b4",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "cwseo",
+    "Homepage": "",
+    "Repository": "https://github.com/squallseo/Nina.LiveFocus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/squallseo/Nina.LiveFocus/releases",
+    "Tags": [
+        "focus",
+        "focuser",
+        "live view",
+        "HFR",
+        "ROI",
+        "inspector",
+        "GOTO"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Live focuser control with ROI HFR history, a 3x3 sensor inspector and star, deep-sky and solar-system target selection",
+        "LongDescription": "Adjust the focuser with configurable In / Out steps while watching live camera images in NINA's Image panel. Select and edit an ROI, monitor live HFR in the native HFR History panel, and compare sensor-center, edge and corner star shapes with Inspector 3x3. Go to target provides bright-star altitude/magnitude filters, deep-sky catalogue search and Moon/planet selection. Slew directly or use NINA plate solving with Slew + Center for stellar and deep-sky targets. Cameras without live-view support use successive exposures. This plugin does not run autofocus.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/squallseo/Nina.LiveFocus/main/Images/live-focus-featured-v1.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/squallseo/Nina.LiveFocus/v1.0.0.0/docs/live-focus-target-search.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/squallseo/Nina.LiveFocus/releases/download/v1.0.0.0/LiveFocus.1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "A4C5CCD9EB3709FD5FA6E4558473C66D6B717C68B13F65AECFD8DC5072E34D64",
+        "ChecksumType": "SHA256"
+    }
+}
