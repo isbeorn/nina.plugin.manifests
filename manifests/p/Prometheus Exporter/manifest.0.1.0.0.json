@@ -1,0 +1,41 @@
+﻿{
+    "Name":  "Prometheus Exporter",
+    "Identifier":  "7081dfb8-dc05-4bde-9810-bbba1afe8430",
+    "Version":  {
+                    "Major":  "0",
+                    "Minor":  "1",
+                    "Patch":  "0",
+                    "Build":  "0"
+                },
+    "Author":  "Naveen Malik",
+    "Homepage":  "https://github.com/jewzaam/nina-prometheus-exporter",
+    "Repository":  "https://github.com/jewzaam/nina-prometheus-exporter",
+    "License":  "Apache-2.0",
+    "LicenseURL":  "https://www.apache.org/licenses/LICENSE-2.0",
+    "ChangelogURL":  "https://github.com/jewzaam/nina-prometheus-exporter/blob/main/CHANGELOG.md",
+    "Tags":  [
+                 "prometheus",
+                 "grafana",
+                 "metrics",
+                 "monitoring"
+             ],
+    "MinimumApplicationVersion":  {
+                                      "Major":  "3",
+                                      "Minor":  "2",
+                                      "Patch":  "0",
+                                      "Build":  "9001"
+                                  },
+    "Descriptions":  {
+                         "ShortDescription":  "Exposes a Prometheus scrape endpoint for NINA metrics",
+                         "LongDescription":  "\r\nPrometheus Exporter is a NINA plugin that exposes a Prometheus scrape endpoint for NINA metrics.\r\n\r\nExposed metrics cover: equipment connection state, sequence status, per-exposure telemetry (HFR, stars, RMS, ADU stats), autofocus reports (run state, R-squared, position, duration), guiding RMS and per-step pulses, mount position and tracking, camera temperature and cooler power, focuser position/temperature, filter wheel position, plus dome/rotator/flat panel/safety monitor/weather where present.\r\n\r\nThe endpoint defaults to http://127.0.0.1:9876/metrics (loopback only). To expose on the LAN, change the Bind address in the plugin Options panel (e.g. 0.0.0.0 or a specific LAN IP). All settings (port, bind address, sequence poll cadence, autofocus timeout) are configurable in Options; Port/Bind changes take effect when you click Apply.\r\n\r\n# Getting help #\r\n\r\nFile an issue at https://github.com/jewzaam/nina-prometheus-exporter/issues\r\n",
+                         "FeaturedImageURL":  "",
+                         "ScreenshotURL":  "",
+                         "AltScreenshotURL":  ""
+                     },
+    "Installer":  {
+                      "URL":  "https://github.com/jewzaam/nina-prometheus-exporter/releases/download/0.1.0.0/NINA.Plugin.PrometheusExporter.0.1.0.0.zip",
+                      "Type":  "ARCHIVE",
+                      "Checksum":  "301420C303B7A100CCE9BA3F2B74A314C294CA64C18E684FEB0C1801EFA85D72",
+                      "ChecksumType":  "SHA256"
+                  }
+}

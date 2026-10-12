@@ -1,0 +1,38 @@
+{
+    "Name": "Autofocus Report Analysis",
+    "Identifier": "97021132-0C25-4443-B947-FE5EFBE0A3D6",
+    "Version": {
+        "Major": "2",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.autofocusanalysis",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.autofocusanalysis/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Autofocus"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2011"
+    },
+    "Descriptions": {
+        "ShortDescription": "Analyse temperature slope of autofocus runs from the autofocus logs",
+        "LongDescription": "This plugin can help you determining the temperature slope and offset of your equipment by analyzing past autofocus reports that were created by N.I.N.A.\r\n\r\nSimply hit the button with the three dots and point to the folder that contains your autofocus report files in JSON format.\r\nWhen a folder is selected the plugin will load in all reports, plot a chart and determine the slope and offset via linear regression.\r\nFurther filters can be applied afterwards, like only having a specific date range, temperature range or focuser position range.\r\n\r\n*Please note that you should not blindly follow the suggested slope and offset without reviewing how well the data could be fitted. A low R² value for example should not be relied on and it should be as close to 1 as possible.*",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/isbeorn/nina.plugin.autofocusanalysis/refs/heads/master/AutofocusReportAnalysisIcon.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/isbeorn/nina.plugin.autofocusanalysis/refs/heads/master/Screenshot1.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.autofocusanalysis/releases/download/2.0.1.0/Autofocus.Report.Analysis.2.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "65A93E2BFD0355EDACD82808DFD74B2E29B72D5EF1A8DD85A2C8A5FEE7496BFA",
+        "ChecksumType": "SHA256"
+    }
+}
