@@ -42,7 +42,7 @@
     "Installer": {
         "URL": "https://github.com/ToniEjido/RGB-HFR-Analyzer/releases/download/v0.9.0.0/RGBHFRAnalyzer.zip",
         "Type": "ARCHIVE",
-        "Checksum": "726D6B01FB951469E05540AEC1471AADD454B2ED67A72BB77FC85131E1F3634F",
+        "Checksum": "730A2E55EE2C4D99F5F2FBB96E0B34779763B13126C755EC4DA804B09F71ADE4",
         "ChecksumType": "SHA256"
     },
     "Channel": "Beta"
