@@ -1,0 +1,43 @@
+{
+    "Name": "OpenCode",
+    "Identifier": "75c31a01-6606-4cff-9703-4ee53c2f4e44",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina.plugin.opencode",
+    "Repository": "https://github.com/michelebergo/nina.plugin.opencode",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/michelebergo/nina.plugin.opencode/releases",
+    "Tags": [
+        "AI",
+        "Agent",
+        "opencode",
+        "Automation",
+        "MCP",
+        "Assistant"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Ask an AI agent about your rig in plain English: it reads your equipment, logs and frames, and asks before it touches anything",
+        "LongDescription": "WHAT IT IS FOR\r\nYou are imaging and something is off - guiding went bad an hour ago, the focus drifted, a frame came back empty. Instead of digging through tabs and log files yourself, you ask in plain English and the agent looks: it reads your equipment state, the night's log and the frames you saved, and tells you what it finds. If the fix needs an action - restart guiding, plate solve and recentre, stop the sequence - it asks you first. Every time.\r\n\r\nWHAT YOU NEED\r\nThe agent itself is opencode (https://opencode.ai): a free, open-source AI agent that you install separately, plus a model for it to use - a paid API key, or one running locally on your own machine. Your choice. This plugin contains no AI and installs none, so your models, your keys and your MCP servers stay yours and keep working exactly as they do in your terminal. If opencode is not installed, the panel says so and does nothing else.\r\n\r\nWHAT IT GIVES YOU\r\n- The agent in a dock panel: ask a question or hand it a job while you are imaging, without leaving NINA and without a terminal.\r\n- Every permission request in front of you. It asks before it runs a command, edits a file or uses a tool, and this panel is where you answer. Nothing runs unseen. Interrupt at any time.\r\n- NINA itself as tools: camera, mount, focuser, filter wheel, guiding, plate solving - 179 of them, through an MCP server the plugin sets up for you.\r\n- Three agents, differing in what they are allowed to do rather than in tone. observer reads and explains and moves nothing - that is what you get by default. copilot acts, but stops and asks first. autopilot is the unattended one: no prompts anywhere, every permission decided in advance, and a short list of actions that can save a night (restart guiding, plate solve and recentre, stop or start the sequence, set tracking, park the mount, close the shutter). It cannot slew, unpark, open a shutter, throw a switch or connect a device.\r\n- An observatory log: equipment state changes, autofocus runs and one line per saved frame, one file per night. It moves nothing and calls no model, and the agent can read it - so a diagnosis starts from what happened, not only from what is happening now.\r\n- Two ways to connect: launch a local opencode server from the executable on this machine, or attach to one already running elsewhere - on the observatory PC, for instance, while you sit at another.\r\n\r\nWHY IT IS SEPARATE FROM THE AI ASSISTANT PLUGIN\r\nThe AI Assistant plugin is self-contained: its own providers, its own keys, its own tool loop. This one holds none of that on purpose. Use it if you already run opencode, or if you would rather configure one agent once and reach it from everywhere instead of keeping a second AI setup inside NINA.\r\n\r\nWHAT IT DOES NOT DO YET\r\nNothing wakes the agent up. The autopilot agent exists and its policy is enforced, but no event triggers it: you choose it by hand. Unattended operation is being built log-first on purpose, so that what the agent reacts to is decided from what your observatory actually does rather than from a plausible list.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina.plugin.opencode/main/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina.plugin.opencode/releases/download/1.1.0.0/NINA.Plugin.OpenCode.1.1.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "2E064B76A1A13EB0C0D94E68187D6C105F16291CA5143E0C89C7D5B55DBEE684",
+        "ChecksumType": "SHA256"
+    }
+}

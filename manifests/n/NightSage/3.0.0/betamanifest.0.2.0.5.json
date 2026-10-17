@@ -1,0 +1,44 @@
+{
+    "Name": "NightSage",
+    "Identifier": "D83EE60E-7628-4E43-B7A2-B94D7F2B9F9A",
+    "Version": {
+        "Major": "0",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "5"
+    },
+    "Author": "grm",
+    "Homepage": "https://github.com/grm/nina.plugin.nightsage",
+    "Repository": "https://github.com/grm/nina.plugin.nightsage",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/grm/nina.plugin.nightsage/blob/main/CHANGELOG.md",
+    "Tags": [
+        "AI",
+        "Planning",
+        "Framing",
+        "Mosaic",
+        "Target Scheduler",
+        "Automation"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "AI target discovery, native framing, mosaics and acquisition planning for N.I.N.A.",
+        "LongDescription": "NightSage discovers targets for the active N.I.N.A. setup, builds validated acquisition plans, embeds the native N.I.N.A. Framing Assistant for composition and mosaics, and creates Target Scheduler projects while reusing existing exposure templates as the technical source of truth.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://raw.githubusercontent.com/grm/nina.plugin.nightsage/main/docs/images/plan-preview.jpg",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/grm/nina.plugin.nightsage/main/docs/images/framing-mosaic.jpg"
+    },
+    "Installer": {
+        "URL": "https://github.com/grm/nina.plugin.nightsage/releases/download/v0.2.0-beta.6/NightSage-0.2.0-beta.6.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "AEF83A9FA5F8C46BB76F2D7CCA6596D147AF790266AF1BF436816B27D83B2B3E",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}
