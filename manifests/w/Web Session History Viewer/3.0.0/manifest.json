@@ -3,8 +3,8 @@
     "Identifier": "81B04674-EA65-4FE8-B79B-A77C1D209183",
     "Version": {
         "Major": "2",
-        "Minor": "2",
-        "Patch": "1",
+        "Minor": "3",
+        "Patch": "0",
         "Build": "0"
     },
     "Author": "Tom Palmer @tcpalmer",
@@ -16,9 +16,9 @@
 "Tags": [],
 "MinimumApplicationVersion": {
     "Major": "3",
-    "Minor": "0",
+    "Minor": "2",
     "Patch": "0",
-    "Build": "2001"
+    "Build": "9001"
 },
 "Descriptions": {
     "ShortDescription": "Embedded Web server and app providing acquisition session history details",
@@ -28,9 +28,9 @@
     "AltScreenshotURL": "https://raw.githubusercontent.com/tcpalmer/nina.plugin.web/main/NINA.Plugin.Web/assets/screenshot2-1100.png?raw=true"
 },
 "Installer": {
-    "URL": "https://github.com/tcpalmer/nina.plugin.web/releases/download/v2.2.1.0/NINA.Plugin.Web-2.2.1.0.zip",
+    "URL": "https://github.com/tcpalmer/nina.plugin.web/releases/download/v2.3.0.0/NINA.Plugin.Web-2.3.0.0.zip",
     "Type": "ARCHIVE",
-    "Checksum": "E41FD805914811A85C56875FC05713E3179A5741C7C70BC2B6963110274F1D1C",
+    "Checksum": "3367B979BB981EF15E54DD85F0EF2C7950E782E5E06889BF67CA7D48C93D42CD",
     "ChecksumType": "SHA256"
 }
 }
