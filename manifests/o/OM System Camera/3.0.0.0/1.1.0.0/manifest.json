@@ -1,0 +1,43 @@
+{
+  "Name": "OM System Camera",
+  "Identifier": "e5f039a8-9d21-4f11-9a99-4d6423ca6e77",
+  "Version": {
+    "Major": 1,
+    "Minor": 1,
+    "Patch": 0,
+    "Build": 0
+  },
+  "Author": "Andre Gomes Lamas Otero",
+  "Homepage": "https://github.com/aglotero/NINA.Plugin.OMCamera",
+  "Repository": "https://github.com/aglotero/NINA.Plugin.OMCamera",
+  "License": "MIT",
+  "LicenseURL": "https://opensource.org/licenses/MIT",
+  "ChangelogURL": "https://github.com/aglotero/NINA.Plugin.OMCamera/releases",
+  "Tags": [
+    "Camera",
+    "OM System",
+    "Olympus",
+    "OM-1",
+    "Mirrorless",
+    "DSLR"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 0,
+    "Patch": 0,
+    "Build": 2017
+  },
+  "Descriptions": {
+    "ShortDescription": "Native camera driver for OM System and Olympus mirrorless cameras in N.I.N.A.",
+    "LongDescription": "Provides native USB tethered RAW (.ORF) capture, 16-bit ADU scaling, Bulb & Timed exposures, bidirectional ISO (Gain), Shutter Speed, Lens Aperture (f-stop), and LiveView control for OM System and Olympus OM-D mirrorless cameras (OM-1, OM-1 Mark II, OM-5, E-M1X, E-M1 Mark II/III, E-M5 Mark II/III) via OM Workspace's OlyCameraLib.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/aglotero/NINA.Plugin.OMCamera/releases/download/v1.1.0/NINA.Plugin.OMCamera.dll",
+    "Type": "DLL",
+    "Checksum": "4324C063D04161C49A04D5A81E8A38F7E15642BAB85FF79ECA1904F189A2D9DA",
+    "ChecksumType": "SHA256"
+  }
+}
