@@ -32,7 +32,7 @@
     "ChecksumType": "SHA256"
   },
   "Descriptions": {
-    "ShortDescription": "Live plate-solve polar alignment with a Polar-Align-Pro-style bullseye, optional knob guidance, and a phone web page.",
-    "LongDescription": "Polar alignment from real plate solves, no view of the pole needed. Find Axis slews the mount in RA (with safety limits and a confirmation) and takes three frames to find the RA axis; Live View then solves continuously and shows a bullseye with up/down and east/west arrows, and an ALIGNMENT GOOD ENOUGH / EXCELLENT verdict. An optional one-time knob calibration turns the error into tics, turns or degrees of knob rotation. Works in the northern and southern hemisphere. Night-friendly red/green/white display, and an optional phone web page to run it from your phone on the same network. Developed with AI assistance (Claude); maintained by GRM."
+    "ShortDescription": "Live plate-solve polar alignment with a Polar-Align-Pro-style bullseye, optional knob guidance, and smart phone or tablet web page monitor and control.",
+    "LongDescription": "Polar alignment from real plate solves, no view of the pole needed. Find Axis slews the mount in RA (with safety limits and a confirmation) and takes three frames to find the RA axis; Live View then solves continuously and shows a bullseye with up/down and east/west arrows, and an ALIGNMENT GOOD ENOUGH / EXCELLENT verdict. An optional one-time knob calibration turns the error into tics, turns or degrees of knob rotation. Works in the northern and southern hemisphere. Night-friendly red/green/white display, and an optional smart-phone or tablet web page to run it from your phone on the same network. Developed with AI assistance (Claude); maintained by GRM."
   }
 }
