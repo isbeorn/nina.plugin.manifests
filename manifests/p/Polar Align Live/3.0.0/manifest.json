@@ -14,11 +14,10 @@
   },
   "MinimumApplicationVersion": {
     "Major": 3,
-    "Minor": 0,
+    "Minor": 2,
     "Patch": 0,
     "Build": 1
   },
-  "Channel": "Beta",
   "Tags": [
     "Polar Alignment",
     "Plate Solving",
