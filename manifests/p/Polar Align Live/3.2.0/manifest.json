@@ -9,25 +9,25 @@
   "Version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 0,
+    "Patch": 1,
     "Build": 0
   },
   "MinimumApplicationVersion": {
     "Major": 3,
     "Minor": 2,
     "Patch": 0,
-    "Build": 1
+    "Build": 9001
   },
   "Tags": [
     "Polar Alignment",
     "Plate Solving",
     "Mount"
   ],
-  "ChangelogURL": "https://github.com/gmilleok0612/SmartPolarAlign/releases/tag/v1.0.0",
+  "ChangelogURL": "https://github.com/gmilleok0612/SmartPolarAlign/releases/tag/v1.0.1",
   "Installer": {
-    "URL": "https://github.com/gmilleok0612/SmartPolarAlign/releases/download/v1.0.0/PolarAlignLive.dll",
+    "URL": "https://github.com/gmilleok0612/SmartPolarAlign/releases/download/v1.0.1/PolarAlignLive.dll",
     "Type": "DLL",
-    "Checksum": "ff71d4659aae43aa8e2ff60013803dc51095db5850fd84111e9d87968610a8d9",
+    "Checksum": "e4d2ed1e1deb16902a4026114e55e0340792eade8348323765695d010938a3c8",
     "ChecksumType": "SHA256"
   },
   "Descriptions": {
