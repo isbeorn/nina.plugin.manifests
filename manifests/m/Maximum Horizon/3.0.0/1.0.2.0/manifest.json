@@ -1,0 +1,38 @@
+{
+    "Name": "Maximum Horizon",
+    "Identifier": "B7957C29-EE62-45E8-A918-6FEE3C1F566D",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "2",
+        "Build": "0"
+    },
+    "Author": "Astro With RoRo",
+    "Homepage": "https://github.com/astro-roro/Maximum-Horizon",
+    "Repository": "https://github.com/astro-roro/Maximum-Horizon",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "https://github.com/astro-roro/Maximum-Horizon/releases",
+    "Tags": [
+        "Sequencer",
+        "Condition",
+        "Horizon"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Defines maximum altitude constraints to avoid imaging targets blocked by overhead obstructions.",
+        "LongDescription": "Maximum Horizon lets you build horizon profiles manually, import them from CSV, or extract from images so your sequences stop when a target exceeds your custom altitude limit.\r\n\r\n## Use cases\r\n- Apartment balcony or rooftop imaging where the sky is partially blocked overhead\r\n- Backyards with trees, structures, or roof eaves limiting view in certain directions\r\n\r\n## Features\r\n- Multiple named horizon profiles (e.g. \"Home\", \"Remote Site\")\r\n- Manual entry, CSV import, and image-based profile creation\r\n- 'Loop until Maximum Horizon' condition that blocks the sequencer when a target rises above the configured maximum altitude\r\n- Real-time visibility display (current altitude vs. maximum altitude, with profile name and ✓/✗ status)\r\n- Global margin buffer for added safety\r\n- Service interface (IMaximumHorizonService) for integration with planning plugins such as Target Scheduler\r\n\r\nProfile storage: %localappdata%\\NINA\\Plugins\\MaximumHorizon\\Profiles\\"
+    },
+    "Installer": {
+        "URL": "https://github.com/astro-roro/Maximum-Horizon/releases/download/v1.0.2.0/NINA.Plugin.MaximumHorizon.dll",
+        "Type": "DLL",
+        "Checksum": "28cbf3f8b2e0c38585437148c7d98c25ca67967d8005511b03a0b2ee72cca001",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}

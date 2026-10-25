@@ -1,0 +1,38 @@
+{
+    "Name": "Alpaca",
+    "Identifier": "00eec1ff-31fd-47b4-bbff-1a71b63b0330",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "2",
+        "Build": "0"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg",
+    "Repository": "https://github.com/isbeorn/nina.plugin.alpaca",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.alpaca/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Alpaca"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin to host all N.I.N.A. devices as Alpaca Devices to be accessed from other applications",
+        "LongDescription": "\r\nThis plugin exposes all N.I.N.A. devices as Alpaca devices over the network, enabling control of your equipment from any ASCOM/Alpaca-compliant software or client. Each device is tightly integrated with N.I.N.A.'s interface abstractions, ensuring seamless operation and access to N.I.N.A.'s advanced features.\r\n\r\nAdditionally, exposing devices via Alpaca allows native or in-process drivers in N.I.N.A. to be shared with other applications.\r\n\r\nTip: For applications that cannot natively connect to Alpaca devices, you can use the ASCOM Chooser to make Alpaca drivers accessible as ASCOM drivers. See [Alpaca through the Chooser](https://ascom-standards.org/Help/Platform/html/e3870a2f-582a-4ab4-b37f-e9b1c37a2030.htm) in the ASCOM documentation for setup instructions.\r\n\r\n",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/isbeorn/nina.plugin.alpaca/refs/heads/master/alpaca.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.alpaca/releases/download/1.0.2.0/NINA.Alpaca.1.0.2.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "8A87EA3AD4B0DA5E73349966A6FC4BBFA05E1F1C46157CE762071B531CF6C059",
+        "ChecksumType": "SHA256"
+    }
+}

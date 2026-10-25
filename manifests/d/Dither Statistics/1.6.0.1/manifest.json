@@ -1,0 +1,46 @@
+{
+    "Name": "Dither Statistics",
+    "Identifier": "8622888a-ac8c-48f0-9be8-40d5d123fb7d",
+    "Version": {
+        "Major": "1",
+        "Minor": "6",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Thierry Tschanz",
+    "Homepage": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+    "Repository": "https://github.com/Thierrytsch/NINA-DitherStatistics",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/blob/main/CHANGELOG.md",
+    "Tags": [
+        "imaging",
+        "guiding",
+        "dithering",
+        "statistics",
+        "phd2",
+        "quality",
+        "analysis",
+        "optimizer",
+        "settle"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Visualizes dithering performance",
+        "LongDescription": "Comprehensive dithering analysis plugin for N.I.N.A. with real-time statistics, visual charts, and experimental quality assessment.\r\n\r\n# Core Features\r\n* Real-time dither settle time tracking and visualization\r\n* X/Y pixel drift scatter plot with cumulative movements\r\n* Statistical analysis (avg, median, std dev, min/max, success rate)\r\n* Live updates during imaging sessions\r\n\r\n# Experimental Quality Assessment\r\n⚠️ EXPERIMENTAL: Advanced mathematical analysis of dither patterns using:\r\n* **Centered L₂ Discrepancy** - Global uniformity measurement from quasi-Monte Carlo theory\r\n* **Drizzle Weight Uniformity** - Real drizzle simulation predicting coverage evenness for 1×, 2×, 3× drizzle\r\n* **Drift Ratio** - Detects one-directional dither drift (walking noise risk) and too-small pattern spread\r\n* **Combined Quality Score** - Overall pattern quality rating with recommendations, Monte-Carlo calibrated for random dithering\r\n* Automatic guider→main-camera pixel scale conversion (PHD2 pixel scale + NINA profile, manual override available)\r\n\r\nMinimum 4 dithers required for quality metrics. Assessments improve with 20+ positions.\r\n\r\n# Experimental Dither Settings Optimizer (redesigned in 1.6)\r\n⚠️ EXPERIMENTAL: Analyzes post-dither guiding data to recommend PHD2/NINA settle parameters:\r\n* **Three profiles**: Strict (P90), Standard (P95), Fast (P99) — empirical quantiles of your normal guiding scatter\r\n* **Settle Pixel Tolerance**: quantile of the measured distance-from-lock distribution (shown in px and arcsec)\r\n* **Minimum Settle Time**: small debounce value (time the star must STAY within tolerance)\r\n* **Expected Settle Duration**: median measured time until guiding is stable after a dither\r\n* **Settle Timeout**: covers 95% of observed settle delays plus safety margin\r\n* Failed settles and star-lost events are excluded; confidence warnings at low sample counts\r\n* Auto-updates after each dither event, requires minimum 3 events\r\n\r\n# Multi-Session Statistics Persistence (NEW in 1.4)\r\nOptionally carry all statistics over across NINA sessions:\r\n* Toggle in the Statistics panel (default: off), state survives restarts\r\n* All charts, statistics, quality metrics and optimizer data are restored exactly as they were when NINA was closed\r\n* Subsequent dithers accumulate on top of the restored state\r\n* Clear Data resets everything including the optimizer analysis\r\n\r\n# Multiple Statistics Profiles (NEW in 1.5)\r\nKeep separate statistics for different targets or telescopes:\r\n* Toggle in the Statistics panel (default: off) shows a profile selector\r\n* Create new profiles by typing a name into the editable box, delete them with one click (the Default profile always exists and cannot be deleted)\r\n* All statistics, quality metrics and optimizer data are recorded into the selected profile; switching profiles instantly shows that profile's data\r\n* Profiles keep their data for the whole session; combined with Keep across sessions, ALL profiles survive NINA restarts\r\n* Clear Data clears the data of all profiles (profile names are kept)\r\n\r\n# Requirements\r\n* N.I.N.A. 3.1 or higher\r\n* .NET 8.0 Runtime\r\n* PHD2\r\n\r\n# Version 1.6 Changes\r\n* Redesigned Dither Settings Optimizer with a statistically sound algorithm:\r\n* Settle Pixel Tolerance is now an empirical quantile (P90/P95/P99) of your measured stable-guiding scatter in a rolling 15-minute window, instead of the previous RMS + k·σ mix\r\n* Profiles renamed to Strict / Standard / Fast — a tighter tolerance only adds confidence and settle time, it does not improve image quality (Fast is recommended for most setups)\r\n* Fixed Minimum Settle Time semantics: the recommendation is now a small debounce value (PHD2's min settle time is the time the star must STAY within tolerance); the measured time-to-stable is shown separately as Expected Settle Duration\r\n* NEW: Settle Timeout recommendation covering 95% of observed settle delays plus margin\r\n* NEW: tolerance also shown in arcsec; confidence warnings at low sample counts or high spread\r\n* Dithers with failed settles or lost stars are now excluded from the analysis\r\n* Collection window now follows the actual settle (SettleDone + 10 guide steps, max 120 s) instead of a fixed 30 s\r\n* Settle delays are now measured from the actual dither event with 3-frame debouncing against transient dips\r\n* Per-dither reference thresholds are stored, keeping multi-session persisted data self-consistent\r\n* Fixed (1.6.0.1): mouse wheel over a chart no longer zoomed it while also scrolling the panel underneath, which could leave the Settle Time History chart blank until the next dither; both charts are now display-only and redraw correctly on resize\r\n\r\n# Version 1.5 Changes\r\n* NEW: Multiple statistics profiles - keep separate statistics per target or telescope, selectable via an editable profile box in the Statistics panel (default: off)\r\n* Profiles can be created and deleted on the fly; the Default profile always exists\r\n* With Keep across sessions enabled, all profiles are persisted and restored across NINA restarts (existing 1.4 data is migrated into the Default profile automatically)\r\n* Clear Data now clears the data of all profiles\r\n* Reworked quality assessment: fixed sub-pixel phase wrapping, real drizzle weight simulation instead of area heuristic, no more double-counted discrepancy penalty, quantile-calibrated thresholds with confidence margin (~50 dithers = Good, ~80 = Very Good, ~120+ = Excellent)\r\n* Removed redundant Voronoi CV metric; NEW Drift Ratio metric (walking noise warning)\r\n* NEW: automatic guider→main-camera pixel scale conversion and configurable drizzle pixfrac\r\n\r\n# Version 1.4 Changes\r\n* NEW: Multi-session statistics persistence - optionally restore all statistics across NINA restarts\r\n* Persistence toggle in the Statistics panel (default: off), toggle state itself is persisted\r\n* Dither Settings Optimizer data and recommendation are persisted and restored as well\r\n* Clear Data now also resets the Dither Settings Optimizer data and recommendation\r\n\r\n# Version 1.3 Changes\r\n* NEW: Experimental Dither Settings Optimizer with three profiles (Quality/Balanced/Performance)\r\n* Recommends optimal Settle Pixel Tolerance and Minimum Settle Time based on live guiding data\r\n* Post-dither guiding analysis with positive period detection\r\n* Toggle-able panel with persistent settings\r\n\r\n# Version 1.2 Changes\r\n* Migrated from LiveCharts to ScottPlot for better performance and NINA 3.2 compatibility\r\n* Full compatibility with both NINA 3.1 and NINA 3.2\r\n* Optimized PostBuild to copy only necessary DLLs\r\n* Look and feel improvements\r\n\r\n# Data Export\r\nExport comprehensive quality reports including all metrics, dither positions, and recommendations to text files.\r\n\r\n# Important Notes\r\nQuality assessment is experimental and provides guidance, not absolute measurements. Real-world results depend on many factors including seeing conditions, tracking accuracy, and processing techniques.\r\n\r\n# Getting Help\r\nVisit the #plugin-discussions channel on [NINA Discord](https://discord.com/invite/rWRbVbw) or file issues at the [GitHub repository](https://github.com/Thierrytsch/NINA-DitherStatistics/issues).\r\n\r\nFor complete documentation, algorithms, and detailed explanations, see the full README on GitHub.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/Thierrytsch/NINA-DitherStatistics/main/DitherStatistics-Logo.png",
+        "ScreenshotURL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/v1.2.0.1/screenshot-main.png",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Thierrytsch/NINA-DitherStatistics/releases/download/1.6.0.1/ThierryTschanz.NINA.Ditherstatistics.1.6.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "EB13577259DF9B8FF33CCA281A3013DE9A0DF227A990432E93A2DCDE3A946FF3",
+        "ChecksumType": "SHA256"
+    }
+}

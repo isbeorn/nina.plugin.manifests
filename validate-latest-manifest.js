@@ -42,7 +42,7 @@ exec('git diff --name-only --diff-filter=ACM HEAD~1..HEAD', async (error, stdout
             } else {
                 const remoteHash = await getHashFromRemote(json.Installer.URL, json.Installer.ChecksumType);
                 if(remoteHash.toLowerCase() !== json.Installer.Checksum.toLowerCase()) {
-                    throw new Error(`Expected hash to be ${json.Installer.Checksum}, but actually was ${remoteHash} from ${json.Installer.URL}`);
+                    throw new Error(getHashMismatchMessage(json, remoteHash));
                 }                
 
                 console.log("\x1b[32m",'Manifest valid at ' + fullPath);
@@ -62,6 +62,53 @@ function getHashFromRemote(url, hashalgorithm) {
     return new Promise((resolve, reject) => {
         const hasher = crypto.createHash(hashalgorithm.toLowerCase());
         hasher.setEncoding('hex');
-        request(url).on('error', x => reject(new Error(`Failed to get ${url}`))).pipe(hasher).on('finish', (x) => resolve(hasher.read()));
+        let settled = false;
+
+        const fail = error => {
+            if(!settled) {
+                settled = true;
+                reject(error);
+            }
+        };
+
+        const remote = request(url)
+            .on('response', response => {
+                if(response.statusCode < 200 || response.statusCode >= 300) {
+                    remote.abort();
+                    fail(new Error(getHttpStatusMessage(url, response)));
+                    return;
+                }
+
+                response
+                    .on('error', x => fail(new Error(`Failed to read ${url}: ${x.message}`)))
+                    .pipe(hasher)
+                    .on('finish', () => {
+                        if(!settled) {
+                            settled = true;
+                            resolve(hasher.read());
+                        }
+                    })
+                    .on('error', x => fail(new Error(`Failed to hash ${url}: ${x.message}`)));
+            })
+            .on('error', x => fail(new Error(`Failed to get ${url}: ${x.message}`)));
     });
+}
+
+function getHttpStatusMessage(url, response) {
+    const status = response.statusMessage
+        ? `${response.statusCode} ${response.statusMessage}`
+        : response.statusCode;
+
+    if(response.statusCode === 404) {
+        return `Installer URL returned HTTP ${status} from ${url}. The installer is probably missing, renamed, private, or points to a release asset that no longer exists.`;
+    }
+
+    return `Installer URL returned HTTP ${status} from ${url}`;
+}
+
+function getHashMismatchMessage(manifest, remoteHash) {
+    const expectedHash = manifest.Installer.Checksum;
+    const url = manifest.Installer.URL;
+
+    return `Expected hash to be ${expectedHash}, but actually was ${remoteHash} from ${url}`;
 }

@@ -2,9 +2,9 @@
     "Name": "Pentax Camera and Focuser Driver",
     "Identifier": "1216eb93-3885-4681-baa7-9485d8fd0577",
     "Version": {
-        "Major": "11",
-        "Minor": "14",
-        "Patch": "25",
+        "Major": "26",
+        "Minor": "10",
+        "Patch": "18",
         "Build": "1"
     },
     "Author": "RTG",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release111425/Rtg.NINA.NinaPentaxDriver.zip",
+        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release101826/Rtg.NINA.NinaPentaxDriver.zip",
         "Type": "ARCHIVE",
-        "Checksum": "77F4433D56F5387E6449784D69FA214CCA26D589B1EE739D3850B16D862E9D88",
+        "Checksum": "8E128D0D7A590D0D06516CE9A01BD9A5E4B560C5DB8921314F17E61AEB3A95D2",
         "ChecksumType": "SHA256"
     }
 }
