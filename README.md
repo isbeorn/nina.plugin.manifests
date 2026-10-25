@@ -17,9 +17,28 @@ To make a plugin available you can submit a manifest into this repository, by fo
 N.I.N.A. is free open source software. The spirit of open source is highly encouraged when writing a plugin for N.I.N.A. and an appropriate open source license should be chosen. [MIT](https://opensource.org/licenses/MIT), [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) and [MPL-2.0](https://opensource.org/licenses/MPL-2.0) are some of the popular choices, to name a few - choose whichever fits best for your needs.  
 
 Having a plugin as open source doesn't necessarily mean that it cannot be used for commercial purposes. Maybe it will interface with an online service that has a subscription model or it is interfacing with a closed source app, to give a few examples. In this case the plugin is just the mediator between the two worlds. The intent to be as open as possible should be clear.  
+## Plugin licensing responsibility
+
+This repository indexes third-party plugins but does not perform legal reviews. Acceptance of a manifest is not an endorsement or confirmation that the plugin's license is compatible with N.I.N.A. or its dependencies.
+
+By submitting or updating a manifest, the submitter confirms that:
+- they are authorized to distribute the plugin
+- the declared license and source information are accurate
+- all included code and dependencies may be distributed under their applicable licenses
+- they authorize N.I.N.A. to publish the manifest and direct users to download and install the plugin.
+
+The plugin publisher remains responsible for copyright and license compliance. The N.I.N.A. maintainers may reject, suspend or remove a manifest when a credible licensing concern is raised.
 
 **Closed source plugins will not be accepted for the manifest repository and no support in any form will be given by the community.**  
 *It should be mentioned that if the number of closed source plugins get out of hand, further restrictions might be added to these in the future, as this would contradict the open source intent of the N.I.N.A. project*
+
+## AI-assisted development
+
+AI-assisted development is allowed, but every plugin must have an accountable human maintainer. Material AI use must be disclosed.
+
+By submitting a manifest, the author confirms that they have reviewed, understood and tested all plugin code and verified its security, privacy, licensing and provenance. The author must be able to explain, debug and maintain the implementation without delegating responsibility to AI.
+
+A manifest may be rejected or removed if the author cannot explain or maintain the plugin, its provenance cannot be established or it consists of unreviewed or low-quality generated output.
 
 # Develop a plugin
 For more details on how to develop a plugin, there is a separate repository containing a basic template using a visual studio extension and guidelines to follow.  

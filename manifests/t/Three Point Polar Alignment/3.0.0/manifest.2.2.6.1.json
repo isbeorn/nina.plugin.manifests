@@ -1,0 +1,39 @@
+{
+    "Name": "Three Point Polar Alignment",
+    "Identifier": "1de8d7d3-f11e-494c-a371-95cb48dffa18",
+    "Version": {
+        "Major": "2",
+        "Minor": "2",
+        "Patch": "6",
+        "Build": "1"
+    },
+    "Author": "Stefan Berg @isbeorn",
+    "Homepage": "https://www.patreon.com/stefanberg/",
+    "Repository": "https://github.com/isbeorn/nina.plugin.polaralignment",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Changelog.md",
+    "Tags": [
+        "Polar alignment",
+        "Sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Three Point Polar Alignment almost anywhere in the sky",
+        "LongDescription": "Three Point Polar Alignment almost anywhere in the sky  \r\n\r\nThis plugin adds a Three Point Polar Alignment instruction to the Advanced Sequencer and a matching tool pane to the Imaging tab. The sequencer path opens a guided window during execution, and the imaging-tab path exposes the same workflow directly from the dockable tool.  \r\n\r\nTPPA first captures and plate-solves three measurement points while the mount moves only along the right ascension axis. From those three solved positions it reconstructs the mount axis and reports the initial polar alignment error. After that it enters a continuous solve loop so you can adjust the mount altitude and azimuth while TPPA keeps updating the remaining error.  \r\n\r\nIf a supported adjustment system is selected, TPPA can connect to it after the initial three-point solve and optionally drive automated correction nudges.  \r\n\r\n[*Frequently Asked Questions*](https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/FAQ.md)\r\n\r\n*Prerequisites*  \r\n* Site latitude, longitude, and elevation must be set correctly in the active N.I.N.A. profile\r\n* A connected camera that can capture frames for plate solving\r\n* Plate solving must be configured and working with the current optical setup\r\n    + When using manual mode without a mount connection, TPPA uses the blind solver path\r\n* An equatorial mount whose right ascension axis can be moved using one of three methods:\r\n    + Fully automated, with the mount connected through N.I.N.A. so TPPA can move it\r\n    + Manual mode with the mount connected, where you move the mount through its controls or software\r\n    + Manual mode without a mount connection, where you move the mount yourself\r\n\r\nFor best results, keep tracking enabled during the run, move only the RA axis between the first three points, and then adjust only mount altitude and azimuth during the correction phase.",
+        "FeaturedImageURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Starlock2.png?raw=true",
+        "AltScreenshotURL": "https://github.com/isbeorn/nina.plugin.polaralignment/blob/master/PolarAlignment/Imaging.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/isbeorn/nina.plugin.polaralignment/releases/download/2.2.6.1/NINA.Plugins.PolarAlignment.2.2.6.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "B1D34D324CB6BF2288A4913D3E7E9D5CB9368A2C8A53AF90333F98FED63D7FE5",
+        "ChecksumType": "SHA256"
+    }
+}
