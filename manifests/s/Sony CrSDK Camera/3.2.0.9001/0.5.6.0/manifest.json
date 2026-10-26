@@ -1,0 +1,41 @@
+{
+  "Name": "Sony CrSDK Camera Plugin for N.I.N.A.",
+  "Identifier": "9c1f3b7e-5a24-4f0c-9a86-2d1e7c4b6a51",
+  "Author": "isky",
+  "Version": {
+    "Major": 0,
+    "Minor": 5,
+    "Patch": 6,
+    "Build": 0
+  },
+  "MinimumApplicationVersion": {
+    "Major": 3,
+    "Minor": 2,
+    "Patch": 0,
+    "Build": 9001
+  },
+  "License": "MIT",
+  "LicenseURL": "https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/LICENSE",
+  "Repository": "https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA",
+  "Homepage": "https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA",
+  "ChangelogURL": "https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/CHANGELOG.md",
+  "Tags": [
+    "Camera",
+    "Sony",
+    "CrSDK",
+    "ILCE-7M5"
+  ],
+  "Descriptions": {
+    "ShortDescription": "Sony CrSDK 相机接入与共享控制 / Sony CrSDK camera integration and shared controls.",
+    "LongDescription": "## 中文\n\n通过 Sony Camera Remote SDK 在 N.I.N.A. 中使用 Sony 相机：普通曝光、软件 Bulb、ISO/快门控制、JPEG 实时预览与 Bayer RAW 解码；Sony 扩展控制面板与标准相机入口共享同一连接。\n\n**环境与兼容性**：Windows x64、N.I.N.A. 3.x（最低 3.2.0.9001）、Microsoft VC++ v14 x64 运行库。实机验证机型为 Sony A7 V（ILCE-7M5，固件 2.00）；其他机型尚未做实机验证，插件按机身实际返回的能力工作（ISO/快门候选、Bulb、RAW 格式、保存位置），遇到不支持的能力会明确拒绝而不是伪造。\n\n**安装**：请自行取得并解压 Sony Camera Remote SDK 2.02.00 Windows x64。插件启动时只检测已配置的 SDK，不安装文件、不提权；只有在插件设置的 SDK 配置页确认后才会导入文件，写入受保护的共享适配器目录时 Windows 会请求管理员授权。公开包不包含 Sony SDK，也不安装驱动或系统运行库；SDK 配置不会连接相机。个人设置与 SDK 缓存独立保存，插件升级时保留。\n\n**拍摄一致性**：ISO 与快门在跳过写入或提交曝光前都会刷新并回读；实际值与请求值不符时不触发快门，图像元数据使用已确认的实测参数。\n\n[安装、升级与卸载](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/INSTALL.md) · [使用说明](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/USAGE.md) · [兼容性](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/COMPATIBILITY.md)\n\n独立社区项目，与 Sony 或 N.I.N.A. 官方无隶属关系，由 isky 维护。\n\n---\n\n## English\n\nUse Sony cameras in N.I.N.A. through Sony Camera Remote SDK: normal exposures, software Bulb, ISO/shutter control, JPEG LiveView and Bayer RAW decoding. The Sony control panel and the standard camera interface share one connection.\n\n**Requirements and compatibility**: Windows x64, N.I.N.A. 3.x (minimum 3.2.0.9001) and the Microsoft VC++ v14 x64 runtime. Sony A7 V (ILCE-7M5, firmware 2.00) is the hardware-validated model; other models have not been validated on hardware and are driven by the capabilities each body actually reports (ISO/shutter candidates, Bulb, RAW format, save destination). Unsupported capabilities are refused explicitly rather than fabricated.\n\n**Installation**: Obtain and extract Sony Camera Remote SDK 2.02.00 Windows x64 yourself. At startup the plugin only detects an already configured SDK and never installs files or elevates; files are imported only after you confirm on the SDK setup page in plugin settings, and writing a protected shared-adapter directory prompts for Windows administrator consent. No Sony SDK is bundled, and the plugin installs neither drivers nor system runtimes. SDK setup does not connect to a camera. User preferences and SDK caches are stored separately and preserved across plugin updates.\n\n**Capture consistency**: ISO and shutter are refreshed and read back before a write is skipped or an exposure is submitted. A mismatch blocks the shutter, and image metadata uses the verified values.\n\n[Installation, upgrade and removal](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/INSTALL.md) · [Usage](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/USAGE.md) · [Compatibility](https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/blob/v0.5.6/docs/COMPATIBILITY.md)\n\nAn independent community project, not affiliated with Sony or N.I.N.A., maintained by isky.",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/v0.5.6/assets/icon.png",
+    "ScreenshotURL": "https://raw.githubusercontent.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/v0.5.6/assets/images/sony-controls.png",
+    "AltScreenshotURL": "https://raw.githubusercontent.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/v0.5.6/assets/images/sony-shared-architecture.png"
+  },
+  "Installer": {
+    "Type": "ARCHIVE",
+    "URL": "https://github.com/isky-zh-l/Sony-CrSDK-Camera-Plugin-for-NINA/releases/download/v0.5.6/Sony-CrSDK-Camera-Plugin-0.5.6.zip",
+    "Checksum": "4ADF282C5E5172C917BC39AC4C2CEF8CD2D44E24DDA7E9BFA2B4B5E3E698DC12",
+    "ChecksumType": "SHA256"
+  }
+}
