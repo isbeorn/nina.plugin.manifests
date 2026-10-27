@@ -4,7 +4,7 @@
   "Version": {
     "Major": "0",
     "Minor": "3",
-    "Patch": "0",
+    "Patch": "1",
     "Build": "0"
   },
   "Author": "Cédric Champeau",
@@ -32,9 +32,9 @@
     "AltScreenshotURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/asterion-solver/asterion/releases/download/v0.3.0/asterion-nina-0.3.0.zip",
+    "URL": "https://github.com/asterion-solver/asterion/releases/download/v0.3.1/asterion-nina-0.3.1.zip",
     "Type": "ARCHIVE",
-    "Checksum": "C91CF682A57F9BB483688067A014EF813D0B4264C12F3787FBC1E6A6C1E5CE44",
+    "Checksum": "5A2BA3F12C94C2B90327AE8E6CB7D04F7E532631C0AF7EAA7B4D2A3D2C4FF3F2",
     "ChecksumType": "SHA256"
   }
 }
