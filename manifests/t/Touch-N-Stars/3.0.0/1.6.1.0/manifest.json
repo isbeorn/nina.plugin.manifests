@@ -1,9 +1,10 @@
 {
     "Name": "Touch 'N' Stars",
     "Identifier": "5af0afae-cab5-4fde-9fcd-3302c0d59686",
+    "Channel": "Beta",
     "Version": {
         "Major": "1",
-        "Minor": "3",
+        "Minor": "6",
         "Patch": "1",
         "Build": "0"
     },
@@ -31,9 +32,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/Touch-N-Stars/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.3.1.0/TouchNStars.zip",
+        "URL": "https://github.com/JohannesWorks/N.I.N.A-Plugin-for-Touch-N-Stars/releases/download/1.6.1.0/TouchNStars.zip",
         "Type": "ARCHIVE",
-        "Checksum": "2398B5BF80DED240A06B65A5CD2B1B8C7D2599A2900B7CF7A3F4C33E104E2384",
+        "Checksum": "F0A92D8EBD61C68D988C733554374E895125458BC0B20F8B231E3EA87C33BAEA",
         "ChecksumType": "SHA256"
     }
 }
