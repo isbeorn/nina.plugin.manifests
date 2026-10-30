@@ -1,0 +1,42 @@
+{
+  "Name": "Powerups Migration Bridge",
+  "Identifier": "943167b1-83ba-4f9d-963d-40aa9ac354b9",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Author": "Stefan Berg and the N.I.N.A. contributors",
+  "Homepage": "",
+  "Repository": "https://github.com/isbeorn/nina.plugin.powerupsmigrationbridge",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "",
+  "Tags": [
+    "Sequencer",
+    "Powerups",
+    "Legacy",
+    "Deprecated",
+    "Migration"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1068"
+  },
+  "Descriptions": {
+    "ShortDescription": "Best-effort migration from the deprecated Powerups plugin to NINA's built-in instructions.",
+    "LongDescription": "Powerups Migration Bridge helps you move sequences and templates from the deprecated Powerups plugin (3.29.x and 4.x) to NINA's built-in instructions. The original plugin is no longer maintained. Supported steps migrate when loaded; other steps remain editable and usable through the original runtime. Originals are backed up before migration. Migration is best effort: review sequences and save changes in NINA as usual.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/isbeorn/nina.plugin.powerupsmigrationbridge/releases/download/1.0.0.0/PowerupsMigrationBridge.1.0.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "E2F0ABA47A5A3F9EC50514B89B1C9B81D44FFC0126F312FFAA6680DE006B7EBB",
+    "ChecksumType": "SHA256"
+  }
+}
