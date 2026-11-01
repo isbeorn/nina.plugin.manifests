@@ -1,0 +1,43 @@
+{
+    "Name": "Manual Focuser",
+    "Identifier": "56e3434f-95de-49fe-bb59-2034ea457afb",
+    "Version": {
+        "Major": "1",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "cwseo",
+    "Homepage": "https://cafe.naver.com/skyguide",
+    "Repository": "https://github.com/squallseo/Nina.Manualfocuser",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/CHANGELOG.md",
+    "Tags": [
+        "Focuser",
+        " Manual",
+        " Live",
+        " HFR",
+        " ROI",
+        " Interactive"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Manual and live focusing with multi-star HFR, ROI preview and a 3x3 aberration inspector",
+        "LongDescription": "Adjust focus in Manual Focus or Live Focus mode with three independently dockable panels: MF Image, MF Controls and MF HFR.\r\n\r\nManual Focus captures after focuser movement using NINA's autofocus settings and plots HFR against focuser position. Live Focus offers continuous camera preview, adjustable exposure and ROI, and a rolling 120-second HFR graph.\r\n\r\nMulti-star HFR uses NINA's selected autofocus star detector, with optional same-star tracking and star boxes. Image controls include zoom, rotation, horizontal flip, Auto Stretch and a 3x3 aberration inspector. Sync to Image sends the original frame and raw data to NINA's native viewer for plate solving and further analysis.\r\n\r\nGo to target provides bright-star selection, Moon and planet targets, and deep-sky search with Slew or plate-solve centering.",
+        "FeaturedImageURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/logo.png?raw=true",
+        "ScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/manual-focuser-manual.png?raw=true",
+        "AltScreenshotURL": "https://github.com/squallseo/Nina.Manualfocuser/blob/master/Images/manual-focuser-controls-live.png?raw=true"
+    },
+    "Installer": {
+        "URL": "https://github.com/squallseo/Nina.Manualfocuser/releases/download/v1.2.0.1/Cwseo.NINA.ManualFocuser.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "AA8FA582BB3B0F362D530DB05DC608EE4D6169840943588FAD8A2C05FBDBFEE5",
+        "ChecksumType": "SHA256"
+    }
+}
