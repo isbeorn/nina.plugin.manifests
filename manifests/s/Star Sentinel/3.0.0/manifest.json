@@ -1,0 +1,42 @@
+{
+    "Name": "Star Sentinel",
+    "Identifier": "f9d39327-6a4d-4f30-b966-0c07b4a6a754",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Michele Guzzini",
+    "Homepage": "https://github.com/michelegz/nina.plugin.starsentinel",
+    "Repository": "https://github.com/michelegz/nina.plugin.starsentinel",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/michelegz/nina.plugin.starsentinel/CHANGELOG.md",
+    "Tags": [
+        "Stars",
+        "Count",
+        "Sky",
+        "Quality",
+        "Monitor"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Monitors star count in saved light frames and stops the sequencer when a sustained drop indicates degrading imaging conditions.",
+        "LongDescription": "StarSentinel is a N.I.N.A. plugin that monitors the number of detected stars in saved light frames and helps protect imaging sessions from degrading sky conditions.\r\n\r\nIt provides a Loop Condition for the Advanced Sequencer. The plugin keeps a history of recent star counts, calculates the 80th-percentile value as a reference, and evaluates each new frame against both a relative threshold and an absolute star-count threshold.\r\n\r\nA frame is considered bad when the relative star count falls below the configured percentile threshold or when the raw star count is below the configured absolute limit. After a configurable number of consecutive bad frames, the loop condition is set to false and the sequence can stop.\r\n\r\nThe analysis ignores non-light frames and maintains an in-memory registry of imaging contexts instead of discarding previous data. When the current context changes (filter, exposure, binning, gain, sensor type, or significant field-of-view shift), it switches to the matching context state while keeping the previous contexts available, so the condition can adapt across multiple targets, exposures, and multi-panel mosaics.\r\n\r\nThis plugin is intended as a lightweight safeguard based on image data rather than external sky sensors. It is heuristic by design: star count can be influenced by focus, filters, target density, and seeing conditions, so use it with appropriate thresholds for your setup.\r\n\r\n**⚠️ Important**: StarSentinel is a heuristic and cautionary tool. Star count is not a perfect proxy for sky quality and may be affected by seeing conditions, focus accuracy, filters, or target star density. For fully unattended or critical operations, dedicated hardware solutions are still recommended.\r\n\r\n*Special thanks to Roberto Volpini for inspiration and support in the making of this plugin.*\r\n\r\n",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelegz/nina.plugin.starsentinel/releases/download/v1.0.1/Michelegz.NINA.StarSentinel-1.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "36D86E176A1E918C4996A0BA4F4E0F5B19C72AC6A4EFE996277E6181E4802BE6",
+        "ChecksumType": "SHA256"
+    }
+}

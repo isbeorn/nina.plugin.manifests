@@ -1,0 +1,40 @@
+{
+  "Name": "Asterion Solver",
+  "Identifier": "029fe5f1-f00b-4d8e-8273-c78c091b3b94",
+  "Version": {
+    "Major": "0",
+    "Minor": "3",
+    "Patch": "1",
+    "Build": "0"
+  },
+  "Author": "Cédric Champeau",
+  "Homepage": "https://github.com/asterion-solver/asterion",
+  "Repository": "https://github.com/asterion-solver/asterion",
+  "License": "Apache-2.0",
+  "LicenseURL": "https://github.com/asterion-solver/asterion/blob/main/LICENSE.txt",
+  "ChangelogURL": "https://github.com/asterion-solver/asterion/releases",
+  "Tags": [
+    "plate solving",
+    "blind solving",
+    "astrometry"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1069"
+  },
+  "Descriptions": {
+    "ShortDescription": "A very fast, modern plate solver. It can generally solve any image within milliseconds even in blind mode.",
+    "LongDescription": "Asterion Solver is a very fast, modern plate solver. It can generally solve any image within milliseconds even in blind mode: no mount position, no focal length, no search radius needed. A 61 megapixel frame is read, analyzed and solved in about 50 ms on a modern desktop computer, so centering and plate-solve-and-sync stop being something you wait for, and a blind solve costs no more than a hinted one.\r\n\r\nIt is accurate too: solutions are refined against Gaia DR3 or Tycho-2, with proper motions applied at the date of the frame, and their residuals are typically around 0.1 arcsecond. A bayesian verification makes false solutions extremely unlikely, while tolerating spurious detections, missing stars and optical distortion.\r\n\r\nAsterion runs entirely on your computer: once a catalog is installed, no internet connection is needed. Choose it as the plate solver, the blind solver, or both, in Options > Plate Solving.\r\n\r\nThe plugin includes Asterion Solver itself: download a star catalog once, from the settings of the plugin in Options > Plate Solving. gaia-500 or gaia-1000 is usually a good start.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/asterion-solver/asterion/releases/download/v0.3.1/asterion-nina-0.3.1.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "5A2BA3F12C94C2B90327AE8E6CB7D04F7E532631C0AF7EAA7B4D2A3D2C4FF3F2",
+    "ChecksumType": "SHA256"
+  }
+}

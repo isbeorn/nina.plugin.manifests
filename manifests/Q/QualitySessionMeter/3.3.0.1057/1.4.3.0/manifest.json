@@ -1,0 +1,44 @@
+{
+    "Name": "QualitySessionMeter",
+    "Identifier": "bf861692-b3de-4fdc-8a74-d2b97434f49d",
+    "Version": {
+        "Major": "1",
+        "Minor": "4",
+        "Patch": "3",
+        "Build": "0"
+    },
+    "Author": "astropuzzo",
+    "Homepage": "https://github.com/astropuzzo/QualitySessionMeter",
+    "Repository": "https://github.com/astropuzzo/QualitySessionMeter",
+    "License": "Apache-2.0",
+    "LicenseURL": "https://www.apache.org/licenses/LICENSE-2.0",
+    "ChangelogURL": "https://github.com/astropuzzo/QualitySessionMeter/releases",
+    "Tags": [
+        "Quality",
+        "Subframe",
+        "Guiding",
+        "Clouds",
+        "Session",
+        "Imaging",
+        "Monitoring"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1057"
+    },
+    "Descriptions": {
+        "ShortDescription": "Real-time subframe quality control, session diagnostics and accepted-frame acquisition for N.I.N.A.",
+        "LongDescription": "QualitySessionMeter evaluates completed LIGHT frames using exposure-specific guiding, star shape and stellar signal. Multi-region analysis verifies guide flags and compares stellar signal with clean references for the same target and imaging setup. Background changes are reported separately and cannot reject a frame alone. QSM provides frame review with debayered color display, session reports, Valid Frame Target and a read-only local Web Dashboard. Rejected-file actions are reversible. The Web Dashboard is disabled by default and provides no remote control.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/featured.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/nina-panel.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/astropuzzo/QualitySessionMeter/main/docs/store/web-dashboard.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/astropuzzo/QualitySessionMeter/releases/download/1.4.3.0/QualitySessionMeter.1.4.3.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "A6CE3A00885AF2DB74DE658B1E021EB4C1352C47A4304C0CFADE4C1A5A6837AA",
+        "ChecksumType": "SHA256"
+    }
+}

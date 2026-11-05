@@ -1,0 +1,41 @@
+{
+    "Name": "AstroManager",
+    "Identifier": "B8E5A3F2-1C4D-4E6B-9F8A-2D3E4F5A6B7C",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Michael Sleeman",
+    "Homepage": "",
+    "Repository": "",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "",
+    "Tags": [
+        "AstroManager",
+        "Scheduler",
+        "Targets",
+        "Imaging"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Use AstroManager with NINA Advanced Sequencer. Documentation: https://docs.astro.sleeman.at",
+        "LongDescription": "Documentation: https://docs.astro.sleeman.at\n\nAstroManager enables NINA to fetch scheduled targets, imaging goals, and session data from AstroManager's API. \r\n\r\nIt dynamically generates sequence instructions based on your imaging plan including:\r\n- Slew to target coordinates\r\n- Plate solve and center\r\n- Filter switching\r\n- Exposure sequences\r\n\r\nRequirements:\r\n- Valid AstroManager license (request within AstroManager app)",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Sleeman-IT-Solutions-OG/AstroManager.NinaPlugin/releases/download/v1.0.1/AstroManager.NinaPlugin.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "95999C339F518FF1D270EE4442491B37D7CDEF02928AD8A04FD4C28958011073",
+        "ChecksumType": "SHA256"
+    }
+}

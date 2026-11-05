@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "0",
         "Patch": "0",
-        "Build": "3"
+        "Build": "4"
     },
     "Author": "Gerald Hitz (@photon)",
     "Homepage": "https://github.com/photon1503/SkyFlats",
@@ -18,9 +18,9 @@
     ],
     "MinimumApplicationVersion": {
         "Major": "3",
-        "Minor": "0",
+        "Minor": "2",
         "Patch": "0",
-        "Build": "2017"
+        "Build": "2001"
     },
     "Descriptions": {
         "ShortDescription": "SQM based sky flat automation",
@@ -30,9 +30,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/photon1503/SkyFlats/releases/download/1.0.0.3/Photon.NINA.Skyflats.1.0.0.3.zip",
+        "URL": "https://github.com/photon1503/SkyFlats/releases/download/1.0.0.4/Photon.NINA.Skyflats.1.0.0.4.zip",
         "Type": "ARCHIVE",
-        "Checksum": "C2B717E26A8D9AFD0CBEA8B575557B1BEEE2DEA34B7B318AFEB395DB5E9FC32D",
+        "Checksum": "2530907EDDBABD83D12860740034A3158C6175CA3C4AA50F96AECE7922007DD5",
         "ChecksumType": "SHA256"
     }
 }

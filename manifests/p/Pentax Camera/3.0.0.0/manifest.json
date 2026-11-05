@@ -2,9 +2,9 @@
     "Name": "Pentax Camera and Focuser Driver",
     "Identifier": "1216eb93-3885-4681-baa7-9485d8fd0577",
     "Version": {
-        "Major": "1",
-        "Minor": "0",
-        "Patch": "0",
+        "Major": "26",
+        "Minor": "10",
+        "Patch": "18",
         "Build": "1"
     },
     "Author": "RTG",
@@ -23,16 +23,16 @@
         "Build": "2017"
     },
     "Descriptions": {
-        "ShortDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii",
-        "LongDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii",
+        "ShortDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii, KF and K-70",
+        "LongDescription": "Focuser and Camera Driver for Pentax SDK: K-1 K-1ii KP 645Z K-3iii, KF and K-70",
         "FeaturedImageURL": "",
         "ScreenshotURL": "",
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release81225/Rtg.NINA.NinaPentaxDriver.zip",
+        "URL": "https://github.com/richromano/NINAPextaxDriver/releases/download/Release101826/Rtg.NINA.NinaPentaxDriver.zip",
         "Type": "ARCHIVE",
-        "Checksum": "6926EAD2A19F557AC0143EB2FB427A7875D79480737806BFFB04AE45308D8DB1",
+        "Checksum": "8E128D0D7A590D0D06516CE9A01BD9A5E4B560C5DB8921314F17E61AEB3A95D2",
         "ChecksumType": "SHA256"
     }
 }

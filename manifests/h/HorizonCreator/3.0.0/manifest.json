@@ -1,35 +1,35 @@
 {
-    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe",
-    "MinimumApplicationVersion": {
-        "Major": "3",
-        "Patch": "0",
-        "Build": "1001",
-        "Minor": "0"
-    },
-    "Name": "Horizon Creator",
-    "Installer": {
-        "ChecksumType": "SHA256",
-        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.0/Horizon.Creator.dll",
-        "Checksum": "CA89A206019912C8D6D4019308FA7E5B6E1552AC99214D122EDBDA028396DCE5",
-        "Type": "DLL"
-    },
-    "License": "MPL-2.0",
-    "Homepage": "https://buymeacoffee.com/christian.palm",
-    "Version": {
-        "Major": "1",
-        "Patch": "2",
-        "Build": "0",
-        "Minor": "1"
-    },
-    "Descriptions": {
-        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press 'Add Point'. Repeat for all points you want to create a horizon from.\r\n3. Click 'Save' and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!",
-        "ShortDescription": "Create a horizon from within NINA only using your scope and mount!"
-    },
-    "Author": "Christian Palm",
     "Repository": "https://github.com/christian-photo/HorizonCreator",
+    "Author": "Christian Palm",
     "Tags": [
         "Horizon",
         "Dock"
     ],
-    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/"
+    "Version": {
+        "Minor": "1",
+        "Patch": "2",
+        "Major": "1",
+        "Build": "1"
+    },
+    "Name": "Horizon Creator",
+    "Descriptions": {
+        "ShortDescription": "Create a horizon from within NINA only using your scope and mount!",
+        "LongDescription": "How to use:\r\n1. Connect to your mount (needs to be roughly polar aligned)\r\n2. Move the mount to the obstruction (Scope Control plugin recommended), center it and press 'Add Point'. Repeat for all points you want to create a horizon from.\r\n3. Click 'Save' and choose the desired location\r\n\r\n\r\nTo see your obstruction, I recommend making a looping exposure / live view or using an eyepiece\r\n\r\nThanks to Isbeorn for helping me with the development of this plugin!"
+    },
+    "Homepage": "https://buymeacoffee.com/christian.palm",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "License": "MPL-2.0",
+    "MinimumApplicationVersion": {
+        "Minor": "2",
+        "Patch": "0",
+        "Major": "3",
+        "Build": "9001"
+    },
+    "Installer": {
+        "Type": "DLL",
+        "Checksum": "301E9BD0D694C99E66C49DDA32A21BBE3350CCC51952908A27C61DA5F6B08B52",
+        "ChecksumType": "SHA256",
+        "URL": "https://github.com/christian-photo/HorizonCreator/releases/download/1.1.2.1/Horizon.Creator.dll"
+    },
+    "Identifier": "92fa2ba5-9642-44d5-aaea-3e5b9daa67fe"
 }

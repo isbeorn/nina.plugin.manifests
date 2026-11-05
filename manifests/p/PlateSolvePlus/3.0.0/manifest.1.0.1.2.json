@@ -1,0 +1,42 @@
+{
+    "Name": "PlateSolvePlus",
+    "Identifier": "1dc847ab-63f6-440c-a8fa-a107085d125f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "2"
+    },
+    "Author": "Flashy-GER",
+    "Homepage": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "Repository": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.1.2/CHANGELOG.md",
+    "Tags": [
+        "Platesolve",
+        "secondCamera",
+        "Offset",
+        "Autofocus"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Enables plate solving via alternative camera and focal length",
+        "LongDescription": "Beta Release 1.0.1.2 introduces a full Secondary Camera Autofocus with backlash handling, improved Sequencer integration, enhanced Alpaca camera compatibility and capture robustness, plus multiple UX improvements and critical autofocus bug fixes.",
+        "FeaturedImageURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.1.2/Docu/Pics/Icon_Platsolveplus.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Flashy-GER/PlateSolvePlus/releases/download/1.0.1.2/PlateSolvePlus.1.0.1.2.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "6764991AD3AC6CBBDA4302FD0B8A83F26843F35C011970135992063ED3753719",
+        "ChecksumType": "SHA256"
+    },
+    "Channel": "Beta"
+}

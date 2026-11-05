@@ -1,0 +1,43 @@
+{
+    "Name": "Astro PM",
+    "Identifier": "C8F1A2B3-D4E5-6F78-9A0B-1C2D3E4F5A6B",
+    "Version": {
+        "Major": "1",
+        "Minor": "3",
+        "Patch": "2",
+        "Build": "0"
+    },
+    "Author": "Astro PM",
+    "Homepage": "https://astro-pm.com",
+    "Repository": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "",
+    "Tags": [
+        "Sync",
+        "Targets",
+        "Framing",
+        "Simulator",
+        "Automation",
+        "Cloud"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Connect your Astro PM cloud projects to NINA and run a fully automated, multi-night imaging schedule.",
+        "LongDescription": "Astro PM is a complete desktop application for planning, managing, and analyzing your astrophotography. It is where you organize every project, build your gear profiles, plan your framing, and inspect your results - from first idea to finished image.\n\n## What the Astro PM app does\n* **Equipment database** - build detailed profiles for every telescope and camera, backed by sampling-resolution, exposure, and focal-length calculators to dial in your setup before you go outside.\n* **Project planning** - create single- or multi-panel mosaic projects with target coordinates, exposure plans, and per-filter moon-avoidance; Astro PM finds the best nights to shoot from weather, moon phase, and target visibility.\n* **SkyView** - an interactive sky chart to visualize targets, framing, and your local horizon at a glance.\n* **Image analysis** - inspect your captured data for collimation, tilt, and internal reflections.\n* **SubInspector** - review subs one by one, flag keepers, and track progress toward each project's completion.\n* **Calculators** - sampling resolution, exposure, focal length, and more, all built in.\n* **Cloud sync** - your projects and targets live in the cloud, ready wherever you image.\n\n## The Astro PM NINA extension (this plugin)\nThis plugin is what makes your Astro PM plan run automatically inside N.I.N.A. It links your cloud account to NINA, loads your planned targets straight into the Framing Assistant, and drives a fully automated, multi-night imaging schedule through the Advanced Sequencer - with no manual data entry and no copy-paste.\n* **Connect** - link your account with a sync token; your cloud projects and targets appear in NINA automatically.\n* **Browse & Frame** - load any cloud target into the Framing Assistant, complete with RA/Dec, rotation, sensor configuration, and mosaic panel layouts.\n* **Simulate** - preview tonight's schedule before dark and see exactly what gets captured, when, and for how long.\n* **Automate** - drop the Astro PM instruction set into your sequence and let it slew, plate-solve, focus, switch filters, dither, and capture through the night, hands-free.\n* **Per-line exposure control** - filter, gain, offset, binning, and readout mode applied to every frame.\n* **Offline / Vacation Mode** - cached targets and per-night frame counting keep multi-night, off-grid plans accurate with no connection.\n\n## Getting help\nThe community is the fastest way to get answers - Discord is preferred right now:\n* [Join our Discord](https://discord.gg/CS6S9Gw7KZ) (preferred)\n* [Astro PM on Facebook](https://www.facebook.com/AstroProjectManager)\n* [astro-pm.com](https://astro-pm.com)\n\nNew to Astro PM? Download the desktop app at [astro-pm.com](https://astro-pm.com) to create your projects and get your sync token.",
+        "FeaturedImageURL": "https://astro-pm.com/downloads/AstroPM-Logo-Icon-500x500.png",
+        "ScreenshotURL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.2.4.0/NINA-Simulator.png",
+        "AltScreenshotURL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.2.4.0/NINA-Instruction.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.3.2.0/AstroPM.NINA.Plugin-1.3.2.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "CADF9E2AD607EC133D49AFB837D5E1623D816DD04ACA95E364A16225F19A26EF",
+        "ChecksumType": "SHA256"
+    }
+}

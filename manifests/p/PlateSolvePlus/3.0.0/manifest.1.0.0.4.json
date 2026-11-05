@@ -1,0 +1,40 @@
+{
+    "Name": "PlateSolvePlus",
+    "Identifier": "1dc847ab-63f6-440c-a8fa-a107085d125f",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "4"
+    },
+    "Author": "Flashy-GER",
+    "Homepage": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "Repository": "https://github.com/Flashy-GER/PlateSolvePlus",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.0.4/CHANGELOG.md",
+    "Tags": [
+        "Platesolve",
+        "secondCamera",
+        "Offset"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "Enables plate solving via alternative camera and focal length",
+        "LongDescription": "Notes for 1.0.0.4: new: Center and Slew to Target is possible. Target coordinates from Framing assistant.",
+        "FeaturedImageURL": "https://github.com/Flashy-GER/PlateSolvePlus/blob/1.0.0.4/Docu/Pics/Icon_Platsolveplus.png?raw=true",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Flashy-GER/PlateSolvePlus/releases/download/1.0.0.4/PlateSolvePlus.1.0.0.4.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "CD1F18E6244F09B89C9DB0A2F6C00F418276637D17388738CF41ECB378BC8E77",
+        "ChecksumType": "SHA256"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "Name": "AI Assistant",
+    "Identifier": "af5e2826-e3b4-4b9c-9a1a-1e8d7c8b6a9e",
+    "Version": {
+        "Major": "2",
+        "Minor": "5",
+        "Patch": "5",
+        "Build": "0"
+    },
+    "Author": "Michele Bergo",
+    "Homepage": "https://github.com/michelebergo/nina.plugin.aiassistant",
+    "Repository": "https://github.com/michelebergo/nina.plugin.aiassistant",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/michelebergo/nina.plugin.aiassistant/releases",
+    "Tags": [
+        "AI",
+        "Assistant",
+        "Chat",
+        "MCP",
+        "Automation",
+        "Image Analysis",
+        "Knowledge Wiki",
+        "Mistral",
+        "Ollama",
+        "Orchestrator"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Descriptions": {
+        "ShortDescription": "Multi-provider AI assistant with MCP equipment control for intelligent astrophotography automation",
+        "LongDescription": "Your intelligent astrophotography companion - transform NINA into a conversational, context-aware imaging system that understands your goals and helps you achieve better results.\r\n\r\n🔭 FOR ASTROPHOTOGRAPHERS:\r\n• Quick Session Setup: 'Set up for M31 tonight' - AI configures equipment, cooling, filters, and exposure settings\r\n• Real-Time Troubleshooting: Analyze failed frames, high HFR, guiding issues, poor focus - get instant suggestions\r\n• Image Quality Feedback: AI reviews your captures, identifies problems (tracking, focus, star bloat), suggests corrections\r\n• Learning Assistant: Ask 'Why is my HFR high?' or 'Best Ha exposure for M42' - get expert guidance while imaging\r\n• Sequence Optimization: 'Plan 4-hour session on Horsehead' - AI suggests optimal filter rotation, dither patterns, exposure times\r\n\r\n🤖 5 AI PROVIDERS (Free to Advanced):\r\n• Ollama (Local) - Privacy-focused, works offline, no API costs, no key\r\n• Google Gemini - Free API tier, fast responses, MCP equipment control support\r\n• Mistral AI - Free API tier, European-hosted models for chat, reasoning and coding\r\n• OpenAI GPT - Most capable reasoning for complex planning\r\n• Anthropic Claude - Best for equipment control via MCP\r\nDynamic model discovery ensures you always have latest AI capabilities.\r\n(GitHub Models stays in the list for anyone who had it selected, but GitHub retired the service on July 30, 2026: it refuses every request and says which providers still work. New installations open on Ollama, the one choice that needs no API key.)\r\n\r\n📚 KNOWLEDGE WIKI (SECOND BRAIN):\r\nA local markdown knowledge base at %LOCALAPPDATA%\\NINA\\llmwiki that the assistant searches before it answers. What you know about your own rig - the focuser that needs a nudge below freezing, the flat panel that reads high with the Ha filter, the mount's habit at the meridian - takes precedence over the model's general knowledge, and the page it used is cited so you can check it.\r\n• Seeded on first use with troubleshooting checklists and templates\r\n• 'Remember this' saves a durable fact, always behind a confirmation dialog showing the exact text before anything is written\r\n• Shared with AI Weather, which files a daily sky digest into the same wiki\r\n• Plain markdown you can read and edit in any editor - nothing locked in a database\r\n\r\n👁️ YOU CAN SEE WHAT IT IS DOING:\r\n• Activity trace: while the assistant uses tools, a line shows the step in progress, then settles into a summary that expands into the full sequence with each call's outcome - a tool that failed or returned nothing is no longer indistinguishable from one that worked\r\n• Context and cost readout: how full the model's context window is, the tokens used and how many are left, session totals and an estimated cost. Models whose window is unknown - local Ollama models among them - show the count without a bar rather than an invented percentage\r\n\r\n🎛️ NATURAL LANGUAGE EQUIPMENT CONTROL (via MCP):\r\nControl your entire observatory through conversation:\r\n• Camera: Take exposures, adjust cooling, bin settings, gain control\r\n• Mount: GOTO coordinates, slew, park/unpark, tracking control\r\n• Focuser: Move absolute/relative, run autofocus, temperature compensation\r\n• Filter Wheel: Change filters, get positions, optimize filter rotation\r\n• Guiding: Start/stop PHD2, dither, analyze drift\r\n• Platesolving: Solve images, sync mount, analyze pointing accuracy\r\n150+ built-in MCP tools for complete observatory control.\r\n\r\n📊 IMAGE ANALYSIS:\r\n• FITS Header Reading, Star Detection, HFR/FWHM monitoring\r\n• Statistics Analysis, Quality Assessment with actionable recommendations\r\n• Vision API Integration for advanced image understanding\r\n\r\n🔌 EXTENSIBLE ARCHITECTURE:\r\n• Built-in MCP Server via NINA Advanced API plugin\r\n• External MCP Servers for community tools\r\n• Dynamic model discovery and custom model IDs\r\n• Optional nina.autopilot Orchestrator dashboard integration\r\n\r\nTransform complex equipment control and imaging workflows into simple conversations.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/michelebergo/nina.plugin.aiassistant/main/icon.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/michelebergo/nina.plugin.aiassistant/releases/download/2.5.5.0/NINA.Plugin.AIAssistant.2.5.5.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "F86B7A41EBE649D8C58CC34CCA043A15389C65C4E886FB8E87A161F81023923D",
+        "ChecksumType": "SHA256"
+    }
+}

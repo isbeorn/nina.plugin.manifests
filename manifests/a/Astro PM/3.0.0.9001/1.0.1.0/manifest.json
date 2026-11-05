@@ -1,0 +1,43 @@
+{
+    "Name": "Astro PM",
+    "Identifier": "C8F1A2B3-D4E5-6F78-9A0B-1C2D3E4F5A6B",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Astro PM",
+    "Homepage": "https://astro-pm.com",
+    "Repository": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin",
+    "License": "MIT",
+    "LicenseURL": "https://opensource.org/licenses/MIT",
+    "ChangelogURL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases",
+    "Tags": [
+        "Sync",
+        "Targets",
+        "Framing",
+        "Simulator",
+        "Automation",
+        "Cloud"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Astro PM connects your cloud-hosted imaging projects to NINA. Set up your sync token to link your account, browse and load targets directly into the Framing Assistant, or use the built-in Simulator to generate a fully automated nightly schedule.",
+        "LongDescription": "Astro PM is a cloud-based astrophotography project manager. This plugin connects NINA to your Astro PM account with three core capabilities:\r\n\r\n**Connect** — Link your account by entering your sync token. Once connected, your cloud-hosted projects and targets are available inside NINA automatically.\r\n\r\n**Browse & Frame** — Browse your cloud targets and load them directly into NINA’s Framing Assistant — complete with RA/Dec, rotation, sensor configuration, and mosaic panel layouts. No manual data entry, no copy-paste errors.\r\n\r\n**Simulate & Automate (Beta)** — Use the built-in Nightly Simulator to generate a fully automated imaging schedule. The simulator considers target altitude, transit times, and your equipment profile to build an optimized sequence — then hands it off to NINA for hands-free capture.\r\n\r\nIncludes four NINA sequence modules:\r\n- Astro PM Daily Loop — Loops night-to-night while projects have remaining exposures\r\n- Astro PM Nightly Loop — Loops through tonight’s scheduled target blocks\r\n- Astro PM Instructions — The core engine: slew, center, rotate, guide, filter switch, dither, and capture\r\n- Refresh Cloud Targets — Fetches the latest targets from your cloud account\r\n\r\nRequirements:\r\n- N.I.N.A. 3.0.0.9001 or newer\r\n- Valid Astro PM license (https://astro-pm.com)",
+        "FeaturedImageURL": "https://asgastronomy.com/downloads/AstroPM-Logo-Icon-500x500.png",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/Josh-Jones-76/AstroPM.NINA.Plugin/releases/download/1.0.1.0/AstroPM.NINA.Plugin-1.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "ABC9EB07E58B980989B76E487A97F902A9FA703B60604A096D8B0ABC1636C4AD",
+        "ChecksumType": "SHA256"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Name": "Click To Center",
+    "Identifier": "63b06a01-bc90-4ca2-a0a4-db280b2f3b72",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "1"
+    },
+    "Author": "Alexander Wrede @astro_alex80",
+    "Homepage": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/README.md",
+    "Repository": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Centering",
+        " Plate-solving"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "2017"
+    },
+    "Descriptions": {
+        "ShortDescription": "A new dockable window for centering on a selected point in the image",
+        "LongDescription": "Select a target by right-clicking on the current image in the Click to Center dockable and hit slew and center.\r\nThe plugin plate-solves the current image, converts the selected pixel position to RA/Dec coordinates, and runs a centering routine to slew/center the mount on the .",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/blob/master/NINA.Plugin.ClickToCenter/screenshot.PNG?raw=true",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/astroalex80/NINA.Plugin.ClickToCenter/releases/download/1.0.0.1/NINA.Plugin.ClickToCenter.1.0.0.1.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "E495531016FB483A4CB7C51B4D2F044BBF51B2A62AD2C429E420ED4E20E3689C",
+        "ChecksumType": "SHA256"
+    }
+}

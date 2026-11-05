@@ -1,0 +1,43 @@
+{
+    "Name": "Astro Coverage Planner (ACP)",
+    "Identifier": "9F9EB062-B1CC-4622-A2FC-4362FE97CD08",
+    "Channel": "Beta",
+    "Version": {
+        "Major": "1",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Astro With RoRo",
+    "Homepage": "https://github.com/astro-roro/Astro-Coverage-Planner",
+    "Repository": "https://github.com/astro-roro/ACP.NINA.Plugin/",
+    "License": "MIT",
+    "LicenseURL": "https://github.com/astro-roro/ACP.NINA.Plugin/blob/main/LICENSE.txt",
+    "ChangelogURL": "https://github.com/astro-roro/ACP.NINA.Plugin/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Planning",
+        "Framing",
+        "TargetScheduler",
+        "Coverage",
+        "Mosaic"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "1",
+        "Patch": "2",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "Push targets from Astro Coverage Planner into NINA's Framing Assistant. Optional one-click sync to Target Scheduler.",
+        "LongDescription": "NINA-side companion to [Astro Coverage Planner](https://github.com/astro-roro/Astro-Coverage-Planner). Pulls plans from a running ACP instance and pushes them into NINA's Framing Assistant. From there you save the framing as a sequencer target and image it however you like — Simple Sequencer, Advanced Sequencer, or just manual capture. No Target Scheduler required.\r\n\r\nACP itself is an open-source coverage visualiser and planner: scan your FITS/XISF archive, see what you've imaged on a sky map (coloured by telescope, badged by filter, with integration hours per target), find gaps, plan your next session or mosaic, and hand the plan to NINA. This plugin is the NINA-side surface.\r\n\r\n## What it does (v1.0)\r\n\r\n- **Plans dock panel** in NINA's Imaging tab. Lists every plan in your running ACP instance with project, target, per-filter integration goals, mosaic shape, and gear.\r\n- **Push to Framing Assistant.** One click loads the selected target into the Framing Wizard with the right coordinates, rotation, mosaic geometry (rows × cols × overlap), camera dimensions, and focal length.\r\n- **Sync All to TS** (optional). Triggers ACP's bidirectional Target Scheduler sync extension to push every plan into the TS database for the active NINA profile. No zip imports.\r\n\r\n## Requirements\r\n\r\n- NINA 3.1.2.9001 or newer.\r\n- A running Astro Coverage Planner instance reachable on http://127.0.0.1:5555 (configurable). ACP must run on the same machine as NINA for v1.x; cross-machine support is planned for a future major version.\r\n- For the Sync All to TS button only: ACP's `nina_ts_sync` extension installed.\r\n\r\n## Status\r\n\r\nv1.0.0 — first public release on the Beta channel for opt-in testing. See the [CHANGELOG](https://github.com/astro-roro/ACP.NINA.Plugin/blob/main/CHANGELOG.md) and [README](https://github.com/astro-roro/ACP.NINA.Plugin/blob/main/README.md) for full details.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/astro-roro/ACP.NINA.Plugin/releases/download/v1.0.0.0/ACP.NINA.Plugin-v1.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "8284BC662D541A3A9A3416CFD930BB1538FE14A4C09146A73F9E74F1A70E87B6",
+        "ChecksumType": "SHA256"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Name": "SpeckleInterferometry",
+    "Identifier": "543704e0-51ac-492c-4e94-3c85f2c07e22",
+    "Version": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "1",
+        "Build": "0"
+    },
+    "Author": "Nick Hardy & Leon Bewersdorff",
+    "Homepage": "https://stelar.groups.io/",
+    "Repository": "https://github.com/NickHardy/SpecklePluginNina",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/NickHardy/SpecklePluginNina",
+    "Tags": [
+        "Speckle",
+        "Interferometry",
+        "Acquisition"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "3005"
+    },
+    "Descriptions": {
+        "ShortDescription": "Plugin for the acquisition of interferometry data for closely separated objects.",
+        "LongDescription": "#Speckle Interferometry data acquisition plugin#\r\n\r\nAcquisition of speckle interferometry data. This plugin supports loading target lists with many targets to be worked through over one or more nights. When observing, the plugin handles target scheduling, slews to the next best target, places a region of interest, and takes many short exposures to resolve features below the seeing limit. \r\n\r\nBuilt around automatic capture with the highest possible cadence, and includes a manual mode with as little input required as possible to be used on large manual telescopes, such as the 2.5-meter on Mt. Wilson. Use of two cameras, so that a dedicated science camera can improve sensitivity in bandpasses of interest, is also supported.\r\n\r\n## Plugin Dockable ##\r\n\r\nEverything runs from a dockable panel on the Imaging tab. Add it from the panel menu:\r\n\r\n![Adding the panel](https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/panel-add.png)\r\n\r\nDrag its title bar to pop it out into its own window to use the full screen, as the rest of the NINA UI, notably the sequencer, does not have to be used for operation.\r\n\r\n## Planning ##\r\n\r\nThe plan page holds the loaded target lists, the observation order, and a queue. Pin what runs next, reorder it, drop a target, or add a star by hand.\r\n\r\n![The plan page](https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/plan.png)\r\n\r\n## Running ##\r\n\r\nThe run page works through one target at a time: pick it, slew, place the region of interest on the star, calibrate the exposure, capture the frames, then do the same on a nearby reference star.\r\n\r\nWhen using this plugin in manual mode, configurable in the options, the flow stops at each point that needs operator judgement. With a mount N.I.N.A. can slew, a toggle in the plugin options lets the whole chain run through completely unattended, observing up to typically around 300 targets a night depending on hardware capability.\r\n\r\n![Slewing to a target](https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/slewing.png)\r\n\r\nFilters, exposure time and frame counts can be changed at the confirmation card, for the capture that is about to start.\r\n\r\n![Confirming the capture settings](https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/capture.png)\r\n\r\n## Fringes ##\r\n\r\nThe mean power spectrum and its autocorrelation build up beside the frames as a run captures, so a resolved pair can be confirmed while the data is still being taken. Both are written as JPEG files alongside the saved frames.\r\n\r\n![The power spectrum beside the frames](https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/fringes.png)\r\n\r\n## Additionally ##\r\n\r\n* Video mode capture on QHY, ZWO, Altair and Touptek cameras. A sustained 108 fps on a 1024 x 1024 region with an ASI585, and 49.8 of a possible 50 fps at 20 ms exposures.\r\n* Since this relies on high framerate capture, this plugin includes a camera benchmark to time capture, with every driver call and a report being written to the N.I.N.A. log directory.\r\n\r\nAdvanced:\r\n* An operator webpage the plugin serves itself, for manual large telescopes such as on Mt. Wilson. Off by default.\r\n* Two camera setups behind a flip mirror, and scheduling around a parked dome slit.\r\n* Legacy advanced sequencer instructions for special edge cases.\r\n\r\n## Getting started ##\r\n\r\n1. Add the \"Speckle\" panel to the Imaging tab.\r\n2. Set your telescope and camera under Options > Plugins > SpeckleInterferometry.\r\n3. Load a target list, then press Start.\r\n\r\nProgress is written to a nightly CSV, so a run can be stopped and picked up again later. Further docmentation is inside the plugin, under the Documentation tab in the plugin options.\r\n\r\n## Links ##\r\n\r\nBackground on double star observing: [Boyce Astro](https://boyce-astro.org/videos/astrometry/). Frames can be reduced with [The Speckle Toolbox](https://www.dropbox.com/s/wmr58i9owd2lvja/STB%201.14.zip?dl=0) ([manual](http://www.jdso.org/volume13/number1/Harshaw_52_67.pdf)) and published through the [JDSO](http://www.jdso.org/). The [Stelar group](https://stelar.groups.io/g/main) shares target lists and [guides](https://stelar.groups.io/g/main/files/Useful_Guides_Documents).\r\n\r\nThank you to the members and friends of STELAR, and to Observable Space for telescope access that has produced many papers.\r\n\r\nIdeas or issues: contact Nick in the [N.I.N.A. Discord](https://discord.gg/rWRbVbw), tagging @nickholland. To buy Nick a whisky: [click here](https://www.paypal.com/paypalme/NickHardyHolland)\r\n",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/NINA.Plugin.Speckle/NINA.Plugin.Speckle/Resources/SpeckleThumb.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/plan.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/NickHardy/SpecklePluginNina/version3/screenshots/fringes.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/NickHardy/SpecklePluginNina/releases/download/3.0.1.0/SpeckleInterferometry.3.0.1.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "F0F16DCC958CBE49DD68F21C4E2A8CCE5E180C6383826281A86F08B5E09A7EB1",
+        "ChecksumType": "SHA256"
+    }
+}
