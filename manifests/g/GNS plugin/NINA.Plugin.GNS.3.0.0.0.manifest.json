@@ -1,0 +1,39 @@
+{
+    "Name": "GNS Plugin",
+    "Identifier": "6d0e03f2-8743-4229-bf2c-f451e23f977a",
+    "Version": {
+        "Major": "3",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Nick Hardy",
+    "Homepage": "https://lunaticoastro.com",
+    "Repository": "https://github.com/NickHardy/NINA.Plugin.GNS",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "GNS",
+        "Sequencer"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "3",
+        "Patch": "0",
+        "Build": "1001"
+    },
+    "Descriptions": {
+        "ShortDescription": "A plugin for using GoodNightSystem by Lunatico",
+        "LongDescription": "N.I.N.A. - Nighttime Imaging 'N' Astronomy GNS Plugin\r\n\r\nThe good night system by LunaticoAstro is a monitoring system that let's you sleep at night.\r\n\r\nhttps://lunaticoastro.com/gns-observatory-monitoring/\r\n\r\n! These instructions will not pause the sequencer. Timeouts are only for the GNS server. When a timeout is reached GNS will trigger an alarm.\r\n\r\nTriggers:\r\nGNS trigger - This will trigger for every instruction within the instruction set and send a message based on the estimated runtime of the instruction plus its timeout (5 minutes by default). An optional prefix, for example {TargetName}, is evaluated for every message and put in front of the instruction name.\r\nGNS MeridianFlip trigger (legacy) - This basically calls the MeridianFlip trigger within Nina and does the same. No longer needed, it is only kept so existing sequences keep working.\r\n\r\nMeridian flips:\r\nYou can use any meridian flip trigger, like the one in Nina or the new programmable meridian flip trigger. While a GNS session is active, the plugin sends a message when the flip starts, with a timeout covering the wait for the meridian, the flip and the settle times plus the meridian flip timeout from the plugin options (default 15 minutes). When the flip finishes it sends another message, and a failed flip sends a session alert. This can be switched off in the plugin options.\r\nWith the programmable meridian flip trigger the before flip actions and the wait for the flip window run before the flip starts. Add a GNS Message instruction to the before flip actions if they can take longer than the current GNS timeout.\r\n\r\nInstructions:\r\nGNS Message - Send a message to the GNS server. Enter your own message and timeout in seconds. The message can contain expressions in braces, like {TargetName}, which are evaluated when the message is sent. Hover over the message field to see the result.\r\nGNS Pause session - Pause the GNS session. (For instance if you run a script and don't know how long it could take) The GNS trigger and the meridian flip messages stay quiet until a GNS Message resumes the session.\r\nGNS Alert session - Send a session Alert. The GNS server will send an alert to your phone. You can enter your own message, which can contain expressions just like GNS Message. Usually followed by an alert box in Nina or a script.\r\nGNS End session - End the current GNS session. Nothing is sent after this, so instructions that follow, like parking the mount, won't start a new session. The next sequence run starts fresh.\r\n\r\nPlease report any issues in the [Nina discord server](https://discord.gg/rWRbVbw) and tag me: @NickHolland \r\n\r\nIf you would like to buy me a whisky: [click here](https://www.paypal.com/paypalme/NickHardyHolland)\r\n",
+        "FeaturedImageURL": "https://github.com/NickHardy/NINA.Plugin.GNS/blob/main/NINA.Plugin.GNS/resources/gns-ancho-min-300x300.png?raw=true",
+        "ScreenshotURL": "https://github.com/NickHardy/NINA.Plugin.GNS/blob/main/NINA.Plugin.GNS/resources/GNS-Plugin-1.jpg?raw=true",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/NickHardy/NINA.Plugin.GNS/releases/download/3.0.0.0/NINA.Plugin.GNS.3.0.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "8CAE084D9E782EF844402456889665ABECFC27681ECC795B49CC1B31AE35E46B",
+        "ChecksumType": "SHA256"
+    }
+}
