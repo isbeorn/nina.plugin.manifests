@@ -1,0 +1,42 @@
+{
+    "Name": "Observatory Planner",
+    "Identifier": "6f3a2c1e-8b7d-4e2a-9c51-0d4b7e8a91f2",
+    "Version": {
+        "Major": "1",
+        "Minor": "1",
+        "Patch": "0",
+        "Build": "0"
+    },
+    "Author": "Nikunj Patel",
+    "Homepage": "https://github.com/nikunj3685/nina-observatory-planner",
+    "Repository": "https://github.com/nikunj3685/nina-observatory-planner",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "https://github.com/nikunj3685/nina-observatory-planner/blob/main/CHANGELOG.md",
+    "Tags": [
+        "Sequencer",
+        "Automation",
+        "Safety",
+        "Observatory",
+        "Planner"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "9001"
+    },
+    "Descriptions": {
+        "ShortDescription": "SGP-style target planner that runs your observatory every night: starts when safe, images your targets, shuts down when unsafe and resumes.",
+        "LongDescription": "Plan targets SGP-style and let N.I.N.A. run the observatory unattended.\r\n\r\nThe night has four stages - 1 Begin, 2 Start of each target, 3 While imaging (triggers) and 4 End - and each is a plain Advanced Sequencer instruction set you can edit with any instruction, including ones from other plugins. With a safety monitor it runs every night: it waits for safe, powers up, connects, cools, opens the dome and unparks, images your targets in priority order, and shuts everything down when it turns unsafe or the night is done; when it is safe again it resumes the same target where it stopped. Without a safety monitor it makes one pass through the targets from dusk.\r\n\r\nAlso included: start and end by clock time or altitude, Target Settings with Slew now / Center now and a collision warning, a 24-hour planning chart, Pause now / Pause after this frame and Start sequence, Stop with a full shutdown, a wait after safe, gap handling between targets, manual autofocus before the next frame, and per-profile target lists, workflows and options with the last workflow reopened at startup.",
+        "FeaturedImageURL": "https://raw.githubusercontent.com/nikunj3685/nina-observatory-planner/main/docs/images/logo.png",
+        "ScreenshotURL": "https://raw.githubusercontent.com/nikunj3685/nina-observatory-planner/main/docs/images/screenshot-targets.png",
+        "AltScreenshotURL": "https://raw.githubusercontent.com/nikunj3685/nina-observatory-planner/main/docs/images/screenshot-planning-tools.png"
+    },
+    "Installer": {
+        "URL": "https://github.com/nikunj3685/nina-observatory-planner/releases/download/1.1.0.0/NINA.ObservatoryPlanner.1.1.0.0.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "65493A8ABA8D713C7E1F63B0834E7F742D350F84DFEA6F20684A2471D6A3C565",
+        "ChecksumType": "SHA256"
+    }
+}
