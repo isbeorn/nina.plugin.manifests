@@ -3,7 +3,7 @@
   "Identifier": "029fe5f1-f00b-4d8e-8273-c78c091b3b94",
   "Version": {
     "Major": "0",
-    "Minor": "3",
+    "Minor": "4",
     "Patch": "1",
     "Build": "0"
   },
@@ -32,9 +32,9 @@
     "AltScreenshotURL": ""
   },
   "Installer": {
-    "URL": "https://github.com/asterion-solver/asterion/releases/download/v0.3.1/asterion-nina-0.3.1.zip",
+    "URL": "https://github.com/asterion-solver/asterion/releases/download/v0.4.1/asterion-nina-0.4.1.zip",
     "Type": "ARCHIVE",
-    "Checksum": "5A2BA3F12C94C2B90327AE8E6CB7D04F7E532631C0AF7EAA7B4D2A3D2C4FF3F2",
+    "Checksum": "1A9AA8EBE967A9BF1A0C4506438BB97A0F788D5FAD62BCADDB67F60E2C918DC2",
     "ChecksumType": "SHA256"
   }
 }
