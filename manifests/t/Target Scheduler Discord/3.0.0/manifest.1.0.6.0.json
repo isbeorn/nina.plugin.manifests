@@ -1,0 +1,42 @@
+{
+  "Name": "Target Scheduler Discord",
+  "Identifier": "A7C4E2F1-9B38-4D6A-8E15-2F0C9A6B4D31",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "6",
+    "Build": "0"
+  },
+  "Author": "grm",
+  "Homepage": "https://github.com/grm/nina.plugin.target-scheduler-discord",
+  "Repository": "https://github.com/grm/nina.plugin.target-scheduler-discord",
+  "License": "Unlicense",
+  "LicenseURL": "https://unlicense.org/",
+  "ChangelogURL": "https://github.com/grm/nina.plugin.target-scheduler-discord/blob/master/CHANGELOG.md",
+  "Tags": [
+    "Target Scheduler",
+    "Discord",
+    "Webhook",
+    "Sequencer",
+    "Progress"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "2",
+    "Patch": "0",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Advanced Sequencer instruction that posts Target Scheduler target progress to Discord.",
+    "LongDescription": "Adds a sequencer instruction that queries the Target Scheduler API and posts one Discord line per active target (global completion %, images per filter), sorted by progress. Configure the Discord webhook URL (and optional TS API base URL) in the plugin options.",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/grm/nina.plugin.target-scheduler-discord/master/docs/images/plugin-icon.svg",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/grm/nina.plugin.target-scheduler-discord/releases/download/v1.0.6.0/NINA.Plugin.TargetScheduler.Discord.1.0.6.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "27A2C9831F6C20EAFD5A08BF39931CA46D02035695729AB645CFFCD3DF3D1B8A",
+    "ChecksumType": "SHA256"
+  }
+}
