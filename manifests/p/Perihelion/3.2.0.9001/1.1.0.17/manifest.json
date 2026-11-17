@@ -5,7 +5,7 @@
         "Major": "1",
         "Minor": "1",
         "Patch": "0",
-        "Build": "16"
+        "Build": "17"
     },
     "Author": "OryxAstro",
     "Homepage": "https://www.buymeacoffee.com/OryxAstro",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": ""
     },
     "Installer": {
-        "URL": "https://github.com/OryxAstro/perihelion/releases/download/v1.1.0.16/Perihelion-Windows-1.1.0.16.zip",
+        "URL": "https://github.com/OryxAstro/perihelion/releases/download/v1.1.0.17/Perihelion-Windows-1.1.0.17.zip",
         "Type": "ARCHIVE",
-        "Checksum": "2D980EB95DFE1E81F47FB92D8B8DE8DBB6DF0766D75EAEED69617A76DAA5D53A",
+        "Checksum": "D09A6267BEF14ED89C349EEBC77F5437765287A14F79CBA245F538971A76A1E6",
         "ChecksumType": "SHA256"
     }
 }
