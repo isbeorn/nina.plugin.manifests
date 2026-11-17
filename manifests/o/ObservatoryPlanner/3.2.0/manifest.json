@@ -4,7 +4,7 @@
     "Version": {
         "Major": "1",
         "Minor": "1",
-        "Patch": "0",
+        "Patch": "1",
         "Build": "0"
     },
     "Author": "Nikunj Patel",
@@ -34,9 +34,9 @@
         "AltScreenshotURL": "https://raw.githubusercontent.com/nikunj3685/nina-observatory-planner/main/docs/images/screenshot-planning-tools.png"
     },
     "Installer": {
-        "URL": "https://github.com/nikunj3685/nina-observatory-planner/releases/download/1.1.0.0/NINA.ObservatoryPlanner.1.1.0.0.zip",
+        "URL": "https://github.com/nikunj3685/nina-observatory-planner/releases/download/1.1.1.0/NINA.ObservatoryPlanner.1.1.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "65493A8ABA8D713C7E1F63B0834E7F742D350F84DFEA6F20684A2471D6A3C565",
+        "Checksum": "037C17E6027189D335BC3D68463CADBB483239CF583A828563813CC66CCA22EA",
         "ChecksumType": "SHA256"
     }
 }
