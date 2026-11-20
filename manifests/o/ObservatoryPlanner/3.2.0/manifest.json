@@ -36,7 +36,7 @@
     "Installer": {
         "URL": "https://github.com/nikunj3685/nina-observatory-planner/releases/download/1.1.1.0/NINA.ObservatoryPlanner.1.1.1.0.zip",
         "Type": "ARCHIVE",
-        "Checksum": "037C17E6027189D335BC3D68463CADBB483239CF583A828563813CC66CCA22EA",
+        "Checksum": "82E9C39C10B136D35D613265CDC0257D8654DC66C11D77B4F0B4A48240CE4063",
         "ChecksumType": "SHA256"
     }
 }
