@@ -1,0 +1,43 @@
+{
+  "Name": "Site Switcher",
+  "Identifier": "9AE89050-4DDE-4F67-991A-3A6D34A90A80",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Author": "Craig Davey",
+  "Homepage": "https://github.com/CDavey617/Site-Switcher",
+  "Repository": "https://github.com/CDavey617/Site-Switcher",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "",
+  "Tags": [
+    "site",
+    "sites",
+    "location",
+    "latitude",
+    "longitude",
+    "profile"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1060"
+  },
+  "Descriptions": {
+    "ShortDescription": "Save observing sites and switch the active NINA profile between them.",
+    "LongDescription": "Stores a reusable list of observing sites with latitude, longitude and elevation. Pick a site from the plugin settings page or the Site Switcher dock panel to update the active NINA profile coordinates immediately. The selected site is remembered per profile.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/CDavey617/Site-Switcher/releases/download/v1.0.0.0/NinaSites.1.0.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "356184676729A15052EBFEC598E1468199F7A691A907E864A488F075F8C3DE97",
+    "ChecksumType": "SHA256"
+  }
+}
