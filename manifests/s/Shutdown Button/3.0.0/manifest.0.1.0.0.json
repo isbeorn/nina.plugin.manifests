@@ -1,0 +1,42 @@
+{
+  "Name": "Shutdown Button",
+  "Identifier": "87a0ca7c-d8e6-4f47-b718-c70270f86adb",
+  "Version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Author": "grm",
+  "Homepage": "https://github.com/grm/nina.plugin.shutdown-button",
+  "Repository": "https://github.com/grm/nina.plugin.shutdown-button",
+  "License": "MIT",
+  "LicenseURL": "https://opensource.org/license/mit",
+  "ChangelogURL": "https://github.com/grm/nina.plugin.shutdown-button/releases/tag/v0.1.0.0",
+  "Tags": [
+    "Shutdown",
+    "Sequencer",
+    "Telescope",
+    "REST",
+    "Automation"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "2",
+    "Patch": "0",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Manual, confirmed shutdown of N.I.N.A. sequencer and telescope equipment.",
+    "LongDescription": "Dockable Imaging shutdown button: stop the active sequence, stop guiding, verify mount parking, warm the camera, disconnect chosen equipment and optionally control selected REST power outlets. REST is disabled and dry-run by default. Configure and test carefully with simulators before real equipment.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/grm/nina.plugin.shutdown-button/releases/download/v0.1.0.0/NINA.Plugin.ShutdownButton.0.1.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "3FC8AADC55089D738B57B92ED72F1655E2989DB0368B9CFB524F7CB6699D04B9",
+    "ChecksumType": "SHA256"
+  }
+}
