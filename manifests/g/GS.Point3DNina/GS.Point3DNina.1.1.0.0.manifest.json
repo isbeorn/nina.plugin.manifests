@@ -1,0 +1,42 @@
+{
+  "Name": "GS.Point3DNina",
+  "Identifier": "F885D3AF-B157-431C-A621-4E0595842D52",
+  "Version": {
+    "Major": "1",
+    "Minor": "1",
+    "Patch": "0",
+    "Build": "0"
+  },
+  "Author": "Rob Morgan",
+  "Homepage": "http://www.greenswamp.org/",
+  "Repository": "https://github.com/rmorgan001/GS.Point3DNina",
+  "License": "GPL-3.0",
+  "LicenseURL": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "ChangelogURL": "https://github.com/rmorgan001/GS.Point3DNina/blob/main/CHANGELOG.md",
+  "Tags": [
+    "3D",
+    "Mount",
+    "Telescope",
+    "Visualization",
+    "Panel"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1060"
+  },
+  "Descriptions": {
+    "ShortDescription": "A live 3D view of your telescope mount inside NINA, from Green Swamp Software.",
+    "LongDescription": "\n> ### **Visit Green Swamp Software: [http://www.greenswamp.org/](http://www.greenswamp.org/)**\n\n[![Green Swamp Software](https://raw.githubusercontent.com/rmorgan001/GS.Point3DNina/main/assets/moon-half.jpg)](http://www.greenswamp.org/)\n\n# GS.Point3DNina\n\n**A live 3D view of your telescope mount, right inside NINA.**\n\nGS.Point3DNina adds a **3D Model** panel to NINA's Imaging tab. It draws your telescope, its mount and its support in a real-time 3D scene, and it moves the model as NINA reports where your mount is pointing, so you can see at a glance what the mount is doing, which side of the pier it is on, and whether the tube is about to swing into the tripod.\n\nThe 3D scene is the same viewer used by [Green Swamp Software](http://www.greenswamp.org/)'s Point3D for GS Server, brought into NINA as a dockable panel.\n\n## What you get\n\n- **A live model that follows your mount.** Connect a telescope in NINA and the model turns with the RA and Dec axes of a German equatorial mount. It uses the mount's own site latitude, so the pier tilt and the compass match where you are, in the northern or the southern hemisphere.\n- **An assembled model.** Build your rig from parts: choose the mount (Sky-Watcher EQ6-R Pro, HEQ5 Pro, EQ8-R Pro, CQ350 Pro, EQM-35 Pro and Wave 150i Pro, ZWO AM5, iOptron CEM40 and CEM70; it also picks the support and telescope that usually go with it), a tripod or pier in several sizes, and the telescope it carries: refractor, reflector, Schmidt-Cassegrain, Ritchey-Chretien (solid or truss), Newtonian or Maksutov-Cassegrain. The OTA can be scaled from 50 percent to 200 percent of the mount's own size.\n- **Ready-made models.** Turn the assembled model off to use the simpler telescope models, with Alt-Az and polar (fork) mounts as well as German polar.\n- **Your look.** Pick the model colour, a background (nebulae and galaxies, a generated star field or a plain dark sky), a ground grid, and the N E S W letters in four sizes.\n- **Colour themes.** Dark, Day, Dusk or Night. Dusk is amber only and Night is red only, so the view keeps your eyes dark adapted at the telescope.\n- **Compass heading.** An optional readout in the corner of the view with a needle pointing north and the bearing the camera faces. Click it to turn the view to face the pole: north, or south when your latitude is south. It is off by default.\n- **Coordinates.** Chips along the top of the view show the mount's RA, Dec, Az, Alt, local hour angle and local sidereal time. Choose which ones show, and double-click RA to switch between hours and degrees.\n- **Save and reset the view.** Orbit, zoom and pan to the angle you like, then use Save view on the Options page to keep it for next time. Reset view returns to it, and Use default goes back to the standard view.\n- **Polling time.** Choose how often the model follows the mount. The default, Match NINA, follows every report NINA makes; a slower time (3 to 10 seconds) updates the model less often, and the model still glides smoothly between updates.\n- **Fine adjustment.** RA and Dec offsets of up to 90 degrees let you line the model up with how your own mount is set up.\n- **Nothing to configure in a hurry.** Every option is on this page, under **Options, Plugins**, and each has a tooltip: hover over it to see what it does. Changes show in the panel straight away and are remembered between sessions.\n\n## Using it\n\n1. Open NINA's **Imaging** tab and add the **3D Model** panel from the panel list.\n2. Connect your telescope under **Equipment, Mount**. The status line under the model shows which mount is connected.\n3. Open **Options, Plugins**, select GS.Point3DNina and choose the mount, support, telescope, colour and background you like.\n\nWith no telescope connected the model sits in its home position, so you can set up the look before you head out.\n\n## More from Green Swamp\n\nGreen Swamp Software makes astronomy tools for telescope owners, including GS Server and the Point3D 3D mount views. Visit [www.greenswamp.org](http://www.greenswamp.org/) for downloads, guides and screenshots.\n\n## License\n\nGS.Point3DNina is free software, released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). You may use, study, share and change it under the terms of that license. The source code is at [github.com/rmorgan001/GS.Point3DNina](https://github.com/rmorgan001/GS.Point3DNina).\n",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/rmorgan001/GS.Point3DNina/main/assets/icon.png",
+    "ScreenshotURL": "https://raw.githubusercontent.com/rmorgan001/GS.Point3DNina/main/assets/screenshot-3d-model.jpg",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/rmorgan001/GS.Point3DNina/releases/download/v1.1.0.0/GS.Point3DNina.1.1.0.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "215FDE632A0212E4C9233941FF695BF6A52DAE28B83B787F5BCD72A1786C47A8",
+    "ChecksumType": "SHA256"
+  }
+}
