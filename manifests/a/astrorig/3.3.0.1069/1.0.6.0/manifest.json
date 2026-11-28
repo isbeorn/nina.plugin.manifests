@@ -1,0 +1,40 @@
+{
+  "Name": "AstroRig",
+  "Identifier": "b5be0195-e556-4066-86a6-f763aceb33ab",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "6",
+    "Build": "0"
+  },
+  "Author": "CCDASTRO",
+  "Homepage": "https://github.com/CCDASTRO/AstroRig.NINA#readme",
+  "Repository": "https://github.com/CCDASTRO/AstroRig.NINA",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/MPL/2.0/",
+  "ChangelogURL": "https://github.com/CCDASTRO/AstroRig.NINA/releases/tag/v1.0.6",
+  "Tags": [
+    "Equipment",
+    "Rig Planning",
+    "Inventory"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "3",
+    "Patch": "0",
+    "Build": "1069"
+  },
+  "Descriptions": {
+    "ShortDescription": "Equipment inventory and rig planning inside N.I.N.A.",
+    "LongDescription": "AstroRig keeps one equipment inventory for multiple imaging rigs. Choose Rig order, Alphabetical, or By type in the rig table. Review payload, backfocus, image scale, and field of view. See occupied filter-wheel slots in the rig table, hover over equipment for its saved specs, and export to Excel. To start, open Imaging > AstroRig and create an inventory or open the same JSON file used by standalone AstroRig. Download the plugin ZIP from the homepage or release notes, extract it into %LOCALAPPDATA%\\NINA\\Plugins\\3.0.0\\AstroRig with N.I.N.A. closed, then restart.",
+    "FeaturedImageURL": "https://github.com/CCDASTRO/AstroRig/releases/download/v1.0.11/AstroRig-Plugin-Icon.png",
+    "ScreenshotURL": "https://github.com/CCDASTRO/AstroRig.NINA/releases/download/v1.0.3/AstroRig-Showcase.png",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/CCDASTRO/AstroRig.NINA/releases/download/v1.0.6/AstroRig-NINA-1.0.6.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "3F9363F4104426D3A445952A5DB6566E878FF40C719641C4ABE12D666397BFB1",
+    "ChecksumType": "SHA256"
+  }
+}
