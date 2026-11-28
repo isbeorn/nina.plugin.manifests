@@ -36,6 +36,5 @@
     "Type": "ARCHIVE",
     "Checksum": "1A0081A061D1043D7907E37FFA67DB26F387416B5251730A77949F092A24EA1B",
     "ChecksumType": "SHA256"
-  },
-  "Channel": "Beta"
+  }
 }
