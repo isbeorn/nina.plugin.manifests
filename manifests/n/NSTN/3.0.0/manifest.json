@@ -1,0 +1,46 @@
+{
+  "Name": "NSTN",
+  "Identifier": "da1b84a3-4397-4f30-8eb9-5ed431d4ff06",
+  "Version": {
+    "Major": "0",
+    "Minor": "11",
+    "Patch": "2",
+    "Build": "0"
+  },
+  "Author": "Marc Fischer",
+  "Homepage": "https://github.com/R1L0BBQ/nina.plugin.nstn",
+  "Repository": "https://github.com/R1L0BBQ/nina.plugin.nstn",
+  "License": "MPL-2.0",
+  "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+  "ChangelogURL": "https://github.com/R1L0BBQ/nina.plugin.nstn/blob/main/CHANGELOG.md",
+  "Tags": [
+    "Sequencer",
+    "Conditions",
+    "Filter plan",
+    "Narrowband",
+    "LRGB",
+    "Moon",
+    "Twilight",
+    "Sky brightness"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "2",
+    "Patch": "0",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Narrowband Saves The Night: a filter plan that exposes each filter, or an L/RGB set in a ratio, while the sky model rates its band as worth exposing, all night long; the condition behind it and a night overview.",
+    "LongDescription": "NSTN models the sky background towards your target over the whole night: light pollution of the site (from its SQM value), twilight, and moonlight after Krisciunas & Schaefer, weighted per emission line and bandwidth. A band is worth exposing while its in-band background stays darker than a calibrated threshold.\n\n**NSTN filter plan** is the easy way: one instruction with a table.\n\n- One row per filter: its name as in the profile, exposures per round, exposure time.\n- The row **L/RGB** combines L, R, G and B in a ratio such as 3:1:1:1 (0 leaves a filter out), with one exposure time for L and one for R, G and B. NSTN finds the four filters by their names (L, Lum, R, Red ...).\n- For the whole plan: gain, offset, binning, and sets in a row - how often a row runs before the next filter comes.\n- **Own settings** per row. Window: priority, a stricter or looser threshold, a minimum altitude, a time span. Camera: gain, offset and binning of its own (an L/RGB row has one set for L and one for RGB). Empty fields take the plan's values.\n- **Priority:** as soon as the row's window opens, it takes over after the running exposure, also in the middle of a round, and nothing else runs while it is open. Of two open rows with priority the upper one runs. Give it to a row with a short window, such as L/RGB in the moonless hours.\n\nIt waits for the first window, exposes each row while its window is open, round after round, and ends by itself when no window opens again this night - no clock time. A plan still running at sunrise ends there instead of waiting for the evening. It shows the night by both dates (after sunrise the coming one), each row's window and a night plan with the expected integration per filter, and it stops after a number of failed exposures in a row instead of changing filters all night without an image.\n\n**Loop while NSTN window open** is the sequencer condition behind it, for building the pattern by hand. Put it on an instruction set inside a target container, choose the band (L/RGB, H-alpha, O III, S II, H-beta) and its bandwidth, and the set runs only while that band's window is open. The condition shows tonight's window for the target directly in the sequencer.\n\nThe condition is checked between instructions: a running exposure is always finished, never aborted. Triggers such as autofocus, dithering and meridian flip keep working because the exposures are N.I.N.A.'s own instructions.\n\nSet the site's sky quality (SQM, mag/arcsec²) in the plugin options first. The thresholds are calibrated defaults (broadband 20.6, narrowband 23.1); the options warn about values far below them.\n\nThe plugin speaks N.I.N.A.'s language (Options > General > Language): English and German so far, other languages fall back to English. N.I.N.A.'s own instruction names in the texts come from N.I.N.A. itself.\n\n**NSTN Night Info** shows the night for its target container: twilight, moon phase, rise and set, the altitude of target and moon, their distance, the sky towards the target and tonight's windows, with values per time under the mouse. It also checks how the target's sequence is built and explains what to change. It takes no time when the sequence runs.\n\n### How to build an NSTN sequence\n\nThe easy way: 'NSTN filter plan' builds this pattern from a table - one row per filter (name as in the profile, exposures per round, exposure time), or one row 'L/RGB' for L, R, G and B in a ratio - and ends when no window opens again this night. A row with priority takes over as soon as its window opens. The tree and the rules below are for building it by hand.\n\n```\nDeep Sky Object Instruction Set   triggers: Meridian Flip, AF After Filter Change, Dither after Exposures\r\n├─ NSTN Night Info   shows the night, takes no time\r\n├─ Slew and center, Start Guiding\r\n└─ Sequential Instruction Set \"Loop\"   condition: Loop Until Time (morning twilight)\r\n   ├─ Wait for NSTN window   first in the loop\r\n   ├─ Block \"O III\"   conditions: Loop while NSTN window open (O III) + Loop For Iterations 1\r\n   │  └─ Smart Exposure   OIII 5 × 300 s\r\n   ├─ Block \"H-alpha\"   the same with H-alpha\r\n   └─ Block \"L/RGB\"   the same with L/RGB\n```\n\n1. Conditions on an instruction set are loop conditions. A set with only the NSTN condition repeats as long as its window is open; a set with no condition at all runs exactly once.\r\n2. One block per filter: an instruction set holding the filter switch and the exposures (Smart Exposure does both), with 'Loop while NSTN window open' for that band. 'From this block's filter' reads the band from the block's filter switch.\r\n3. Add 'Loop For Iterations' to every block for a round robin: each open block takes its turn once per pass, the count sets the weight. Without it the first open block keeps its window to itself.\r\n4. The loop around the blocks needs its own end, such as 'Loop Until Time' at morning twilight; without one the target is done after a single pass.\r\n5. 'Wait for NSTN window' goes first in that loop. When every window is closed, N.I.N.A. 3.2 would otherwise race through the loop without a pause.\r\n6. Triggers on the target container (or the whole sequence) fire between exposures: Meridian Flip, AF After Filter Change, Dither after Exposures. Slewing, centring and guiding belong before the loop, not inside it.\r\n7. A window is checked before every exposure. A running exposure is always finished, never aborted.",
+    "FeaturedImageURL": "https://raw.githubusercontent.com/R1L0BBQ/nina.plugin.nstn/main/docs/images/nstn-filterplan.png",
+    "ScreenshotURL": "https://raw.githubusercontent.com/R1L0BBQ/nina.plugin.nstn/main/docs/images/nstn-sequenzer.png",
+    "AltScreenshotURL": "https://raw.githubusercontent.com/R1L0BBQ/nina.plugin.nstn/main/docs/images/nstn-nachtinfo.png"
+  },
+  "Installer": {
+    "URL": "https://github.com/R1L0BBQ/nina.plugin.nstn/releases/download/v0.11.2/NINA.Plugin.Nstn-0.11.2.0.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "3d217d7734345a5376ce6dde7e8ffc148507b5e5eb50ebea4730e9d8f25b10da",
+    "ChecksumType": "SHA256"
+  },
+  "Channel": "Beta"
+}

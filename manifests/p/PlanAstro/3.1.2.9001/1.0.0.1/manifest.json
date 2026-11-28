@@ -1,0 +1,42 @@
+{
+  "Name": "PlanAstro",
+  "Identifier": "fd400fc7-093c-4f75-94f4-fc6fda5683ad",
+  "Version": {
+    "Major": "1",
+    "Minor": "0",
+    "Patch": "0",
+    "Build": "1"
+  },
+  "Author": "PlanAstro",
+  "Homepage": "https://planastro.com",
+  "Repository": "https://github.com/PlanAstro/nina-plugin-planastro",
+  "License": "MIT",
+  "LicenseURL": "https://github.com/PlanAstro/nina-plugin-planastro/blob/main/LICENSE",
+  "ChangelogURL": "https://github.com/PlanAstro/nina-plugin-planastro/blob/main/CHANGELOG.md",
+  "Tags": [
+    "PlanAstro",
+    "Framing",
+    "Planning",
+    "Targets",
+    "Mosaic"
+  ],
+  "MinimumApplicationVersion": {
+    "Major": "3",
+    "Minor": "1",
+    "Patch": "2",
+    "Build": "9001"
+  },
+  "Descriptions": {
+    "ShortDescription": "Send framed targets from PlanAstro to N.I.N.A.",
+    "LongDescription": "Plan and frame a target in PlanAstro on your phone or computer, tap Send Target to N.I.N.A. or Send framing to N.I.N.A., and it arrives here.\r\n\r\n* Pair once with a 6-character code from PlanAstro (Menu > Connect NINA).\r\n* Sent targets appear in the PlanAstro inbox on this plugin's page, with coordinates, rotation, mosaic and rig.\r\n* Open any target in the Framing Assistant with one click, or let the plugin open new arrivals automatically.\r\n\r\nThe plugin only makes outgoing HTTPS requests to planastro.com. It opens no ports and stores its device token encrypted for your Windows user.",
+    "FeaturedImageURL": "",
+    "ScreenshotURL": "",
+    "AltScreenshotURL": ""
+  },
+  "Installer": {
+    "URL": "https://github.com/PlanAstro/nina-plugin-planastro/releases/download/v1.0.0.1/PlanAstro.NINA.zip",
+    "Type": "ARCHIVE",
+    "Checksum": "C3D70B6950EF37B7676CF51B710528C218BC925DD77E4776187D10DE5CB9DF8C",
+    "ChecksumType": "SHA256"
+  }
+}
